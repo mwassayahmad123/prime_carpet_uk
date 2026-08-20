@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#16213e"/>
+  <rect x="100" y="100" width="280" height="400" rx="8" fill="#1a1a2e"/>
+  <rect x="420" y="100" width="280" height="400" rx="8" fill="#0f3460"/>
+  <text x="400" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" opacity="0.9">Gallery Image 3</text>
+  <text x="400" y="360" fill="#c9a84c" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Replace: public/images/gallery/3.jpg</text>
+</svg>

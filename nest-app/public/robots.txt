@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.primecarpetcleaning.co.uk/sitemap.xml

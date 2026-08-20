@@ -1,0 +1,23 @@
+<header class="navbar">
+  <div class="container navbar__inner">
+    <a href="#home" class="navbar__logo js-nav-link">
+      {{> logo}}
+      <span class="navbar__brand-text">
+        Prime <span>Carpet Cleaning</span>
+      </span>
+    </a>
+
+    <button class="navbar__toggle js-nav-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar__nav js-nav-menu">
+      {{#each navLinks}}
+        <a href="{{this.href}}" class="js-nav-link">{{this.label}}</a>
+      {{/each}}
+      <a href="#contact" class="btn btn--primary btn--sm js-nav-link">Book Free Consultation</a>
+    </nav>
+  </div>
+</header>

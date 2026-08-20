@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" fill="none">
+  <rect x="2" y="10" width="44" height="44" rx="10" fill="#c9a84c"/>
+  <path d="M14 38c6-10 14-16 22-16s16 6 22 16" stroke="#0f1c2e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="24" cy="28" r="4" fill="#0f1c2e"/>
+  <text x="58" y="28" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="700">Prime</text>
+  <text x="58" y="48" fill="#c9a84c" font-family="Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">Carpet Cleaning</text>
+</svg>

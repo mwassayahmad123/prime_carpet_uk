@@ -1,0 +1,20 @@
+<section id="services" class="section services">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Our Services</p>
+      <h2 class="section__title">What We Offer</h2>
+      <p class="section__text section__text--center">
+        Professional steam cleaning services to keep your home fresh, clean, and hygienic.
+      </p>
+    </div>
+    <div class="services__grid">
+      {{#each services}}
+        <article class="service-card">
+          <span class="service-card__icon">{{this.icon}}</span>
+          <h3 class="service-card__title">{{this.title}}</h3>
+          <p class="service-card__text">{{this.description}}</p>
+        </article>
+      {{/each}}
+    </div>
+  </div>
+</section>

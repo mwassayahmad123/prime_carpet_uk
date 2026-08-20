@@ -1,0 +1,20 @@
+<section id="reviews" class="section reviews">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Reviews</p>
+      <h2 class="section__title">What Our Clients Say</h2>
+      <p class="section__text section__text--center">
+        Don't just take our word for it — hear from homeowners who've used our steam cleaning services.
+      </p>
+    </div>
+    <div class="reviews__grid">
+      {{#each reviews}}
+        <article class="review-card">
+          <div class="stars" aria-label="{{this.rating}} out of 5 stars">{{this.stars}}</div>
+          <p class="review-card__text">"{{this.text}}"</p>
+          <p class="review-card__author">{{this.name}}</p>
+        </article>
+      {{/each}}
+    </div>
+  </div>
+</section>

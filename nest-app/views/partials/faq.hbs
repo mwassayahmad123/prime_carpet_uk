@@ -1,0 +1,24 @@
+<section id="faq" class="section faq">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">FAQ</p>
+      <h2 class="section__title">Frequently Asked Questions</h2>
+      <p class="section__text section__text--center">
+        Find answers to common questions. Can't find what you need? Get in touch below.
+      </p>
+    </div>
+    <div class="faq__list">
+      {{#each faqItems}}
+        <div class="faq__item js-faq-item {{#if this.isOpen}}is-open{{/if}}">
+          <button class="faq__question js-faq-question" aria-expanded="{{this.isOpen}}">
+            {{this.question}}
+            <span class="faq__icon js-faq-icon">{{#if this.isOpen}}−{{else}}+{{/if}}</span>
+          </button>
+          <div class="faq__answer">
+            <p>{{this.answer}}</p>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

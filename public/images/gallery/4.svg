@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#0f3460"/>
+  <ellipse cx="400" cy="380" rx="300" ry="60" fill="#533483" opacity="0.6"/>
+  <text x="400" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" opacity="0.9">Gallery Image 4</text>
+  <text x="400" y="360" fill="#c9a84c" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Replace: public/images/gallery/4.jpg</text>
+</svg>

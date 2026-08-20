@@ -1,0 +1,18 @@
+<section id="gallery" class="section gallery">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Gallery</p>
+      <h2 class="section__title">Our Work</h2>
+      <p class="section__text section__text--center">
+        See the difference professional carpet and upholstery steam cleaning makes.
+      </p>
+    </div>
+    <div class="gallery__grid">
+      {{#each galleryImages}}
+        <figure class="gallery__item">
+          <img src="{{this.src}}" alt="{{this.alt}}" loading="lazy" />
+        </figure>
+      {{/each}}
+    </div>
+  </div>
+</section>

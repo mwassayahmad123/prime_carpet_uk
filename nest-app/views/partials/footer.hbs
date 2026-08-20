@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#home" class="footer__logo js-nav-link">
+        {{> logo}}
+      </a>
+      <p>Professional carpet &amp; upholstery steam cleaning. Book your free consultation today.</p>
+    </div>
+    <nav class="footer__nav">
+      {{#each navLinks}}
+        <a href="{{this.href}}" class="js-nav-link">{{this.label}}</a>
+      {{/each}}
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>&copy; {{currentYear}} {{companyName}}. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
