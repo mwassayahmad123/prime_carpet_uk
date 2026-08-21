@@ -8,7 +8,7 @@ export const LOGO = {
 }
 
 export const CONTACT = {
-  address: '123 Prime Street, London, UK, SW1A 1AA',
+  address: 'United Kingdom',
   phone: '+44 7846 364007',
   whatsapp: '+44779460958',
   email: 'hello@primecarpetcleaning.co.uk',

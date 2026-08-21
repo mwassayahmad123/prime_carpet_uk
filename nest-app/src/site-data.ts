@@ -6,7 +6,7 @@ export const LOGO = {
 };
 
 export const CONTACT = {
-  address: '123 Prime Street, London, UK, SW1A 1AA',
+  address: 'United Kingdom',
   street: '123 Prime Street',
   city: 'London',
   postalCode: 'SW1A 1AA',
