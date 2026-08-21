@@ -15,7 +15,7 @@ export const CONTACT = {
   phoneHref: '+447846364007',
   whatsapp: '+44 7846 364007',
   whatsappHref: '447846364007',
-  email: 'hello@primecarpetcleaning.co.uk',
+  email: 'primecleanu@gmail.com',
 };
 
 // Update to the real domain once the site is live — used for canonical URLs,
