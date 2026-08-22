@@ -60,7 +60,7 @@ function Contact() {
 
         <div className="contact__grid">
           <div className="contact__form-wrapper">
-            <h3 className="contact__form-title">Book Appointment</h3>
+            <h3 className="contact__form-title">Book Appointment / Get a Quote</h3>
             <form className="contact__form" onSubmit={handleWhatsAppSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Name *</label>
@@ -129,7 +129,7 @@ function Contact() {
               </div>
 
               <button type="submit" className="btn btn--whatsapp btn--lg">
-                Book Appointment via WhatsApp
+                Book Appointment / Get a Quote via WhatsApp
               </button>
             </form>
           </div>
