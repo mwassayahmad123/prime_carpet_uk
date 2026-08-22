@@ -45,12 +45,13 @@
       e.preventDefault();
 
       var name = form.querySelector('#name').value.trim();
+      var address = form.querySelector('#address').value.trim();
       var phone = form.querySelector('#phone').value.trim();
       var service = form.querySelector('#service').value;
       var datetime = form.querySelector('#datetime').value;
       var message = form.querySelector('#message').value.trim();
 
-      if (!name || !phone) return;
+      if (!name || !address || !phone) return;
 
       var whatsappNumber = form.dataset.whatsapp;
       var companyName = form.dataset.company;
@@ -59,6 +60,7 @@
         '*New Appointment Request - ' + companyName + '*',
         '',
         '*Name:* ' + name,
+        '*Address:* ' + address,
         '*Phone:* ' + phone,
         '*Service:* ' + (service || 'Not specified'),
         '*Preferred Date & Time:* ' + (datetime || 'Not specified'),
