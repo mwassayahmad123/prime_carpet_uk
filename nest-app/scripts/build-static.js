@@ -7,7 +7,11 @@ const viewsDir = path.join(rootDir, 'views');
 const publicDir = path.join(rootDir, 'public');
 const outDir = path.join(rootDir, 'dist-site');
 
-const { buildHomeViewModel } = require(path.join(rootDir, 'dist', 'view-model'));
+const { buildHomeViewModel, buildAboutViewModel, buildServiceViewModel } = require(
+  path.join(rootDir, 'dist', 'view-model'),
+);
+const { SERVICES_PAGES } = require(path.join(rootDir, 'dist', 'services-data'));
+const { SITE_URL } = require(path.join(rootDir, 'dist', 'site-data'));
 
 function copyDir(src, dest) {
   fs.mkdirSync(dest, { recursive: true });
@@ -31,21 +35,51 @@ function registerPartialsSync(partialsDir) {
   }
 }
 
+function compileView(name) {
+  const template = fs.readFileSync(path.join(viewsDir, `${name}.hbs`), 'utf8');
+  return hbs.handlebars.compile(template);
+}
+
+function writePage(relativeOutPath, html) {
+  const filePath = path.join(outDir, relativeOutPath, 'index.html');
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, html);
+}
+
+function buildSitemap(urls) {
+  const entries = urls
+    .map(
+      (loc) => `  <url>\n    <loc>${loc}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>${loc === `${SITE_URL}/` ? '1.0' : '0.8'}</priority>\n  </url>`,
+    )
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>\n`;
+}
+
 function main() {
   fs.rmSync(outDir, { recursive: true, force: true });
   fs.mkdirSync(outDir, { recursive: true });
 
   registerPartialsSync(path.join(viewsDir, 'partials'));
 
-  const template = fs.readFileSync(path.join(viewsDir, 'index.hbs'), 'utf8');
-  const compiled = hbs.handlebars.compile(template);
-  const html = compiled(buildHomeViewModel());
+  const indexTemplate = compileView('index');
+  const aboutTemplate = compileView('about');
+  const serviceTemplate = compileView('service');
 
-  fs.writeFileSync(path.join(outDir, 'index.html'), html);
+  writePage('.', indexTemplate(buildHomeViewModel()));
+  writePage('about', aboutTemplate(buildAboutViewModel()));
+
+  const urls = [`${SITE_URL}/`, `${SITE_URL}/about/`];
+
+  for (const service of SERVICES_PAGES) {
+    writePage(`services/${service.slug}`, serviceTemplate(buildServiceViewModel(service)));
+    urls.push(`${SITE_URL}/services/${service.slug}/`);
+  }
+
   copyDir(publicDir, outDir);
+  fs.writeFileSync(path.join(outDir, 'sitemap.xml'), buildSitemap(urls));
 
   // eslint-disable-next-line no-console
-  console.log(`Static site written to ${outDir}`);
+  console.log(`Static site written to ${outDir} (${urls.length} pages)`);
 }
 
 main();

@@ -1,16 +1,39 @@
 <footer class="footer">
-  <div class="container footer__inner">
-    <div class="footer__brand">
-      <a href="#home" class="footer__logo js-nav-link">
+  <div class="container footer__grid">
+    <div class="footer__col footer__brand">
+      <a href="/" class="footer__logo js-nav-link">
         {{> logo}}
       </a>
       <p>Professional carpet &amp; upholstery steam cleaning. Book your free consultation today.</p>
+      <p class="footer__area">📍 {{serviceAreaText}}</p>
     </div>
-    <nav class="footer__nav">
-      {{#each navLinks}}
-        <a href="{{this.href}}" class="js-nav-link">{{this.label}}</a>
-      {{/each}}
-    </nav>
+
+    <div class="footer__col">
+      <h4 class="footer__col-title">Quick Links</h4>
+      <nav class="footer__nav">
+        {{#each navLinks}}
+          <a href="{{this.href}}" class="js-nav-link">{{this.label}}</a>
+        {{/each}}
+      </nav>
+    </div>
+
+    <div class="footer__col">
+      <h4 class="footer__col-title">Services</h4>
+      <nav class="footer__nav">
+        {{#each servicesNav}}
+          <a href="/services/{{this.slug}}/">{{this.name}}</a>
+        {{/each}}
+      </nav>
+    </div>
+
+    <div class="footer__col">
+      <h4 class="footer__col-title">Contact</h4>
+      <nav class="footer__nav">
+        <a href="tel:{{contact.phoneHref}}">{{contact.phone}}</a>
+        <a href="https://wa.me/{{contact.whatsappHref}}" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+        <a href="mailto:{{contact.email}}">{{contact.email}}</a>
+      </nav>
+    </div>
   </div>
   <div class="footer__bottom">
     <div class="container">

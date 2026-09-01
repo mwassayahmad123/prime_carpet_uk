@@ -1,5 +1,5 @@
 import { Controller, Get, Render } from '@nestjs/common';
-import { buildHomeViewModel } from './view-model';
+import { buildHomeViewModel, buildAboutViewModel } from './view-model';
 
 @Controller()
 export class AppController {
@@ -7,5 +7,11 @@ export class AppController {
   @Render('index')
   getHome() {
     return buildHomeViewModel();
+  }
+
+  @Get('about')
+  @Render('about')
+  getAbout() {
+    return buildAboutViewModel();
   }
 }

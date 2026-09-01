@@ -22,32 +22,8 @@ export const CONTACT = {
 // Open Graph tags, and the JSON-LD schema.
 export const SITE_URL = 'https://www.primecarpetcleaning.co.uk';
 
-export const SERVICES = [
-  {
-    title: 'Carpet Steam Cleaning',
-    description:
-      'Deep steam cleaning removes dirt, allergens, and stains — leaving your carpets fresh, soft, and like new.',
-    icon: '🧹',
-  },
-  {
-    title: 'Upholstery Steam Cleaning',
-    description:
-      'Professional steam cleaning for sofas, chairs, and fabric furniture. Safe, effective, and gentle on your upholstery.',
-    icon: '🛋️',
-  },
-  {
-    title: 'Rug & Mattress Cleaning',
-    description:
-      'Specialist cleaning for rugs and mattresses using powerful steam extraction for a healthier home.',
-    icon: '🛏️',
-  },
-  {
-    title: 'Stain Removal',
-    description:
-      'Tough stain treatment for wine, pet accidents, mud, and more. We tackle what regular cleaning cannot.',
-    icon: '✨',
-  },
-];
+export const SERVICE_AREA = 'London';
+export const SERVICE_AREA_TEXT = 'Proudly serving London and surrounding areas';
 
 export const REVIEWS = [
   {
@@ -79,7 +55,7 @@ export const FAQ_ITEMS = [
   {
     question: 'What services do you offer?',
     answer:
-      'We specialise in carpet steam cleaning, upholstery steam cleaning, rug and mattress cleaning, and professional stain removal. Contact us for a free quote.',
+      'We specialise in carpet steam cleaning, upholstery steam cleaning, rug and mattress cleaning, professional stain removal, and end-of-tenancy cleaning across London. Contact us for a free quote.',
   },
   {
     question: 'How long does carpet cleaning take to dry?',
@@ -113,15 +89,16 @@ export const SERVICE_OPTIONS = [
   'Rug Cleaning',
   'Mattress Cleaning',
   'Stain Removal',
+  'End-of-Tenancy Cleaning',
   'Other',
 ];
 
 export const NAV_LINKS = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/#home' },
+  { label: 'About', href: '/about/' },
+  { label: 'Services', href: '/#services' },
+  { label: 'Reviews', href: '/#reviews' },
+  { label: 'Gallery', href: '/#gallery' },
+  { label: 'FAQ', href: '/#faq' },
+  { label: 'Contact', href: '/#contact' },
 ];

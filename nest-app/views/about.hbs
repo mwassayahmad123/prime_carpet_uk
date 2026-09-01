@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> seo-head}}
+  </head>
+  <body>
+    {{> navbar}}
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <p class="page-header__eyebrow">{{serviceAreaText}}</p>
+          <h1 class="page-header__title">About {{companyName}}</h1>
+          <p class="page-header__subtitle">
+            Your trusted carpet &amp; upholstery steam cleaning specialists in London.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container about-page__grid">
+          <div class="about-page__content">
+            <p class="section__eyebrow">Our Story</p>
+            <h2 class="section__title">Cleaning London Homes, One Room at a Time</h2>
+            <p class="section__text">
+              At {{companyName}}, we specialise in bringing carpets, rugs, mattresses, and
+              furniture back to life using professional-grade steam extraction equipment.
+              From your first free consultation to the finished result, we deliver reliable,
+              eco-friendly cleaning with transparent communication and no hidden fees.
+            </p>
+            <p class="section__text">
+              We proudly serve homes and businesses across London, offering flexible booking
+              via phone or WhatsApp and free, no-obligation quotes on every job.
+            </p>
+          </div>
+          <div class="about-page__stats">
+            <div class="hero__stat">
+              <strong>500+</strong>
+              <span>Carpets Cleaned</span>
+            </div>
+            <div class="hero__stat">
+              <strong>10+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="hero__stat">
+              <strong>5.0</strong>
+              <span>Customer Rating</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-page__why">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Why Choose Us</p>
+            <h2 class="section__title">What Makes Us Different</h2>
+          </div>
+          <div class="services__grid">
+            <article class="service-card">
+              <span class="service-card__icon">🌿</span>
+              <h3 class="service-card__title">Eco-Friendly</h3>
+              <p class="service-card__text">Pet and child-safe cleaning solutions on every job, with no harsh chemical residue.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-card__icon">💷</span>
+              <h3 class="service-card__title">Transparent Pricing</h3>
+              <p class="service-card__text">Free, no-obligation quotes with no hidden fees — you'll always know the cost upfront.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-card__icon">⚡</span>
+              <h3 class="service-card__title">Fast &amp; Reliable</h3>
+              <p class="service-card__text">Flexible scheduling and fast-drying steam cleaning that fits around your day.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-card__icon">💬</span>
+              <h3 class="service-card__title">Easy Booking</h3>
+              <p class="service-card__text">Book your free consultation in seconds via phone, WhatsApp, or our online form.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Our Services</p>
+            <h2 class="section__title">What We Offer</h2>
+          </div>
+          <div class="related-services__grid">
+            {{#each services}}
+              <a href="/services/{{this.slug}}/" class="related-services__item">{{this.name}} →</a>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-section__inner">
+          <h2 class="section__title">Ready to Book Your Free Consultation?</h2>
+          <p class="section__text section__text--center">Get in touch today for a free, no-obligation quote.</p>
+          <div class="hero__actions cta-section__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>

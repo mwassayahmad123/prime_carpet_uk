@@ -1,6 +1,6 @@
 <header class="navbar">
   <div class="container navbar__inner">
-    <a href="#home" class="navbar__logo js-nav-link">
+    <a href="/" class="navbar__logo js-nav-link">
       {{> logo}}
       <span class="navbar__brand-text">
         Prime <span>Carpet Cleaning</span>
@@ -17,7 +17,8 @@
       {{#each navLinks}}
         <a href="{{this.href}}" class="js-nav-link">{{this.label}}</a>
       {{/each}}
-      <a href="#contact" class="btn btn--primary btn--sm js-nav-link">Book Free Consultation</a>
+      <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--sm js-nav-link">Call Now</a>
+      <a href="/#contact" class="btn btn--primary btn--sm js-nav-link">Book Free Consultation</a>
     </nav>
   </div>
 </header>

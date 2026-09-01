@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> seo-head}}
+  </head>
+  <body>
+    {{> navbar}}
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <p class="page-header__eyebrow">{{serviceAreaText}}</p>
+          <h1 class="page-header__title">{{service.icon}} {{service.keyword}}</h1>
+          <p class="page-header__subtitle">{{service.intro}}</p>
+          <div class="hero__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Benefits</p>
+            <h2 class="section__title">Why Choose Our {{service.name}} Service</h2>
+          </div>
+          <ul class="about__features benefits-list">
+            {{#each service.benefits}}
+              <li>
+                <span class="about__check">✓</span>
+                {{this}}
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Our Process</p>
+            <h2 class="section__title">How It Works</h2>
+          </div>
+          <div class="process__grid">
+            {{#each service.process}}
+              <article class="process__step">
+                <h3 class="process__title">{{this.title}}</h3>
+                <p class="process__text">{{this.description}}</p>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing-section">
+        <div class="container pricing-section__inner">
+          <p class="section__eyebrow">Pricing</p>
+          <h2 class="section__title">Get a Free, No-Obligation Quote</h2>
+          <p class="section__text section__text--center">
+            Every home and job is different, so we provide a free personalised quote for your
+            {{service.name}} — with no hidden fees.
+          </p>
+          <a href="/#contact" class="btn btn--primary btn--lg">Get My Free Quote</a>
+        </div>
+      </section>
+
+      <section id="gallery" class="section gallery">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Our Work</p>
+            <h2 class="section__title">{{service.name}} Results</h2>
+          </div>
+          <div class="gallery__grid">
+            {{#each galleryImages}}
+              <figure class="gallery__item">
+                <img src="{{this.src}}" alt="{{this.alt}}" loading="lazy" />
+              </figure>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Reviews</p>
+            <h2 class="section__title">What Our Clients Say</h2>
+          </div>
+          <div class="reviews__grid">
+            {{#each reviews}}
+              <article class="review-card">
+                <div class="stars" aria-label="{{this.rating}} out of 5 stars">{{this.stars}}</div>
+                <p class="review-card__text">"{{this.text}}"</p>
+                <p class="review-card__author">{{this.name}}</p>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">FAQ</p>
+            <h2 class="section__title">{{service.name}} FAQs</h2>
+          </div>
+          <div class="faq__list">
+            {{#each service.faqs}}
+              <div class="faq__item js-faq-item {{#if @first}}is-open{{/if}}">
+                <button class="faq__question js-faq-question" aria-expanded="{{#if @first}}true{{else}}false{{/if}}">
+                  {{this.question}}
+                  <span class="faq__icon js-faq-icon">{{#if @first}}−{{else}}+{{/if}}</span>
+                </button>
+                <div class="faq__answer">
+                  <p>{{this.answer}}</p>
+                </div>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section related-services">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Explore More</p>
+            <h2 class="section__title">Other Services</h2>
+          </div>
+          <div class="related-services__grid">
+            {{#each otherServices}}
+              <a href="/services/{{this.slug}}/" class="related-services__item">{{this.icon}} {{this.name}} →</a>
+            {{/each}}
+            <a href="/" class="related-services__item">🏠 Back to Home →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-section__inner">
+          <h2 class="section__title">Book Your {{service.name}} Today</h2>
+          <p class="section__text section__text--center">Free, no-obligation quotes across London.</p>
+          <div class="hero__actions cta-section__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>
