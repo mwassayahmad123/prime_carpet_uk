@@ -144,6 +144,23 @@ button {
   color: var(--color-text-light);
   font-size: 1.05rem;
   max-width: 560px;
+  margin-bottom: 1.25rem;
+}
+
+.section__text:last-child {
+  margin-bottom: 0;
+}
+
+.section__text a,
+.faq__answer a {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.section__text a:hover,
+.faq__answer a:hover {
+  color: var(--color-primary);
 }
 
 .section__text--center {
