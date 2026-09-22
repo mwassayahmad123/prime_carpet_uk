@@ -153,14 +153,13 @@ button {
 
 .section__text a,
 .faq__answer a {
-  color: #8a6f2a;
-  font-weight: 600;
+  color: var(--color-primary-dark);
   text-decoration: none;
 }
 
 .section__text a:hover,
 .faq__answer a:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 .section__text--center {
