@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "wsoft-dev",
+      "name": "prime-carpet-nest",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--prefix", "C:\\Users\\WASSAY~1\\DOCUME~1\\GitHub\\Nikita\\WSOFT_~1"],
+      "runtimeArgs": ["run", "start:dev", "--prefix", "nest-app"],
       "port": 3000
     }
   ]
