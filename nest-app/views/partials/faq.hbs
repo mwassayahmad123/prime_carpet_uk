@@ -10,12 +10,14 @@
     <div class="faq__list">
       {{#each faqItems}}
         <div class="faq__item js-faq-item {{#if this.isOpen}}is-open{{/if}}">
-          <button class="faq__question js-faq-question" aria-expanded="{{this.isOpen}}">
-            {{this.question}}
-            <span class="faq__icon js-faq-icon">{{#if this.isOpen}}−{{else}}+{{/if}}</span>
-          </button>
+          <h3 class="faq__question-heading">
+            <button class="faq__question js-faq-question" aria-expanded="{{this.isOpen}}">
+              {{this.question}}
+              <span class="faq__icon js-faq-icon">{{#if this.isOpen}}−{{else}}+{{/if}}</span>
+            </button>
+          </h3>
           <div class="faq__answer">
-            <p>{{this.answer}}</p>
+            <p>{{{this.answer}}}</p>
           </div>
         </div>
       {{/each}}

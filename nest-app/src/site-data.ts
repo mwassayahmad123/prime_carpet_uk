@@ -23,7 +23,7 @@ export const CONTACT = {
 export const SITE_URL = 'https://www.primecarpetcleaning.co.uk';
 
 export const SERVICE_AREA = 'London';
-export const SERVICE_AREA_TEXT = 'Proudly serving London and surrounding areas';
+export const SERVICE_AREA_TEXT = 'Proudly Serving London & Surrounding Areas';
 
 export const REVIEWS = [
   {
@@ -48,29 +48,34 @@ export const REVIEWS = [
 
 export const FAQ_ITEMS = [
   {
-    question: 'How do I book a free consultation?',
+    question: 'Where can I hire a carpet cleaner near me?',
     answer:
-      'Click the "Book Free Consultation" button or fill out the contact form below. You can also reach us directly on WhatsApp for instant booking.',
+      'Prime Carpet Cleaning and Upholstery Steam Cleaning offers local, professional carpet, rug, and upholstery cleaning services across Berkshire, Surrey, and Hampshire counties. Whether you need residential, commercial, or <a href="/services/end-of-tenancy-cleaning/">end-of-tenancy cleaning</a>, you can book directly by calling us or submitting a quote form.',
   },
   {
-    question: 'What services do you offer?',
+    question: 'What cleaning services do you offer?',
     answer:
-      'We specialise in carpet steam cleaning, upholstery steam cleaning, rug and mattress cleaning, professional stain removal, and end-of-tenancy cleaning across London. Contact us for a free quote.',
+      'We provide carpet cleaning, upholstery and sofa cleaning, <a href="/services/rug-cleaning/">rug cleaning</a>, mattress cleaning, stain removal, and end-of-tenancy carpet and <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a>. We serve both residential customers and commercial clients across London.',
   },
   {
-    question: 'How long does carpet cleaning take to dry?',
+    question: 'Is it worth getting carpets professionally cleaned?',
     answer:
-      'With our professional steam extraction, most carpets dry within 4–6 hours depending on fabric type and room ventilation.',
+      'Yes, carpet cleaning is well worth the investment. Professional carpet cleaning can reach deeper into carpet fibres than routine vacuuming and can help remove embedded dirt, stains, allergens and odours. Professional hot-water extraction is one commonly used method for deep carpet cleaning.',
   },
   {
-    question: 'Are your cleaning products safe for pets and children?',
+    question: 'How much does it cost to have a carpet cleaned in London?',
     answer:
-      'Yes. We use eco-friendly, non-toxic cleaning solutions that are safe for your family and pets while delivering powerful results.',
+      'Carpet cleaning prices depend on the number of rooms, carpet condition, material, staining and the type of property. At Prime Carpet Cleaning and Upholstery Steam Cleaning, we provide fully transparent, fixed quotes with no hidden fees.',
   },
   {
     question: 'Can I reschedule my appointment?',
     answer:
-      'Yes, simply contact us via phone or WhatsApp at least 24 hours before your scheduled appointment and we will arrange a new time.',
+      'Yes. If you need to change your appointment, contact us by phone or WhatsApp at least 24 hours before your scheduled time, and we will do our best to arrange another suitable appointment.',
+  },
+  {
+    question: 'Are you a local carpet cleaning company in London?',
+    answer:
+      'Yes. Prime Carpet Cleaning provides professional cleaning services for homes and businesses across London and surrounding areas. If you\'re searching for "local carpet cleaners" or "carpet cleaners near me", you can contact us to check availability in your area.',
   },
 ];
 

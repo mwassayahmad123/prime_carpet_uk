@@ -557,6 +557,11 @@ button {
   overflow: hidden;
 }
 
+.faq__question-heading {
+  margin: 0;
+  font: inherit;
+}
+
 .faq__question {
   width: 100%;
   display: flex;

@@ -19,7 +19,7 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'Professional carpet steam cleaning in London. Deep extraction removes dirt, allergens and stains. Free, no-obligation quotes.',
     intro:
-      'Our professional carpet steam cleaning service removes deep-down dirt, allergens, and stains from every type of carpet — leaving them fresh, soft, and looking like new. We proudly serve homes and businesses across London.',
+      'Our professional carpet cleaning in London helps remove built-up dirt, stains, allergens, and everyday marks from your carpets. We use professional extraction equipment to clean deep into the fibres while helping your carpets look fresher and feel cleaner. Whether you need carpet cleaning for your home, rental property, or business, we provide a thorough, professional service suited to your carpet\'s type and condition.',
     benefits: [
       'Deep steam extraction removes embedded dirt and allergens',
       'Tough stain treatment without damaging fibres',
@@ -60,7 +60,7 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'Professional upholstery and sofa steam cleaning in London. Safe for delicate fabrics, removes odours and stains. Free quotes.',
     intro:
-      'From sofas and armchairs to dining chairs and curtains, our upholstery steam cleaning service is safe, effective, and gentle on your fabric furniture — restoring colour, softness, and freshness across your London home.',
+      'Sofas, armchairs, and other fabric furniture collect dust, dirt, and everyday marks over time. Our upholstery and sofa cleaning service helps refresh your furniture without being harsh on the fabric. From family sofas to office seating, we carefully select the right cleaning method for the material to help restore freshness, colour, and comfort.',
     benefits: [
       'Safe for delicate and modern fabric types',
       'Removes odours, stains and trapped allergens',
@@ -97,7 +97,7 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'Specialist rug steam cleaning in London, including wool and delicate rugs. Colour-safe, deep clean. Free quotes.',
     intro:
-      'Rugs need specialist care. Our rug cleaning service uses powerful steam extraction combined with colour-safe techniques to deep clean everyday and delicate rugs alike, across London homes.',
+      'Different rugs need different levels of care. Our rug cleaning service removes dirt, stains, and odours while protecting the rug\'s fibres and colours. Whether you have an everyday rug or a more delicate piece, we assess it first and use a suitable cleaning method to give it the care it needs.',
     benefits: [
       'Specialist care for delicate and valuable rugs',
       'Deep steam extraction removes dust mites and allergens',
@@ -134,7 +134,7 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'Professional mattress steam cleaning in London. Removes dust mites, allergens and stains for a healthier night\'s sleep. Free quotes.',
     intro:
-      'A clean mattress means healthier sleep. Our steam cleaning service removes dust mites, allergens, stains, and odours from mattresses of all sizes, across London households.',
+      'Your mattress can collect dust, allergens, sweat, and odours over time. Professional mattress cleaning helps freshen the surface and remove unwanted build-up, creating a cleaner sleeping environment for your home. We clean mattresses of different sizes and can recommend the right approach based on their condition and fabric.',
     benefits: [
       'Removes dust mites, allergens and bacteria',
       'Eliminates odours and everyday stains',
@@ -171,7 +171,7 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'Expert stain removal for carpets, rugs and upholstery in London. Wine, pet, mud and ink stains treated. Free quotes.',
     intro:
-      'From wine and pet accidents to mud and ink, our specialist stain removal service tackles tough stains that regular cleaning cannot — safely and effectively, across carpets, rugs and upholstery in London homes.',
+      'Some stains need more than regular carpet cleaning. Our stain removal service tackles common marks such as wine, coffee, mud, food, and pet accidents using treatments suited to the carpet or fabric. We assess the stain and material before treatment, helping us choose an approach that is effective while protecting the surface wherever possible.',
     benefits: [
       'Specialist treatment for wine, pet, mud and ink stains',
       'Safe on carpets, rugs and upholstery',
@@ -208,7 +208,7 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'End of tenancy carpet and upholstery steam cleaning in London — help secure your deposit back. Flexible scheduling, free quotes.',
     intro:
-      'Moving out? Our end-of-tenancy carpet and upholstery cleaning service is designed to help you leave the property spotless and support the return of your full deposit — available across London.',
+      'Moving out of a rented property? Our end-of-tenancy carpet and upholstery cleaning helps freshen the areas that often show the most wear before you hand back the keys. We can clean carpets and upholstered furnishings to help leave the property looking clean and well cared for. Service availability depends on the property and cleaning requirements.',
     benefits: [
       'Helps support the return of your full deposit',
       'Thorough steam clean of carpets, rugs and upholstery',

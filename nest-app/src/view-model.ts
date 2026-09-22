@@ -48,9 +48,9 @@ function sharedLayoutData() {
 }
 
 export function buildHomeViewModel() {
-  const title = `Carpet & Upholstery Steam Cleaning in ${SERVICE_AREA} | ${COMPANY_NAME}`;
+  const title = 'Carpet Cleaning in London | Professional & Reliable Cleaners';
   const description =
-    `Professional carpet, upholstery, rug and mattress steam cleaning in ${SERVICE_AREA}. Eco-friendly, fully insured, free no-obligation quotes. Book today.`;
+    'Top-rated carpet, sofa, and upholstery cleaning in London. Prime Carpet Cleaning provides professional cleaning for homes and businesses. Get a free quote today.';
   const ogImage = `${SITE_URL}${LOGO.src}`;
 
   return {
