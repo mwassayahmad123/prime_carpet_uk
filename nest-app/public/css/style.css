@@ -167,6 +167,13 @@ button {
   text-align: center;
 }
 
+.section__text--wide {
+  max-width: none;
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last: left;
+}
+
 .section__header {
   text-align: center;
   margin-bottom: 3.5rem;
