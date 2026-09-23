@@ -50,7 +50,7 @@ export const FAQ_ITEMS = [
   {
     question: 'Where can I hire a carpet cleaner near me?',
     answer:
-      'Prime Carpet Cleaning and Upholstery Steam Cleaning offers local, professional carpet, rug, and upholstery cleaning services across Berkshire, Surrey, and Hampshire counties. Whether you need residential, commercial, or <a href="/services/end-of-tenancy-cleaning/">end-of-tenancy cleaning</a>, you can book directly by calling us or submitting a quote form.',
+      'Prime Carpet Cleaning and Upholstery Steam Cleaning offers local, professional carpet, rug, and upholstery cleaning services across London and surrounding areas. Whether you need residential, commercial, or <a href="https://primecarpetcleaning.co.uk/services/end-of-tenancy-cleaning/">end-of-tenancy cleaning</a>, you can book directly by calling us or submitting a quote form.',
   },
   {
     question: 'What cleaning services do you offer?',
