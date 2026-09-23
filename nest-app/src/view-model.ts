@@ -75,8 +75,9 @@ export function buildHomeViewModel() {
 }
 
 export function buildAboutViewModel() {
-  const title = `About Us | ${COMPANY_NAME}`;
-  const description = `Learn about ${COMPANY_NAME} — trusted carpet and upholstery steam cleaning specialists serving ${SERVICE_AREA}.`;
+  const title = 'About Prime Carpet Cleaning | Trusted London Cleaners';
+  const description =
+    'Learn about Prime Carpet Cleaning, a trusted carpet cleaning company in London providing carpet, upholstery, and steam cleaning services for homes and businesses.';
   const ogImage = `${SITE_URL}${LOGO.src}`;
 
   return {
