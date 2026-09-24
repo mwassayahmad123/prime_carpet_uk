@@ -11,6 +11,9 @@
           <p class="page-header__eyebrow">{{serviceAreaText}}</p>
           <h1 class="page-header__title">{{service.icon}} {{service.keyword}}</h1>
           <p class="page-header__subtitle">{{service.intro}}</p>
+          {{#if service.introSecondary}}
+            <p class="page-header__subtitle">{{{service.introSecondary}}}</p>
+          {{/if}}
           <div class="hero__actions">
             <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
             <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
@@ -23,6 +26,9 @@
           <div class="section__header">
             <p class="section__eyebrow">Benefits</p>
             <h2 class="section__title">Why Choose Our {{service.name}} Service</h2>
+            {{#if service.benefitsIntro}}
+              <p class="section__text section__text--wide">{{{service.benefitsIntro}}}</p>
+            {{/if}}
           </div>
           <ul class="about__features benefits-list">
             {{#each service.benefits}}
@@ -40,6 +46,9 @@
           <div class="section__header">
             <p class="section__eyebrow">Our Process</p>
             <h2 class="section__title">How It Works</h2>
+            {{#each service.processIntro}}
+              <p class="section__text section__text--wide">{{{this}}}</p>
+            {{/each}}
           </div>
           <div class="process__grid">
             {{#each service.process}}
@@ -102,17 +111,19 @@
         <div class="container">
           <div class="section__header">
             <p class="section__eyebrow">FAQ</p>
-            <h2 class="section__title">{{service.name}} FAQs</h2>
+            <h2 class="section__title">{{#if service.faqHeading}}{{service.faqHeading}}{{else}}{{service.name}} FAQs{{/if}}</h2>
           </div>
           <div class="faq__list">
             {{#each service.faqs}}
               <div class="faq__item js-faq-item {{#if @first}}is-open{{/if}}">
-                <button class="faq__question js-faq-question" aria-expanded="{{#if @first}}true{{else}}false{{/if}}">
-                  {{this.question}}
-                  <span class="faq__icon js-faq-icon">{{#if @first}}−{{else}}+{{/if}}</span>
-                </button>
+                <h3 class="faq__question-heading">
+                  <button class="faq__question js-faq-question" aria-expanded="{{#if @first}}true{{else}}false{{/if}}">
+                    {{this.question}}
+                    <span class="faq__icon js-faq-icon">{{#if @first}}−{{else}}+{{/if}}</span>
+                  </button>
+                </h3>
                 <div class="faq__answer">
-                  <p>{{this.answer}}</p>
+                  <p>{{{this.answer}}}</p>
                 </div>
               </div>
             {{/each}}

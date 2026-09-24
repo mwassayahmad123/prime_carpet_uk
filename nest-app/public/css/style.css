@@ -169,9 +169,13 @@ button {
 
 .section__text--wide {
   max-width: none;
-  margin: 0 auto;
+  margin: 0 auto 1.75rem;
   text-align: justify;
   text-align-last: left;
+}
+
+.section__text--wide:last-child {
+  margin-bottom: 0;
 }
 
 .section__header {
@@ -811,8 +815,14 @@ button {
 .page-header__subtitle {
   font-size: 1.05rem;
   color: rgba(255, 255, 255, 0.75);
-  max-width: 620px;
-  margin: 0 auto 2rem;
+  max-width: 820px;
+  margin: 0 auto 1.25rem;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.page-header__subtitle:last-of-type {
+  margin-bottom: 2rem;
 }
 
 .page-header .hero__actions {
@@ -842,22 +852,58 @@ button {
   align-items: center;
 }
 
-.about-page__stats {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.about-page__gallery {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: 2rem;
 }
 
-.about-page__stats .hero__stat strong {
-  color: var(--color-primary-dark);
+.carousel__slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease;
 }
 
-.about-page__stats .hero__stat span {
-  color: var(--color-text-light);
+.carousel__slide.is-active {
+  opacity: 1;
+}
+
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: rgba(15, 28, 46, 0.55);
+  color: var(--color-white);
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: background var(--transition);
+}
+
+.carousel__arrow:hover {
+  background: rgba(15, 28, 46, 0.8);
+}
+
+.carousel__arrow--prev {
+  left: 0.75rem;
+}
+
+.carousel__arrow--next {
+  right: 0.75rem;
 }
 
 .about__link {
@@ -922,7 +968,21 @@ button {
 /* Pricing section */
 .pricing-section__inner {
   text-align: center;
-  max-width: 640px;
+  max-width: 780px;
+}
+
+.pricing-section .section__title {
+  white-space: nowrap;
+}
+
+.pricing-section .section__text {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .pricing-section .section__title {
+    white-space: normal;
+  }
 }
 
 /* Related services */

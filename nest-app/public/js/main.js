@@ -39,6 +39,54 @@
     });
   });
 
+  document.querySelectorAll('.js-image-carousel').forEach(function (carousel) {
+    var slides = carousel.querySelectorAll('.carousel__slide');
+    var prevBtn = carousel.querySelector('.js-carousel-prev');
+    var nextBtn = carousel.querySelector('.js-carousel-next');
+
+    if (slides.length < 2) {
+      if (prevBtn) prevBtn.style.display = 'none';
+      if (nextBtn) nextBtn.style.display = 'none';
+      return;
+    }
+
+    var current = 0;
+    var timer;
+
+    function showSlide(index) {
+      slides[current].classList.remove('is-active');
+      current = (index + slides.length) % slides.length;
+      slides[current].classList.add('is-active');
+    }
+
+    function startTimer() {
+      timer = setInterval(function () {
+        showSlide(current + 1);
+      }, 3000);
+    }
+
+    function resetTimer() {
+      clearInterval(timer);
+      startTimer();
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function () {
+        showSlide(current - 1);
+        resetTimer();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function () {
+        showSlide(current + 1);
+        resetTimer();
+      });
+    }
+
+    startTimer();
+  });
+
   var form = document.querySelector('.js-contact-form');
   if (form) {
     form.addEventListener('submit', function (e) {

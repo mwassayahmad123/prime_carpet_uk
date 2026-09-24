@@ -1,3 +1,5 @@
+import { existsSync, readdirSync } from 'fs';
+import { join } from 'path';
 import {
   COMPANY_NAME,
   LOGO,
@@ -12,6 +14,17 @@ import {
   SERVICE_AREA_TEXT,
 } from './site-data';
 import { SERVICES_PAGES, ServicePage } from './services-data';
+
+const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.avif'];
+
+function getAboutGalleryImages() {
+  const dir = join(__dirname, '..', 'public', 'images', 'about-gallery');
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir)
+    .filter((file) => IMAGE_EXTENSIONS.includes(file.slice(file.lastIndexOf('.')).toLowerCase()))
+    .sort()
+    .map((file) => ({ src: `/images/about-gallery/${file}` }));
+}
 
 function buildLocalBusinessSchema(ogImage: string) {
   return {
@@ -89,11 +102,12 @@ export function buildAboutViewModel() {
     ogImage,
     schemaJson: JSON.stringify(buildLocalBusinessSchema(ogImage)),
     services: SERVICES_PAGES.map((s) => ({ name: s.name, slug: s.slug })),
+    aboutGalleryImages: getAboutGalleryImages(),
   };
 }
 
 export function buildServiceViewModel(service: ServicePage) {
-  const title = `${service.keyword} | ${COMPANY_NAME}`;
+  const title = service.seoTitle || `${service.keyword} | ${COMPANY_NAME}`;
   const ogImage = `${SITE_URL}${LOGO.src}`;
   const canonicalUrl = `${SITE_URL}/services/${service.slug}/`;
 

@@ -40,19 +40,12 @@
               quotes to make arranging your cleaning service simple and stress-free.
             </p>
           </div>
-          <div class="about-page__stats">
-            <div class="hero__stat">
-              <strong>500+</strong>
-              <span>Carpets Cleaned</span>
-            </div>
-            <div class="hero__stat">
-              <strong>10+</strong>
-              <span>Years Experience</span>
-            </div>
-            <div class="hero__stat">
-              <strong>5.0</strong>
-              <span>Customer Rating</span>
-            </div>
+          <div class="about-page__gallery js-image-carousel">
+            {{#each aboutGalleryImages}}
+              <img src="{{this.src}}" alt="{{../companyName}} work example" class="carousel__slide {{#if @first}}is-active{{/if}}" loading="lazy" />
+            {{/each}}
+            <button type="button" class="carousel__arrow carousel__arrow--prev js-carousel-prev" aria-label="Previous image">‹</button>
+            <button type="button" class="carousel__arrow carousel__arrow--next js-carousel-next" aria-label="Next image">›</button>
           </div>
         </div>
       </section>
