@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="mattressTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e7ebf1"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2d45"/>
+      <stop offset="100%" stop-color="#0f1c2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <ellipse cx="400" cy="470" rx="260" ry="26" fill="#0f1c2e" opacity="0.08"/>
+
+  <g>
+    <!-- headboard -->
+    <rect x="200" y="150" width="400" height="70" rx="16" fill="url(#frame)"/>
+
+    <!-- legs -->
+    <rect x="215" y="430" width="18" height="40" rx="6" fill="#0f1c2e"/>
+    <rect x="567" y="430" width="18" height="40" rx="6" fill="#0f1c2e"/>
+
+    <!-- base -->
+    <rect x="190" y="400" width="420" height="40" rx="10" fill="url(#frame)"/>
+
+    <!-- mattress -->
+    <rect x="185" y="310" width="430" height="100" rx="20" fill="url(#mattressTop)" stroke="#c9a84c" stroke-width="3"/>
+    <line x1="185" y1="340" x2="615" y2="340" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+    <line x1="185" y1="380" x2="615" y2="380" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+    <!-- pillow -->
+    <rect x="230" y="270" width="130" height="60" rx="20" fill="#ffffff" stroke="#c9a84c" stroke-width="3"/>
+
+    <!-- gold accent cushion -->
+    <rect x="430" y="278" width="150" height="46" rx="16" fill="#c9a84c" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M300 220 q-14 -22 0 -44 q14 22 0 44 z" fill="#c9a84c" opacity="0.5"/>
+    <path d="M340 210 q-14 -26 0 -52 q14 26 0 52 z" fill="#c9a84c" opacity="0.7"/>
+    <path d="M380 220 q-14 -22 0 -44 q14 22 0 44 z" fill="#c9a84c" opacity="0.5"/>
+    <path d="M480 210 q-14 -26 0 -52 q14 26 0 52 z" fill="#c9a84c" opacity="0.6"/>
+    <path d="M520 220 q-14 -22 0 -44 q14 22 0 44 z" fill="#c9a84c" opacity="0.4"/>
+  </g>
+
+  <g fill="#c9a84c">
+    <path d="M630 160 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z"/>
+    <path d="M175 180 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(600,420)">
+    <circle cx="0" cy="0" r="42" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#c9a84c" stroke-width="4"/>
+    <path d="M-16 1 l10 11 l24 -26" fill="none" stroke="#0f1c2e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

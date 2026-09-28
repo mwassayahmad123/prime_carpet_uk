@@ -152,13 +152,15 @@ button {
 }
 
 .section__text a,
-.faq__answer a {
+.faq__answer a,
+.process__text a {
   color: var(--color-primary-dark);
   text-decoration: none;
 }
 
 .section__text a:hover,
-.faq__answer a:hover {
+.faq__answer a:hover,
+.process__text a:hover {
   color: var(--color-primary);
 }
 

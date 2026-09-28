@@ -28,9 +28,9 @@
           <div class="section__header">
             <p class="section__eyebrow">Benefits</p>
             <h2 class="section__title">Why Choose Our {{service.name}} Service</h2>
-            {{#if service.benefitsIntro}}
-              <p class="section__text section__text--wide">{{{service.benefitsIntro}}}</p>
-            {{/if}}
+            {{#each service.benefitsIntro}}
+              <p class="section__text section__text--wide">{{{this}}}</p>
+            {{/each}}
           </div>
           <div class="benefits-section__grid {{#unless service.whyChooseImage}}benefits-section__grid--full{{/unless}}">
             {{#if service.whyChooseImage}}
@@ -63,7 +63,7 @@
             {{#each service.process}}
               <article class="process__step">
                 <h3 class="process__title">{{this.title}}</h3>
-                <p class="process__text">{{this.description}}</p>
+                <p class="process__text">{{{this.description}}}</p>
               </article>
             {{/each}}
           </div>

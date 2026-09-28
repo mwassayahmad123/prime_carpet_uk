@@ -7,7 +7,7 @@ export interface ServicePage {
   metaDescription: string;
   intro: string;
   introSecondary?: string;
-  benefitsIntro?: string;
+  benefitsIntro?: string[];
   benefits: string[];
   processIntro?: string[];
   process: { title: string; description: string }[];
@@ -29,8 +29,9 @@ export const SERVICES_PAGES: ServicePage[] = [
       'Our carpet cleaning services in London help remove built-up dirt, stains, allergens, dust, and everyday marks from your carpets. We use professional steam extraction equipment to clean deep into the carpet fibres while helping your carpets look fresher and feel cleaner. Whether you need cleaning for your home, rental property, or workplace, we offer a careful service based on your carpet\'s type, condition, and cleaning needs.',
     introSecondary:
       'If you are searching for "professional carpet cleaner near me", our local team delivers convenient deep carpet cleaning across London. We also offer free, no-obligation quotes so you can understand the service before <a href="/#contact">booking</a>.',
-    benefitsIntro:
+    benefitsIntro: [
       'We provide a thorough cleaning of your carpets, home, and furnishings. Our service is suitable for everyday dirt, deeper buildup, and many common <a href="/services/stain-removal/">carpet stains</a>.',
+    ],
     benefits: [
       'Deep steam extraction removes embedded dirt and allergens',
       'Tough stain treatment without damaging fibres',
@@ -78,8 +79,9 @@ export const SERVICES_PAGES: ServicePage[] = [
       'Professional upholstery cleaning in London for sofas, chairs and fabric furniture. Deep cleaning, stain treatment and deodorising. Get a free quote today.',
     intro:
       'Sofas, armchairs, and other upholstered furniture can collect dust, dirt, stains, and everyday marks over time. Our upholstery cleaning services in London help refresh your furniture and improve its overall appearance without using unnecessarily harsh cleaning methods. From family sofas to office seating, we assess the material first and choose a suitable <a href="/#services">cleaning method</a> for the fabric and its condition. If you\'re looking for professional sofa cleaning, we provide a careful service for homes and businesses across London, helping restore freshness and comfort to tired upholstery.',
-    benefitsIntro:
+    benefitsIntro: [
       'We take a careful approach to upholstery cleaning, using methods suited to the fabric rather than treating every sofa or chair in the same way. Our service is designed to tackle everyday dirt, stains, odours, and build-up while helping protect the look and feel of your furniture.',
+    ],
     benefits: [
       'Suitable for different fabric types',
       'Helps remove stains, odours and allergens',
@@ -140,8 +142,9 @@ export const SERVICES_PAGES: ServicePage[] = [
       'Rugs can collect dust, dirt, stains, and everyday marks that regular vacuuming cannot fully remove. Our rug cleaning service in London that customers can rely on helps refresh rugs while taking care of their fibres, colours, and overall condition. We assess each rug before cleaning and choose a suitable method based on its material, construction, and level of soiling.',
     introSecondary:
       'Whether you need residential rug cleaning for your home or a commercial rug cleaning service for a workplace, we provide <a href="/#services">professional cleaning across London</a>.',
-    benefitsIntro:
+    benefitsIntro: [
       'Every rug has different cleaning needs, so we avoid using the same approach for every material. Our professional rug cleaning services are designed to remove everyday build-up while taking care of the rug\'s appearance and condition.',
+    ],
     benefits: [
       'Specialist care for different rug types',
       'Deep cleaning for dirt and allergens',
@@ -196,35 +199,56 @@ export const SERVICES_PAGES: ServicePage[] = [
     name: 'Mattress Cleaning',
     icon: '🛏️',
     keyword: 'Mattress Cleaning London',
+    seoTitle: 'Mattress Cleaning London | Fresh, Deep & Careful Cleaning',
     metaDescription:
-      'Professional mattress steam cleaning in London. Removes dust mites, allergens and stains for a healthier night\'s sleep. Free quotes.',
+      'We provide professional mattress cleaning in London to remove dust, stains, and odours. Careful steam cleaning for different mattress types. Get a free quote.',
     intro:
-      'Your mattress can collect dust, allergens, sweat, and odours over time. Professional mattress cleaning helps freshen the surface and remove unwanted build-up, creating a cleaner sleeping environment for your home. We clean mattresses of different sizes and can recommend the right approach based on their condition and fabric.',
+      'Your mattress absorbs dust, sweat, body oils, and everyday odours over time. Our mattress cleaning service in London helps remove this built-up dirt and refresh your mattress without replacing it. We clean different mattress sizes and materials, choosing a suitable cleaning method based on the mattress condition, fabric, and stains.',
+    benefitsIntro: [
+      'A clean mattress can make your bedroom feel fresher and more comfortable. Our team provides a professional mattress cleaning service for homes and properties across London, with careful cleaning designed for everyday dirt, stains and unwanted odours.',
+      'Whether you are looking for a professional mattress cleaner or a <a href="/">mattress cleaning company</a>, we make the booking process simple.',
+    ],
     benefits: [
-      'Removes dust mites, allergens and bacteria',
-      'Eliminates odours and everyday stains',
-      'Improves sleep hygiene for the whole family',
-      'Eco-friendly, chemical-light steam process',
+      'Helps remove dust, dirt and built-up debris',
+      'Treats everyday stains and unwanted odours',
+      'Suitable for different mattress sizes and materials',
+      'Professional cleaning with a careful steam-based process',
       'Free, no-obligation quotes',
     ],
+    processIntro: [
+      'Our mattress cleaning process is designed to clean the mattress thoroughly while taking care of its material. We assess the mattress first, then choose the right treatment for its condition. If you want to professionally clean a mattress, our service provides a practical way to refresh a mattress without replacing it. We offer mattress deep cleaning services for mattresses that have built up dirt, stains or odours through regular use.',
+      'So, if you are searching for a "mattress cleaning service near me" or a local bed cleaning service in London. If you are unsure whether your mattress needs a full clean, we can assess its condition and explain the most suitable option.',
+    ],
     process: [
-      { title: 'Inspection', description: 'We check the mattress for stains and problem areas before starting.' },
-      { title: 'Vacuum & Pre-treatment', description: 'A thorough vacuum removes surface dust before targeted pre-treatment.' },
-      { title: 'Steam Sanitisation', description: 'Deep steam cleaning sanitises the mattress and lifts embedded allergens.' },
-      { title: 'Stain Removal & Drying', description: 'Stubborn stains are treated individually, followed by a quick-dry finish.' },
+      { title: 'Inspection', description: 'We check the mattress for its material, overall condition, stains, marks and areas that need extra attention. This helps us decide which cleaning method is most suitable.' },
+      { title: 'Vacuum & Pre-Treatment', description: 'We start by vacuuming the mattress to remove loose dust and surface debris. Stains and heavily soiled areas are then treated before the main cleaning begins.' },
+      { title: 'Mattress Steam Cleaning', description: 'Our mattress steam cleaning process works into the fabric to help lift embedded dirt, sweat, and everyday build-up. Where suitable, we use controlled moisture to clean the mattress without unnecessarily soaking it.' },
+      { title: 'Stain Removal & Drying', description: 'Stubborn marks are treated according to the type of stain and mattress material. After cleaning, we use a careful drying process to help reduce moisture and leave the mattress fresh and ready to use when fully dry.' },
+    ],
+    pricingParagraphs: [
+      'Every mattress is different, so the cost can depend on its size, material, condition, and the amount of cleaning required. Contact us for a free quote with no hidden fees.',
+      'Whether you need a one-off clean or regular deep mattress cleaning, <a href="/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can arrange a convenient appointment for your home.',
     ],
     faqs: [
       {
-        question: 'How often should mattresses be cleaned?',
-        answer: 'We recommend professional mattress cleaning every 6–12 months to maintain a healthy sleep environment.',
+        question: 'How much does it cost to clean a mattress in London?',
+        answer: 'The price depends on the mattress size, material, condition, and the level of cleaning required. Stains and heavily soiled areas may also affect the cost. Contact us for a free, no-obligation quote based on your mattress.',
       },
       {
-        question: 'Is it safe for allergy sufferers?',
-        answer: 'Yes — our steam cleaning process is specifically effective at removing dust mites and allergens that can trigger allergies.',
+        question: 'Is it worth getting a mattress cleaned?',
+        answer: 'Yes, professional cleaning can help remove built-up dust, dirt, sweat, stains, and odours from a mattress. It can be a useful option when your mattress is still in good condition but needs a proper refresh.',
       },
       {
-        question: 'Will my mattress take long to dry?',
-        answer: 'We use a low-moisture process, and most mattresses are dry and ready to use within a few hours.',
+        question: 'Is it better to steam or dry clean a mattress?',
+        answer: 'It depends on the mattress material and its condition. Mattress steam cleaning can be suitable for many mattresses because it helps lift dirt and stains using controlled moisture. However, we assess the mattress first and choose a method that is appropriate for the material.',
+      },
+      {
+        question: 'How often should your mattress be cleaned?',
+        answer: 'There is no single schedule that works for every mattress. Many people choose professional cleaning every 6–12 months, while mattresses that receive heavier everyday use may need attention sooner. Regular vacuuming and dealing with spills quickly can also help keep your mattress fresher between professional cleans.',
+      },
+      {
+        question: 'Can you provide professional bed cleaning?',
+        answer: 'Yes. If you are looking for professional bed cleaning, we can clean mattresses as part of our specialist mattress cleaning service. For customers searching for a bed cleaner near me, we can assess the mattress and recommend a suitable cleaning approach.',
       },
     ],
   },
@@ -232,36 +256,58 @@ export const SERVICES_PAGES: ServicePage[] = [
     slug: 'stain-removal',
     name: 'Stain Removal',
     icon: '✨',
-    keyword: 'Carpet & Upholstery Stain Removal London',
+    keyword: 'Stain Removal London',
+    seoTitle: 'Stain Removal London | Professional Treatment for Tough Stains',
     metaDescription:
-      'Expert stain removal for carpets, rugs and upholstery in London. Wine, pet, mud and ink stains treated. Free quotes.',
+      'We provide expert stain removal in London for carpets and upholstery. We treat wine, coffee, food, pet, and other stubborn stains. Get a free quote now.',
     intro:
-      'Some stains need more than regular carpet cleaning. Our stain removal service tackles common marks such as wine, coffee, mud, food, and pet accidents using treatments suited to the carpet or fabric. We assess the stain and material before treatment, helping us choose an approach that is effective while protecting the surface wherever possible.',
+      'Some stains need more than a standard carpet clean. Our stain removal service in London is designed to tackle common marks such as wine, coffee, food, mud, grease, and pet accidents. <a href="/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> assess the stain and the material first, then choose a suitable treatment to help lift the mark while taking care of the carpet, rug, or upholstery.',
+    introSecondary:
+      'Whether you need professional stain removal in London for your home or a one-off treatment for a difficult mark, we provide a careful and practical service based on the condition of the affected area.',
+    benefitsIntro: [
+      'Different stains need different treatments. We don\'t use the same approach for every mark. Our team looks at the stain, fabric, and surrounding area before deciding how to treat it. If you are searching for a "<a href="/">local stain removal company near me</a>", we can assess the problem and explain the most suitable treatment before work begins.',
+    ],
     benefits: [
-      'Specialist treatment for wine, pet, mud and ink stains',
-      'Safe on carpets, rugs and upholstery',
-      'No harsh chemical residue left behind',
-      'Often combined with a full steam clean for best results',
+      'Targeted treatment for wine, coffee, food, mud, grease, pet and ink stains',
+      'Suitable for carpets, rugs and upholstery',
+      'Professional treatments chosen for the material and stain',
+      'Can be combined with carpet cleaning and stain removal where needed',
       'Free, no-obligation quotes',
     ],
-    process: [
-      { title: 'Stain Identification', description: 'We identify the stain type to select the most effective treatment.' },
-      { title: 'Targeted Pre-treatment', description: 'A specialist solution is applied directly to break down the stain.' },
-      { title: 'Deep Extraction', description: 'Steam extraction lifts the loosened stain from the fibres.' },
-      { title: 'Final Inspection', description: 'We check the treated area to confirm the best possible result.' },
+    processIntro: [
+      'Our stain treatment process focuses on the problem area rather than simply cleaning the whole surface. This allows us to select the right treatment for the type of stain and the material. Carpet stain removal service is suitable for many everyday marks found in homes and workplaces. We can treat carpets, rugs, and upholstery, depending on the material and condition.',
+      'For businesses that need regular or one-off treatment, we also provide commercial carpet stain removal in London for offices, rental properties, and other commercial spaces. If you\'re looking for professional carpet stain removal in London, we are here to help you. Our stain removal process:',
     ],
+    process: [
+      { title: 'Stain Identification', description: 'We first inspect the affected area to identify the type of stain, how long it has been there, and what material needs treatment. This helps us choose a suitable cleaning method.' },
+      { title: 'Targeted Pre-Treatment', description: 'A suitable cleaning solution is carefully applied to the stain to help loosen it from the fibres. The treatment depends on the stain and the material being cleaned.' },
+      { title: 'Deep Extraction', description: 'Once the stain has been treated, we use professional extraction equipment where suitable to lift loosened dirt and residue from the fibres. This forms part of our carpet stain cleaning process.' },
+      { title: 'Final Inspection', description: 'We check the treated area after cleaning and let you know what has been achieved. Some older or permanent stains may not disappear completely, so we always aim to give you a realistic result rather than make promises we cannot guarantee.' },
+    ],
+    pricingParagraphs: [
+      'Every stain and surface is different, so the cost of treatment depends on factors such as the stain type, size, age, and material. Whether you need a local stain removal service in London or are searching for carpet stain removal near you, our team can provide a straightforward quote and arrange a convenient appointment. Contact us for a free personalised quote with no hidden fees.',
+    ],
+    faqHeading: 'FAQs About Stain Removal Service',
     faqs: [
       {
         question: 'Can old or set-in stains be removed?',
-        answer: 'Many old stains respond well to our treatment, though results can vary by stain type and age — we\'ll give you an honest assessment before starting.',
+        answer: 'Many old stains can be improved with professional treatment, but the result depends on the type of stain, how long it has been there, and whether previous cleaning products have been used. We inspect the stain first and give you an honest assessment before treatment.',
       },
       {
         question: 'Is stain removal included in a full clean?',
-        answer: 'Basic stain treatment is included with our standard carpet and upholstery cleaning. Heavily stained items may need additional treatment, which we\'ll always discuss with you first.',
+        answer: 'Basic stain treatment is included with our standard carpet and <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a> where appropriate. Heavily stained areas may need more targeted treatment, which we will explain before carrying out any additional work.',
       },
       {
         question: 'What types of stains can you treat?',
-        answer: 'We treat a wide range including wine, coffee, pet accidents, mud, grease, and ink on carpets, rugs and upholstery.',
+        answer: 'We can treat many common stains, including wine, coffee, food, mud, grease, pet accidents, and ink. The final result depends on the stain, the material, and how long the mark has been present.',
+      },
+      {
+        question: 'Can you remove stains from carpets and upholstery?',
+        answer: 'Yes. We provide stain treatment for suitable carpets, rugs, and upholstery. Before cleaning, we check the material and stain to make sure the chosen treatment is appropriate.',
+      },
+      {
+        question: 'Do you provide carpet stain removal?',
+        answer: 'Yes. Our professional carpet stain removal service is designed for marks that need more focused treatment than everyday cleaning. We assess each stain before choosing the most suitable method.',
       },
     ],
   },
@@ -269,36 +315,63 @@ export const SERVICES_PAGES: ServicePage[] = [
     slug: 'end-of-tenancy-cleaning',
     name: 'End-of-Tenancy Cleaning',
     icon: '🔑',
-    keyword: 'End of Tenancy Carpet Cleaning London',
+    keyword: 'End of Tenancy Cleaning London',
+    seoTitle: 'End of Tenancy Cleaning in London | Move-Out Cleaning',
     metaDescription:
-      'End of tenancy carpet and upholstery steam cleaning in London — help secure your deposit back. Flexible scheduling, free quotes.',
+      'Our London end-of-tenancy cleaning helps prepare your property for inspection, with detailed cleaning for kitchens, bathrooms, floors, and carpets. Call now!',
     intro:
-      'Moving out of a rented property? Our end-of-tenancy carpet and upholstery cleaning helps freshen the areas that often show the most wear before you hand back the keys. We can clean carpets and upholstered furnishings to help leave the property looking clean and well cared for. Service availability depends on the property and cleaning requirements.',
+      'Moving out of a rented property? Our end of tenancy cleaning service in London helps prepare your home for the final inspection before you hand back the keys. We focus on the areas that need the most attention, including carpets, floors, kitchens, bathrooms and other commonly used spaces.',
+    introSecondary:
+      'Whether you are a tenant moving out or a landlord preparing a property for its next occupant, we provide a practical clean based on the condition and requirements of the property.',
+    benefitsIntro: [
+      'Moving out can be stressful, especially when you need to leave the property clean and ready for inspection. Our end of tenancy cleaning services are designed to take care of the detailed cleaning so you can focus on your move.',
+      'If you are searching for "end of tenancy cleaning near me", our team can discuss your property and cleaning requirements before arranging an appointment.',
+    ],
     benefits: [
-      'Helps support the return of your full deposit',
-      'Thorough steam clean of carpets, rugs and upholstery',
-      'Stain and odour treatment included',
-      'Flexible scheduling around your move-out date',
+      'Thorough cleaning for kitchens, bathrooms, floors and living areas',
+      'Carpet, rug and upholstery cleaning where required',
+      'Stain and odour treatment for areas affected by everyday use',
+      'Flexible appointments around your move-out date',
       'Free, no-obligation quotes',
     ],
-    process: [
-      { title: 'Pre-Move-Out Inspection', description: 'We review the carpets and upholstery to plan the clean around your checkout requirements.' },
-      { title: 'Full Steam Clean', description: 'A thorough steam clean of all carpets, rugs and upholstery in the property.' },
-      { title: 'Stain & Odour Treatment', description: 'Any marks or odours from tenancy wear are treated individually.' },
-      { title: 'Final Walkthrough-Ready Finish', description: 'The property is left clean and ready for your check-out inspection.' },
+    processIntro: [
+      'Every property is different, so we start by understanding what needs to be cleaned rather than using the same checklist for every home. If you need professional tenancy cleaning, we can arrange a service around your move-out schedule. Our move-out cleaning service in London can cover the main areas of the property, with additional carpet, rug or <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a> where needed. Our process include:',
     ],
+    process: [
+      { title: 'Property Check', description: 'We review the property and identify areas that need extra attention. This can include kitchens, bathrooms, floors, carpets, upholstery and other high-use areas.' },
+      { title: 'Detailed Cleaning', description: 'We work through the property carefully, removing everyday dirt, dust and built-up grime. Carpets, <a href="/services/rug-cleaning/">rugs</a> and upholstered furnishings can also be cleaned where required.' },
+      { title: 'Stain & Odour Treatment', description: 'Marks and unwanted odours caused by normal tenancy use are treated individually. The treatment depends on the surface, stain and condition of the area.' },
+      { title: 'Final Check', description: 'Once the cleaning is complete, we check the main areas to make sure the property has been left clean and presentable for the next stage of the move-out process.' },
+    ],
+    pricingParagraphs: [
+      'Every property is different, so the price depends on factors such as property size, condition, number of rooms, and the level of cleaning required. For customers searching for move-out cleaners near me or end of tenancy cleaners in London, we can provide a free quote based on the size, condition, and cleaning requirements of the property.',
+      'Contact us for a free, personalised quote with no hidden fees. We can discuss your move-out date and explain what cleaning would be most suitable for the property.',
+    ],
+    faqHeading: 'FAQs About End-of-Tenancy Cleaning Service',
     faqs: [
       {
-        question: 'Will this help me get my deposit back?',
-        answer: 'A professional carpet and upholstery clean is one of the most common requirements from landlords and letting agents at check-out, and can support your deposit return.',
+        question: 'How much does end of tenancy cleaning cost in London?',
+        answer: 'The cost depends on the size of the property, number of rooms, condition, and cleaning requirements. Additional services such as carpet, rug, or upholstery cleaning may also affect the price. Contact us for a free quote based on your property.',
+      },
+      {
+        question: 'Is getting an end of tenancy cleaning a good idea?',
+        answer: 'Professional cleaning can save time and help you leave a rented property clean and presentable for the final inspection. It can be especially useful when the property needs detailed cleaning in areas that are easy to overlook during a move.',
+      },
+      {
+        question: 'Will end-of-tenancy cleaning guarantee my deposit back?',
+        answer: 'No <a href="/">cleaning company</a> can guarantee a deposit refund because this depends on the property\'s condition, tenancy agreement and the landlord or letting agent\'s assessment. A thorough clean can, however, help you address dirt, stains and general cleaning issues before the inspection.',
       },
       {
         question: 'Can you work directly with landlords or letting agents?',
-        answer: 'Yes, we\'re happy to coordinate timing directly with landlords, letting agents, or tenants.',
+        answer: 'Yes. We can coordinate the cleaning time with tenants, landlords or letting agents where required. Just let us know the property\'s access arrangements and preferred cleaning date.',
       },
       {
         question: 'Can you clean on short notice?',
-        answer: 'We do our best to accommodate move-out timelines — contact us via WhatsApp as early as possible to check availability.',
+        answer: 'We do our best to accommodate short-notice move-out dates, depending on availability. Contact us as early as possible with your preferred date so we can check the available options.',
+      },
+      {
+        question: 'What does London end of tenancy cleaning include?',
+        answer: 'The cleaning can cover the main areas of the property, including kitchens, bathrooms, floors and living spaces. Carpets, rugs and upholstery can also be cleaned where required. The exact service depends on the property and the level of cleaning needed.',
       },
     ],
   },
