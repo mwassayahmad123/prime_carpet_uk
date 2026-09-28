@@ -8,15 +8,17 @@
     <main>
       <section class="page-header {{#if service.heroImage}}page-header--photo{{/if}}" {{#if service.heroImage}}style="--hero-image: url('{{service.heroImage}}')"{{/if}}>
         <div class="container">
-          <p class="page-header__eyebrow">{{serviceAreaText}}</p>
-          <h1 class="page-header__title">{{service.icon}} {{service.keyword}}</h1>
-          <p class="page-header__subtitle">{{{service.intro}}}</p>
-          {{#if service.introSecondary}}
-            <p class="page-header__subtitle">{{{service.introSecondary}}}</p>
-          {{/if}}
-          <div class="hero__actions">
-            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
-            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          <div class="page-header__panel">
+            <p class="page-header__eyebrow">{{serviceAreaText}}</p>
+            <h1 class="page-header__title">{{service.icon}} {{service.keyword}}</h1>
+            <p class="page-header__subtitle">{{{service.intro}}}</p>
+            {{#if service.introSecondary}}
+              <p class="page-header__subtitle">{{{service.introSecondary}}}</p>
+            {{/if}}
+            <div class="hero__actions">
+              <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+              <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+            </div>
           </div>
         </div>
       </section>
