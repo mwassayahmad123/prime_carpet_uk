@@ -11,6 +11,7 @@ export interface ServicePage {
   benefits: string[];
   processIntro?: string[];
   process: { title: string; description: string }[];
+  pricingParagraphs?: string[];
   faqHeading?: string;
   faqs: { question: string; answer: string }[];
 }
@@ -72,35 +73,58 @@ export const SERVICES_PAGES: ServicePage[] = [
     name: 'Upholstery & Sofa Cleaning',
     icon: '🛋️',
     keyword: 'Upholstery & Sofa Cleaning London',
+    seoTitle: 'Upholstery Cleaning London | Professional Sofa Cleaning',
     metaDescription:
-      'Professional upholstery and sofa steam cleaning in London. Safe for delicate fabrics, removes odours and stains. Free quotes.',
+      'Professional upholstery cleaning in London for sofas, chairs and fabric furniture. Deep cleaning, stain treatment and deodorising. Get a free quote today.',
     intro:
-      'Sofas, armchairs, and other fabric furniture collect dust, dirt, and everyday marks over time. Our upholstery and sofa cleaning service helps refresh your furniture without being harsh on the fabric. From family sofas to office seating, we carefully select the right cleaning method for the material to help restore freshness, colour, and comfort.',
+      'Sofas, armchairs, and other upholstered furniture can collect dust, dirt, stains, and everyday marks over time. Our upholstery cleaning services in London help refresh your furniture and improve its overall appearance without using unnecessarily harsh cleaning methods. From family sofas to office seating, we assess the material first and choose a suitable <a href="/#services">cleaning method</a> for the fabric and its condition. If you\'re looking for professional sofa cleaning, we provide a careful service for homes and businesses across London, helping restore freshness and comfort to tired upholstery.',
+    benefitsIntro:
+      'We take a careful approach to upholstery cleaning, using methods suited to the fabric rather than treating every sofa or chair in the same way. Our service is designed to tackle everyday dirt, stains, odours, and build-up while helping protect the look and feel of your furniture.',
     benefits: [
-      'Safe for delicate and modern fabric types',
-      'Removes odours, stains and trapped allergens',
-      'Restores colour and softness to tired upholstery',
+      'Suitable for different fabric types',
+      'Helps remove stains, odours and allergens',
+      'Refreshes colour and softness',
       'Suitable for sofas, chairs, headboards and curtains',
       'Free, no-obligation quotes',
     ],
+    processIntro: [
+      'Our deep upholstery cleaning process starts with a furniture inspection to identify areas that need extra attention. We then select the most suitable cleaning method based on the fabric, level of soiling, and type of stains. Whether you need a couch cleaning service at home or upholstery cleaning for a workplace, we tailor the service to the furniture and its condition. We provide both residential and commercial upholstery cleaning across London.',
+      'If you\'re searching for "upholstery cleaning near me" or a "<a href="/">sofa cleaning company near me</a>", you can contact us to check availability in your area. We also offer professional sofa washing for customers who want to refresh sofas affected by everyday dirt, stains, and odours.',
+    ],
     process: [
-      { title: 'Fabric Assessment', description: 'We check the fabric type to select the safest, most effective cleaning method.' },
-      { title: 'Gentle Steam Clean', description: 'Low-moisture steam cleaning lifts dirt without soaking or damaging the fabric.' },
-      { title: 'Stain Treatment', description: 'Targeted treatment for spills, pet marks, and everyday wear.' },
-      { title: 'Deodorising & Drying', description: 'A deodorising finish leaves upholstery smelling fresh, with a quick drying time.' },
+      { title: 'Fabric Assessment', description: 'Before cleaning, we check the fabric type, condition, and any areas affected by stains or heavy wear. This helps us choose a suitable cleaning approach and avoid using a method that could be too harsh for the material.' },
+      { title: 'Gentle Steam Clean', description: 'Where suitable for the fabric, our sofa steam cleaning process uses controlled moisture and professional equipment to lift dirt and build-up from the upholstery. We adjust the cleaning method according to the material rather than using the same process for every piece of furniture.' },
+      { title: 'Stain Treatment', description: 'Spills, food marks, pet accidents, and everyday stains may need extra attention. We treat problem areas individually using suitable products and techniques to help improve their appearance while taking care of the upholstery.' },
+      { title: 'Deodorising & Drying', description: 'After cleaning, we apply a suitable deodorising treatment where needed to help remove unwanted smells. We then extract as much moisture as possible to support a quicker drying time and leave your furniture feeling fresh.' },
+    ],
+    pricingParagraphs: [
+      'Every piece of furniture is different, so the cost of cleaning can depend on the size, fabric, condition, stains, and level of cleaning required. We provide a free personalised quote for your upholstery or sofa cleaning before you book, with clear pricing and no hidden fees.',
+      'Whether you need a one-off clean at home or regular cleaning for a business, you can contact us for a quote and discuss your requirements.',
     ],
     faqs: [
       {
         question: 'Is steam cleaning safe for all fabric types?',
-        answer: 'We assess every fabric before cleaning and adjust our method accordingly, so it is safe for the vast majority of upholstery types.',
+        answer: 'Not every fabric should be cleaned in the same way. We assess the material and its condition before cleaning, then choose a suitable method. Where appropriate, sofa steam cleaning can help lift dirt and stains while using controlled moisture. We always recommend following the manufacturer\'s care instructions where available.',
       },
       {
         question: 'How often should upholstery be cleaned?',
-        answer: 'We recommend professional cleaning every 6–12 months, or more often for households with pets or young children.',
+        answer: 'For many homes, professional upholstery cleaning every 12–18 months can help keep sofas and other furniture fresh and well maintained. Homes with pets, children, heavy use, or frequent spills may need cleaning more often. Businesses with regularly used seating may also benefit from a more frequent cleaning schedule.',
       },
       {
-        question: 'Can you remove pet odours from sofas?',
-        answer: 'Yes, our deodorising treatment is specifically designed to neutralise pet and everyday odours, not just mask them.',
+        question: 'Is it worth getting a sofa cleaned?',
+        answer: 'Professional sofa cleaning can be useful when upholstery has collected dirt, stains, dust, allergens, or unwanted odours that regular vacuuming cannot fully remove. A professional clean can help refresh the appearance and feel of your sofa and keep it better maintained over time.',
+      },
+      {
+        question: 'How much does it cost to have upholstery cleaned in London?',
+        answer: 'The price depends on factors such as the size and number of items, fabric type, condition, staining, and cleaning method required. We provide free, no-obligation quotes so you know the expected cost before booking your upholstery cleaning service.',
+      },
+      {
+        question: 'Do you clean upholstery for homes and businesses?',
+        answer: 'Yes. We provide residential upholstery cleaning for sofas, chairs, and other fabric furniture in homes, as well as commercial upholstery cleaning for offices and other business premises. The cleaning method is selected according to the furniture, fabric, and level of use.',
+      },
+      {
+        question: 'How can I hire sofa cleaning services near me?',
+        answer: 'You can hire our sofa washing services by contacting <a href="/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> by phone, WhatsApp, or our online enquiry form. Tell us about your sofa and cleaning needs, and we can provide a free, no-obligation quote and arrange a convenient appointment.',
       },
     ],
   },
@@ -109,35 +133,61 @@ export const SERVICES_PAGES: ServicePage[] = [
     name: 'Rug Cleaning',
     icon: '🧵',
     keyword: 'Rug Cleaning London',
+    seoTitle: 'Rug Cleaning Service in London | Deep Cleaning for All Rugs',
     metaDescription:
-      'Specialist rug steam cleaning in London, including wool and delicate rugs. Colour-safe, deep clean. Free quotes.',
+      'Professional rug cleaning in London for wool, synthetic, and delicate rugs. Deep cleaning, careful drying, and colour-safe methods. Get a free quote today.',
     intro:
-      'Different rugs need different levels of care. Our rug cleaning service removes dirt, stains, and odours while protecting the rug\'s fibres and colours. Whether you have an everyday rug or a more delicate piece, we assess it first and use a suitable cleaning method to give it the care it needs.',
+      'Rugs can collect dust, dirt, stains, and everyday marks that regular vacuuming cannot fully remove. Our rug cleaning service in London that customers can rely on helps refresh rugs while taking care of their fibres, colours, and overall condition. We assess each rug before cleaning and choose a suitable method based on its material, construction, and level of soiling.',
+    introSecondary:
+      'Whether you need residential rug cleaning for your home or a commercial rug cleaning service for a workplace, we provide <a href="/#services">professional cleaning across London</a>.',
+    benefitsIntro:
+      'Every rug has different cleaning needs, so we avoid using the same approach for every material. Our professional rug cleaning services are designed to remove everyday build-up while taking care of the rug\'s appearance and condition.',
     benefits: [
-      'Specialist care for delicate and valuable rugs',
-      'Deep steam extraction removes dust mites and allergens',
-      'Colour-safe cleaning process',
-      'Suitable for wool, synthetic and mixed-fibre rugs',
+      'Specialist care for different rug types',
+      'Deep cleaning for dirt and allergens',
+      'Colour-conscious cleaning',
+      'Suitable for different materials',
       'Free, no-obligation quotes',
     ],
-    process: [
-      { title: 'Rug Assessment', description: 'We identify the rug material and construction to choose the right cleaning approach.' },
-      { title: 'Dust & Debris Removal', description: 'A thorough pre-clean removes loose dirt and grit before deep cleaning.' },
-      { title: 'Deep Steam Clean', description: 'Colour-safe steam extraction lifts dirt from deep within the pile.' },
-      { title: 'Careful Drying', description: 'Rugs are left to dry properly to avoid shrinkage or fibre damage.' },
+    processIntro: [
+      'Our rug cleaning process is designed around the condition and material of each rug. We begin by checking the rug and preparing it for cleaning before choosing the most suitable treatment. If you\'re searching for "professional rug cleaning near me" or a "rug cleaner near me", you can contact us to check availability in your area. We provide local rug cleaning across London for both homes and businesses.',
+      'Our service is also suitable for customers looking for a <a href="/">rug cleaning company in London</a> that can assess the rug before recommending the right cleaning approach. If you are looking for "rug washing near me", we can discuss your rug\'s material and cleaning requirements before providing a suitable service.',
     ],
+    process: [
+      { title: 'Rug Assessment', description: 'We identify the rug\'s material, construction, condition, and any areas that need extra attention. This helps us choose a cleaning method that is appropriate for the rug rather than treating every rug in exactly the same way.' },
+      { title: 'Dust & Debris Removal', description: 'Loose dust, grit, hair, and surface debris are removed before the main cleaning begins. This preparation helps the deeper cleaning process work more effectively and reduces the amount of loose dirt worked further into the fibres.' },
+      { title: 'Deep Steam Clean', description: 'Where suitable for the rug, our deep rug cleaning process uses controlled steam extraction to lift dirt and other build-up from the fibres. The method is adjusted according to the rug\'s material and condition.' },
+      { title: 'Careful Drying', description: 'After cleaning, we remove as much moisture as possible and allow the rug to dry properly. Good airflow and suitable drying help reduce the risk of problems caused by excess moisture and allow the rug to be ready for use sooner.' },
+    ],
+    pricingParagraphs: [
+      'The cost of cleaning can vary depending on the rug\'s size, material, condition, stains, and cleaning requirements. We provide a free personalised quote so you know what to expect before booking your rug cleaning.',
+      'Whether you need to clean rugs professionally at home or require regular cleaning for a business, contact us to discuss your rug and get a clear quote with no hidden fees.',
+    ],
+    faqHeading: 'FAQs About Rug Cleaning',
     faqs: [
       {
-        question: 'Do you clean wool and delicate rugs?',
-        answer: 'Yes, we assess the material first and use a colour-safe, gentle method suited to delicate and wool rugs.',
+        question: 'How much does it cost to have a rug cleaned in London?',
+        answer: 'The price depends on factors such as the rug\'s size, material, condition, staining, and cleaning method required. We provide free, no-obligation quotes so you can understand the expected cost before booking.',
+      },
+      {
+        question: 'Is it worth getting a rug cleaned?',
+        answer: 'Yes, professional rug cleaning can be useful when a rug has collected dirt, dust, stains, allergens, or unwanted odours that regular vacuuming cannot fully remove. Professional cleaning can help refresh the rug and keep it better maintained over time.',
+      },
+      {
+        question: 'How often should rugs be professionally cleaned?',
+        answer: 'For many homes, professional rug cleaning every 12–18 months can help keep rugs fresh and well maintained. Rugs in busy homes, homes with pets or children, or areas with heavy foot traffic may need cleaning more often. Commercial rugs may also require a more regular schedule depending on daily use.',
+      },
+      {
+        question: 'Is it better to steam clean or wash a rug?',
+        answer: 'It depends on the rug\'s material, construction, condition, and care requirements. Some rugs may be suitable for controlled steam extraction, while others may need a different cleaning method. We assess the rug first and choose an approach that is suitable for the specific material rather than using the same method for every rug.',
       },
       {
         question: 'Will the colours run or fade?',
-        answer: 'Our colour-safe process is designed to protect your rug\'s colours — we always test on a small area first.',
+        answer: 'We check the rug before cleaning and, where appropriate, test a small area to help identify how the colours may react. We then select a suitable cleaning method designed to reduce the risk of colour bleeding or fading. Results can vary depending on the rug\'s dyes, age, material, and previous treatment.',
       },
       {
         question: 'How long until I can use the rug again?',
-        answer: 'Most rugs are safe to walk on within a few hours, though we recommend keeping heavy foot traffic off until fully dry.',
+        answer: 'Drying time depends on the rug\'s material, thickness, size, cleaning method, airflow, and room conditions. Many rugs can be used again once they are fully dry, but we recommend avoiding heavy foot traffic until the rug has completely dried.',
       },
     ],
   },

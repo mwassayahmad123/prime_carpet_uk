@@ -6,11 +6,11 @@
   <body>
     {{> navbar}}
     <main>
-      <section class="page-header">
+      <section class="page-header {{#if service.heroImage}}page-header--photo{{/if}}" {{#if service.heroImage}}style="--hero-image: url('{{service.heroImage}}')"{{/if}}>
         <div class="container">
           <p class="page-header__eyebrow">{{serviceAreaText}}</p>
           <h1 class="page-header__title">{{service.icon}} {{service.keyword}}</h1>
-          <p class="page-header__subtitle">{{service.intro}}</p>
+          <p class="page-header__subtitle">{{{service.intro}}}</p>
           {{#if service.introSecondary}}
             <p class="page-header__subtitle">{{{service.introSecondary}}}</p>
           {{/if}}
@@ -30,14 +30,21 @@
               <p class="section__text section__text--wide">{{{service.benefitsIntro}}}</p>
             {{/if}}
           </div>
-          <ul class="about__features benefits-list">
-            {{#each service.benefits}}
-              <li>
-                <span class="about__check">✓</span>
-                {{this}}
-              </li>
-            {{/each}}
-          </ul>
+          <div class="benefits-section__grid {{#unless service.whyChooseImage}}benefits-section__grid--full{{/unless}}">
+            {{#if service.whyChooseImage}}
+              <div class="benefits-section__image">
+                <img src="{{service.whyChooseImage}}" alt="Why choose our {{service.name}} service" loading="lazy" />
+              </div>
+            {{/if}}
+            <ul class="about__features benefits-list">
+              {{#each service.benefits}}
+                <li>
+                  <span class="about__check">✓</span>
+                  {{this}}
+                </li>
+              {{/each}}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -65,10 +72,16 @@
         <div class="container pricing-section__inner">
           <p class="section__eyebrow">Pricing</p>
           <h2 class="section__title">Get a Free, No-Obligation Quote</h2>
-          <p class="section__text section__text--center">
-            Every home and job is different, so we provide a free personalised quote for your
-            {{service.name}} — with no hidden fees.
-          </p>
+          {{#if service.pricingParagraphs}}
+            {{#each service.pricingParagraphs}}
+              <p class="section__text section__text--center">{{{this}}}</p>
+            {{/each}}
+          {{else}}
+            <p class="section__text section__text--center">
+              Every home and job is different, so we provide a free personalised quote for your
+              {{service.name}} — with no hidden fees.
+            </p>
+          {{/if}}
           <a href="/#contact" class="btn btn--primary btn--lg">Get My Free Quote</a>
         </div>
       </section>

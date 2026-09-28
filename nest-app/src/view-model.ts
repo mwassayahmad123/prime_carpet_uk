@@ -15,7 +15,7 @@ import {
 } from './site-data';
 import { SERVICES_PAGES, ServicePage } from './services-data';
 
-const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.avif'];
+const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.svg'];
 
 function getAboutGalleryImages() {
   const dir = join(__dirname, '..', 'public', 'images', 'about-gallery');
@@ -24,6 +24,15 @@ function getAboutGalleryImages() {
     .filter((file) => IMAGE_EXTENSIONS.includes(file.slice(file.lastIndexOf('.')).toLowerCase()))
     .sort()
     .map((file) => ({ src: `/images/about-gallery/${file}` }));
+}
+
+function getServiceImage(slug: string, folder: string) {
+  const dir = join(__dirname, '..', 'public', 'images', 'services', slug, folder);
+  if (!existsSync(dir)) return undefined;
+  const file = readdirSync(dir)
+    .filter((f) => IMAGE_EXTENSIONS.includes(f.slice(f.lastIndexOf('.')).toLowerCase()))
+    .sort()[0];
+  return file ? `/images/services/${slug}/${folder}/${file}` : undefined;
 }
 
 function buildLocalBusinessSchema(ogImage: string) {
@@ -135,7 +144,11 @@ export function buildServiceViewModel(service: ServicePage) {
     canonicalUrl,
     ogImage,
     schemaJson: JSON.stringify(schema),
-    service,
+    service: {
+      ...service,
+      heroImage: getServiceImage(service.slug, 'hero'),
+      whyChooseImage: getServiceImage(service.slug, 'why-choose'),
+    },
     otherServices: SERVICES_PAGES.filter((s) => s.slug !== service.slug),
     galleryImages: GALLERY_IMAGES,
     reviews: REVIEWS,
