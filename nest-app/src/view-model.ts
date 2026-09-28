@@ -30,13 +30,17 @@ function stripHtml(html: string) {
   return html.replace(/<[^>]+>/g, '');
 }
 
-function getServiceImage(slug: string, folder: string) {
-  const dir = join(__dirname, '..', 'public', 'images', 'services', slug, folder);
+function getFirstImage(...segments: string[]) {
+  const dir = join(__dirname, '..', 'public', 'images', ...segments);
   if (!existsSync(dir)) return undefined;
   const file = readdirSync(dir)
     .filter((f) => IMAGE_EXTENSIONS.includes(f.slice(f.lastIndexOf('.')).toLowerCase()))
     .sort()[0];
-  return file ? `/images/services/${slug}/${folder}/${file}` : undefined;
+  return file ? `/images/${segments.join('/')}/${file}` : undefined;
+}
+
+function getServiceImage(slug: string, folder: string) {
+  return getFirstImage('services', slug, folder);
 }
 
 function buildLocalBusinessSchema(ogImage: string) {
@@ -97,6 +101,7 @@ export function buildHomeViewModel() {
     faqItems: FAQ_ITEMS.map((item, index) => ({ ...item, isOpen: index === 0 })),
     galleryImages: GALLERY_IMAGES,
     serviceOptions: SERVICE_OPTIONS,
+    aboutImage: getFirstImage('about-hero'),
   };
 }
 
