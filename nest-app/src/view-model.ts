@@ -53,7 +53,7 @@ function buildLocalBusinessSchema(ogImage: string) {
       addressCountry: CONTACT.countryCode,
     },
     areaServed: `${SERVICE_AREA}, UK`,
-    sameAs: [`https://wa.me/${CONTACT.whatsappHref}`],
+    sameAs: [`https://wa.me/${CONTACT.whatsappHref}`, CONTACT.facebook],
   };
 }
 

@@ -16,6 +16,7 @@ export const CONTACT = {
   whatsapp: '+44 7846 364007',
   whatsappHref: '447846364007',
   email: 'primecleanu@gmail.com',
+  facebook: 'https://www.facebook.com/profile.php?id=61594301987751',
 };
 
 // Update to the real domain once the site is live — used for canonical URLs,

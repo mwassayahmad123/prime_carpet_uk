@@ -769,6 +769,29 @@ button {
   color: rgba(255, 255, 255, 0.55);
 }
 
+.footer__social {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.75);
+  transition: background var(--transition), color var(--transition);
+}
+
+.footer__social-link:hover {
+  background: var(--color-primary);
+  color: var(--color-navy);
+}
+
 .footer__nav {
   display: flex;
   flex-direction: column;
