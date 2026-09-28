@@ -11,12 +11,12 @@
     </div>
     <div class="services__grid">
       {{#each services}}
-        <article class="service-card">
+        <a href="/services/{{this.slug}}/" class="service-card">
           <span class="service-card__icon">{{this.icon}}</span>
           <h3 class="service-card__title">{{this.title}}</h3>
-          <p class="service-card__text">{{{this.description}}}</p>
-          <a href="/services/{{this.slug}}/" class="service-card__link">Learn More →</a>
-        </article>
+          <p class="service-card__text">{{this.description}}</p>
+          <span class="service-card__link">Learn More →</span>
+        </a>
       {{/each}}
     </div>
   </div>

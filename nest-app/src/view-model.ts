@@ -26,6 +26,10 @@ function getAboutGalleryImages() {
     .map((file) => ({ src: `/images/about-gallery/${file}` }));
 }
 
+function stripHtml(html: string) {
+  return html.replace(/<[^>]+>/g, '');
+}
+
 function getServiceImage(slug: string, folder: string) {
   const dir = join(__dirname, '..', 'public', 'images', 'services', slug, folder);
   if (!existsSync(dir)) return undefined;
@@ -85,7 +89,7 @@ export function buildHomeViewModel() {
     schemaJson: JSON.stringify(buildLocalBusinessSchema(ogImage)),
     services: SERVICES_PAGES.map((s) => ({
       title: s.name,
-      description: s.intro,
+      description: stripHtml(s.intro),
       icon: s.icon,
       slug: s.slug,
     })),
