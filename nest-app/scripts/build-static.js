@@ -7,10 +7,15 @@ const viewsDir = path.join(rootDir, 'views');
 const publicDir = path.join(rootDir, 'public');
 const outDir = path.join(rootDir, 'dist-site');
 
-const { buildHomeViewModel, buildAboutViewModel, buildServiceViewModel } = require(
-  path.join(rootDir, 'dist', 'view-model'),
-);
+const {
+  buildHomeViewModel,
+  buildAboutViewModel,
+  buildServiceViewModel,
+  buildBlogViewModel,
+  buildBlogPostViewModel,
+} = require(path.join(rootDir, 'dist', 'view-model'));
 const { SERVICES_PAGES } = require(path.join(rootDir, 'dist', 'services-data'));
+const { BLOG_POSTS } = require(path.join(rootDir, 'dist', 'blog-data'));
 const { SITE_URL } = require(path.join(rootDir, 'dist', 'site-data'));
 
 function copyDir(src, dest) {
@@ -64,15 +69,23 @@ function main() {
   const indexTemplate = compileView('index');
   const aboutTemplate = compileView('about');
   const serviceTemplate = compileView('service');
+  const blogTemplate = compileView('blog');
+  const blogPostTemplate = compileView('blog-post');
 
   writePage('.', indexTemplate(buildHomeViewModel()));
   writePage('about', aboutTemplate(buildAboutViewModel()));
+  writePage('blog', blogTemplate(buildBlogViewModel()));
 
-  const urls = [`${SITE_URL}/`, `${SITE_URL}/about/`];
+  const urls = [`${SITE_URL}/`, `${SITE_URL}/about/`, `${SITE_URL}/blog/`];
 
   for (const service of SERVICES_PAGES) {
     writePage(`services/${service.slug}`, serviceTemplate(buildServiceViewModel(service)));
     urls.push(`${SITE_URL}/services/${service.slug}/`);
+  }
+
+  for (const post of BLOG_POSTS) {
+    writePage(`blog/${post.slug}`, blogPostTemplate(buildBlogPostViewModel(post)));
+    urls.push(`${SITE_URL}/blog/${post.slug}/`);
   }
 
   copyDir(publicDir, outDir);
