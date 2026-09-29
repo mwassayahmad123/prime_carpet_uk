@@ -14,6 +14,7 @@ import {
   SERVICE_AREA_TEXT,
 } from './site-data';
 import { SERVICES_PAGES, ServicePage } from './services-data';
+import { BLOG_POSTS, BlogPost } from './blog-data';
 
 const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.svg'];
 
@@ -41,6 +42,21 @@ function getFirstImage(...segments: string[]) {
 
 function getServiceImage(slug: string, folder: string) {
   return getFirstImage('services', slug, folder);
+}
+
+function getBlogImage(slug: string) {
+  return getFirstImage('blog', slug);
+}
+
+function blogCardData(p: BlogPost) {
+  return {
+    slug: p.slug,
+    title: p.title,
+    excerpt: p.excerpt,
+    publishedDate: p.publishedDate,
+    readTime: p.readTime,
+    image: getBlogImage(p.slug),
+  };
 }
 
 function buildLocalBusinessSchema(ogImage: string) {
@@ -102,6 +118,7 @@ export function buildHomeViewModel() {
     galleryImages: GALLERY_IMAGES,
     serviceOptions: SERVICE_OPTIONS,
     aboutImage: getFirstImage('about-hero'),
+    blogHighlights: BLOG_POSTS.slice(0, 3).map(blogCardData),
   };
 }
 
@@ -159,6 +176,56 @@ export function buildServiceViewModel(service: ServicePage) {
       whyChooseImage: getServiceImage(service.slug, 'why-choose'),
     },
     otherServices: SERVICES_PAGES.filter((s) => s.slug !== service.slug),
+    galleryImages: GALLERY_IMAGES,
+    reviews: REVIEWS,
+  };
+}
+
+export function buildBlogViewModel() {
+  const title = `Blog | ${COMPANY_NAME}`;
+  const description =
+    'Cleaning tips, stain removal guides, and practical advice from Prime Carpet Cleaning — your local carpet, rug, and upholstery experts in London.';
+  const ogImage = `${SITE_URL}${LOGO.src}`;
+
+  return {
+    ...sharedLayoutData(),
+    title,
+    description,
+    siteUrl: SITE_URL,
+    canonicalUrl: `${SITE_URL}/blog/`,
+    ogImage,
+    schemaJson: JSON.stringify(buildLocalBusinessSchema(ogImage)),
+    posts: BLOG_POSTS.map(blogCardData),
+  };
+}
+
+export function buildBlogPostViewModel(post: BlogPost) {
+  const title = post.seoTitle || `${post.title} | ${COMPANY_NAME}`;
+  const image = getBlogImage(post.slug);
+  const ogImage = image ? `${SITE_URL}${image}` : `${SITE_URL}${LOGO.src}`;
+  const canonicalUrl = `${SITE_URL}/blog/${post.slug}/`;
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.metaDescription,
+    image: ogImage,
+    mainEntityOfPage: canonicalUrl,
+    author: { '@type': 'Organization', name: COMPANY_NAME },
+    publisher: { '@type': 'Organization', name: COMPANY_NAME, url: SITE_URL },
+  };
+
+  return {
+    ...sharedLayoutData(),
+    title,
+    description: post.metaDescription,
+    siteUrl: SITE_URL,
+    canonicalUrl,
+    ogImage,
+    schemaJson: JSON.stringify(schema),
+    post: { ...post, image },
+    otherPosts: BLOG_POSTS.filter((p) => p.slug !== post.slug).map(blogCardData),
     galleryImages: GALLERY_IMAGES,
     reviews: REVIEWS,
   };

@@ -1,0 +1,19 @@
+<section id="blog" class="section blog-highlights">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">From the Blog</p>
+      <h2 class="section__title">Cleaning Tips &amp; Advice</h2>
+      <p class="section__text section__text--center">
+        Practical guides on stain removal, carpet care, and upholstery cleaning from our team.
+      </p>
+    </div>
+    <div class="blog__grid">
+      {{#each blogHighlights}}
+        {{> blog-card}}
+      {{/each}}
+    </div>
+    <div class="blog-highlights__cta">
+      <a href="/blog/" class="btn btn--outline btn--lg">View All Articles →</a>
+    </div>
+  </div>
+</section>

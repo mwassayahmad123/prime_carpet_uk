@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> seo-head}}
+  </head>
+  <body>
+    {{> navbar}}
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <div class="page-header__panel">
+            <p class="page-header__eyebrow">{{post.publishedDate}} · {{post.readTime}}</p>
+            <h1 class="page-header__title">{{post.title}}</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="section blog-post">
+        <div class="container blog-post__inner">
+          <a href="/blog/" class="blog-post__back">← Back to Blog</a>
+          {{#if post.image}}
+            <figure class="blog-post__image">
+              <img src="{{post.image}}" alt="{{post.title}}" loading="lazy" />
+            </figure>
+          {{/if}}
+          <div class="blog-post__content">
+            {{{post.contentHtml}}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-section__inner">
+          <h2 class="section__title">Need Professional Carpet Cleaning?</h2>
+          <p class="section__text section__text--center">
+            Get a free, no-obligation quote for carpet, rug, or upholstery cleaning across London.
+          </p>
+          <div class="hero__actions cta-section__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+
+      {{#if otherPosts}}
+        <section class="section related-services">
+          <div class="container">
+            <div class="section__header">
+              <p class="section__eyebrow">More From the Blog</p>
+              <h2 class="section__title">Related Reading</h2>
+            </div>
+            <div class="blog__grid">
+              {{#each otherPosts}}
+                {{> blog-card}}
+              {{/each}}
+            </div>
+          </div>
+        </section>
+      {{/if}}
+    </main>
+    {{> footer}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>

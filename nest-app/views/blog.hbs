@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> seo-head}}
+  </head>
+  <body>
+    {{> navbar}}
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <div class="page-header__panel">
+            <p class="page-header__eyebrow">{{serviceAreaText}}</p>
+            <h1 class="page-header__title">Cleaning Tips &amp; Advice</h1>
+            <p class="page-header__subtitle">
+              Practical guides on stain removal, carpet care, and upholstery cleaning from the
+              Prime Carpet Cleaning team.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Blog</p>
+            <h2 class="section__title">Latest Articles</h2>
+          </div>
+          <div class="blog__grid">
+            {{#each posts}}
+              {{> blog-card}}
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-section__inner">
+          <h2 class="section__title">Need Professional Help?</h2>
+          <p class="section__text section__text--center">
+            Get a free, no-obligation quote for carpet, rug, or upholstery cleaning across London.
+          </p>
+          <div class="hero__actions cta-section__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>

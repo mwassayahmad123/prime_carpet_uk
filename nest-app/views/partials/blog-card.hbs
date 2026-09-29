@@ -1,0 +1,14 @@
+<a href="/blog/{{slug}}/" class="blog-card">
+  {{#if image}}
+    <div class="blog-card__image">
+      <img src="{{image}}" alt="{{title}}" loading="lazy" />
+      <span class="blog-card__badge">{{readTime}}</span>
+    </div>
+  {{/if}}
+  <div class="blog-card__body">
+    <p class="blog-card__date">{{publishedDate}}</p>
+    <h3 class="blog-card__title">{{title}}</h3>
+    <p class="blog-card__excerpt">{{excerpt}}</p>
+    <span class="blog-card__link">Read More →</span>
+  </div>
+</a>

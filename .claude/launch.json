@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "start:dev", "--prefix", "nest-app"],
       "port": 3000
+    },
+    {
+      "name": "wsoft-technologies",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "../wsoft_technologies", "--", "-p", "3001"],
+      "port": 3001
     }
   ]
 }
