@@ -11,6 +11,146 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-coffee-stains-from-carpet',
+    title: 'How to Remove Coffee Stains From Carpet: A Simple Step-by-Step Guide',
+    seoTitle: 'How to Remove Coffee Stains From Carpet | Easy Guide',
+    metaDescription:
+      'Learn how to remove coffee stains from carpet with easy steps for fresh and dried stains. Find out what to avoid and when professional cleaning can help.',
+    excerpt:
+      "Spilled coffee can leave a noticeable mark on your carpet, especially if you don't clean it quickly. Here's how to treat fresh and dried coffee stains the right way.",
+    publishedDate: '1 October 2026',
+    readTime: '7 min read',
+    contentHtml: `
+      <p>Spilled coffee can leave a noticeable mark on your carpet, especially if you don't clean it quickly. Knowing how to remove coffee stains from carpet can help you deal with the problem before the coffee dries and becomes harder to clean. In this guide, you will learn how to treat fresh and dried coffee stains, what to avoid, and when <a href="/">professional carpet cleaning</a> may be the better option.</p>
+
+      <h2>What to Do When You Spill Coffee on Carpet</h2>
+      <p>Treat a coffee spill on carpet as soon as possible. Fresh coffee is usually easier to deal with because it has not had as much time to soak into the carpet.</p>
+      <p>Start by moving anything around the spill so you can reach the whole area. Then take a clean white cloth or paper towel and gently press it onto the coffee.</p>
+      <p>Do not rub the carpet. Rubbing can spread the coffee across a larger area and may push it deeper into the carpet.</p>
+      <p>Keep blotting until you have absorbed as much liquid as possible. If the cloth becomes wet, use a clean, dry section and continue.</p>
+      <p>If the coffee contains milk, cream, or sugar, cleaning it properly is even more important. These ingredients can leave material behind in the carpet and may cause an unpleasant smell if the area is not cleaned well.</p>
+      <p>Once most of the liquid has been absorbed, you can start treating the remaining coffee stain on the carpet.</p>
+
+      <h2>How to Remove Coffee Stains From Carpet Step by Step</h2>
+      <p>If you want to remove coffee stains from carpet, the key is to work gently and avoid soaking the carpet.</p>
+
+      <h3>Blot the Coffee</h3>
+      <p>Begin by blotting the affected area with a clean white cloth. Press down gently and lift the cloth. Do not drag it across the carpet.</p>
+      <p>Continue blotting until very little coffee transfers to the cloth. Use a fresh part of the cloth as needed.</p>
+      <p>This first step is important because removing as much coffee as possible before applying a cleaning solution can make the rest of the process easier.</p>
+
+      <h3>Remove Any Remaining Liquid</h3>
+      <p>After blotting, check whether the carpet still feels wet.</p>
+      <p>If there is still moisture, continue using a dry cloth to absorb it. Take your time rather than pressing too hard.</p>
+      <p>The aim is to remove the liquid without spreading the carpet coffee stain. For a large spill, you may need several clean towels before moving on to the next step.</p>
+
+      <h3>Apply a Suitable Cleaning Solution</h3>
+      <p>Once most of the coffee has been absorbed, apply a small amount of a <a href="/services/carpet-cleaning/">carpet cleaning solution</a> that is suitable for your carpet.</p>
+      <p>Always follow the instructions on the product. If you have not used the product before, test a small amount on a hidden area first.</p>
+      <p>Do not pour a large amount directly onto the carpet. Too much liquid can make the carpet difficult to dry and may spread the stain.</p>
+      <p>If you are unsure which product is suitable for your carpet, it is better to ask a professional before using a strong cleaner.</p>
+
+      <h3>Blot the Stain Again</h3>
+      <p>After applying the cleaning solution, gently blot the area with a clean white cloth.</p>
+      <p>Keep lifting the coffee from the carpet rather than rubbing it.</p>
+      <p>You may need to repeat the process carefully if the stain is still visible. However, do not keep adding more cleaning solutions if you are not seeing improvement. Too much product can leave residue behind.</p>
+
+      <h3>Remove Cleaning Residue</h3>
+      <p>Once the stain has improved, use a clean cloth that is lightly dampened with water to remove leftover cleaning product. Avoid soaking the carpet.</p>
+      <p>Cleaning products left behind can sometimes make the carpet feel sticky or attract dirt later. A gentle final wipe can help remove excess product.</p>
+
+      <h3>Let the Carpet Dry</h3>
+      <p>Allow the cleaned area to dry completely. Open windows or improve airflow where practical. Keep children and pets away from the damp area until it is dry.</p>
+      <p>Once the carpet is dry, check the area again. If the stain is still visible, avoid repeatedly using different cleaning products. Professional treatment may be a better option.</p>
+
+      <h2>How to Get Coffee Out of Carpet Without Making the Stain Worse</h2>
+      <p>When trying to clean coffee from carpet, it is easy to make the situation worse by using too much force or too many cleaning products.</p>
+      <p>The biggest mistake is scrubbing. Scrubbing can spread the coffee and may damage the carpet fibres.</p>
+      <p>Another mistake is using too much water. A very wet carpet can take longer to dry and may cause the stain to spread.</p>
+      <p>You should also avoid mixing different cleaning products. Different products are designed for different uses, and combining them is not a good idea.</p>
+      <p>Do not keep adding a cleaning solution simply because the stain is still visible. Give the treatment time to work and check the result before doing anything else.</p>
+      <p>If the coffee contains milk or cream, make sure you treat the area properly rather than only cleaning the visible mark. Leftover material can cause an unpleasant smell later.</p>
+
+      <h2>How to Remove Dried Coffee Stains From Carpet</h2>
+      <p>Fresh coffee is easier to clean, but you may not notice a spill until it has already dried.</p>
+      <p>If you need to remove dried coffee stains from the carpet, start gently.</p>
+      <p>First, vacuum or brush away any loose dirt from the affected area. Then lightly dampen the stain with a small amount of water if this is suitable for your carpet.</p>
+      <p>Apply a suitable carpet cleaning solution according to the product instructions. Allow it to work for the recommended time.</p>
+      <p>Next, blot the area with a clean white cloth. Keep lifting the stain rather than rubbing it.</p>
+      <p>You may need to repeat the process carefully. However, avoid soaking the carpet or applying several different products.</p>
+      <p>Dried coffee can be more difficult to remove because the stain has had time to settle into the carpet. If careful home treatment does not improve the mark, professional cleaning may be more suitable.</p>
+
+      <h2>Can You Remove an Old Coffee Stain From the Carpet?</h2>
+      <p>An old coffee stain may be removable, but there is no guarantee that every stain will disappear completely.</p>
+      <p>The result can depend on:</p>
+      <ul>
+        <li>How old the stain is</li>
+        <li>How much coffee was spilled</li>
+        <li>Whether the coffee contained milk or sugar</li>
+        <li>The type and colour of the carpet</li>
+        <li>How deeply the coffee soaked into the carpet</li>
+        <li>Whether the stain was treated before</li>
+        <li>Which products were used previously</li>
+      </ul>
+      <p>If you are trying to remove a coffee stain from carpet after several days or weeks, avoid using strong products without checking that they are suitable.</p>
+      <p>Previous cleaning attempts can also affect the carpet. Applying several products one after another may leave residue or affect the carpet's appearance.</p>
+      <p>For an old or stubborn coffee stain removal job, professional treatment may be the safer choice.</p>
+
+      <h2>What Should You Avoid When Cleaning Coffee Stains?</h2>
+      <p>Knowing what not to do is an important part of removing coffee stains from carpet.</p>
+      <p>Avoid these common mistakes:</p>
+      <ul>
+        <li>Do not scrub the stain aggressively.</li>
+        <li>Do not soak the carpet with water.</li>
+        <li>Do not mix different cleaning products.</li>
+        <li>Do not use a coloured towel that could transfer colour.</li>
+        <li>Do not use a strong product without checking that it is suitable.</li>
+        <li>Do not keep applying more cleaner when the stain is not improving.</li>
+        <li>Do not walk over the area while it is still wet.</li>
+        <li>Do not ignore coffee containing milk or cream.</li>
+      </ul>
+      <p>The safest approach is to start gently and see how the carpet responds.</p>
+      <p>If the stain does not improve, stop rather than repeatedly treating the same area.</p>
+
+      <h2>When Should You Call a Professional Carpet Cleaner?</h2>
+      <p>Small, fresh spills can often be treated at home. However, professional help may be useful when the coffee stain is large, old, stubborn, or has already been treated several times.</p>
+      <p>Consider professional carpet cleaning if:</p>
+      <ul>
+        <li>The stain has dried.</li>
+        <li>The coffee spill covers a large area.</li>
+        <li>The stain keeps coming back.</li>
+        <li>Home cleaning has not worked.</li>
+        <li>Several products have already been used.</li>
+        <li>You have a delicate carpet.</li>
+        <li>You are unsure which cleaning method is safe.</li>
+      </ul>
+      <p><a href="/services/end-of-tenancy-cleaning/">Professional cleaning</a> can be especially useful for busy London homes where carpets experience regular spills, foot traffic, and everyday dirt.</p>
+      <p>A <a href="/about/">professional cleaner</a> can assess the carpet and consider its material and condition before choosing a suitable cleaning method.</p>
+
+      <h2>Coffee Stain Removal FAQs</h2>
+
+      <h3>How do I wash coffee stains from carpet?</h3>
+      <p>If by how to wash coffee stains you mean cleaning a coffee mark, avoid washing the carpet with large amounts of water. Instead, blot the spill, use a suitable cleaning solution, remove leftover product, and allow the area to dry.</p>
+
+      <h3>How do I remove a dried coffee stain from the carpet?</h3>
+      <p>To remove a dried coffee stain, gently clean the area with a suitable carpet cleaning product according to its instructions. Blot rather than scrub, avoid soaking the carpet, and allow it to dry fully. Old stains may require professional treatment.</p>
+
+      <h3>What should I do if coffee contains milk or cream?</h3>
+      <p>Blot the spill quickly and clean the affected area carefully. Milk and cream can leave material behind in the carpet, so simply removing the visible colour may not be enough. Make sure the area is cleaned and dried properly.</p>
+
+      <h3>Should I scrub a coffee stain?</h3>
+      <p>No. Scrubbing can spread the stain and may damage carpet fibres. Gentle blotting is a safer first step.</p>
+
+      <h3>When should I use professional coffee stain removal?</h3>
+      <p>Consider professional help when the stain is old, large, stubborn, keeps returning, or has not improved after careful home treatment. Professional cleaning may also be useful for delicate carpets.</p>
+
+      <h2>Conclusion</h2>
+      <p>Knowing how to remove coffee stains from carpet can help you deal with spills before they become difficult to treat. The most important steps are simple: act quickly, blot instead of scrubbing, use a suitable cleaning solution, avoid too much water, and let the carpet dry properly.</p>
+      <p>Fresh coffee stains are usually easier to treat than dried marks, but even older stains may improve with the right approach. If home cleaning does not work, avoid repeatedly applying different products and consider professional help instead.</p>
+      <p>For professional carpet cleaning and <a href="/services/stain-removal/">stain treatment in London</a>, Prime Carpet Cleaning and Upholstery Steam Cleaning can help refresh carpets and deal with difficult stains. Contact the team for a free, no-obligation quote.</p>
+    `,
+  },
+  {
     slug: 'how-to-clean-carpet-stains',
     title: 'How to Clean Carpet Stains: A Complete Guide to Removing Common Stains',
     seoTitle: 'How to Clean Carpet Stains: Easy Tips for Common Stains',
