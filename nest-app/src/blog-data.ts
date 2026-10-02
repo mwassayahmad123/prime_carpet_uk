@@ -11,6 +11,124 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-pet-urine-stains-from-carpet',
+    title: 'How to Remove Pet Urine Stains From Carpet: A Step-by-Step Guide',
+    seoTitle: 'How to Remove Pet Urine From Carpet: Step-by-Step Guide',
+    metaDescription:
+      'Learn how to get pet urine out of carpet with easy steps for fresh and dried stains. Find out how to tackle stains, smells, and when to get professional help.',
+    excerpt:
+      'Pet accidents can leave more than a wet patch on your carpet. Act quickly, absorb as much urine as possible, and clean carefully — here is the full step-by-step guide.',
+    publishedDate: '2 October 2026',
+    readTime: '7 min read',
+    contentHtml: `
+      <p>Pet accidents can leave more than a wet patch on your carpet. If you are wondering how to remove pet urine from carpet, the key is to act quickly, absorb as much urine as possible, and clean the area carefully. A proper clean can help deal with both the visible stain and the pet urine smell in carpet.</p>
+      <p>Whether you have a dog, cat, or another pet, accidents can happen. Fresh urine is usually easier to deal with than an old, dried stain. The longer it stays in the carpet, the harder it can be to clean completely.</p>
+
+      <h2>What to Do After a Pet Accident</h2>
+      <p>When you notice a fresh pet accident, start cleaning as soon as possible. The first goal is to remove as much urine as you can before it spreads further into the carpet.</p>
+      <p>Place clean, absorbent towels or paper towels over the area and press down gently. Do not rub the carpet, as rubbing can spread the urine over a larger area and push it deeper into the fibres.</p>
+      <p>Keep using fresh towels until they are no longer picking up much moisture. If the area is large, check around the visible spot too. Urine can spread beyond the area that looks wet.</p>
+      <p>Acting quickly can make pet urine <a href="/services/stain-removal/">stain removal</a> easier and may also help reduce the chance of a strong smell developing.</p>
+
+      <h2>How to Remove Pet Urine From Carpet: Step-by-Step</h2>
+      <p>If you want to know how to remove pet urine from carpet, follow these simple steps. The process is mainly about removing the urine, cleaning the affected area, and allowing the carpet to dry properly.</p>
+
+      <h3>Blot Up the Pet Urine</h3>
+      <p>Start by blotting the affected area with clean towels. Press down firmly enough to absorb the liquid, but avoid rubbing or scrubbing.</p>
+      <p>Move to a clean section of the towel as it becomes wet. Continue until you have removed as much urine as possible.</p>
+      <p>For a fresh accident, this first step is very important. The more liquid you remove at the beginning, the less remains in the carpet.</p>
+
+      <h3>Remove as Much Moisture as Possible</h3>
+      <p>After the first round of blotting, use more dry towels to remove any remaining moisture.</p>
+      <p>You can place a folded towel over the area and press down gently. If needed, replace the towel and repeat the process.</p>
+      <p>Do not rush this step. Removing moisture before applying a cleaning solution gives you a better starting point.</p>
+
+      <h3>Apply a Suitable Carpet Cleaning Solution</h3>
+      <p>Once most of the urine has been absorbed, apply a suitable <a href="/blog/how-to-clean-carpet-stains/">carpet cleaning solution</a> to the affected area.</p>
+      <p>Choose a product that is suitable for your type of carpet and follow the instructions on the label. Avoid using too much solution, as excess moisture can make the carpet harder to dry.</p>
+      <p>If you are unsure which product is safe for your carpet, test it on a small, hidden area first. This can help you check for unwanted changes to the carpet.</p>
+
+      <h3>Blot the Area Again</h3>
+      <p>After applying the cleaning solution, gently blot the area again with a clean towel.</p>
+      <p>The aim is to lift the remaining moisture and loosened dirt from the carpet rather than work the stain deeper.</p>
+      <p>Keep changing to a clean part of the towel as you work. Avoid hard scrubbing, especially on delicate carpet fibres.</p>
+
+      <h3>Rinse Away Any Cleaning Residue</h3>
+      <p>If the cleaning product instructions recommend rinsing, use a small amount of clean water and blot the area again.</p>
+      <p>Removing leftover cleaning product is important because too much residue can leave the carpet feeling sticky or attract more dirt.</p>
+      <p>Do not soak the carpet. You only need enough water to help remove the remaining cleaning product.</p>
+
+      <h3>Let the Carpet Dry Completely</h3>
+      <p>The final step is to let the carpet dry fully.</p>
+      <p>Open windows where possible, improve air movement in the room, and keep people and pets away from the damp area until it is dry.</p>
+      <p>Do not cover the area while it is still damp. Good drying helps reduce the chance of a lingering smell and leaves the carpet ready for normal use.</p>
+
+      <h2>How to Remove Dried Pet Urine From Carpet</h2>
+      <p>Dried pet urine can be harder to clean because the stain has had more time to settle into the carpet.</p>
+      <p>If the area is dry, lightly treat it with a suitable carpet cleaning product according to the product instructions. Give the solution enough time to work as directed, then blot the area carefully.</p>
+      <p>Avoid aggressive scrubbing. This can damage carpet fibres and may spread the affected area.</p>
+      <p>You may need to repeat the cleaning process if the stain is stubborn. However, avoid repeatedly soaking the carpet, as too much moisture can create another problem.</p>
+      <p>If the dried urine has caused a strong smell or affected a large area, professional cleaning may be a better option.</p>
+
+      <h2>Can You Remove Old Pet Urine Stains From Carpet?</h2>
+      <p>Old pet urine stains can sometimes be cleaned, but the result depends on how long the urine has been there, how much was absorbed, and the type of carpet.</p>
+      <p>Some older stains may leave a visible mark even after cleaning. In <a href="/blog/how-to-remove-red-wine-stains-from-carpet/">other cases</a>, repeated pet accidents can affect areas below the carpet surface.</p>
+      <p>This is especially important when urine has reached the backing or underlay. Cleaning the visible carpet alone may not deal with everything that has been affected.</p>
+      <p>For this reason, it is better to have realistic expectations with old stains. Pet stain removal can improve the appearance and cleanliness of the carpet, but very old or severe stains may not always disappear completely.</p>
+
+      <h2>What Should You Avoid When Cleaning Pet Urine From Carpet?</h2>
+      <p>Knowing what not to do is just as important as knowing how to clean pet urine from carpet.</p>
+      <p>Avoid these common mistakes:</p>
+      <ul>
+        <li>Do not scrub hard. Scrubbing can spread the urine and damage carpet fibres.</li>
+        <li>Do not soak the carpet. Too much water can make drying difficult.</li>
+        <li>Do not use too much cleaning product. Excess product can leave residue behind.</li>
+        <li>Do not ignore the smell. A remaining odour may mean the affected area needs more careful cleaning.</li>
+        <li>Do not mix different cleaning products. Use one suitable product according to its instructions.</li>
+        <li>Do not cover damp carpet. Allow the area to dry completely first.</li>
+        <li>Do not rely only on surface cleaning. If urine has soaked deeper into the carpet, cleaning the top may not be enough.</li>
+      </ul>
+      <p>If you are unsure about a cleaning product, check the carpet manufacturer's care instructions or test the product on a hidden section first.</p>
+
+      <h2>When Should You Call a Professional Carpet Cleaner?</h2>
+      <p>Home cleaning can work well for a small, fresh accident when you can deal with it quickly. However, some situations are more difficult.</p>
+      <p>Consider professional help if:</p>
+      <ul>
+        <li>The urine has affected a large area.</li>
+        <li>A strong smell remains after cleaning.</li>
+        <li>The stain is old or dried.</li>
+        <li>Your pet has had repeated accidents in the same place.</li>
+        <li>You believe urine has reached deeper into the carpet.</li>
+        <li>The carpet still looks stained after careful cleaning.</li>
+        <li>You are unsure which cleaning method is safe for the carpet.</li>
+      </ul>
+      <p><a href="/services/carpet-cleaning/">Professional carpet cleaning</a> can provide a deeper clean when normal household methods are not enough. The cleaner can also assess the carpet and choose a cleaning method that suits its material and condition.</p>
+      <p>Professional cleaning cannot guarantee that every old stain or smell will disappear, especially when the carpet or underlay has been heavily affected. However, it can be useful when a deeper level of cleaning is needed.</p>
+
+      <h2>Pet Urine Stain Removal FAQs</h2>
+
+      <h3>How to get pet urine out of carpet?</h3>
+      <p>Blot the urine as soon as possible, remove as much moisture as you can, use a suitable carpet cleaning solution, blot again, remove any residue, and allow the carpet to dry completely.</p>
+
+      <h3>Can old pet urine stains be removed from carpet?</h3>
+      <p>Old pet urine stains can sometimes be improved or removed, but results depend on the age and severity of the stain and how deeply the urine has soaked into the carpet.</p>
+
+      <h3>How to remove dog or cat urine from carpet?</h3>
+      <p>To remove dog or cat urine from carpet, blot the fresh urine immediately, clean the affected area with a suitable carpet cleaning product, remove any residue, and allow it to dry fully.</p>
+
+      <h3>Why does my carpet still smell after cleaning pet urine?</h3>
+      <p>The smell may remain if some urine has soaked below the carpet surface. Surface cleaning may not always reach the deeper affected area, particularly with old or repeated accidents.</p>
+
+      <h3>Should I scrub a pet urine stain?</h3>
+      <p>No. Hard scrubbing can spread the stain and damage carpet fibres. Blotting is generally a better approach for removing fresh urine and cleaning the affected area.</p>
+
+      <h2>Conclusion</h2>
+      <p>Knowing how to remove pet urine from carpet can help you deal with accidents quickly and reduce the chance of lasting stains and smells. Start by blotting the urine, remove as much moisture as possible, use a suitable cleaning solution, remove any residue, and let the carpet dry completely.</p>
+      <p>Fresh accidents are usually easier to deal with than old or repeated stains. If the smell remains, the stain is large, or the urine has reached deeper into the carpet, professional cleaning may be worth considering.</p>
+      <p><a href="/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> provides professional carpet cleaning services in London for homes and businesses. If your carpet needs deeper cleaning after a pet accident, professional help can make the cleaning process easier and more thorough.</p>
+    `,
+  },
+  {
     slug: 'how-to-remove-coffee-stains-from-carpet',
     title: 'How to Remove Coffee Stains From Carpet: A Simple Step-by-Step Guide',
     seoTitle: 'How to Remove Coffee Stains From Carpet | Easy Guide',
