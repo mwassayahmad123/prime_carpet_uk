@@ -7,10 +7,18 @@
         Practical guides on stain removal, carpet care, and upholstery cleaning from our team.
       </p>
     </div>
-    <div class="blog__grid">
-      {{#each blogHighlights}}
-        {{> blog-card}}
-      {{/each}}
+    <div class="blog-slider js-blog-slider">
+      <div class="blog-slider__viewport">
+        <div class="blog-slider__track js-blog-slider-track">
+          {{#each blogHighlights}}
+            <div class="blog-slider__slide">
+              {{> blog-card}}
+            </div>
+          {{/each}}
+        </div>
+      </div>
+      <button type="button" class="blog-slider__arrow blog-slider__arrow--prev js-blog-slider-prev" aria-label="Previous articles">‹</button>
+      <button type="button" class="blog-slider__arrow blog-slider__arrow--next js-blog-slider-next" aria-label="Next articles">›</button>
     </div>
     <div class="blog-highlights__cta">
       <a href="/blog/" class="btn btn--outline btn--lg">View All Articles →</a>

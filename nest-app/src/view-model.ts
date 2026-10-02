@@ -118,7 +118,7 @@ export function buildHomeViewModel() {
     galleryImages: GALLERY_IMAGES,
     serviceOptions: SERVICE_OPTIONS,
     aboutImage: getFirstImage('about-hero'),
-    blogHighlights: BLOG_POSTS.slice(0, 3).map(blogCardData),
+    blogHighlights: BLOG_POSTS.map(blogCardData),
   };
 }
 
