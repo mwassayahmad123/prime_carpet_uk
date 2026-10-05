@@ -146,6 +146,24 @@
         </div>
       </section>
 
+      <section class="section areas-served">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Coverage</p>
+            <h2 class="section__title">Areas We Serve</h2>
+            <p class="section__text section__text--center">
+              We provide professional cleaning across London and in the surrounding counties.
+              Find out more about carpet cleaning in your area:
+            </p>
+          </div>
+          <div class="related-services__grid">
+            {{#each areas}}
+              <a href="/areas/{{this.slug}}/carpet-cleaning/" class="related-services__item">📍 Carpet Cleaning {{this.name}} →</a>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
       <section class="section related-services">
         <div class="container">
           <div class="section__header">

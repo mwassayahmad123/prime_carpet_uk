@@ -13,8 +13,10 @@ const {
   buildServiceViewModel,
   buildBlogViewModel,
   buildBlogPostViewModel,
+  buildAreaViewModel,
 } = require(path.join(rootDir, 'dist', 'view-model'));
 const { SERVICES_PAGES } = require(path.join(rootDir, 'dist', 'services-data'));
+const { AREA_PAGES } = require(path.join(rootDir, 'dist', 'areas-data'));
 const { BLOG_POSTS } = require(path.join(rootDir, 'dist', 'blog-data'));
 const { SITE_URL } = require(path.join(rootDir, 'dist', 'site-data'));
 
@@ -71,6 +73,7 @@ function main() {
   const serviceTemplate = compileView('service');
   const blogTemplate = compileView('blog');
   const blogPostTemplate = compileView('blog-post');
+  const areaTemplate = compileView('area');
 
   writePage('.', indexTemplate(buildHomeViewModel()));
   writePage('about', aboutTemplate(buildAboutViewModel()));
@@ -81,6 +84,11 @@ function main() {
   for (const service of SERVICES_PAGES) {
     writePage(`services/${service.slug}`, serviceTemplate(buildServiceViewModel(service)));
     urls.push(`${SITE_URL}/services/${service.slug}/`);
+  }
+
+  for (const area of AREA_PAGES) {
+    writePage(`areas/${area.slug}/carpet-cleaning`, areaTemplate(buildAreaViewModel(area)));
+    urls.push(`${SITE_URL}/areas/${area.slug}/carpet-cleaning/`);
   }
 
   for (const post of BLOG_POSTS) {

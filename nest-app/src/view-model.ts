@@ -15,6 +15,7 @@ import {
 } from './site-data';
 import { SERVICES_PAGES, ServicePage } from './services-data';
 import { BLOG_POSTS, BlogPost } from './blog-data';
+import { AREA_PAGES, AreaPage } from './areas-data';
 
 const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.svg'];
 
@@ -176,8 +177,46 @@ export function buildServiceViewModel(service: ServicePage) {
       whyChooseImage: getServiceImage(service.slug, 'why-choose'),
     },
     otherServices: SERVICES_PAGES.filter((s) => s.slug !== service.slug),
+    areas: AREA_PAGES.map((a) => ({ name: a.name, slug: a.slug })),
     galleryImages: GALLERY_IMAGES,
     reviews: REVIEWS,
+  };
+}
+
+export function buildAreaViewModel(area: AreaPage) {
+  const ogImage = `${SITE_URL}${LOGO.src}`;
+  const canonicalUrl = `${SITE_URL}/areas/${area.slug}/carpet-cleaning/`;
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Carpet Cleaning',
+    name: `Carpet Cleaning ${area.name}`,
+    description: area.metaDescription,
+    areaServed: { '@type': 'AdministrativeArea', name: area.name },
+    url: canonicalUrl,
+    provider: {
+      '@type': 'LocalBusiness',
+      name: COMPANY_NAME,
+      telephone: CONTACT.phone,
+      url: SITE_URL,
+    },
+  };
+
+  return {
+    ...sharedLayoutData(),
+    title: area.seoTitle,
+    description: area.metaDescription,
+    siteUrl: SITE_URL,
+    canonicalUrl,
+    ogImage,
+    schemaJson: JSON.stringify(schema),
+    area: { ...area, heroImage: getFirstImage('areas', area.slug, 'hero') },
+    services: SERVICES_PAGES.map((s) => ({ name: s.name, slug: s.slug, icon: s.icon })),
+    otherAreas: AREA_PAGES.filter((a) => a.slug !== area.slug).map((a) => ({
+      name: a.name,
+      slug: a.slug,
+    })),
   };
 }
 

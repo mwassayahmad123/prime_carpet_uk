@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> seo-head}}
+  </head>
+  <body>
+    {{> navbar}}
+    <main>
+      <section class="page-header {{#if area.heroImage}}page-header--photo{{/if}}" {{#if area.heroImage}}style="--hero-image: url('{{area.heroImage}}')"{{/if}}>
+        <div class="container">
+          <div class="page-header__panel">
+            <p class="page-header__eyebrow">Serving {{area.name}}</p>
+            <h1 class="page-header__title">Carpet Cleaning {{area.name}}</h1>
+            {{#each area.intro}}
+              <p class="page-header__subtitle">{{this}}</p>
+            {{/each}}
+            <div class="hero__actions">
+              <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+              <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">{{area.homesBusinessesTitle}}</h2>
+            {{#each area.homesBusinesses}}
+              <p class="section__text section__text--wide">{{{this}}}</p>
+            {{/each}}
+          </div>
+          <div class="related-services__grid">
+            {{#each services}}
+              <a href="/services/{{this.slug}}/" class="related-services__item">{{this.icon}} {{this.name}} →</a>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Why Choose Prime Carpet Cleaning in {{area.name}}</h2>
+            <p class="section__text section__text--wide">{{area.whyChooseIntro}}</p>
+          </div>
+          <ul class="about__features benefits-list">
+            {{#each area.whyChoosePoints}}
+              <li>
+                <span class="about__check">✓</span>
+                {{this}}
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">How Our Carpet Cleaning Service Works</h2>
+            <p class="section__text section__text--wide">{{area.howItWorksIntro}}</p>
+          </div>
+          <div class="process__grid process__grid--five">
+            {{#each area.steps}}
+              <article class="process__step">
+                <h3 class="process__title">{{this.title}}</h3>
+                <p class="process__text">{{this.description}}</p>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Areas We Cover in {{area.name}}</h2>
+            <p class="section__text section__text--wide">{{area.areasIntro}}</p>
+          </div>
+          <h3 class="area-towns__title">Major Towns</h3>
+          <ul class="area-towns">
+            {{#each area.majorTowns}}
+              <li>📍 {{this}}</li>
+            {{/each}}
+          </ul>
+          <p class="section__text section__text--wide area-towns__more">{{area.otherTowns}}</p>
+          <p class="section__text section__text--wide area-towns__note">
+            <strong>Don't see your town listed?</strong> If your town isn't listed here, get in touch and we will let you know
+            whether we can help. We also cover
+            {{#each otherAreas}}<a href="/areas/{{this.slug}}/carpet-cleaning/">Carpet Cleaning {{this.name}}</a>{{#unless @last}} and {{/unless}}{{/each}}.
+          </p>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Frequently Asked Questions</h2>
+          </div>
+          <div class="faq__list">
+            {{#each area.faqs}}
+              <div class="faq__item js-faq-item {{#if @first}}is-open{{/if}}">
+                <h3 class="faq__question-heading">
+                  <button class="faq__question js-faq-question" aria-expanded="{{#if @first}}true{{else}}false{{/if}}">
+                    {{this.question}}
+                    <span class="faq__icon js-faq-icon">{{#if @first}}−{{else}}+{{/if}}</span>
+                  </button>
+                </h3>
+                <div class="faq__answer">
+                  <p>{{{this.answer}}}</p>
+                </div>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-section__inner">
+          <h2 class="section__title">Book Carpet Cleaning in {{area.name}}</h2>
+          <p class="section__text section__text--center">{{area.ctaText}}</p>
+          <div class="hero__actions cta-section__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>
