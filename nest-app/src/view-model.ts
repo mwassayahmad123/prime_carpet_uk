@@ -120,6 +120,12 @@ export function buildHomeViewModel() {
     serviceOptions: SERVICE_OPTIONS,
     aboutImage: getFirstImage('about-hero'),
     blogHighlights: BLOG_POSTS.map(blogCardData),
+    areaHighlights: AREA_PAGES.map((a) => ({
+      name: a.name,
+      slug: a.slug,
+      majorTowns: a.majorTowns.join(', '),
+      mapUrl: areaMapUrl(a.name),
+    })),
   };
 }
 

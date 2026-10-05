@@ -1,0 +1,35 @@
+<section id="areas" class="section areas-highlights">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Service Areas</p>
+      <h2 class="section__title">Carpet Cleaning Across Berkshire, Surrey &amp; Hampshire</h2>
+      <p class="section__text section__text--center">
+        As well as London, we provide carpet and upholstery cleaning in the surrounding counties.
+        Choose your county to see the towns we cover.
+      </p>
+    </div>
+    <div class="areas-hub__grid">
+      {{#each areaHighlights}}
+        <article class="areas-hub__card">
+          <div class="map-box">
+            <iframe
+              src="{{this.mapUrl}}"
+              title="Map of {{this.name}}"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="areas-hub__body">
+            <h3 class="areas-hub__title">Carpet Cleaning {{this.name}}</h3>
+            <p class="areas-hub__towns"><strong>Includes:</strong> {{this.majorTowns}} and more</p>
+            <a href="/areas/{{this.slug}}/carpet-cleaning/" class="btn btn--outline btn--sm">Carpet Cleaning {{this.name}} →</a>
+          </div>
+        </article>
+      {{/each}}
+    </div>
+    <div class="areas-highlights__cta">
+      <a href="/areas/" class="btn btn--outline btn--lg">View All Service Areas →</a>
+    </div>
+  </div>
+</section>

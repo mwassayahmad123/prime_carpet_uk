@@ -1357,6 +1357,11 @@ button {
   margin-bottom: 0.75rem;
 }
 
+.areas-highlights__cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
 .areas-hub__note {
   margin-top: 2rem;
 }
