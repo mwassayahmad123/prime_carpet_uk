@@ -11,6 +11,131 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-oil-from-carpet',
+    title: 'How to Remove Oil From Carpet: A Simple Step-by-Step Guide',
+    seoTitle: 'How to Remove Oil From Carpet | Easy Step-by-Step Guide',
+    metaDescription:
+      'Learn how to remove an oil stain from carpet with easy steps for fresh and dried stains. Find out how to tackle grease, avoid common mistakes, and clean safely.',
+    excerpt:
+      'Oil can spread through carpet fibres and leave a dark, greasy mark if it is not treated properly. Absorb first, clean carefully, and avoid rubbing — here is the full step-by-step guide.',
+    publishedDate: '6 October 2026',
+    readTime: '7 min read',
+    contentHtml: `
+      <p>If you are wondering how to remove oil from carpet, acting quickly can make a big difference. Oil can spread through carpet fibres and leave a dark, greasy mark if it is not treated properly. The good news is that fresh oil stains can often be treated at home with a careful approach.</p>
+      <p>Whether you have spilled cooking oil, food oil, or another greasy substance, the main goal is to absorb the oil first and then clean the affected area without spreading it.</p>
+
+      <h2>What to Do When You Spill Oil on Carpet</h2>
+      <p>Remember, do not rub the oil stain. Rubbing can push the oil deeper into the carpet and spread the mark across a larger area.</p>
+      <p>Instead, use a clean, dry cloth or paper towel to gently blot the spill. If there is a large amount of oil, continue using fresh sections of the towel until you have removed as much surface oil as possible.</p>
+      <p>If the spill contains solid food or another material, carefully pick up the solid pieces first. Avoid pressing them further into the carpet.</p>
+      <p>The sooner you deal with an oil spill, the easier oil <a href="/services/stain-removal/">stain removal</a> can be. A fresh spill has not had as much time to soak into the carpet, while an old stain may need more careful treatment.</p>
+
+      <h2>How to Remove Oil From Carpet: Step by Step</h2>
+      <p>Learning how to remove oil from carpet starts with removing the excess oil before applying any cleaning product. Follow these steps carefully.</p>
+
+      <h3>Blot the Fresh Oil</h3>
+      <p>Take a clean, absorbent cloth or paper towel and gently press it over the oil.</p>
+      <p>Do not scrub from side to side. Instead, press down and lift the towel. Move to a clean part of the towel as it picks up oil.</p>
+      <p>Keep blotting until very little oil transfers to the towel.</p>
+
+      <h3>Remove Excess Oil</h3>
+      <p>If there is still visible oil on the carpet, continue removing it before using a cleaning product.</p>
+      <p>For a thicker oil spill, you can carefully lift excess oil from the surface with a spoon or another blunt edge. Work gently so you do not push the oil further into the carpet.</p>
+      <p>The aim at this stage is simple: remove as much oil as possible before you start cleaning the stain.</p>
+
+      <h3>Apply a Suitable Cleaning Product</h3>
+      <p>Once the excess oil has been removed, apply a <a href="/services/carpet-cleaning/">carpet cleaning</a> product that is suitable for your carpet.</p>
+      <p>Always follow the product instructions and avoid using more than recommended. Before applying anything to the visible stain, test it on a small hidden area of the carpet.</p>
+      <p>A suitable cleaning product can help loosen the remaining oil so it can be lifted from the carpet fibres.</p>
+      <p>Be careful with household products that are not designed for carpets. Some may leave behind a mark, affect the carpet colour, or create a sticky residue.</p>
+
+      <h3>Blot the Oil Stain Again</h3>
+      <p>After applying the cleaning product as directed, gently blot the affected area with a clean cloth.</p>
+      <p>Work from the outside of the stain towards the centre. This helps reduce the chance of spreading the oil to clean parts of the carpet.</p>
+      <p>Keep changing to a clean section of the cloth as you work. You may need to repeat the process for a stubborn carpet oil stain, but avoid excessive rubbing.</p>
+
+      <h3>Remove Any Cleaning Residue</h3>
+      <p>Once the oil has been lifted, check whether the cleaning product needs to be removed with clean water.</p>
+      <p>If rinsing is recommended, use only a small amount of clean water and blot the area afterwards. Do not soak the carpet.</p>
+      <p>Leaving too much cleaning product behind can make the carpet feel sticky and may cause it to attract dirt more easily.</p>
+
+      <h3>Let the Carpet Dry</h3>
+      <p>Allow the cleaned area to dry completely before walking on it or placing furniture back over it.</p>
+      <p>Open a window or improve air movement in the room if possible. Keep pets and children away from the damp area until it has dried.</p>
+      <p>Once dry, check the carpet in good light. If a faint mark remains, you can decide whether another careful treatment is suitable.</p>
+
+      <h2>How to Get Oil Out of Carpet Without Making the Stain Worse</h2>
+      <p>If you are looking for how to get oil out of carpet, the most important thing is to avoid spreading the stain.</p>
+      <p>Start with blotting rather than scrubbing. Use clean materials and change them regularly as they absorb the oil.</p>
+      <p>Do not pour large amounts of water onto an oil stain. Water alone will not remove the oily substance effectively, and too much moisture can make the carpet harder to dry.</p>
+      <p>It is also important to choose a cleaning product that is safe for your particular carpet. Different carpet materials can react differently to cleaning products, so always check the care instructions when available.</p>
+      <p>If you are unsure about a product, test it on a hidden section first.</p>
+
+      <h2>How to Remove Dried Oil From Carpet</h2>
+      <p>Dried oil can be more difficult to remove because it has had time to settle into the carpet.</p>
+      <p>Start by gently removing any loose dirt from the area. Then use a suitable carpet cleaning product according to its instructions.</p>
+      <p>Give the product the recommended amount of time to work, then blot the area with a clean cloth. Avoid aggressive scrubbing because it can damage carpet fibres and spread the stain.</p>
+      <p>You may need more than one treatment for an old oil <a href="/blog/how-to-clean-carpet-stains/">stain on carpet</a>. However, avoid repeatedly soaking the area.</p>
+      <p>If the stain has been present for a long time or covers a large section of carpet, professional <a href="/blog/how-to-remove-coffee-stains-from-carpet/">cleaning</a> may be more suitable.</p>
+
+      <h2>How to Remove Grease Stains From Carpet</h2>
+      <p>For a visible grease stain, patience is important. Trying to remove the entire stain with hard scrubbing can make the situation worse.</p>
+      <p>To remove oil stains from carpet or treat a grease mark, first absorb as much of the substance as possible. Then apply a suitable carpet cleaning product and blot carefully.</p>
+      <p>If the stain is still visible after drying, check the product instructions before repeating the treatment. Do not keep adding cleaning products without removing the previous residue.</p>
+      <p>For older grease marks, several factors can affect the result, including how long the stain has been there, how much grease was spilled, and the type of carpet.</p>
+
+      <h2>What Should You Avoid When Removing Oil and Grease From Carpet?</h2>
+      <p>Some cleaning mistakes can make an oil or grease stain harder to deal with.</p>
+      <p>Avoid these common problems:</p>
+      <ul>
+        <li>Do not rub the stain aggressively. This can spread oil and damage carpet fibres.</li>
+        <li>Do not pour lots of water onto the stain. Oil does not simply wash away with water.</li>
+        <li>Do not use too much cleaning product. Excess product can leave residue.</li>
+        <li>Do not mix different cleaning products. Use one suitable product according to its instructions.</li>
+        <li>Do not use a product without testing it. Check a hidden area first.</li>
+        <li>Do not ignore an old stain. Older oil can become harder to remove.</li>
+        <li>Do not cover the carpet while it is damp. Let it dry completely.</li>
+      </ul>
+      <p>The safest approach is usually simple: absorb first, clean carefully, remove residue, and allow the area to dry.</p>
+
+      <h2>When Should You Call a Professional Carpet Cleaner?</h2>
+      <p>A small, fresh oil spill may be manageable at home. However, professional help can be useful when the stain is large, old, or difficult to remove.</p>
+      <p>Consider professional cleaning if:</p>
+      <ul>
+        <li>The oil has spread across a large area.</li>
+        <li>The stain has dried into the carpet.</li>
+        <li>Several home <a href="/blog/how-to-remove-red-wine-stains-from-carpet/">cleaning attempts</a> have not worked.</li>
+        <li>The carpet is delicate, or you are unsure which product to use.</li>
+        <li>A dark mark remains after careful cleaning.</li>
+        <li>You are worried about damaging the carpet.</li>
+      </ul>
+      <p>A professional <a href="/">carpet cleaner</a> can assess the carpet and choose a cleaning method based on the carpet's material and condition.</p>
+      <p>This can be particularly useful for old grease stains or stains that have soaked deeper into the carpet.</p>
+
+      <h2>Oil and Grease Stain Removal FAQs</h2>
+
+      <h3>How do I remove oil from carpet?</h3>
+      <p>Start by blotting as much oil as possible with a clean, dry cloth. Then use a suitable carpet cleaning product, blot the area carefully, remove any residue as directed, and let the carpet dry completely.</p>
+
+      <h3>How to get grease out of carpet?</h3>
+      <p>Remove as much excess grease as possible, then treat the area with a suitable carpet cleaning product. Blot rather than scrub, and make sure the carpet dries fully.</p>
+
+      <h3>Can I remove an old oil stain from carpet?</h3>
+      <p>Old oil stains can sometimes be removed or improved, but results depend on the age of the stain, the amount of oil, and the type of carpet. Older stains may require professional cleaning.</p>
+
+      <h3>What should I do if grease is still visible after cleaning?</h3>
+      <p>Allow the carpet to dry completely before judging the final result. If the grease mark remains, avoid repeatedly adding different products. Professional cleaning may be a better option for a stubborn stain.</p>
+
+      <h3>Can oil stain carpet permanently?</h3>
+      <p>Oil can leave a lasting mark if it is not treated properly or if it has been allowed to soak into the carpet for a long time. The final result depends on the carpet material, the type of oil, and how quickly the spill is treated.</p>
+
+      <h2>Conclusion</h2>
+      <p>Knowing how to remove oil from carpet can help you deal with spills before they become harder to clean. Start by absorbing the excess oil, avoid rubbing, use a suitable carpet cleaning product, remove any residue, and give the carpet enough time to dry.</p>
+      <p>The same careful approach can help with many grease and oil stains, but older or deeper stains may need professional attention.</p>
+      <p>If you need help with stubborn carpet stains in London, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> provides professional carpet cleaning services for homes and businesses. A professional clean can be a useful option when an oil or grease stain is difficult to handle at home.</p>
+    `,
+  },
+  {
     slug: 'how-to-remove-pet-urine-stains-from-carpet',
     title: 'How to Remove Pet Urine Stains From Carpet: A Step-by-Step Guide',
     seoTitle: 'How to Remove Pet Urine From Carpet: Step-by-Step Guide',
