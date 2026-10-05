@@ -14,6 +14,7 @@ const {
   buildBlogViewModel,
   buildBlogPostViewModel,
   buildAreaViewModel,
+  buildAreasHubViewModel,
 } = require(path.join(rootDir, 'dist', 'view-model'));
 const { SERVICES_PAGES } = require(path.join(rootDir, 'dist', 'services-data'));
 const { AREA_PAGES } = require(path.join(rootDir, 'dist', 'areas-data'));
@@ -74,12 +75,14 @@ function main() {
   const blogTemplate = compileView('blog');
   const blogPostTemplate = compileView('blog-post');
   const areaTemplate = compileView('area');
+  const areasHubTemplate = compileView('areas');
 
   writePage('.', indexTemplate(buildHomeViewModel()));
   writePage('about', aboutTemplate(buildAboutViewModel()));
   writePage('blog', blogTemplate(buildBlogViewModel()));
+  writePage('areas', areasHubTemplate(buildAreasHubViewModel()));
 
-  const urls = [`${SITE_URL}/`, `${SITE_URL}/about/`, `${SITE_URL}/blog/`];
+  const urls = [`${SITE_URL}/`, `${SITE_URL}/about/`, `${SITE_URL}/blog/`, `${SITE_URL}/areas/`];
 
   for (const service of SERVICES_PAGES) {
     writePage(`services/${service.slug}`, serviceTemplate(buildServiceViewModel(service)));

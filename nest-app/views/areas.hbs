@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> seo-head}}
+  </head>
+  <body>
+    {{> navbar}}
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <div class="page-header__panel">
+            <p class="page-header__eyebrow">{{serviceAreaText}}</p>
+            <h1 class="page-header__title">Areas We Serve</h1>
+            <p class="page-header__subtitle">
+              Prime Carpet Cleaning and Upholstery Steam Cleaning provides carpet and upholstery cleaning
+              across London and the surrounding counties of Berkshire, Surrey and Hampshire. Choose your
+              county below to see the towns we cover.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Coverage</p>
+            <h2 class="section__title">Choose Your County</h2>
+          </div>
+          <div class="areas-hub__grid">
+            {{#each areas}}
+              <article class="areas-hub__card">
+                <div class="map-box">
+                  <iframe
+                    src="{{this.mapUrl}}"
+                    title="Map of {{this.name}}"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="areas-hub__body">
+                  <h3 class="areas-hub__title">Carpet Cleaning {{this.name}}</h3>
+                  <p class="areas-hub__text">{{this.areasIntro}}</p>
+                  <p class="areas-hub__towns"><strong>Includes:</strong> {{this.majorTowns}} and more</p>
+                  <a href="/areas/{{this.slug}}/carpet-cleaning/" class="btn btn--outline btn--sm">Carpet Cleaning {{this.name}} →</a>
+                </div>
+              </article>
+            {{/each}}
+          </div>
+          <p class="section__text section__text--wide areas-hub__note">
+            Based in London? Our <a href="/#services">cleaning services</a> are available across the city too.
+            Not sure whether we cover your town? <a href="/#contact">Get in touch</a> and we will let you know.
+          </p>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-section__inner">
+          <h2 class="section__title">Get a Free Quote in Your Area</h2>
+          <p class="section__text section__text--center">
+            Contact us for a free, no-obligation quote and a convenient appointment.
+          </p>
+          <div class="hero__actions cta-section__actions">
+            <a href="/#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:{{contact.phoneHref}}" class="btn btn--outline btn--lg">Call Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,9 +1,15 @@
 import { Controller, Get, NotFoundException, Param, Render } from '@nestjs/common';
-import { buildAreaViewModel } from './view-model';
+import { buildAreaViewModel, buildAreasHubViewModel } from './view-model';
 import { AREA_PAGES } from './areas-data';
 
 @Controller('areas')
 export class AreasController {
+  @Get()
+  @Render('areas')
+  getAreasHub() {
+    return buildAreasHubViewModel();
+  }
+
   @Get(':county/carpet-cleaning')
   @Render('area')
   getArea(@Param('county') county: string) {

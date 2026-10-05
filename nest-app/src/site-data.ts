@@ -103,6 +103,7 @@ export const NAV_LINKS = [
   { label: 'Home', href: '/#home' },
   { label: 'About', href: '/about/' },
   { label: 'Services', href: '/#services' },
+  { label: 'Service Areas', href: '/areas/' },
   { label: 'Blog', href: '/blog/' },
   { label: 'Reviews', href: '/#reviews' },
   { label: 'Gallery', href: '/#gallery' },

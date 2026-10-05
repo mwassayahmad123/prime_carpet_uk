@@ -183,6 +183,34 @@ export function buildServiceViewModel(service: ServicePage) {
   };
 }
 
+function areaMapUrl(name: string) {
+  return `https://maps.google.com/maps?q=${encodeURIComponent(`${name}, UK`)}&z=9&output=embed`;
+}
+
+export function buildAreasHubViewModel() {
+  const title = 'Areas We Serve | Carpet Cleaning in Berkshire, Surrey & Hampshire';
+  const description =
+    'Prime Carpet Cleaning provides carpet and upholstery cleaning across London, Berkshire, Surrey and Hampshire. Find your area and get a free quote.';
+  const ogImage = `${SITE_URL}${LOGO.src}`;
+
+  return {
+    ...sharedLayoutData(),
+    title,
+    description,
+    siteUrl: SITE_URL,
+    canonicalUrl: `${SITE_URL}/areas/`,
+    ogImage,
+    schemaJson: JSON.stringify(buildLocalBusinessSchema(ogImage)),
+    areas: AREA_PAGES.map((a) => ({
+      name: a.name,
+      slug: a.slug,
+      areasIntro: a.areasIntro,
+      majorTowns: a.majorTowns.join(', '),
+      mapUrl: areaMapUrl(a.name),
+    })),
+  };
+}
+
 export function buildAreaViewModel(area: AreaPage) {
   const ogImage = `${SITE_URL}${LOGO.src}`;
   const canonicalUrl = `${SITE_URL}/areas/${area.slug}/carpet-cleaning/`;
@@ -211,7 +239,11 @@ export function buildAreaViewModel(area: AreaPage) {
     canonicalUrl,
     ogImage,
     schemaJson: JSON.stringify(schema),
-    area: { ...area, heroImage: getFirstImage('areas', area.slug, 'hero') },
+    area: {
+      ...area,
+      heroImage: getFirstImage('areas', area.slug, 'hero'),
+      mapUrl: areaMapUrl(area.name),
+    },
     services: SERVICES_PAGES.map((s) => ({ name: s.name, slug: s.slug, icon: s.icon })),
     otherAreas: AREA_PAGES.filter((a) => a.slug !== area.slug).map((a) => ({
       name: a.name,

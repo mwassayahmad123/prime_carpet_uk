@@ -78,6 +78,15 @@
             <h2 class="section__title">Areas We Cover in {{area.name}}</h2>
             <p class="section__text section__text--wide">{{area.areasIntro}}</p>
           </div>
+          <div class="map-box map-box--wide">
+            <iframe
+              src="{{area.mapUrl}}"
+              title="Map of {{area.name}}"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
           <h3 class="area-towns__title">Major Towns</h3>
           <ul class="area-towns">
             {{#each area.majorTowns}}
