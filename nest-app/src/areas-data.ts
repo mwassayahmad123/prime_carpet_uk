@@ -16,117 +16,150 @@ export interface AreaPage {
   intro: string[];
   homesBusinessesTitle: string;
   homesBusinesses: string[];
-  whyChooseIntro: string;
+  whyChooseIntro: string[];
   whyChoosePoints: string[];
+  whyChooseAfter?: string;
   howItWorksIntro: string;
   steps: AreaStep[];
   areasIntro: string;
   majorTowns: string[];
   otherTowns: string;
+  // When set, the areas section lists every town (no "Major Towns" split) and uses these paragraphs.
+  allTowns?: string[];
+  areasBody?: string[];
+  areasAfter?: string;
   faqs: AreaFaq[];
   ctaText: string;
+  ctaParagraphs?: string[];
 }
 
 export const AREA_PAGES: AreaPage[] = [
   {
     slug: 'berkshire',
     name: 'Berkshire',
-    seoTitle: 'Carpet Cleaning Berkshire | Professional Local Service',
+    seoTitle: 'Carpet Cleaning Berkshire | Trusted Local Carpet Cleaners',
     metaDescription:
-      'Professional carpet cleaning in Berkshire for homes and businesses. Deep cleaning, stain treatment and more from Prime Carpet Cleaning.',
+      "Need carpet cleaning in Berkshire? Get professional carpet cleaning for homes and businesses, with clear quotes and a service that's right for you. Book now!",
     intro: [
-      'Looking for professional carpet cleaning in Berkshire? Prime Carpet Cleaning and Upholstery Steam Cleaning helps homeowners, tenants, landlords and businesses across the county keep their carpets fresh, clean and well maintained.',
-      'From family homes in Reading and Wokingham to offices and commercial spaces around Slough and Bracknell, we use professional steam extraction equipment to lift everyday dirt, stains, allergens and odours from your carpets. Call us, message us on WhatsApp or send an enquiry for a free, no-obligation quote.',
+      'Looking for reliable carpet cleaning in Berkshire? Prime Carpet Cleaning and Upholstery Steam Cleaning helps homeowners, tenants, landlords, and businesses keep their carpets clean, fresh, and comfortable.',
+      'Our Berkshire service area includes Reading, Slough, Bracknell, Maidenhead, Windsor, Newbury, Wokingham, Thatcham, Sandhurst, Crowthorne, Hungerford, and Ascot. Whether you need carpet cleaning for one room, a whole home, a rental property, or a commercial space, we can help with a suitable <a href="/">cleaning service</a>.',
+      'Call us, message us on WhatsApp, or send an enquiry for a free, no-obligation quote.',
     ],
-    homesBusinessesTitle: 'Carpet Cleaning for Homes and Businesses',
+    homesBusinessesTitle: 'Carpet Cleaning for Homes and Businesses in Berkshire',
     homesBusinesses: [
-      'Berkshire is a busy county, and its carpets show it. Commuter households in Maidenhead, Windsor and Wokingham, family homes with children and pets, and rental properties in Reading and Newbury all put carpets under constant everyday use. Regular professional cleaning removes the dirt that vacuuming alone leaves behind and helps carpets look and feel fresher for longer.',
-      'We also clean carpets for businesses across the county, including offices, shops and other commercial spaces. If you manage a property in Slough, Bracknell or Ascot, we can discuss the size of the space and the level of cleaning needed before giving you a clear quote.',
-      'Alongside carpet cleaning, we offer a range of related services, so you can arrange everything with one team:',
+      'Carpets can collect a lot of dirt through everyday use. Foot traffic, children, pets, food spills and muddy shoes can all leave carpets looking tired over time. Regular carpet care can help keep them looking better, but vacuuming alone may not remove everything trapped within the carpet.',
+      'Our residential and commercial carpet cleaning service in Berkshire is suitable for a wide range of properties. We clean family homes, rental properties, offices, shops, and other commercial spaces.',
     ],
-    whyChooseIntro:
-      'Choosing a carpet cleaner is about trust as much as results. Here is what customers across Berkshire can expect when they book with us.',
+    whyChooseIntro: [
+      'Finding the right carpet cleaners is about more than simply removing visible dirt. You want a service that understands your property, explains what is needed, and treats your carpets with care.',
+      'Here is what you can expect from <a href="https://maps.app.goo.gl/zpVifVrEM7aDHazT8" target="_blank" rel="noopener noreferrer">Prime Carpet Cleaning</a>:',
+    ],
     whyChoosePoints: [
-      'Professional steam extraction equipment for a deeper clean than vacuuming alone',
-      'Pet and child-friendly cleaning solutions',
-      'Clear quotes with no hidden fees',
-      'Easy booking by phone, WhatsApp or online enquiry',
-      'Residential and commercial carpet cleaning',
-      'Each carpet assessed before cleaning, so the method suits the material',
+      '<strong>Professional equipment</strong> to provide a deeper clean than everyday vacuuming.',
+      '<strong>Careful carpet assessment</strong> before cleaning, so the method suits the carpet.',
+      '<strong>Pet and child-friendly cleaning solutions</strong> for suitable residential spaces.',
+      '<strong>Clear, no-obligation quotes</strong> with no hidden fees.',
+      '<strong>Easy booking</strong> by phone, WhatsApp or online enquiry.',
+      '<strong>Residential and commercial services</strong> for homes, rental properties and businesses.',
+      '<strong>Careful stain treatment</strong> for common marks such as coffee, wine, food, mud and pet accidents.',
     ],
+    whyChooseAfter:
+      'We aim to make booking straightforward while giving you a clear idea of what to expect before the cleaning starts.',
     howItWorksIntro:
-      'Every Berkshire job follows the same careful process, adjusted to your carpet and your property.',
+      'Our cleaning process is adjusted to the carpet and property rather than treating every job in exactly the same way.',
     steps: [
       {
         title: 'Carpet Inspection',
         description:
-          'We start by checking the carpet type, its condition and any problem areas, such as busy walkways, pet marks or older stains, so we can choose a suitable cleaning method.',
+          'We begin by looking at the carpet, its material, and its overall condition. We also check areas that need extra attention, such as busy walkways, visible stains, pet marks, or heavily used sections.<br><br>This helps us decide how the carpet should be treated before cleaning begins.',
       },
       {
-        title: 'Pre-treatment',
+        title: 'Pre-Treatment',
         description:
-          'Heavily soiled areas and visible marks are pre-treated before the main clean, giving the cleaning solution time to loosen dirt from the fibres.',
+          'Areas with heavier dirt or visible marks may need additional treatment before the main cleaning process.<br><br>We apply a suitable <a href="/blog/how-to-clean-carpet-stains/">cleaning solution</a> to help loosen dirt and prepare the carpet for deeper cleaning.',
       },
       {
-        title: 'Deep Cleaning',
+        title: 'Deep Carpet Cleaning',
         description:
-          'Professional steam extraction lifts dirt, dust and allergens from deep within the carpet, leaving it looking fresher and feeling cleaner.',
+          'We then use professional carpet cleaning equipment to remove loosened dirt and moisture from the carpet.<br><br>This helps refresh carpets that have become dull from regular use and can remove dirt that normal vacuuming may leave behind.',
       },
       {
         title: 'Stain Treatment',
         description:
-          'Marks such as wine, coffee, mud and pet accidents are assessed individually, and we use treatment suited to the stain and the carpet.',
+          'Not every stain can be treated in the same way. <a href="/blog/how-to-remove-red-wine-stains-from-carpet/">Wine</a>, <a href="/blog/how-to-remove-coffee-stains-from-carpet/">coffee</a>, food, mud, and pet accidents can all behave differently.<br><br>We assess individual marks and use a suitable treatment based on the stain and the carpet. We also explain that some old or difficult stains may not disappear completely.',
       },
       {
         title: 'Drying and Final Check',
         description:
-          'We remove as much moisture as possible during extraction to help the carpet dry sooner, then check the cleaned areas before we finish.',
+          'During cleaning, we remove as much moisture as possible to help the carpet dry sooner.<br><br>Once the cleaning is complete, we check the treated areas and make sure the work has been finished properly. Drying time can vary depending on the carpet, room temperature, and airflow.',
       },
     ],
-    areasIntro:
-      'We provide carpet cleaning across Berkshire, from the larger towns along the M4 corridor to smaller towns and villages in the west of the county.',
+    areasIntro: '',
     majorTowns: ['Reading', 'Slough', 'Bracknell', 'Maidenhead', 'Windsor', 'Newbury'],
-    otherTowns:
-      'We also cover Wokingham, Thatcham, Sandhurst, Crowthorne, Hungerford and Ascot, along with the surrounding areas.',
+    otherTowns: '',
+    allTowns: [
+      'Reading',
+      'Slough',
+      'Bracknell',
+      'Maidenhead',
+      'Windsor',
+      'Newbury',
+      'Wokingham',
+      'Thatcham',
+      'Sandhurst',
+      'Crowthorne',
+      'Hungerford',
+      'Ascot',
+    ],
+    areasBody: [
+      'Prime Carpet Cleaning provides professional <a href="/services/carpet-cleaning/">carpet cleaning services</a> across Berkshire, helping homeowners, landlords, tenants, and businesses keep their carpets fresh, clean, and well cared for. We also provide related cleaning services, including <a href="/services/rug-cleaning/">rug cleaning</a>, <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a>, and <a href="/services/end-of-tenancy-cleaning/">end of tenancy cleaning</a> in Berkshire, depending on your needs.',
+      'Our service area includes:',
+    ],
+    areasAfter:
+      'If you are looking for carpet cleaners in Berkshire, residents and businesses can contact us with their location and cleaning requirements. If your area is not listed above, we can check whether we can provide the service.',
     faqs: [
       {
         question: 'Do you provide carpet cleaning in Berkshire?',
         answer:
-          'Yes. We provide professional carpet cleaning for homes and businesses across Berkshire, including Reading, Slough, Bracknell, Maidenhead, Windsor and Newbury.',
+          'Yes. We provide professional carpet cleaning for homes, rental properties and businesses across Berkshire, including Reading, Slough, Bracknell, Maidenhead, Windsor and Newbury.',
       },
       {
         question: 'What areas of Berkshire do you cover?',
         answer:
-          'We cover towns across the county, including Reading, Slough, Bracknell, Maidenhead, Windsor, Newbury, Wokingham, Thatcham, Sandhurst, Crowthorne, Hungerford and Ascot. If your town is not listed, get in touch and we will check whether we can help.',
+          'We cover Reading, Slough, Bracknell, Maidenhead, Windsor, Newbury, Wokingham, Thatcham, Sandhurst, Crowthorne, Hungerford, and Ascot. If your town is not listed, contact us, and we can check whether we can help.',
       },
       {
         question: 'How much does carpet cleaning cost in Berkshire?',
         answer:
-          'The cost depends on the number of rooms, the size and condition of the carpet, any stains and the type of property. We provide free, no-obligation quotes so you know what to expect before booking.',
+          'The cost depends on factors such as the number of rooms, carpet size, condition, level of staining, and type of property. We provide a free, no-obligation quote so you can understand the cost before booking.',
       },
       {
         question: 'How long does carpet cleaning take?',
         answer:
-          'It depends on the size of the property and the condition of the carpets. A single room is much quicker than a whole house, and heavily soiled or stained carpets can take longer. We can give you a realistic idea when we provide your quote.',
+          'Cleaning time depends on the size of the property and the condition of the carpets. A single room will usually take less time than a whole property, while heavily soiled or stained carpets may require additional attention. We can give you a more realistic idea after discussing your requirements.',
       },
       {
         question: 'How long does a carpet take to dry after cleaning?',
         answer:
-          'With professional steam extraction, most carpets dry within 4–6 hours. Drying time can vary with the carpet material, room temperature and airflow, so opening a window can help.',
+          'Most carpets will dry within 4–6 hours after professional steam extraction, although drying time can vary. Carpet material, room temperature, ventilation, and airflow can all affect how quickly the carpet dries. Opening windows and improving airflow can help.',
       },
       {
         question: 'Can you remove difficult carpet stains?',
         answer:
-          'We can treat many common stains, including wine, coffee, mud, food and pet accidents. Results depend on the stain, the carpet and how long the mark has been there, and we will give you an honest assessment first. You can read more about our <a href="/services/stain-removal/">stain removal service</a>.',
+          'We can treat many common stains, including wine, coffee, food, mud, and <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">pet accidents</a>. However, results depend on the type of stain, the carpet, and how long the mark has been present. We will assess the stain and give you an honest idea of what can be achieved.<br><br>For more serious stains, you can also learn more about our <a href="/services/stain-removal/">stain removal service</a>.',
       },
       {
         question: 'Do you clean carpets in homes and businesses?',
         answer:
-          'Yes. We clean carpets in private homes, rental properties and commercial spaces such as offices and shops across Berkshire.',
+          'Yes. We provide carpet cleaning for private homes, rental properties and commercial spaces such as offices and shops across Berkshire.',
       },
     ],
-    ctaText:
-      'Ready for cleaner, fresher carpets? Contact us for a free, no-obligation quote and we will arrange a convenient appointment anywhere in Berkshire.',
+    ctaText: '',
+    ctaParagraphs: [
+      'If your carpets are looking tired, stained or heavily used, professional cleaning can give them a fresh start.',
+      'Prime Carpet Cleaning provides carpet cleaning for homes, rental properties and businesses across Berkshire. Whether you need help with one room, several carpets or a larger commercial property, we can discuss your needs and recommend a suitable service.',
+      'Call us, message us on WhatsApp, or send an enquiry today for a free, no-obligation quote.',
+    ],
   },
   {
     slug: 'surrey',
@@ -144,8 +177,9 @@ export const AREA_PAGES: AreaPage[] = [
       'Landlords and letting agents in Guildford, Woking and Leatherhead can use professional cleaning to prepare properties between tenancies, and businesses across the county can keep offices and shared spaces presentable with regular cleaning. We are happy to discuss one-off cleans or repeat visits.',
       'Our carpet cleaning sits alongside a wider set of services you can arrange in the same booking:',
     ],
-    whyChooseIntro:
+    whyChooseIntro: [
       'There are plenty of cleaners to choose from in Surrey. These are the things we focus on for every customer.',
+    ],
     whyChoosePoints: [
       'Professional steam extraction for a thorough, deep clean',
       'Eco-friendly cleaning solutions that are pet and child-friendly',
@@ -244,8 +278,9 @@ export const AREA_PAGES: AreaPage[] = [
       'Towns such as Aldershot, Farnborough, Fleet and Eastleigh have plenty of rental properties and busy households, where carpets can quickly pick up everyday dirt. Our service also suits businesses in Basingstoke, Southampton and Gosport that want clean, presentable floors for staff and visitors.',
       'You can also book other cleaning services alongside your carpet clean:',
     ],
-    whyChooseIntro:
+    whyChooseIntro: [
       'Honest pricing, a careful clean and easy communication matter most when you book a carpet cleaner. That is how we work for customers across Hampshire.',
+    ],
     whyChoosePoints: [
       'Professional steam extraction equipment for deeper cleaning',
       'Cleaning solutions designed to be pet and child-friendly',

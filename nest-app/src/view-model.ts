@@ -210,7 +210,9 @@ export function buildAreasHubViewModel() {
     areas: AREA_PAGES.map((a) => ({
       name: a.name,
       slug: a.slug,
-      areasIntro: a.areasIntro,
+      areasIntro:
+        a.areasIntro ||
+        `We provide carpet cleaning for homes, rental properties and businesses across ${a.name}.`,
       majorTowns: a.majorTowns.join(', '),
       mapUrl: areaMapUrl(a.name),
     })),
