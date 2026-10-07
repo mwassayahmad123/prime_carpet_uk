@@ -1357,6 +1357,19 @@ button {
   margin-bottom: 0.75rem;
 }
 
+.areas-hub__link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  transition: color var(--transition), transform var(--transition);
+}
+
+.areas-hub__link:hover {
+  color: var(--color-navy);
+  transform: translateX(3px);
+}
+
 .areas-highlights__cta {
   text-align: center;
   margin-top: 2.5rem;
