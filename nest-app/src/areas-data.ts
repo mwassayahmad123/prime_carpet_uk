@@ -27,7 +27,8 @@ export interface AreaPage {
   // When set, the areas section lists every town (no "Major Towns" split) and uses these paragraphs.
   allTowns?: string[];
   areasBody?: string[];
-  areasAfter?: string;
+  areasAfter?: string[];
+  crossLinks?: boolean;
   faqs: AreaFaq[];
   ctaText: string;
   ctaParagraphs?: string[];
@@ -115,8 +116,10 @@ export const AREA_PAGES: AreaPage[] = [
       'Prime Carpet Cleaning provides professional <a href="/services/carpet-cleaning/">carpet cleaning services</a> across Berkshire, helping homeowners, landlords, tenants, and businesses keep their carpets fresh, clean, and well cared for. We also provide related cleaning services, including <a href="/services/rug-cleaning/">rug cleaning</a>, <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a>, and <a href="/services/end-of-tenancy-cleaning/">end of tenancy cleaning</a> in Berkshire, depending on your needs.',
       'Our service area includes:',
     ],
-    areasAfter:
+    areasAfter: [
       'If you are looking for carpet cleaners in Berkshire, residents and businesses can contact us with their location and cleaning requirements. If your area is not listed above, we can check whether we can provide the service.',
+    ],
+    crossLinks: true,
     faqs: [
       {
         question: 'Do you provide carpet cleaning in Berkshire?',
@@ -164,203 +167,192 @@ export const AREA_PAGES: AreaPage[] = [
   {
     slug: 'surrey',
     name: 'Surrey',
-    seoTitle: 'Carpet Cleaning Surrey | Professional Local Service',
-    metaDescription:
-      'Professional carpet cleaning in Surrey for homes and businesses. Deep cleaning, stain treatment and more from Prime Carpet Cleaning.',
+    seoTitle: `Carpet Cleaning Surrey | Professional Local Carpet Cleaners`,
+    metaDescription: `Looking for carpet cleaning in Surrey? Get professional carpet cleaning for homes and businesses, plus rug and upholstery cleaning. Request a free quote today.`,
     intro: [
-      'Need a reliable carpet cleaner in Surrey? Prime Carpet Cleaning and Upholstery Steam Cleaning provides carpet cleaning for homes, rental properties and businesses throughout the county.',
-      'Whether you live in a family house in Guildford or Woking, a flat in Epsom or Redhill, or manage a commercial space near Staines-upon-Thames, our team uses professional equipment to remove built-up dirt, stains, allergens and odours. Contact us for a free, no-obligation quote by phone, WhatsApp or our online form.',
+      `Looking for dependable carpet cleaning in Surrey? <a href="/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> provides professional cleaning for homes, rental properties, and businesses across the county.`,
+      `Carpets can gradually lose their fresh look as dirt, spills, and everyday foot traffic build up. Our cleaning service is designed to give carpets a thorough clean while taking their material and condition into account. Whether you need a few rooms refreshed or a larger property cleaned, we can discuss what you need and provide a free, no-obligation quote.`,
     ],
-    homesBusinessesTitle: 'Carpet Cleaning for Homes and Businesses',
+    homesBusinessesTitle: `Carpet Cleaning for Homes and Businesses`,
     homesBusinesses: [
-      'Surrey homes range from modern flats to characterful older properties, and carpets in each need slightly different care. We take the time to look at your carpet before cleaning, whether it is a wool blend in a Godalming or Dorking home or a hard-wearing synthetic carpet in a busy family house in Camberley.',
-      'Landlords and letting agents in Guildford, Woking and Leatherhead can use professional cleaning to prepare properties between tenancies, and businesses across the county can keep offices and shared spaces presentable with regular cleaning. We are happy to discuss one-off cleans or repeat visits.',
-      'Our carpet cleaning sits alongside a wider set of services you can arrange in the same booking:',
+      `Carpets in a home or workplace can face very different types of use. Family rooms may deal with food spills, muddy shoes and regular foot traffic, while office carpets can become worn in entrances, corridors and other busy areas. Our residential and commercial carpet cleaning in Surrey is suitable for both types of property. We clean carpets in houses, flats, rental properties, offices, shops and other commercial spaces.`,
+      `For homeowners, a professional clean can help refresh carpets that have become dull or marked through everyday use. Landlords and tenants may need carpets cleaned when preparing a rental property for a new tenancy, while businesses may want their carpets looking presentable for staff and visitors.`,
+      `We work with different carpet materials and conditions, assessing each carpet before cleaning to choose the right approach. We also offer cleaning services for soft furnishings and rental properties. Our services include:`,
     ],
     whyChooseIntro: [
-      'There are plenty of cleaners to choose from in Surrey. These are the things we focus on for every customer.',
+      `When choosing a carpet cleaning company in Surrey, it helps to know what you can expect before the work starts. We keep the process straightforward and focus on providing a careful service from the first assessment to the final check.`,
+      `Alongside <a href="/services/carpet-cleaning/">carpet cleaning</a>, we also offer rug cleaning, <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a> and end of tenancy cleaning in Surrey. These services can help keep rugs, sofas and rental properties clean and fresh, whether you need help with one item or several areas of your property.`,
+      `Our service includes:`,
     ],
     whyChoosePoints: [
-      'Professional steam extraction for a thorough, deep clean',
-      'Eco-friendly cleaning solutions that are pet and child-friendly',
-      'Transparent, fixed quotes with no hidden fees',
-      'Flexible booking by phone, WhatsApp or online enquiry',
-      'Homes, rental properties and commercial spaces all catered for',
-      'A careful assessment of your carpet before any cleaning starts',
+      `<strong>Professional cleaning equipment</strong> to provide a thorough clean`,
+      `<strong>Careful carpet assessment</strong> before cleaning begins`,
+      `<strong>Suitable cleaning solutions</strong> based on the carpet and its condition`,
+      `<strong>Attention to stains and heavily used areas</strong>`,
+      `<strong>Clear, no-obligation quotes</strong> before you book`,
+      `<strong>Services for homes, rental properties and businesses</strong>`,
+      `<strong>Simple booking</strong> by phone, WhatsApp or online enquiry`,
     ],
-    howItWorksIntro:
-      'Our Surrey carpet cleaning follows five clear stages, so you always know what to expect on the day.',
+    howItWorksIntro: `Our carpet cleaning services in Surrey follow a straightforward process. The exact treatment can vary depending on the carpet, but the main stages help us prepare, clean, and check the carpet properly.`,
     steps: [
       {
-        title: 'Carpet Inspection',
-        description:
-          'We look at the carpet material, its age and condition, and note any stained or heavily soiled areas, so the cleaning approach fits your carpet rather than a one-size-fits-all routine.',
+        title: `Carpet Inspection`,
+        description: `We start by checking the carpet and looking at its material, condition, and level of use. We also identify areas that may need extra attention, such as visible stains, entrance areas, or heavily walked-on sections. This allows us to decide how the carpet should be cleaned before any treatment begins.`,
       },
       {
-        title: 'Pre-treatment',
-        description:
-          'Problem areas are treated before the main clean. This helps break down ground-in dirt, grease and marks so they lift more easily during extraction.',
+        title: `Pre-Treatment`,
+        description: `Some carpets need preparation before the main cleaning stage. Where necessary, we apply a suitable treatment to areas with built-up dirt, grease, or other marks. This helps loosen the dirt so we can remove it more effectively during the main clean.`,
       },
       {
-        title: 'Deep Cleaning',
-        description:
-          'Our professional extraction equipment draws dirt, dust and other build-up out of the fibres, helping carpets look brighter and feel fresher underfoot.',
+        title: `Deep Cleaning`,
+        description: `The main cleaning stage removes loosened dirt and build-up from the carpet using professional equipment. Our carpet deep cleaning in Surrey is suitable when carpets need more than their usual vacuuming.`,
       },
       {
-        title: 'Stain Treatment',
-        description:
-          'Stubborn marks get individual attention. We assess each stain and choose a suitable treatment, taking care to protect the carpet fibres and colour.',
+        title: `Stain Treatment`,
+        description: `Stains are assessed individually because not every mark responds to the same treatment. <a href="/blog/how-to-remove-coffee-stains-from-carpet/">Coffee</a>, wine, food, mud, and <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">pet accidents</a> can all affect carpet fibres differently. We treat suitable stains according to the carpet and the type of mark. Older stains or marks that have already been treated with household products may be more difficult to remove, so we give realistic advice about the likely result.`,
       },
       {
-        title: 'Drying and Final Check',
-        description:
-          'We extract as much moisture as we can to support faster drying, then check the cleaned areas to make sure everything has been properly treated.',
+        title: `Drying and Final Check`,
+        description: `After cleaning, we remove as much moisture as possible to help the carpet dry. Drying time depends on the carpet, room temperature, ventilation, and airflow.<br><br>We then check the cleaned areas to make sure the work has been completed properly and that the areas needing attention have been treated.`,
       },
     ],
-    areasIntro:
-      'Our Surrey coverage spans the county, from the larger towns in the north and centre to market towns in the south and west.',
-    majorTowns: ['Guildford', 'Woking', 'Epsom', 'Redhill', 'Reigate', 'Staines-upon-Thames'],
-    otherTowns:
-      'We also cover Camberley, Farnham, Leatherhead, Godalming, Dorking and Ashford, as well as nearby villages.',
+    areasIntro: ``,
+    majorTowns: [`Guildford`, `Woking`, `Epsom`, `Redhill`, `Reigate`, `Staines-upon-Thames`],
+    otherTowns: ``,
+    areasBody: [
+      `We provide carpet cleaning services for Surrey customers and can cover a wide range of residential and commercial areas.`,
+    ],
+    areasAfter: [
+      `We also serve nearby areas where available. If your location is not listed, contact us with your postcode and cleaning requirements, and we can confirm whether we cover your area.`,
+      `For customers who need cleaning outside Surrey, we also cover <a href="/areas/berkshire/carpet-cleaning/">Berkshire</a> and <a href="/areas/hampshire/carpet-cleaning/">Hampshire</a>.`,
+    ],
     faqs: [
       {
-        question: 'Do you provide carpet cleaning in Surrey?',
-        answer:
-          'Yes. We clean carpets for homes, rental properties and businesses across Surrey, including Guildford, Woking, Epsom, Redhill, Reigate and Staines-upon-Thames.',
+        question: `What areas of Surrey do you cover?`,
+        answer: `We cover Guildford, Woking, Epsom, Redhill, Reigate, Staines-upon-Thames, Camberley, Farnham, Leatherhead, Godalming, Dorking and Ashford, along with nearby areas where available.`,
       },
       {
-        question: 'What areas of Surrey do you cover?',
-        answer:
-          'We cover Guildford, Woking, Epsom, Redhill, Reigate, Staines-upon-Thames, Camberley, Farnham, Leatherhead, Godalming, Dorking and Ashford, plus surrounding areas. Not sure if we reach you? Send us your postcode and we will let you know.',
+        question: `How much does carpet cleaning cost in Surrey?`,
+        answer: `The cost depends on factors such as the number of rooms, carpet size, condition, and <a href="/services/stain-removal/">staining</a>. We provide a free, no-obligation quote based on the work required.`,
       },
       {
-        question: 'How much does carpet cleaning cost in Surrey?',
-        answer:
-          'Prices depend on the number of rooms, the size of the carpets, their condition and any staining. We give free, no-obligation quotes, so you will know the expected cost before you decide to book.',
+        question: `How long does carpet cleaning take?`,
+        answer: `Cleaning time depends on the size of the property, number of rooms, and condition of the carpets. We can give you a more useful estimate once we know what needs to be cleaned.`,
       },
       {
-        question: 'How long does carpet cleaning take?',
-        answer:
-          'The time depends on how many rooms you need cleaned and how soiled the carpets are. A small flat will usually take less time than a large family house. We will give you a sensible estimate when we quote.',
+        question: `How long does a carpet take to dry after cleaning?`,
+        answer: `Drying time varies depending on the carpet and room conditions. Many carpets can dry within several hours, while thicker carpets or rooms with limited airflow may take longer. Good ventilation can help.`,
       },
       {
-        question: 'How long does a carpet take to dry after cleaning?',
-        answer:
-          'Most carpets are dry within 4–6 hours after steam extraction. Thicker carpets, cooler rooms and poor ventilation can add to this, so we recommend opening windows where possible.',
+        question: `Can you remove difficult carpet stains?`,
+        answer: `We can treat many common stains, including coffee, wine, food, mud, <a href="/blog/how-to-remove-oil-from-carpet/">grease</a> and pet accidents. However, some older or deeply set stains may not disappear completely. We will assess the stain and give you an honest idea of what may be possible.`,
       },
       {
-        question: 'Can you remove difficult carpet stains?',
-        answer:
-          'Often, yes. We regularly treat stains such as red wine, coffee, mud, grease and pet accidents. Very old or heavily set stains may not disappear completely, and we will always be honest about what is realistic. See our <a href="/services/stain-removal/">stain removal service</a> for more detail.',
-      },
-      {
-        question: 'Do you clean carpets in homes and businesses?',
-        answer:
-          'Yes. We clean carpets in houses, flats, rental properties and commercial premises throughout Surrey.',
+        question: `Do you clean carpets in homes and businesses?`,
+        answer: `Yes. We provide carpet cleaning for houses, flats, rental properties, offices, shops and other suitable commercial premises across Surrey.`,
       },
     ],
-    ctaText:
-      'Get in touch today for a free, no-obligation quote and a convenient appointment for carpet cleaning anywhere in Surrey.',
+    ctaText: ``,
+    ctaParagraphs: [
+      `Prime Carpet Cleaning helps homeowners, landlords, tenants, and businesses keep their properties clean and fresh across Surrey. Call us or send an online enquiry for your free, no-obligation quote.`,
+    ],
   },
   {
     slug: 'hampshire',
     name: 'Hampshire',
-    seoTitle: 'Carpet Cleaning Hampshire | Professional Local Service',
-    metaDescription:
-      'Professional carpet cleaning in Hampshire for homes and businesses. Deep cleaning, stain treatment and more from Prime Carpet Cleaning.',
+    seoTitle: `Carpet Cleaning Hampshire | Professional Carpet Care`,
+    metaDescription: `Professional carpet cleaning in Hampshire for homes, rentals, and businesses. Expert carpet care, effective stain treatment, and a free, no-obligation quote.`,
     intro: [
-      'Prime Carpet Cleaning and Upholstery Steam Cleaning offers professional carpet cleaning across Hampshire for homeowners, tenants, landlords and local businesses.',
-      'Hampshire covers a lot of ground, from the coastal cities of Southampton and Portsmouth to historic Winchester and busy towns such as Basingstoke and Andover. Wherever you are, our team brings professional equipment and a careful approach to lifting dirt, stains and odours from your carpets. Ask for a free, no-obligation quote today.',
+      `Keeping carpets clean in a busy home or workplace is not always easy. Daily foot traffic, spills, muddy shoes, and dust can gradually leave carpets looking dull and worn. <a href="https://maps.app.goo.gl/zpVifVrEM7aDHazT8" target="_blank" rel="noopener noreferrer">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> helps homeowners, tenants, landlords and businesses keep their carpets in better condition with carpet <a href="/#services">cleaning services</a> in Hampshire.`,
+      `From Southampton and Portsmouth to Winchester, Basingstoke and Andover, Hampshire has a mix of homes, rental properties and commercial buildings. Each carpet has its own material, age and level of wear, so we look at these factors before deciding how it should be cleaned. You can contact us for a free, no-obligation quote based on your cleaning needs.`,
     ],
-    homesBusinessesTitle: 'Carpet Cleaning for Homes and Businesses',
+    homesBusinessesTitle: `Carpet Cleaning for Homes and Businesses`,
     homesBusinesses: [
-      'With such a varied county, no two Hampshire jobs are quite the same. A terraced house in Portsmouth, a family home in Fareham or Havant, and a larger property outside Winchester can all have very different carpets and cleaning needs. We assess each one individually, rather than applying the same routine everywhere.',
-      'Towns such as Aldershot, Farnborough, Fleet and Eastleigh have plenty of rental properties and busy households, where carpets can quickly pick up everyday dirt. Our service also suits businesses in Basingstoke, Southampton and Gosport that want clean, presentable floors for staff and visitors.',
-      'You can also book other cleaning services alongside your carpet clean:',
+      `Different properties put different demands on their carpets. In a family home, carpets may be affected by food and <a href="/blog/how-to-remove-red-wine-stains-from-carpet/">drink spills</a>, muddy footwear, pets and regular movement between rooms. In an office or shop, the busiest areas are often entrances, walkways and spaces used by customers or staff throughout the day.`,
+      `Our residential and commercial carpet cleaning in Hampshire is suitable for houses, flats, rental properties, offices, shops and other workplaces. Rather than treating every carpet in the same way, we consider its material and condition before cleaning.`,
+      `Landlords and tenants can also benefit from professional rental property <a href="/services/carpet-cleaning/">carpet cleaning</a> when carpets need attention between tenancies. We also provide upholstery cleaning, rug cleaning, and end of tenancy cleaning in Hampshire. These services are ideal for removing everyday dirt and keeping sofas, chairs, <a href="/services/rug-cleaning/">rugs</a>, and carpets fresh and clean.`,
     ],
     whyChooseIntro: [
-      'Honest pricing, a careful clean and easy communication matter most when you book a carpet cleaner. That is how we work for customers across Hampshire.',
+      `A good carpet clean is not simply about making the surface look better. The condition of the carpet, the type of fibre and the areas that receive the most use all affect how it should be treated.`,
+      `If you are comparing <a href="/">carpet cleaning companies in Hampshire</a>, look for a service that takes the time to understand your carpet rather than relying on a one-size-fits-all approach.`,
+      `Customers can also expect:`,
     ],
     whyChoosePoints: [
-      'Professional steam extraction equipment for deeper cleaning',
-      'Cleaning solutions designed to be pet and child-friendly',
-      'Free quotes with clear pricing and no hidden fees',
-      'Simple booking by phone, WhatsApp or online enquiry form',
-      'Residential and commercial customers welcome',
-      'Carpet type and condition checked before we begin',
+      `Professional steam extraction equipment`,
+      `Suitable cleaning methods for different carpet types`,
+      `Extra attention to stained and heavily used areas`,
+      `Cleaning solutions suitable for homes with children and pets`,
+      `Clear, no-obligation quotes`,
+      `Flexible appointments for residential and commercial properties`,
+      `Booking by phone, WhatsApp or online enquiry`,
     ],
-    howItWorksIntro:
-      'Here is how a typical carpet clean works for our Hampshire customers, from first look to final check.',
+    howItWorksIntro: `A professional <a href="/blog/how-to-clean-carpet-stains/">carpet clean</a> involves more than simply applying water and extracting it. The carpet is prepared first, then cleaned and checked at the end.`,
     steps: [
       {
-        title: 'Carpet Inspection',
-        description:
-          'We examine the carpet fibre, its condition and any heavily used or stained areas, then decide on the most suitable cleaning method for that particular carpet.',
+        title: `Carpet Inspection`,
+        description: `We begin by looking at the carpet's material, condition, and overall level of soiling. We also identify high-traffic sections, visible stains, and areas that may require additional care.`,
       },
       {
-        title: 'Pre-treatment',
-        description:
-          'We apply pre-treatment to soiled areas and visible marks so that ingrained dirt is loosened ahead of the deep clean.',
+        title: `Pre-treatment`,
+        description: `Areas with built-up dirt or noticeable marks can be treated before the main clean. Pre-treatment helps loosen soil that has become attached to the carpet fibres, making it easier to remove during extraction.`,
       },
       {
-        title: 'Deep Cleaning',
-        description:
-          'Steam extraction gets into the carpet pile to lift out embedded dirt, dust and allergens, rather than just treating the surface.',
+        title: `Deep Cleaning`,
+        description: `The main cleaning stage uses professional steam extraction equipment to work through the carpet pile and remove loosened dirt and residue. Professional carpet cleaning in Hampshire customers choose can be particularly useful when regular vacuuming is no longer enough to improve the appearance of a heavily used carpet.`,
       },
       {
-        title: 'Stain Treatment',
-        description:
-          'For marks that need extra attention, we choose a treatment to suit the stain and the carpet. We explain what to expect before we start.',
+        title: `Stain Treatment`,
+        description: `Stains are assessed individually because different marks can respond differently to treatment. We can work on common stains such as coffee, wine, food, mud, grease, and pet accidents. With older or deeply set stains, we explain beforehand what level of improvement may be realistic.`,
       },
       {
-        title: 'Drying and Final Check',
-        description:
-          'Moisture is extracted as thoroughly as possible to help the carpet dry sooner, and we check the finished result before we finish.',
+        title: `Drying and Final Check`,
+        description: `After cleaning, as much moisture as possible is extracted from the carpet. We then check the finished areas before leaving. Drying time depends on the carpet, room temperature, ventilation, and humidity, so good airflow can help speed up the process.`,
       },
     ],
-    areasIntro:
-      'We cover Hampshire from the south coast up to the Surrey and Berkshire borders, including the main cities and many of the smaller towns in between.',
-    majorTowns: ['Southampton', 'Portsmouth', 'Winchester', 'Basingstoke', 'Andover', 'Farnborough'],
-    otherTowns:
-      'We also cover Aldershot, Eastleigh, Fareham, Gosport, Havant and Fleet, along with the villages around them.',
+    areasIntro: ``,
+    majorTowns: [`Southampton`, `Portsmouth`, `Winchester`, `Basingstoke`, `Andover`, `Farnborough`],
+    otherTowns: ``,
+    areasBody: [
+      `Hampshire is a large county, so our service area includes a wide range of residential and commercial locations.`,
+    ],
+    areasAfter: [
+      `We also work in surrounding villages and nearby residential areas. If your town is not listed, send us your postcode, and we can check whether your location falls within our service area.`,
+      `Our wider service area also includes nearby counties, with carpet cleaning available in <a href="/areas/berkshire/carpet-cleaning/">Berkshire</a> and <a href="/areas/surrey/carpet-cleaning/">Surrey</a>.`,
+    ],
     faqs: [
       {
-        question: 'Do you provide carpet cleaning in Hampshire?',
-        answer:
-          'Yes. We provide carpet cleaning across Hampshire for homes and businesses, including Southampton, Portsmouth, Winchester, Basingstoke, Andover and Farnborough.',
+        question: `Do you provide carpet cleaning in Hampshire?`,
+        answer: `Yes. We clean carpets in homes, rental properties and commercial premises throughout Hampshire, including Southampton, Portsmouth, Winchester, Basingstoke and surrounding areas.`,
       },
       {
-        question: 'What areas of Hampshire do you cover?',
-        answer:
-          'We cover Southampton, Portsmouth, Winchester, Basingstoke, Andover, Farnborough, Aldershot, Eastleigh, Fareham, Gosport, Havant and Fleet, and many of the areas around them. If you are somewhere else in the county, just ask.',
+        question: `What areas of Hampshire do you cover?`,
+        answer: `We cover Southampton, Portsmouth, Winchester, Basingstoke, Andover, Farnborough, Aldershot, Eastleigh, Fareham, Gosport, Havant, Fleet and nearby areas. Contact us if you are outside these locations.`,
       },
       {
-        question: 'How much does carpet cleaning cost in Hampshire?',
-        answer:
-          'The price depends on how many rooms you need cleaned, the size and condition of the carpets, and whether there are stains to treat. We provide a free, no-obligation quote so there are no surprises.',
+        question: `How much does carpet cleaning cost in Hampshire?`,
+        answer: `The price depends on the number of rooms, carpet size, condition, and any additional <a href="/services/stain-removal/">stain treatment</a> required. We can give you a free, no-obligation quote before booking.`,
       },
       {
-        question: 'How long does carpet cleaning take?',
-        answer:
-          'A single room can be done fairly quickly, while a whole property takes longer. Heavily soiled carpets or those with several stains may need extra time. We will tell you what to expect when we provide your quote.',
+        question: `How long does carpet cleaning take?`,
+        answer: `Cleaning time varies according to the size of the property, number of rooms, and condition of the carpets. We can give you a more accurate estimate after discussing the job.`,
       },
       {
-        question: 'How long does a carpet take to dry after cleaning?',
-        answer:
-          'Most carpets are ready within 4–6 hours after professional steam extraction. Humidity, ventilation and carpet thickness all play a part, so good airflow helps.',
+        question: `How long does a carpet take to dry after cleaning?`,
+        answer: `Many carpets take around 4–6 hours to dry after professional steam extraction. Actual drying time can vary because of ventilation, humidity, carpet thickness, and room conditions.`,
       },
       {
-        question: 'Can you remove difficult carpet stains?',
-        answer:
-          'We can treat many stubborn marks, including wine, coffee, grease, mud and pet accidents. Older stains are harder, and we will give you a realistic assessment first. Find out more about our <a href="/services/stain-removal/">stain removal service</a>.',
+        question: `Can you remove difficult carpet stains?`,
+        answer: `We can treat many common stains, including coffee, wine, grease, mud, and <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">pet accidents</a>. Older stains can be more difficult to remove, so we assess them first and explain what results may be possible.`,
       },
       {
-        question: 'Do you clean carpets in homes and businesses?',
-        answer:
-          'Yes. We clean carpets in private homes, rental properties and commercial spaces across Hampshire.',
+        question: `Do you clean carpets in homes and businesses?`,
+        answer: `Yes. We work with homeowners, landlords, tenants and businesses, including offices, shops and other commercial properties.`,
       },
     ],
-    ctaText:
-      'Contact us for a free, no-obligation quote and arrange carpet cleaning at a time that suits you anywhere in Hampshire.',
+    ctaText: ``,
+    ctaParagraphs: [
+      `Clean carpets can make a noticeable difference to the look and feel of a room. If yours have become dull, marked or heavily soiled, professional cleaning can help refresh them without replacing the carpet.`,
+      `Whether you need several rooms cleaned at home, carpets prepared for a new tenant, or commercial carpet cleaning in Hampshire, Prime Carpet Cleaning and Upholstery Steam Cleaning can help. Get in touch today for a free, no-obligation quote and find a convenient time for your carpet cleaning in Hampshire.`,
+    ],
   },
 ];

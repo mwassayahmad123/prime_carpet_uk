@@ -41,7 +41,7 @@
       <section class="section process-section">
         <div class="container">
           <div class="section__header">
-            <h2 class="section__title">Why Choose Prime Carpet Cleaning in {{area.name}}</h2>
+            <h2 class="section__title">Why Choose Prime Carpet Cleaning in {{area.name}}?</h2>
             {{#each area.whyChooseIntro}}
               <p class="section__text section__text--wide">{{{this}}}</p>
             {{/each}}
@@ -64,7 +64,7 @@
         <div class="container">
           <div class="section__header">
             <h2 class="section__title">How Our Carpet Cleaning Service Works</h2>
-            <p class="section__text section__text--wide">{{area.howItWorksIntro}}</p>
+            <p class="section__text section__text--wide">{{{area.howItWorksIntro}}}</p>
           </div>
           <div class="process__grid process__grid--five">
             {{#each area.steps}}
@@ -82,7 +82,9 @@
           <div class="section__header">
             <h2 class="section__title">Areas We Cover in {{area.name}}</h2>
             {{#unless area.allTowns}}
-              <p class="section__text section__text--wide">{{area.areasIntro}}</p>
+              {{#each area.areasBody}}
+                <p class="section__text section__text--wide">{{{this}}}</p>
+              {{/each}}
             {{/unless}}
           </div>
           <div class="map-box map-box--wide">
@@ -103,11 +105,6 @@
                 <li>📍 {{this}}</li>
               {{/each}}
             </ul>
-            <p class="section__text section__text--wide area-towns__more">{{area.areasAfter}}</p>
-            <p class="section__text section__text--wide area-towns__note">
-              We also cover
-              {{#each otherAreas}}<a href="/areas/{{this.slug}}/carpet-cleaning/">Carpet Cleaning {{this.name}}</a>{{#unless @last}} and {{/unless}}{{/each}}.
-            </p>
           {{else}}
             <h3 class="area-towns__title">Major Towns</h3>
             <ul class="area-towns">
@@ -115,10 +112,16 @@
                 <li>📍 {{this}}</li>
               {{/each}}
             </ul>
-            <p class="section__text section__text--wide area-towns__more">{{area.otherTowns}}</p>
+            {{#if area.otherTowns}}
+              <p class="section__text section__text--wide area-towns__more">{{area.otherTowns}}</p>
+            {{/if}}
+          {{/if}}
+          {{#each area.areasAfter}}
+            <p class="section__text section__text--wide area-towns__more">{{{this}}}</p>
+          {{/each}}
+          {{#if area.crossLinks}}
             <p class="section__text section__text--wide area-towns__note">
-              <strong>Don't see your town listed?</strong> If your town isn't listed here, get in touch and we will let you know
-              whether we can help. We also cover
+              We also cover
               {{#each otherAreas}}<a href="/areas/{{this.slug}}/carpet-cleaning/">Carpet Cleaning {{this.name}}</a>{{#unless @last}} and {{/unless}}{{/each}}.
             </p>
           {{/if}}
