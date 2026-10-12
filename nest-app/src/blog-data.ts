@@ -4,6 +4,7 @@ export interface BlogPost {
   seoTitle?: string;
   metaDescription: string;
   excerpt: string;
+  imageAlt?: string;
   publishedDate: string;
   readTime: string;
   contentHtml: string;
@@ -11,7 +12,119 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-blood-from-carpet',
+    imageAlt: 'Professional carpet cleaning to remove a blood stain from carpet',
+    title: 'How to Remove Blood From Carpet: A Simple Step-by-Step Guide',
+    seoTitle: 'How to Remove Blood From Carpet | Easy Step-by-Step Guide',
+    metaDescription:
+      'Learn how to remove blood from carpet with easy steps for fresh and dried stains. Find out what to avoid and when professional carpet cleaning can help.',
+    excerpt:
+      'Fresh blood is usually easier to remove, while dried blood may take more time and gentler cleaning. Use cold water, blot instead of rubbing, and follow these simple steps.',
+    publishedDate: '9 October 2026',
+    readTime: '6 min read',
+    contentHtml: `
+      <p>If you need to remove blood from carpet, the most important thing is to act carefully and avoid rubbing the stain. Fresh blood is usually easier to remove, while dried blood may take more time and gentler cleaning. The good news is that with the right steps, you can often reduce or remove a blood stain from carpet without damaging the fibres.</p>
+
+      <h2>How to Remove Fresh Blood From Carpet</h2>
+      <p>When blood gets onto a carpet, try to deal with it as soon as possible. The longer it sits, the more it can soak into the carpet fibres and become harder to remove.</p>
+      <p>Start by getting a clean white cloth or paper towel. Gently blot the area to pick up as much blood as possible. Do not scrub the carpet, as rubbing can push the blood deeper into the fibres and spread the stain.</p>
+      <p>It is also important to use cold water, not hot water. Hot water can make blood harder to remove by causing it to set into the carpet.</p>
+      <p>If the blood has already dried, do not worry. You can still try to remove it, but you may need to repeat the cleaning process.</p>
+
+      <h2>How to Remove Blood From Carpet: Step by Step</h2>
+
+      <h3>Blot the Blood Carefully</h3>
+      <p>The first step in carpet blood stain removal is to remove as much of the fresh blood as you can.</p>
+      <p>Take a clean white cloth and gently press it onto the blood stain. Lift the cloth, move to a clean section, and repeat. Keep doing this until very little blood transfers to the cloth.</p>
+      <p>Avoid wiping from side to side. This can spread the blood over a larger area.</p>
+      <p>If the blood stain is still wet, blotting alone may remove a surprising amount of it.</p>
+
+      <h3>Use a Suitable Cleaning Solution</h3>
+      <p>Once you have removed as much blood as possible, you can treat the remaining blood stain on carpet.</p>
+      <p>Mix a small amount of mild washing-up liquid with cold water. Apply a small amount of the solution to a clean cloth rather than soaking the carpet.</p>
+      <p>Gently dab the stained area with the damp cloth. Work from the outside of the stain towards the centre. This helps keep the stain from spreading.</p>
+      <p>Before using any cleaning product, test it on a hidden part of the carpet first. This is especially important if you are unsure how the carpet will react.</p>
+
+      <h3>Blot the Stain Again</h3>
+      <p>After applying the cleaning solution, use another clean, damp white cloth to blot the area.</p>
+      <p>You should start to see blood transferring from the carpet onto the cloth. Keep turning the cloth to a clean section as you work.</p>
+      <p>Do not rush this step. Gentle, repeated blotting is usually safer than using lots of pressure.</p>
+      <p>If you are trying to remove a blood stain from carpet, patience can make a big difference.</p>
+
+      <h3>Rinse Away Any Residue</h3>
+      <p>Cleaning products should not be left sitting in the carpet.</p>
+      <p>Use a clean cloth lightly dampened with cold water and gently blot the area to remove any remaining cleaning solution.</p>
+      <p>Try not to use too much water. Soaking the carpet can make drying more difficult and may cause other problems.</p>
+
+      <h3>Let the Carpet Dry</h3>
+      <p>Once the stain has been treated, allow the carpet to dry completely.</p>
+      <p>You can improve airflow by opening a window or using a fan nearby. Avoid walking over the area while it is still wet.</p>
+      <p>Once dry, check the carpet in good light. If you can still see some of the stain, you may need to repeat the process rather than using a stronger product straight away.</p>
+
+      <h2>How to Remove Dried Blood From Carpet</h2>
+      <p>Learning how to remove dried blood from carpet can be more difficult because the blood has had time to dry and stick to the carpet fibres.</p>
+      <p>Start by gently loosening any dried material with a soft brush or the edge of a spoon. Be careful not to pull or damage the carpet fibres.</p>
+      <p>Next, lightly dampen a clean cloth with cold water and blot the area. Give the moisture a little time to soften the dried blood, then continue blotting.</p>
+      <p>You can then use a small amount of mild washing-up liquid mixed with cold water. Apply it carefully with a cloth and blot rather than scrub.</p>
+      <p>For a dried blood stain on carpet, you may need to repeat these steps several times. Avoid flooding the area with water, as more moisture does not necessarily mean better cleaning.</p>
+      <p>If the stain has been there for a long time, some discolouration may remain even after careful cleaning.</p>
+
+      <h2>Can You Remove an Old Blood Stain From Carpet?</h2>
+      <p>Yes, an old blood stain can sometimes be removed or greatly reduced, but the result depends on several things.</p>
+      <p>The type and colour of the carpet matter. So does how long the blood has been there, whether previous cleaning products have been used, and how deeply the blood has soaked into the fibres.</p>
+      <p>For an older stain, start with gentle cleaning rather than immediately reaching for a strong chemical product.</p>
+      <p>One common mistake people make is repeatedly scrubbing an old stain because they want to see results quickly. This can damage the carpet while leaving the stain behind.</p>
+      <p>If you have tried gentle cleaning and the stain remains, professional <a href="/services/stain-removal/">blood stain removal</a> may be a better option. A <a href="/">professional cleaner</a> can assess the carpet before choosing a suitable treatment.</p>
+
+      <h2>What Should You Avoid When Removing Blood From Carpet?</h2>
+      <p>Knowing what not to do is just as important as knowing how to clean blood from carpet.</p>
+      <p>Avoid these common mistakes:</p>
+      <ul>
+        <li>Do not use hot water. Cold water is generally the safer choice for blood stains.</li>
+        <li>Do not scrub hard. Rubbing can spread the stain and damage carpet fibres.</li>
+        <li>Do not soak the carpet. Too much water can make the area difficult to dry.</li>
+        <li>Do not mix cleaning products. Different products can react with each other and may damage the carpet.</li>
+        <li>Do not use a strong product without testing it. Some carpets can lose colour or become damaged.</li>
+        <li>Do not keep rubbing when the stain is not improving. Repeated rubbing can make the problem worse.</li>
+      </ul>
+      <p>A simple approach is usually best: blot, treat gently, blot again, remove residue, and let the carpet dry.</p>
+
+      <h2>When Should You Call a Professional Carpet Cleaner?</h2>
+      <p>Small, fresh stains can often be treated at home, especially when you act quickly.</p>
+      <p>However, professional help may be useful when the blood has dried, the stain is large, the carpet is delicate, or home cleaning has not worked.</p>
+      <p>It is also worth getting help if you are worried about damaging an expensive or light-coloured carpet. Trying several different cleaning products can sometimes leave the carpet looking worse than before.</p>
+      <p>Professional <a href="/services/carpet-cleaning/">carpet cleaning</a> can also help when a carpet blood stain removal job requires more than simple surface cleaning.</p>
+      <p>If you are unsure what type of carpet you have or which cleaning method is safe, getting the carpet checked before treating it can help prevent unnecessary damage.</p>
+
+      <h2>Blood Stain Removal FAQs</h2>
+
+      <h3>How do you get blood out of carpet quickly?</h3>
+      <p>Blot fresh blood with a clean white cloth and cold water as soon as possible. Avoid rubbing the stain. Once most of the blood has been removed, gently treat the remaining area with a mild cleaning solution.</p>
+
+      <h3>Can you remove dried blood from carpet?</h3>
+      <p>Yes, dried blood can sometimes be removed. Gently loosen the dried material, soften the area with cold water, and blot with a suitable mild cleaning solution. Older stains may require several treatments.</p>
+
+      <h3>What is the best way to remove blood stains from carpet?</h3>
+      <p>The safest approach is usually gentle blotting with cold water followed by a suitable mild cleaning solution. Avoid hot water and hard scrubbing, as both can make the stain more difficult to deal with.</p>
+
+      <h3>Can I use hot water to clean blood from carpet?</h3>
+      <p>It is better to avoid hot water when treating blood. Cold water is generally recommended because heat can make the blood stain more difficult to remove.</p>
+
+      <h3>Does blood stain carpet permanently?</h3>
+      <p>Not necessarily. Blood stains can often be removed from carpet if treated correctly. Fresh blood is generally easier to clean than dried blood, but the final result depends on factors such as the carpet's material, stain size, and how long the blood has been present. Avoid using hot water, as heat can set protein-based blood stains and make them more difficult to remove.</p>
+
+      <h3>Will professional carpet cleaning remove a blood stain?</h3>
+      <p>Professional cleaning can often improve or remove difficult stains, but results depend on the carpet, the age of the stain, and whether previous cleaning products have been used. No stain can be guaranteed to disappear completely.</p>
+
+      <h2>Conclusion</h2>
+      <p>Knowing how to remove blood from carpet can save you from turning a small accident into a larger carpet problem. The key is to act quickly, use cold water, blot instead of scrub, and avoid soaking the carpet.</p>
+      <p>Fresh blood is usually easier to treat than dried or old stains, so early action can make the job much simpler. If the stain remains after careful cleaning, avoid repeatedly applying stronger products. Professional help can be a safer choice, especially for delicate, expensive, or heavily stained carpets.</p>
+      <p>For help with difficult stains and professional carpet cleaning, Prime Carpet Cleaning and Upholstery Steam Cleaning can help you find a suitable cleaning solution for your carpet.</p>
+    `,
+  },
+  {
     slug: 'how-to-remove-oil-from-carpet',
+    imageAlt: 'Professional cleaning to remove an oil stain from a carpet',
     title: 'How to Remove Oil From Carpet: A Simple Step-by-Step Guide',
     seoTitle: 'How to Remove Oil From Carpet | Easy Step-by-Step Guide',
     metaDescription:
@@ -137,6 +250,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: 'how-to-remove-pet-urine-stains-from-carpet',
+    imageAlt: 'Carpet cleaning for pet urine stains in a home',
     title: 'How to Remove Pet Urine Stains From Carpet: A Step-by-Step Guide',
     seoTitle: 'How to Remove Pet Urine From Carpet: Step-by-Step Guide',
     metaDescription:
@@ -255,6 +369,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: 'how-to-remove-coffee-stains-from-carpet',
+    imageAlt: 'Professional carpet cleaning removing a coffee stain from a carpet | Prime Carpet Cleaning',
     title: 'How to Remove Coffee Stains From Carpet: A Simple Step-by-Step Guide',
     seoTitle: 'How to Remove Coffee Stains From Carpet | Easy Guide',
     metaDescription:

@@ -20,7 +20,7 @@
           <a href="/blog/" class="blog-post__back">← Back to Blog</a>
           {{#if post.image}}
             <figure class="blog-post__image">
-              <img src="{{post.image}}" alt="{{post.title}}" loading="lazy" />
+              <img src="{{post.image}}" alt="{{#if post.imageAlt}}{{post.imageAlt}}{{else}}{{post.title}}{{/if}}" loading="lazy" />
             </figure>
           {{/if}}
           <div class="blog-post__content">

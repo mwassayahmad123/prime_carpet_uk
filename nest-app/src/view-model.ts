@@ -57,6 +57,7 @@ function blogCardData(p: BlogPost) {
     publishedDate: p.publishedDate,
     readTime: p.readTime,
     image: getBlogImage(p.slug),
+    imageAlt: p.imageAlt || p.title,
   };
 }
 
