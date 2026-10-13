@@ -12,6 +12,142 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-ink-from-carpet',
+    imageAlt: 'Before and after carpet cleaning for an ink stain',
+    title: 'How to Remove Ink From Carpet: A Simple Step-by-Step Guide',
+    seoTitle: 'How to Remove Ink From Carpet: Easy, Effective Tips',
+    metaDescription:
+      'Spilled ink on your carpet? Learn easy ways to remove fresh and dried ink stains. Find out what to avoid and when professional carpet cleaning can help.',
+    excerpt:
+      'Whether it is from a leaking pen, marker, or another ink spill, the right cleaning steps can help prevent the stain from spreading and becoming harder to remove.',
+    publishedDate: '13 October 2026',
+    readTime: '7 min read',
+    contentHtml: `
+      <p>If you want to know how to remove ink from carpet, acting quickly can make a big difference. Whether it is from a leaking pen, marker, or another ink spill, the right cleaning steps can help prevent the stain from spreading and becoming harder to remove.</p>
+
+      <h2>What to Do When You Spill Ink on Carpet</h2>
+      <p>An ink spill can look worse than it really is, especially when you first notice it. The most important thing is to stay calm and avoid rubbing the area.</p>
+      <p>Start by removing anything that caused the spill. If a pen has leaked, move it away from the carpet so no more ink reaches the fibres.</p>
+      <p>Next, take a clean white cloth or paper towel and gently blot the affected area. Press down lightly and lift the cloth rather than wiping from side to side.</p>
+      <p>Keep moving to a clean part of the cloth as the ink transfers. This helps prevent the ink from spreading to other parts of the carpet.</p>
+      <p>Before applying any cleaning product, check the carpet care instructions if they are available. It is also a good idea to test the product on a hidden area first.</p>
+      <p>The sooner you deal with an ink <a href="/services/carpet-cleaning/">stain on carpet</a>, the better your chances of getting a good result.</p>
+
+      <h2>How to Remove Ink From Carpet Step by Step</h2>
+
+      <h3>Blot the Fresh Ink</h3>
+      <p>Start by removing as much fresh ink as possible.</p>
+      <p>Place a clean white cloth over the stain and gently press it down. Lift the cloth and check how much ink has transferred.</p>
+      <p>Repeat the process with a clean section of the cloth.</p>
+      <p>Do not scrub. Rubbing can push ink further into the carpet and spread it across a larger area.</p>
+      <p>If the spill is large, work from the outside towards the centre. This helps keep the stain contained.</p>
+
+      <h3>Apply a Suitable Cleaning Solution</h3>
+      <p>Once you have removed as much fresh ink as possible, you can treat what remains.</p>
+      <p>Use a suitable carpet cleaning solution that is safe for your carpet. Apply a small amount to a clean cloth rather than pouring it directly over the stain.</p>
+      <p>Gently dab the stained area and allow the solution to work according to its instructions.</p>
+      <p>If you are using a product for the first time, always test it somewhere hidden first. This helps you check whether it affects the carpet's colour or appearance.</p>
+      <p>For <a href="/services/stain-removal/">ink stain removal</a>, using a small amount of the right product is generally better than soaking the entire area.</p>
+
+      <h3>Blot the Ink Stain Again</h3>
+      <p>After applying the cleaning solution, continue blotting with a clean white cloth.</p>
+      <p>You may notice more ink transferring onto the cloth. Keep changing to a clean section as you work.</p>
+      <p>Take your time. It may take several rounds of gentle blotting to get the stain under control.</p>
+      <p>If you notice the stain spreading, stop and reassess rather than adding more product.</p>
+      <p>The aim is to lift the ink from the carpet, not push it deeper into the fibres.</p>
+
+      <h3>Remove Any Cleaning Residue</h3>
+      <p>Once the ink has been treated, use a clean cloth lightly dampened with water to remove any remaining cleaning product.</p>
+      <p>Gently blot the area instead of soaking it.</p>
+      <p>Leaving too much cleaning product in the carpet can attract dirt later, so this step is important.</p>
+      <p>Do not use large amounts of water. A lightly damp cloth is usually enough to remove surface residue.</p>
+
+      <h3>Let the Carpet Dry Completely</h3>
+      <p>Allow the carpet to dry naturally after cleaning.</p>
+      <p>Open a window or improve airflow in the room if possible. Keep people and pets away from the damp area until it has dried.</p>
+      <p>Once the carpet is completely dry, check the area in good light.</p>
+      <p>If you can still see some ink, do not immediately reach for a stronger product. Repeating a gentle treatment may be safer than using too much cleaning solution at once.</p>
+
+      <h2>How to Get Ink Out of Carpet Without Making the Stain Worse</h2>
+      <p>Knowing how to get ink out of carpet is not only about what you use. It is also about what you avoid.</p>
+      <p>One of the biggest mistakes is scrubbing the stain. Ink can spread quickly when rubbed, making the affected area larger.</p>
+      <p>Another mistake is using too much cleaning product. More product does not always mean better results. Excess moisture can also make drying more difficult.</p>
+      <p>Avoid pouring cleaning products directly onto the carpet. Applying a small amount to a cloth gives you better control.</p>
+      <p>You should also avoid mixing different cleaning products. A combination that seems harmless can damage the carpet or create an unpleasant smell.</p>
+      <p>If you have already tried one cleaning method, avoid immediately trying several others. Give the carpet time to dry and check the result first.</p>
+      <p>For successful ink stain removal from carpet, gentle and controlled cleaning is usually the better approach.</p>
+
+      <h2>How to Remove Dried Ink From Carpet</h2>
+      <p>Fresh ink is usually easier to treat than dried ink. Once ink has dried, it can become more difficult to lift from the carpet fibres.</p>
+      <p>If you are trying to remove an old ink stain from carpet, start gently.</p>
+      <p>First, remove any loose material from the surface. Then use a clean cloth and a suitable carpet cleaning solution. Apply a small amount and gently blot the affected area.</p>
+      <p>Avoid aggressive scrubbing, even if the stain looks stubborn.</p>
+      <p>Older stains may need more than one careful treatment. However, if the carpet has already been treated with several products, adding more can sometimes make the situation worse.</p>
+      <p>The type of carpet also matters. Some carpets are more delicate than others and may react badly to certain cleaning products.</p>
+      <p>If the stain does not improve after careful treatment, professional cleaning may be the safer option.</p>
+
+      <h2>Can Old Ink Stains Be Removed?</h2>
+      <p>Yes, old ink stains can sometimes be removed, but there is no single method that works for every carpet or every ink stain.</p>
+      <p>The result can depend on:</p>
+      <ul>
+        <li>How long the ink has been in the carpet</li>
+        <li>The type of ink</li>
+        <li>The carpet material</li>
+        <li>The colour of the carpet</li>
+        <li>How large the stain is</li>
+        <li>Whether the stain has been treated before</li>
+        <li>Which cleaning products have already been used</li>
+      </ul>
+      <p>An old stain may have had more time to settle into the carpet fibres, making it harder to remove completely.</p>
+      <p>If you have tried cleaning the stain several times without success, it may be better to stop rather than continue applying different products.</p>
+      <p>A professional carpet cleaner can assess the carpet and choose a suitable approach based on its condition.</p>
+
+      <h2>What Should You Avoid When Removing Ink From Carpet?</h2>
+      <p>When learning how to clean ink from carpet, knowing what not to do is just as important.</p>
+      <p>Avoid these common mistakes:</p>
+      <ul>
+        <li>Do not scrub the stain heavily. This can spread the ink and damage carpet fibres.</li>
+        <li>Do not soak the carpet. Excess water can make drying difficult.</li>
+        <li>Do not use several cleaning products together. Mixing products can damage the carpet.</li>
+        <li>Do not skip a patch test. Always check a new product on a hidden area first.</li>
+        <li>Do not pour large amounts of cleaner onto the stain. Use a controlled amount instead.</li>
+        <li>Do not use heat without checking the carpet instructions. Heat may affect some carpet materials.</li>
+        <li>Do not keep treating the same area aggressively. Repeated hard cleaning can damage the carpet.</li>
+        <li>Do not assume every home remedy is safe. Natural ingredients can still affect carpet colour or fibres.</li>
+      </ul>
+      <p>The goal is to remove the ink while keeping the carpet in good condition.</p>
+
+      <h2>When Should You Call a Professional Carpet Cleaner?</h2>
+      <p>Small fresh ink spills can sometimes be treated at home. However, professional help may be worthwhile when the stain is large, old, dried, or has already been treated several times.</p>
+      <p>You should also consider professional cleaning if the carpet is delicate, expensive, light-coloured, or particularly important to you.</p>
+      <p>Trying several different products can sometimes create a bigger problem than the original ink stain.</p>
+      <p>A professional carpet cleaner can assess the carpet and stain before deciding how to treat it.</p>
+      <p>This can be especially useful when you are unsure whether a cleaning product is suitable for the carpet.</p>
+
+      <h2>FAQs About Removing Ink Stains from Carpet</h2>
+
+      <h3>How to get ink out of carpet?</h3>
+      <p>Start by gently blotting the fresh ink with a clean white cloth. Use a suitable carpet cleaning solution carefully, blot again, remove any residue with a lightly damp cloth, and let the carpet dry completely. Avoid rubbing or soaking the carpet.</p>
+
+      <h3>Can old ink stains be removed?</h3>
+      <p>Old ink stains can sometimes be removed or greatly reduced. The result depends on the type of ink, carpet material, age of the stain, and previous cleaning attempts. Older stains may require professional treatment.</p>
+
+      <h3>What is the hardest stain to get out of carpet?</h3>
+      <p>There is no single hardest stain because results depend on the carpet and the age and condition of the stain. Old ink, permanent marker, paint, oil, and old pet stains can all be difficult to remove.</p>
+
+      <h3>Does vinegar and baking soda remove old stains from carpet?</h3>
+      <p>Vinegar and baking soda are common home cleaning remedies, but they are not guaranteed to remove old stains. They may also affect some carpets, so always check the carpet and test any cleaning method in a hidden area first.</p>
+
+      <h3>Can carpet be permanently stained?</h3>
+      <p>Yes. Some stains can cause permanent discolouration, especially if they are old, deeply absorbed, or treated incorrectly. Professional cleaning may improve the appearance, but complete removal is not always possible.</p>
+
+      <h2>Conclusion</h2>
+      <p>Knowing how to remove ink from carpet can help you deal with a spill before it becomes a bigger problem. Start by blotting the ink, use a suitable cleaning solution carefully, avoid scrubbing, and give the carpet enough time to dry.</p>
+      <p>Fresh ink is usually easier to treat than an old or dried stain, so acting quickly can help. If the stain remains after careful cleaning, avoid repeatedly using stronger products. This could damage the carpet or make the stain harder to treat.</p>
+      <p>For stubborn ink stains and other difficult carpet problems, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can provide professional <a href="/">carpet cleaning</a> and help you choose a suitable approach for your carpet.</p>
+    `,
+  },
+  {
     slug: 'how-to-remove-blood-from-carpet',
     imageAlt: 'Professional carpet cleaning to remove a blood stain from carpet',
     title: 'How to Remove Blood From Carpet: A Simple Step-by-Step Guide',
