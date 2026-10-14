@@ -12,6 +12,173 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-old-dried-in-carpet-stains',
+    imageAlt: 'Before and after removal of old dried-in carpet stains',
+    title: 'How to Remove Old, Dried-In Carpet Stains: A Complete Guide',
+    seoTitle: 'How to Remove Old Carpet Stains | Easy Cleaning Guide',
+    metaDescription:
+      'Struggling with old carpet stains? Follow simple, expert-backed steps to tackle dried-in marks, stubborn spills and common stains without damaging your carpet.',
+    excerpt:
+      'A dried stain does not always mean the carpet is permanently marked. Learn how to treat old, dried-in stains gradually and safely, and when professional help is the better option.',
+    publishedDate: '14 October 2026',
+    readTime: '9 min read',
+    contentHtml: `
+      <p>Old carpet stains can be frustrating, especially when a spill has been sitting in the carpet for days, weeks, or even longer. But a dried stain does not always mean the carpet is permanently marked. With the right approach, many stains can be improved, and some can be removed completely.</p>
+      <p>From our experience with different carpets and stains, the biggest mistake people make is trying to remove an old mark too aggressively. More scrubbing or more cleaning products does not always produce better results. The safest approach is to understand the stain, treat it gradually, and give the carpet time to respond.</p>
+      <p>This guide explains how to deal with dried-in stains at home, what can make them worse, and when professional help may be the better option.</p>
+
+      <h2>Why Old Carpet Stains Are Harder to Remove</h2>
+      <p>Fresh spills are usually easier to deal with because they have not had much time to settle. Once a stain dries, its residue can become attached to the carpet fibres and become more difficult to lift.</p>
+      <p>Daily foot traffic can make things worse. Walking over a stained area can press dirt further into the carpet. In some cases, repeated cleaning attempts can also leave product residue behind.</p>
+      <p>The type of stain makes a difference too. Coffee, red wine, grease, food, blood, ink, and pet accidents all behave differently.</p>
+      <p>In our experience, old stains on carpet are often more difficult when they have already been treated with several different products. A carpet may appear cleaner at first, but leftover product can make the fibres sticky and cause the area to attract dirt again.</p>
+      <p>That is why it is better to start with a careful method instead of immediately reaching for a stronger cleaner.</p>
+
+      <h2>Can You Remove a Dried Carpet Stain?</h2>
+      <p>Yes, many dried stains can be improved, but there is no reliable way to guarantee that every old mark will disappear completely.</p>
+      <p>The age of the stain, carpet material, colour, type of spill and previous cleaning attempts can all affect the result.</p>
+      <p>For example, a recent coffee spill may respond well to careful treatment, while an old stain that has been walked over for months may have affected the carpet more deeply.</p>
+      <p>An experienced cleaner will normally look at the carpet before deciding how to treat the stain. This matters because the safest method for one carpet may not be suitable for another.</p>
+      <p>Before starting any DIY carpet stain removal, check the manufacturer's care instructions if they are available. Always test a cleaning product on a small, hidden area first.</p>
+
+      <h2>What You Need Before Treating an Old Stain</h2>
+      <p>You do not need lots of different products for basic DIY carpet stain removal.</p>
+      <p>For a small stain, keep these items nearby:</p>
+      <ul>
+        <li>Clean white cloths or towels</li>
+        <li>A soft-bristled brush</li>
+        <li>Lukewarm water</li>
+        <li>A carpet-safe cleaning solution</li>
+        <li>A clean spray bottle</li>
+        <li>Paper towels</li>
+        <li>A dry towel</li>
+      </ul>
+      <p>From practical experience, using fewer products is often better than mixing several cleaners. Different products can react with each other, and too much cleaning solution can leave residue in the carpet.</p>
+      <p>Your aim should be to loosen the stain gradually rather than soaking the entire area.</p>
+
+      <h2>How to Remove Old, Dried-In Carpet Stains</h2>
+      <p>If you want to remove stains from carpet at home, work slowly and avoid aggressive scrubbing.</p>
+
+      <h3>Remove Loose Dirt</h3>
+      <p>Begin by vacuuming the stained area and the surrounding carpet.</p>
+      <p>This removes loose dust, crumbs, and dirt before moisture is introduced. If you skip this step, loose dirt can mix with the cleaning solution and make the area look worse.</p>
+      <p>There is no need to repeatedly vacuum the same spot. A careful pass over the area is usually enough.</p>
+
+      <h3>Rehydrate the Stain</h3>
+      <p>A dried stain may need to be softened before it can be treated.</p>
+      <p>Lightly dampen the area with a small amount of lukewarm water. Do not pour water directly onto the carpet.</p>
+      <p>Give the stain a little time to soften. This is one area where patience can make a noticeable difference. Trying to scrub a completely dry stain immediately can damage the carpet without properly loosening the residue.</p>
+
+      <h3>Apply a Suitable Cleaning Solution</h3>
+      <p>Apply a small amount of a carpet-safe cleaning solution to the affected area.</p>
+      <p>Follow the product instructions and avoid using more than recommended. More product does not automatically mean better cleaning.</p>
+      <p>In fact, one common problem we see with DIY carpet cleaning is excessive product use. If too much cleaner is left behind, the carpet can feel sticky and may collect dirt more quickly after cleaning.</p>
+      <p>Always test a product in an unseen area first.</p>
+
+      <h3>Blot Instead of Rubbing</h3>
+      <p>Use a clean white cloth to gently blot the stain.</p>
+      <p>Work from the outside towards the centre. This helps prevent the mark from spreading into clean areas.</p>
+      <p>Avoid vigorous rubbing. Rubbing can push the stain further into the carpet and may roughen or damage the fibres.</p>
+      <p>For stubborn carpet stains, repeating a gentle treatment is usually safer than applying more pressure.</p>
+
+      <h3>Remove Cleaning Residue</h3>
+      <p>Once the stain has improved, use a clean, lightly dampened cloth to remove leftover cleaning solution.</p>
+      <p>Do not flood the carpet. You only need enough moisture to pick up the remaining product.</p>
+      <p>This step is often overlooked, but it matters. Cleaning residue left behind can attract dirt and cause a freshly cleaned area to become dirty again.</p>
+
+      <h3>Let the Carpet Dry</h3>
+      <p>Place a clean, dry towel over the area and press gently to absorb excess moisture.</p>
+      <p>Then allow the carpet to dry naturally. Open windows or improve airflow where possible.</p>
+      <p>Do not walk over the area unnecessarily while it is still damp.</p>
+
+      <h2>How to Deal With Different Types of Old Carpet Stains</h2>
+      <p>Not every stain should be treated in the same way. The type of spill can change what works best.</p>
+
+      <h3>Coffee Stains</h3>
+      <p>An <a href="/blog/how-to-remove-coffee-stains-from-carpet/">old coffee stain</a> can leave a dark mark that becomes more noticeable as it dries. Lightly dampen the area, use a suitable <a href="/">carpet cleaner</a>, and blot carefully.</p>
+      <p>If the coffee contained milk or sugar, there may also be residue that needs to be removed properly.</p>
+
+      <h3>Red Wine Stains</h3>
+      <p>Dried <a href="/blog/how-to-remove-red-wine-stains-from-carpet/">red wine</a> can be challenging because the colour can become strongly attached to the fibres. A suitable carpet stain treatment may help, but older marks may require more than one treatment.</p>
+      <p>Avoid aggressively scrubbing the area because this can spread the colour.</p>
+
+      <h3>Food Stains</h3>
+      <p>Food spills can leave both colour and oily residue. Remove any solid food first and then treat the remaining mark with a suitable carpet cleaning product.</p>
+      <p>Avoid scraping hard against the carpet because this can pull or damage the fibres.</p>
+
+      <h3>Grease and Oil</h3>
+      <p>Grease can attract dirt and create a dark patch that becomes more noticeable over time.</p>
+      <p>Use a carpet-safe product suitable for <a href="/blog/how-to-remove-oil-from-carpet/">greasy marks</a> and apply only a small amount. Heavy application can leave its own residue.</p>
+
+      <h3>Pet Urine</h3>
+      <p>Old <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">pet accidents</a> can be particularly difficult because the problem may involve both staining and odour.</p>
+      <p>From experience, surface cleaning does not always deal with deeper contamination. If the accident has reached below the visible carpet fibres, repeated surface treatment may only temporarily improve the problem.</p>
+
+      <h3>Blood Stains</h3>
+      <p>Old blood stains can be difficult to treat. Avoid using hot water without checking whether it is suitable for the carpet, as heat can make some protein-based stains harder to deal with.</p>
+      <p>Use a suitable carpet-safe treatment and blot rather than scrub.</p>
+
+      <h3>Ink Stains</h3>
+      <p>Ink can spread quickly when too much liquid is used. Treat the area carefully and avoid rubbing, particularly on light-coloured carpets.</p>
+      <p>If the ink has been sitting for a long time, professional assessment may be worthwhile before trying several different products.</p>
+
+      <h2>What Not to Do When Removing Old Carpet Stains</h2>
+      <p>Some cleaning habits can make old carpet stains more difficult to deal with.</p>
+      <p>Avoid:</p>
+      <ul>
+        <li>Scrubbing aggressively</li>
+        <li>Soaking the carpet</li>
+        <li>Mixing different cleaning products</li>
+        <li>Using excessive amounts of cleaner</li>
+        <li>Using very hot water without checking the carpet instructions</li>
+        <li>Ignoring manufacturer cleaning guidance</li>
+        <li>Repeatedly treating the same area without allowing it to dry</li>
+        <li>Using an untested product on a visible area</li>
+      </ul>
+      <p>One important lesson from practical <a href="/services/carpet-cleaning/">carpet cleaning</a> is that more effort does not always mean better results.</p>
+      <p>If a stain does not respond after careful treatment, repeatedly attacking the same area can cause more damage than the original stain.</p>
+
+      <h2>When DIY Carpet Stain Removal Is Not Enough</h2>
+      <p>Home treatment can work well for small and manageable marks. However, some stains are difficult because they are very old, deeply set, or spread further into the carpet than they appear.</p>
+      <p>Previous DIY treatments can also change the situation. For example, several layers of cleaning product may remain in the carpet and interfere with further treatment.</p>
+      <p>If you have already tried several methods without success, continuing to add different products may not be the best option.</p>
+      <p>Large stains, old pet accidents, heavy grease marks, and stains that keep returning are all situations where professional assessment can be useful.</p>
+
+      <h2>When to Call a Professional Carpet Cleaner</h2>
+      <p>Professional <a href="/services/stain-removal/">carpet stain removal</a> can be a better choice for large, old or particularly stubborn marks.</p>
+      <p>An experienced carpet cleaner will normally assess the carpet before deciding how to treat it. They can consider the carpet fibre, colour, condition, stain type and previous cleaning attempts.</p>
+      <p>Professional equipment can also remove more moisture, dirt and cleaning residue than basic household methods.</p>
+      <p>The goal is not simply to use a stronger cleaning product. It is to choose an approach that suits the carpet and the stain while reducing the chance of unnecessary damage.</p>
+      <p>If a stain has been treated repeatedly at home, telling the cleaner what products you have already used can also be helpful. Previous treatments can affect how the stain responds.</p>
+
+      <h2>FAQs</h2>
+
+      <h3>How to remove old carpet stains?</h3>
+      <p>Start by vacuuming loose dirt, lightly dampening the dried stain and applying a suitable carpet-safe cleaner. Blot gently instead of scrubbing, remove leftover product, and allow the area to dry completely.</p>
+
+      <h3>How to remove dried stains from carpet?</h3>
+      <p>Lightly soften the dried stain with lukewarm water, apply a suitable carpet cleaner and blot from the outside towards the centre. Remove leftover solution and allow the carpet to dry.</p>
+
+      <h3>Can old carpet stains be removed completely?</h3>
+      <p>Some old stains can be completely removed, while others can only be improved. Results depend on the stain, carpet material, age, and previous cleaning attempts.</p>
+
+      <h3>Should you scrub an old carpet stain?</h3>
+      <p>No. Hard scrubbing can damage the carpet fibres and spread the stain. Gentle blotting is generally a safer approach.</p>
+
+      <h3>Why do old carpet stains come back after cleaning?</h3>
+      <p>A stain can return if residue remains deeper in the carpet or if the original spill has reached the carpet backing. Too much cleaning product can also leave residue behind.</p>
+
+      <h3>When should I hire a professional for carpet stain removal?</h3>
+      <p>Consider professional help when a stain is large, deeply set, very old, has a strong odour, or does not improve after careful home treatment.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Removing old <a href="/blog/how-to-clean-carpet-stains/">carpet stains</a> is often a matter of using the right approach rather than simply using more cleaning product. Start gently, work patiently, and avoid soaking or aggressively scrubbing the carpet.</p>
+      <p>Some small marks can respond well to careful home treatment. Older or deeper stains, however, may need professional equipment and experience to achieve the best possible result.</p>
+      <p>If you have tried DIY treatment without success, or you are dealing with a large or stubborn mark, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can assess the carpet and recommend a suitable cleaning approach.</p>
+      <p>Professional carpet cleaning can help refresh heavily used carpets and tackle stains that have become difficult to manage at home.</p>
+    `,
+  },
+  {
     slug: 'how-to-remove-ink-from-carpet',
     imageAlt: 'Before and after carpet cleaning for an ink stain',
     title: 'How to Remove Ink From Carpet: A Simple Step-by-Step Guide',
