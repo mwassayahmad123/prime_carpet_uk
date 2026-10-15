@@ -12,6 +12,143 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'carpet-care-and-maintenance-guide',
+    imageAlt: 'Carpet care tips for keeping carpets clean and fresh at home',
+    title: 'Carpet Care and Maintenance: The Complete Guide',
+    seoTitle: 'Carpet Care Tips: A Complete Guide to Cleaner Carpets',
+    metaDescription:
+      'Discover simple carpet care tips to keep carpets clean for longer. Learn how to maintain your carpet, remove stains safely, and prevent everyday dirt.',
+    excerpt:
+      'Regular maintenance helps reduce everyday dirt, manage spills, prevent unnecessary wear, and keep carpets looking their best for longer. Here are practical carpet care tips for your home.',
+    publishedDate: '15 October 2026',
+    readTime: '8 min read',
+    contentHtml: `
+      <p>Carpet care is about more than keeping your floors looking clean. Regular maintenance helps reduce everyday dirt, manage spills, prevent unnecessary wear, and keep carpets looking their best for longer. Whether you have carpets throughout your home or just in a few rooms, a simple cleaning routine can make a noticeable difference.</p>
+      <p>In this guide, you'll learn how to maintain carpet, deal with stains safely, care for different carpet types, and understand when professional cleaning may be helpful. These practical carpet care tips can help you protect your carpets without making everyday cleaning feel like a chore.</p>
+
+      <h2>Why Is Regular Carpet Care Important?</h2>
+      <p>Carpets collect dust, loose dirt, hair, food crumbs, and other everyday mess. These materials can build up over time, particularly in busy areas such as hallways, stairs, and living rooms.</p>
+      <p>Regular carpet maintenance helps manage this build-up before it becomes harder to remove. It can also help you spot spills and small problems before they become bigger concerns.</p>
+
+      <h3>Helps Keep Carpets Looking Clean</h3>
+      <p>Vacuuming regularly removes loose dirt and helps carpets look fresher. Promptly dealing with spills also reduces the chance of visible marks becoming more difficult to treat.</p>
+
+      <h3>Helps Reduce Carpet Wear</h3>
+      <p>Dirt and grit can rub against carpet fibres as people walk over them. Removing loose dirt regularly helps limit this rubbing and may help your carpet maintain its appearance for longer.</p>
+
+      <h3>Supports a Cleaner Home</h3>
+      <p>Carpets can hold dust, hair, and other particles. Regular vacuuming helps remove much of this loose material, while suitable cleaning methods can address dirt that routine care does not remove.</p>
+
+      <h2>How to Maintain Your Carpet: Everyday Care Tips</h2>
+      <p>You do not need a complicated cleaning schedule to care for your carpet. A few consistent habits can help prevent dirt from building up.</p>
+
+      <h3>Vacuum Your Carpet Regularly</h3>
+      <p>Vacuuming is one of the most important parts of carpet care. It removes loose dirt before it becomes pressed into the carpet by everyday foot traffic.</p>
+      <p>Vacuum busy areas more frequently than rooms that are rarely used. Homes with pets, children, or several people may need more frequent vacuuming than quieter households.</p>
+      <p>Move the vacuum slowly enough to collect dirt effectively, and follow the machine's instructions. For more detailed guidance, create a separate routine based on how often you should vacuum your carpet.</p>
+
+      <h3>Deal With Spills Quickly</h3>
+      <p>When something spills, act as soon as it is safe to do so. Use a clean, absorbent cloth to blot the liquid gently, working from the outside towards the centre.</p>
+      <p>Avoid rubbing the spill, as this can push it deeper into the carpet or spread the mark. Check the carpet manufacturer's instructions before applying a cleaning product.</p>
+
+      <h3>Use Doormats and Manage Outdoor Dirt</h3>
+      <p>Place suitable mats at entrances to catch dirt before it reaches your carpet. Clean the mats regularly so they do not become another source of dirt.</p>
+      <p>Removing outdoor shoes indoors can also reduce the amount of soil and grit brought into carpeted rooms.</p>
+
+      <h3>Protect Busy Areas</h3>
+      <p>Hallways, stairs, and entrances often receive more foot traffic than other areas. Clean these spaces regularly and consider suitable rugs or runners where appropriate. Move furniture carefully to avoid dragging it across the carpet.</p>
+
+      <h2>How to Keep Carpets Clean in a Busy Home</h2>
+      <p>A clean carpet is easier to maintain when small tasks become part of your normal routine.</p>
+      <p>Vacuum regularly, clean up crumbs, and deal with spills promptly. If you have pets, remove loose hair often and follow suitable instructions for cleaning accidents. In homes with young children, keeping food and drinks in easy-to-clean areas may also help reduce spills on carpets.</p>
+      <p>Pay extra attention to entrances and hallways, where outdoor dirt tends to collect. Rather than waiting until the entire carpet looks dirty, check the areas that receive the most use.</p>
+      <p>A short, regular cleaning routine is usually easier to maintain than leaving all the work until the carpet looks visibly dirty.</p>
+
+      <h2>How to Care for Different Types of Carpet</h2>
+      <p>Not every carpet should be cleaned in the same way. The material, colour, construction, and manufacturer's instructions can affect which cleaning methods are suitable.</p>
+
+      <h3>Wool Carpets</h3>
+      <p>Wool carpets need careful treatment. Use a vacuum suitable for the carpet and avoid applying strong cleaning products without checking the care instructions. Excessive moisture or unsuitable products may damage the fibres.</p>
+
+      <h3>Nylon and Polyester Carpets</h3>
+      <p>Nylon and polyester carpets are common in homes, but their cleaning needs can still vary. Check the manufacturer's guidance before using stain removers or other <a href="/blog/how-to-clean-carpet-stains/">cleaning solutions</a>.</p>
+
+      <h3>Delicate and Speciality Carpets</h3>
+      <p>Some carpets require extra care because of their fibres, dyes, backing, or construction. If you are unsure which method to use, ask a suitable cleaning professional before treating the carpet.</p>
+      <p>Always check your carpet's care instructions before using a cleaning product or wet-cleaning method. A product that works on one carpet may not be suitable for another.</p>
+
+      <h2>How to Remove Carpet Stains Safely</h2>
+      <p>Spills do not always cause permanent stains, but the way you respond can make a difference.</p>
+      <p>Start by removing any solid material carefully. Blot liquid spills with a clean cloth rather than scrubbing. If you use a cleaning product, test it on a small, hidden area first and follow its instructions.</p>
+      <p>Avoid soaking the carpet. Too much water or cleaning solution can make drying difficult and may affect the carpet or its backing.</p>
+      <p>Different stains may need different treatments. Coffee, red wine, mud, ink, oil, and pet accidents should not automatically be cleaned in the same way.</p>
+      <p>For stain-specific advice, read our guides on how to remove mud stains from carpet, <a href="/blog/how-to-remove-coffee-stains-from-carpet/">coffee stains</a>, <a href="/blog/how-to-remove-red-wine-stains-from-carpet/">red wine stains</a>, and <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">pet urine stains</a>. For stubborn marks, our <a href="/services/stain-removal/">stain removal service</a> may also be relevant.</p>
+
+      <h2>How Often Should You Have Your Carpet Professionally Cleaned?</h2>
+      <p>There is no single cleaning schedule that suits every home. The right frequency depends on foot traffic, pets, children, visible dirt, carpet type, and the manufacturer's recommendations.</p>
+      <p>Homes with light use may need professional cleaning less often than busy households. Carpets in hallways, family rooms, and homes with pets may need more attention.</p>
+      <p>Consider professional cleaning when dirt remains despite regular vacuuming, stains are difficult to remove, or the carpet has developed persistent odours. Always choose a cleaning method suitable for your carpet.</p>
+      <p>Professional cleaning should support your everyday routine, not replace it. Regular vacuuming and prompt spill care remain important between professional visits.</p>
+      <p>Learn more about our <a href="/services/carpet-cleaning/">carpet cleaning services in London</a> if your carpets need a more thorough clean.</p>
+
+      <h2>How to Make Your Carpet Last Longer</h2>
+      <p>Good carpet maintenance can help you protect your investment and reduce avoidable damage.</p>
+      <ul>
+        <li><strong>Vacuum consistently:</strong> Remove loose dirt before it builds up.</li>
+        <li><strong>Clean spills promptly:</strong> Blot marks carefully and use suitable products.</li>
+        <li><strong>Protect heavy-use areas:</strong> Use appropriate runners or rugs where needed.</li>
+        <li><strong>Move furniture carefully:</strong> Avoid dragging heavy items across carpet fibres.</li>
+        <li><strong>Follow care instructions:</strong> Use cleaning methods that suit your carpet.</li>
+        <li><strong>Arrange suitable deep cleaning:</strong> Consider professional help when routine maintenance is no longer enough.</li>
+      </ul>
+      <p>Avoid harsh scrubbing and untested home remedies. A quick fix can sometimes leave a larger mark or cause damage that is harder to correct.</p>
+
+      <h2>Common Carpet Care Mistakes to Avoid</h2>
+      <p>Even well-intentioned cleaning can cause problems if the wrong approach is used.</p>
+      <p><strong>Scrubbing stains aggressively:</strong> This can spread the stain and damage carpet fibres. Blot gently instead.</p>
+      <p><strong>Using too much water:</strong> Excess moisture can make drying difficult. Follow the recommended cleaning method and avoid soaking the carpet.</p>
+      <p><strong>Choosing unsuitable products:</strong> Some products can affect carpet colour or fibres. Check the care instructions and test products in a hidden area.</p>
+      <p><strong>Ignoring small spills:</strong> Some spills become harder to remove when left untreated. Deal with them promptly and safely.</p>
+      <p><strong>Assuming every carpet is the same:</strong> Carpet materials differ, so always check which cleaning methods are appropriate.</p>
+
+      <h2>When Should You Consider Professional Carpet Cleaning?</h2>
+      <p>Everyday care can remove loose dirt and help manage minor spills, but it may not resolve every problem.</p>
+      <p>Consider <a href="/">professional carpet cleaning</a> when:</p>
+      <ul>
+        <li>Dirt remains after thorough vacuuming.</li>
+        <li>Stains do not respond to suitable home treatment.</li>
+        <li>Unpleasant odours persist.</li>
+        <li>Busy areas look noticeably different from the rest of the carpet.</li>
+        <li>Your carpet needs a deeper clean in line with its care instructions.</li>
+      </ul>
+      <p>If a stain is particularly stubborn, avoid repeatedly applying different products. Further treatment may make the problem worse. A professional can assess the carpet and recommend a suitable approach.</p>
+
+      <h2>Frequently Asked Questions About Carpet Care</h2>
+
+      <h3>How often should you vacuum your carpet?</h3>
+      <p>Vacuum at least weekly as a starting point, and more often in busy areas or homes with pets and children. Adjust your routine according to how quickly dirt and hair collect.</p>
+
+      <h3>How do you keep carpets clean for longer?</h3>
+      <p>Vacuum regularly, use doormats, remove outdoor shoes when practical, and deal with spills promptly. These simple habits help control dirt before it builds up.</p>
+
+      <h3>What is the best way to maintain a carpet?</h3>
+      <p>The best approach combines regular vacuuming, prompt spill care, suitable cleaning products, and occasional deeper cleaning when needed. Always follow the manufacturer's instructions.</p>
+
+      <h3>How often should carpets be professionally cleaned?</h3>
+      <p>It depends on carpet type, household activity, pets, and visible dirt. Follow the manufacturer's guidance and consider professional cleaning when routine care no longer keeps the carpet in good condition.</p>
+
+      <h3>How can you prevent carpet stains?</h3>
+      <p>Take care with food and drinks, clean spills promptly, and use suitable mats in busy areas. When spills happen, blot them rather than rubbing them into the fibres.</p>
+
+      <h3>Can you clean every type of carpet in the same way?</h3>
+      <p>No. Different fibres, dyes, and carpet constructions can require different methods. Check the care label before using water, stain removers, or other cleaning products.</p>
+
+      <h2>Conclusion</h2>
+      <p>Good carpet care starts with simple habits: vacuum regularly, deal with spills quickly, and use cleaning methods that suit your carpet. Paying attention to busy areas and following the manufacturer's instructions can help keep carpets looking better for longer.</p>
+      <p>When everyday maintenance is not enough, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can help homeowners in London explore suitable professional carpet cleaning options. With a consistent routine and the right care, you can keep your carpets cleaner and make looking after them easier.</p>
+    `,
+  },
+  {
     slug: 'how-to-remove-old-dried-in-carpet-stains',
     imageAlt: 'Before and after removal of old dried-in carpet stains',
     title: 'How to Remove Old, Dried-In Carpet Stains: A Complete Guide',
