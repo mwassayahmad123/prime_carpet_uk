@@ -12,6 +12,122 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-remove-mud-stains-from-carpet',
+    imageAlt: 'Before and after removing mud stains from a carpet',
+    title: 'How to Remove Mud Stains From Carpet: A Step-by-Step Guide',
+    seoTitle: 'How to Remove Mud Stains From Carpet | Complete Guide',
+    metaDescription:
+      'Learn how to get mud out of carpet with simple steps. Tackle fresh and dried mud, avoid common cleaning mistakes, and keep carpets looking clean and fresh.',
+    excerpt:
+      'Muddy footprints can make a clean carpet look dirty in seconds. Learn how to lift fresh and dried mud safely, step by step, and the mistakes to avoid.',
+    publishedDate: '20 October 2026',
+    readTime: '7 min read',
+    contentHtml: `
+<p>Muddy footprints can make a clean carpet look dirty in seconds. If you want to know how to remove mud stains from carpet, the secret is to remove loose dirt before adding water or cleaning products. Most small mud marks can be improved at home with patience, a vacuum cleaner and a few simple supplies.</p>
+<p>Whether muddy shoes, children playing outside, or a dog returning from a walk have left marks on your carpet, this guide explains how to clean them safely, tackle dried mud stains, and avoid common mistakes.</p>
+
+<h2>Why Mud Stains Are Different From Other Carpet Stains</h2>
+<p>Mud is made up of soil, water, and tiny particles of dirt. When it reaches your carpet, the moisture carries these particles between the fibres. Once the mud dries, the remaining dirt can become harder to remove.</p>
+<p>Unlike coffee or juice spills, mud often leaves solid pieces that need to be lifted before the carpet is cleaned. Wiping wet mud with a cloth can spread it across a larger area and push dirt deeper into the fibres.</p>
+<p>In practical carpet cleaning, one of the most common mistakes is trying to clean everything in one go. The better approach is to remove the loose dirt first, then deal with the remaining mark.</p>
+<p>The key to cleaning mud stains on carpet is to remove as much dry soil as possible before introducing moisture. This makes the cleaning process easier and reduces the risk of spreading the stain.</p>
+
+<h2>Should You Let Mud Dry Before Cleaning?</h2>
+<p>Yes, in most cases, it is better to let wet mud dry before removing it. Fresh mud can smear easily, while dried mud is often easier to lift and vacuum away.</p>
+<p>Allow the area to dry naturally, but do not leave it for several days unnecessarily. Once the mud is dry enough to crumble, remove the loose pieces carefully.</p>
+<p>If the mud contains other substances, such as oil or food, you may need a different cleaning method. Always check the carpet care instructions before using a cleaning product.</p>
+<p><strong>Practical tip:</strong> Keep people and pets away from the muddy area while it dries. Walking over it can press the dirt further into the carpet and create additional marks.</p>
+
+<h2>What You Need Before You Start</h2>
+<p>You do not need expensive equipment to deal with a small mud stain. Gather these basic items before you begin:</p>
+<ul>
+<li>A vacuum cleaner</li>
+<li>A spoon or blunt-edged tool</li>
+<li>Clean white cloths</li>
+<li>A small bowl of lukewarm water</li>
+<li>A carpet-safe cleaning solution, if needed</li>
+<li>A clean, dry towel</li>
+</ul>
+<p>Use white cloths to reduce the risk of colour transferring onto the carpet. Avoid mixing cleaning products, and test any solution on a hidden area first.</p>
+<p>If you have a wool carpet or another delicate material, take extra care. A product that works on one carpet may not be suitable for another.</p>
+
+<h2>How to Remove Mud Stains From Carpet Step by Step</h2>
+<p>The best approach is to remove the dry dirt first and then clean the remaining mark gently. Follow these six steps to help protect your carpet.</p>
+<h3>Let the Mud Dry</h3>
+<p>If the mud is still wet, allow it to dry naturally before trying to remove the main dirt.</p>
+<p>Avoid using direct heat to speed up the process. Once the mud has dried enough to break apart, you can lift it without smearing as much soil across the carpet.</p>
+<h3>Lift Away the Loose Mud</h3>
+<p>Use a spoon or blunt-edged tool to lift larger pieces of dried mud from the carpet.</p>
+<p>Work gently and avoid scraping the carpet fibres. Remove as much loose dirt as possible before moving on.</p>
+<p>This step is particularly important when dealing with thick muddy footprints. Adding water too soon can turn loose soil into a paste that is harder to remove.</p>
+<h3>Vacuum the Area</h3>
+<p>Vacuum the affected area thoroughly to pick up smaller dirt particles trapped between the fibres.</p>
+<p>Use a setting suitable for your carpet and avoid pressing too hard on the same spot. If the vacuum collects more loose dirt, repeat the process before adding moisture.</p>
+<p>From a practical cleaning perspective, skipping this step often makes the following stages harder because loose soil can mix with water and spread.</p>
+<h3>Blot the Remaining Mark</h3>
+<p>Dampen a clean white cloth with a small amount of lukewarm water. Gently blot the remaining mark, working from the outside towards the centre.</p>
+<p>Do not pour water directly onto the carpet. Too much moisture can reach the backing and make drying more difficult.</p>
+<p>Turn the cloth as it picks up dirt so that you are always using a clean section. Replace it if it becomes heavily soiled.</p>
+<h3>Apply a Carpet-Safe Cleaner if Needed</h3>
+<p>If water alone does not improve the mark, use a cleaning product designed for your carpet type.</p>
+<p>Follow the instructions on the label and test the product in an inconspicuous area first. Apply only the recommended amount, then blot gently with a clean cloth.</p>
+<p>Avoid aggressive scrubbing. It can damage the fibres, spread the dirt, and leave the affected area looking different from the rest of the carpet.</p>
+<h3>Remove Residue and Dry the Carpet</h3>
+<p>Use a clean cloth lightly dampened with water to remove any remaining cleaning solution. Blot the area rather than soaking it.</p>
+<p>Press a dry towel onto the carpet to absorb excess moisture, then allow it to dry naturally. Good airflow can help the process.</p>
+<p>Once the carpet is completely dry, vacuum the area again if needed to lift the fibres and remove any remaining loose particles.</p>
+<h3>How to Remove Dried Mud From Carpet</h3>
+<p>If you need to remove dried mud stains, patience is especially important. Start by gently breaking up larger pieces with a blunt-edged tool, then vacuum thoroughly.</p>
+<p>Next, blot the remaining mark with a lightly dampened cloth. If needed, apply a suitable carpet cleaner and follow the product instructions.</p>
+<p>Some dried marks may need more than one gentle treatment. Allow the area to dry between attempts rather than repeatedly soaking the carpet.</p>
+<p>A common problem with old muddy footprints is that the dirt has been pressed into the fibres by repeated walking. If careful vacuuming and blotting do not work, the remaining soil may be deeper in the carpet.</p>
+<p>For marks that have been present for a long time, our guide on <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">how to remove old, dried-in carpet stains</a> may also help.</p>
+
+<h2>Common Mistakes to Avoid</h2>
+<p>Even simple cleaning jobs can go wrong when the wrong approach is used. Avoid these common mistakes when dealing with mud:</p>
+<ul>
+<li><strong>Rubbing wet mud:</strong> This can spread the mark and push dirt deeper into the fibres.</li>
+<li><strong>Adding water too soon:</strong> Remove loose soil before dampening the area.</li>
+<li><strong>Scrubbing too hard:</strong> Aggressive rubbing can damage the carpet.</li>
+<li><strong>Using too much cleaner:</strong> Excess product can leave a sticky residue.</li>
+<li><strong>Soaking the carpet:</strong> Too much water can reach the backing and slow drying.</li>
+<li><strong>Mixing cleaning products:</strong> Different products may react with each other.</li>
+<li><strong>Skipping a spot test:</strong> Always test a new product in a hidden area.</li>
+<li><strong>Ignoring the carpet material:</strong> Delicate fibres may need special care.</li>
+</ul>
+<p>One useful lesson from practical <a href="/services/carpet-cleaning/">carpet cleaning</a> is that more effort does not always mean better results. If the mark is not improving, stop rather than repeatedly treating the same spot with stronger products.</p>
+
+<h2>What Is the Best Way to Remove Dirt Stains From Carpet?</h2>
+<p>The best way to <a href="/services/stain-removal/">remove dirt stains from carpet</a> is to match the cleaning method to the type of dirt and the carpet material.</p>
+<p>For ordinary mud, let it dry, lift the loose pieces, vacuum, and blot the remaining mark. For dirt that has been walked into the carpet repeatedly, you may need a suitable carpet cleaner after removing the loose soil.</p>
+<p>If the carpet still looks grey or dull after the visible mud has gone, the problem may involve general dirt trapped throughout the fibres rather than one isolated stain.</p>
+<p>Avoid using a strong cleaning product simply because the mark looks difficult. Start with the gentlest suitable method and move on only if needed.</p>
+
+<h2>When Professional Carpet Cleaning May Help</h2>
+<p>Home cleaning can work well for small mud marks and ordinary footprints. However, professional cleaning may be useful when dirt covers a large area, has been pressed deep into the carpet, or remains after careful treatment.</p>
+<p>It may also be worth getting help if previous cleaning attempts have left residue or if you have a delicate carpet and are unsure which products are safe.</p>
+<p>A professional cleaner can assess the carpet's material, condition, and level of soiling before choosing an appropriate cleaning method. Professional equipment can help remove embedded dirt and leftover cleaning solution more thoroughly than basic household methods.</p>
+<p>If you have tried a careful approach without success, avoid adding more products or repeatedly scrubbing the same area. Getting advice before trying another treatment can help reduce the risk of damage.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How to get mud out of carpet without damaging it?</h3>
+<p>Allow wet mud to dry first, remove loose dirt gently, and vacuum before using water. Blot rather than scrub, and test any cleaning product on a hidden area.</p>
+<h3>Can dried mud stains be removed completely?</h3>
+<p>Many dried mud marks can be removed or improved, but results depend on how deeply the dirt has settled, the carpet material, and previous cleaning attempts.</p>
+<h3>Should I use hot water on mud stains?</h3>
+<p>Lukewarm water is a safer starting point for many carpets. Always check the carpet care instructions before using a different water temperature or cleaning product.</p>
+<h3>Why does my carpet still look dirty after removing mud?</h3>
+<p>Fine dirt may remain between the carpet fibres, or cleaning product residue may be attracting more soil. Vacuuming thoroughly and removing leftover cleaner can help.</p>
+<h3>When should I call a professional carpet cleaner?</h3>
+<p>Consider <a href="/">professional cleaning</a> if the mud covers a large area, remains after careful treatment, or has been pressed deep into the carpet by heavy foot traffic.</p>
+
+<h2>Final Thoughts</h2>
+<p>The best way to deal with mud on carpet is to act carefully, remove loose dirt first, and avoid scrubbing. For most small marks, a vacuum cleaner, a damp cloth, and a suitable carpet-safe product are a good place to start.</p>
+<p>Remember that different carpets need different care. If a stain remains after careful treatment, repeated scrubbing or using stronger products may do more harm than good.</p>
+<p>For heavily soiled carpets or stubborn muddy marks, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can assess the carpet and recommend a suitable cleaning approach. Professional cleaning can help remove built-up dirt and refresh carpets that household methods cannot fully clean.</p>
+`,
+  },
+  {
     slug: 'how-often-should-you-vacuum-your-carpet',
     imageAlt: 'Complete guide on how often you should vacuum your carpet by Prime Carpet Cleaning.',
     title: 'How Often Should You Vacuum Your Carpet?',
@@ -96,7 +212,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For dried mud, allow it to dry before gently removing the loose material and vacuuming the remaining dirt. Check the carpet care instructions before using a cleaning product.</p>
 <p>Always test a suitable product on a small, hidden area first. Avoid using too much water, mixing cleaning products, or applying strong treatments without checking whether they are safe for your carpet.</p>
 <p>If a stain remains after careful treatment, stop before repeated attempts damage the fibres or colour.</p>
-<p>For more detailed advice, read our guides on mud stains from carpet and <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">old carpet stains</a>.</p>
+<p>For more detailed advice, read our guides on <a href="/blog/how-to-remove-mud-stains-from-carpet/">mud stains from carpet</a> and <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">old carpet stains</a>.</p>
 
 <h2>Carpet Maintenance Tips for a Cleaner Home</h2>
 <p>A few simple habits can reduce the amount of dirt that reaches your carpet in the first place.</p>
