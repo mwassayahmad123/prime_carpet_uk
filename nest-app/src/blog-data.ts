@@ -12,6 +12,222 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-clean-wool-nylon-polyester-and-other-types-of-carpet',
+    imageAlt: 'How to Clean Different Types of Carpet – Complete Guide | Prime Carpet Cleaning',
+    title: 'How to Clean Wool, Nylon, Polyester, and Other Types of Carpet',
+    seoTitle: 'How to Care for Carpet: Tips for Wool, Nylon and Polyester',
+    metaDescription:
+      'Learn how to care for wool, nylon, polyester, and other carpets. Get simple cleaning tips, avoid common mistakes, and keep your carpets looking their best at home.',
+    excerpt:
+      'Wool, nylon, polyester and polypropylene carpets all need different care. Learn how to identify your carpet type, clean it safely and avoid common mistakes.',
+    publishedDate: '28 October 2026',
+    readTime: '7 min read',
+    contentHtml: `
+<p>Knowing how to care for carpet starts with understanding what it is made from. Wool, nylon, polyester, and polypropylene carpets may require different cleaning methods. Using the wrong product or too much water may leave marks or damage the fibres.</p>
+<p>The good news is that <a href="/blog/carpet-care-and-maintenance-guide/">carpet care</a> does not have to be difficult. With the right routine, you can remove everyday dirt, deal with spills safely, and help your carpet look its best for longer. This guide explains how to clean different carpet types, what to avoid, and when professional help may be a better choice.</p>
+
+<h2>Why Does Carpet Type Matter When Cleaning?</h2>
+<p>Not all carpets respond to cleaning in the same way. Some fibres need gentle care, while others can handle different cleaning methods. The carpet's colour, backing, and construction can also affect how it should be cleaned.</p>
+<p>Natural fibres, such as wool, can be sensitive to certain products and too much moisture. Synthetic fibres, such as nylon and polyester, have their own care needs. Even two carpets made from the same fibre may have different cleaning instructions.</p>
+<p>The safest way to care for carpet is to identify its material and follow the manufacturer's cleaning instructions before using water or a cleaning product.</p>
+
+<h2>How to Identify What Type of Carpet You Have</h2>
+<p>Before cleaning your carpet, try to find out what it is made from. This helps you choose suitable <a href="/blog/how-to-clean-carpet-stains/">carpet cleaning methods</a> and avoid unnecessary damage.</p>
+<p>Start by checking the product label, purchase invoice, or any care guide supplied with the carpet. These may name the fibre and explain which cleaning methods are suitable.</p>
+<p>If you cannot find the information, contact the retailer or manufacturer. Do not rely on appearance alone, as different carpet fibres can look similar.</p>
+<p>If you are still unsure, avoid trying strong products or wet-cleaning methods until you have confirmed what is safe for your carpet.</p>
+
+<h2>How to Care for Wool Carpets</h2>
+<p>Wool is a natural fibre used in many homes. Wool carpets can feel soft and look attractive, but they need suitable care to help protect their appearance.</p>
+<h3>How to Clean a Wool Carpet</h3>
+<p>Vacuum regularly using equipment suitable for your carpet. Follow the manufacturer's instructions about vacuum settings and brush use.</p>
+<p>If a spill happens, remove any solid material carefully and blot the liquid with a clean, absorbent cloth. Work gently and avoid rubbing, which may spread the stain or affect the fibres.</p>
+<p>Do not soak a wool carpet. Too much water or an unsuitable cleaning product may cause problems with its colour, texture, or shape. Always check the care label before applying a stain remover. For stubborn stains, large spills, or delicate wool carpets, consider asking a <a href="/services/carpet-cleaning/">carpet cleaning professional for advice</a>.</p>
+<p>When caring for wool, gentle treatment is better than trying several products one after another. Test any permitted product on a hidden area first.</p>
+
+<h2>How to Care for Nylon Carpets</h2>
+<p>Nylon carpets are widely used in busy homes because they can be durable. However, regular care is still important, especially in rooms that receive plenty of foot traffic.</p>
+<h3>How to Clean Nylon Carpet</h3>
+<p><a href="/blog/how-often-should-you-vacuum-your-carpet/">Vacuum regularly to remove loose dirt</a> before it builds up. Pay extra attention to hallways, stairs, and living rooms, where people walk most often.</p>
+<p>Blot spills promptly with a clean cloth. If you need a cleaning product, choose one that is suitable for your carpet and follow the directions on the label.</p>
+<p>Avoid aggressive scrubbing and do not assume that every stain remover is safe for nylon. If a mark remains after suitable home treatment, seek advice before applying more products.</p>
+<p>Regular vacuuming, prompt spill care, and suitable cleaning methods can help keep nylon carpets looking good.</p>
+
+<h2>How to Care for Polyester Carpets</h2>
+<p>Polyester carpets are often chosen for their soft feel and range of colours. They can be practical for many homes, but they still need the right care.</p>
+<h3>How to Clean Polyester Carpet</h3>
+<p>Vacuum regularly to remove dust, crumbs, hair, and other loose dirt. When a spill occurs, blot it with a clean, absorbent cloth rather than rubbing it into the carpet.</p>
+<p>Take extra care with oily marks. Some oily substances can be difficult to remove, so check the carpet's care instructions before choosing a cleaning product.</p>
+<p>Avoid harsh scrubbing, strong untested products, and excessive water. These can affect the carpet's appearance or make drying harder.</p>
+<p>If you cannot remove a stain safely, stop and seek advice rather than repeatedly treating the same area.</p>
+
+<h2>How to Care for Polypropylene Carpets</h2>
+<p>Polypropylene is a synthetic fibre used in many carpets. Although some polypropylene carpets are designed to handle everyday use well, their cleaning needs can still vary.</p>
+<h3>How to Clean Polypropylene Carpet</h3>
+<p>Vacuum regularly and deal with spills as soon as possible. Blot liquid spills gently and follow the manufacturer's instructions when choosing a cleaning product.</p>
+<p>Pay particular attention to oily stains, as they may need a different approach from water-based spills. Do not assume that a carpet can be cleaned with any household product just because it is made from a synthetic fibre.</p>
+<p>Always check the care label before wet cleaning. If you are unsure about the right method, ask the manufacturer or a suitable cleaning professional.</p>
+
+<h2>How to Care for Blended and Other Carpet Fibres</h2>
+<p>Some carpets combine two or more fibres. Others use natural materials such as sisal or jute. These carpets may need special care because their materials can respond differently to moisture and cleaning products.</p>
+<p>For a wool blend, check the full fibre details rather than treating it exactly like a pure wool carpet. The same rule applies to other blended carpets.</p>
+<p>Natural plant fibres, including sisal and jute, can be sensitive to moisture. Avoid wet cleaning unless the manufacturer's instructions say it is suitable.</p>
+<p>If you have a delicate, handmade, or expensive carpet, professional advice can help you avoid using a method that may cause damage.</p>
+<p>When a carpet contains several fibres or its material is unclear, follow the care instructions for the specific product instead of guessing.</p>
+
+<h2>General Carpet Care Tips for Every Home</h2>
+<p>Whatever type of carpet you have, a few simple habits can help keep it clean.</p>
+<ul>
+<li><strong>Vacuum regularly:</strong> Adjust how often you vacuum according to foot traffic, pets, and household activity.</li>
+<li><strong>Use doormats:</strong> Place mats at entrances to reduce the dirt brought indoors.</li>
+<li><strong>Blot spills promptly:</strong> Remove excess liquid gently instead of rubbing the stain.</li>
+<li><strong>Test suitable products first:</strong> Try a permitted cleaning product on a small, hidden area and check for changes.</li>
+<li><strong>Avoid excess water:</strong> Too much moisture can make drying difficult and may damage some carpets.</li>
+<li><strong>Follow care instructions:</strong> Use cleaning products and methods that suit your carpet.</li>
+<li><strong>Keep busy areas clean:</strong> Hallways and stairs may need more frequent attention than rooms used less often.</li>
+</ul>
+<p>These carpet care tips are easy to follow and can help reduce the build-up of dirt between deeper cleans.</p>
+
+<h2>Common Carpet Cleaning Mistakes to Avoid</h2>
+<p>Even when you are trying to help your carpet, the wrong approach can make a problem worse.</p>
+<p><strong>Scrubbing stains too hard:</strong> Rubbing can spread the mark and affect the fibres. Blot gently instead.</p>
+<p><strong>Using too much water:</strong> Excess moisture can make drying difficult. Follow the recommended cleaning method and avoid soaking the carpet.</p>
+<p><strong>Choosing the wrong product:</strong> A product that works on one fibre may not suit another. Check the label before use.</p>
+<p><strong>Mixing cleaning products:</strong> Combining products can create harmful fumes or damage carpet materials. Never mix cleaning solutions.</p>
+<p><strong>Ignoring the care label:</strong> The manufacturer's instructions should guide your choice of cleaning method.</p>
+<p><strong>Treating a stain repeatedly:</strong> If a stain does not improve, stop before repeated treatment causes more damage.</p>
+<p>The best way to clean carpet is to use a suitable method for its material, treat stains carefully, and avoid rushing the process.</p>
+
+<h2>When Should You Get Professional Carpet Cleaning?</h2>
+<p>Regular home care helps manage loose dirt and everyday spills, but it may not remove every stain or deeply settled dirt.</p>
+<p>Consider professional carpet cleaning when stains remain after suitable home treatment, unpleasant smells continue, or the carpet looks dirty despite regular vacuuming.</p>
+<p>Professional advice can also be useful if you have a delicate carpet, cannot identify its fibres, or are unsure whether a wet-cleaning method is safe.</p>
+<p>If you need help, explore <a href="/">carpet cleaning services in London</a>. For stubborn marks, you can also visit <a href="/services/stain-removal/">Stain Removal in London</a>.</p>
+<p>The right cleaning method depends on your carpet's material and condition, so explain the problem and share any care information you have before arranging a service.</p>
+
+<h2>Frequently Asked Questions About Carpet Care</h2>
+<h3>How do you care for different types of carpet?</h3>
+<p>Identify the carpet material first, then follow the manufacturer's instructions. Vacuum regularly, blot spills promptly, and use only suitable cleaning products.</p>
+<h3>What is the best way to clean a wool carpet?</h3>
+<p>Vacuum using equipment suitable for the carpet, blot spills gently, and avoid excessive moisture or unapproved products. Seek professional advice for difficult stains.</p>
+<h3>Can you use the same carpet cleaner on every carpet?</h3>
+<p>No. Some products may be unsuitable for certain fibres, dyes, or carpet constructions. Check the care instructions and test a permitted product on a hidden area first.</p>
+<h3>How often should you clean your carpet?</h3>
+<p>Vacuum as often as needed for your household and foot traffic. Deeper cleaning depends on the carpet's condition, the manufacturer's advice, and how much use it receives.</p>
+<h3>How can you clean carpet without damaging it?</h3>
+<p>Identify the fibre, follow its care instructions, blot rather than scrub, and avoid using too much water. Stop if a stain does not respond to suitable treatment.</p>
+
+<h2>Conclusion</h2>
+<p>Learning how to care for carpet begins with knowing what it is made from. Wool, nylon, polyester, polypropylene, and blended fibres can have different cleaning needs, so always check the manufacturer's instructions before treating stains or using a new product.</p>
+<p>Regular vacuuming, quick spill care, and the right cleaning methods can help keep your carpet looking its best. When home care is not enough, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can help London homeowners explore suitable professional carpet cleaning options.</p>
+<p>With a little care and the right approach, you can protect your carpet and make everyday maintenance easier.</p>
+`,
+  },
+  {
+    slug: 'how-often-should-you-get-your-carpets-professionally-cleaned',
+    imageAlt:
+      'Professional carpet cleaning service removing dirt and stains from a carpet using specialized equipment.',
+    title: 'How Often Should You Get Your Carpets Professionally Cleaned?',
+    seoTitle: 'How Often Should You Get Carpets Professionally Cleaned?',
+    metaDescription:
+      'Learn how often carpets should be professionally cleaned, what affects cleaning frequency, and when homes with pets, children, or busy areas need extra care.',
+    excerpt:
+      'For most homes every 12 to 18 months is a good starting point, but pets, children and busy areas can mean more often. Learn how to set the right schedule.',
+    publishedDate: '28 October 2026',
+    readTime: '8 min read',
+    contentHtml: `
+<p>Carpets collect dust, dirt, food crumbs, and everyday marks, even when they look clean. So, how often should carpets be professionally cleaned? For most homes, every 12 to 18 months is a useful starting point. However, pets, children, heavy foot traffic, and carpet type can mean you need cleaning more often. The right schedule helps keep your carpet fresh, comfortable, and looking its best for longer.</p>
+
+<h2>How Often Should Carpets Be Professionally Cleaned?</h2>
+<p>For a typical home, professional carpet cleaning every 12 to 18 months is a sensible guide. This helps remove dirt that regular vacuuming may leave behind and freshens carpets that have collected everyday grime.</p>
+<p>However, there is no single schedule that suits every home. A spare bedroom that is rarely used may stay clean for longer than a busy living room or hallway. Homes with pets, young children or frequent visitors may also need more regular cleaning.</p>
+<p>Here is a simple guide:</p>
+<ul>
+<li><strong>Every 12–18 months:</strong> Homes with light to normal foot traffic.</li>
+<li><strong>Every 6–12 months:</strong> Homes with pets, children, or regularly used living spaces.</li>
+<li><strong>More often when needed:</strong> Busy hallways, frequent spills, or carpets that develop lasting smells and visible dirt.</li>
+<li><strong>For commercial spaces:</strong> The schedule depends on the number of people using the space and how quickly the carpet becomes dirty.</li>
+</ul>
+<p>These timings are general guidance, not strict rules. Always check your carpet manufacturer's care instructions, especially if your carpet is still covered by a warranty.</p>
+
+<h2>How Often Should You Get Your Carpets Cleaned in Different Homes?</h2>
+<p>The best cleaning schedule depends on what happens in your home every day. Here is how to decide what may work for your household.</p>
+<h3>Homes with Pets</h3>
+<p>Pets bring extra hair, dirt, and outdoor debris into the home. Accidents can also leave stains and smells that are difficult to remove with ordinary household cleaning.</p>
+<p>If you have dogs or cats, consider professional carpet cleaning every 6 to 12 months. You may need it sooner if your pets spend a lot of time indoors, shed heavily, or have frequent accidents.</p>
+<p>Clean up spills and <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">pet accidents</a> promptly. Blot the affected area with a clean cloth rather than rubbing it, and follow the <a href="/blog/carpet-care-and-maintenance-guide/">carpet care instructions</a> before using a cleaning product. If the smell remains, professional treatment may help.</p>
+<h3>Homes with Children</h3>
+<p>Children often play on carpets, drop food, and spill drinks. Even with regular vacuuming, these everyday activities can leave marks and dirt behind.</p>
+<p>For busy family homes, professional cleaning every 6 to 12 months may be suitable. Pay extra attention to playrooms, bedrooms, and living areas where children spend most of their time.</p>
+<p>Deal with spills as soon as possible, and avoid using strong cleaning products without checking whether they are safe for your carpet.</p>
+<h3>Homes with Allergy Concerns</h3>
+<p>Carpets can hold dust, pollen, pet dander, and other small particles. Regular vacuuming helps remove loose dirt, but it may not remove everything trapped deeper in the carpet.</p>
+<p>If someone in your household has allergies, vacuum regularly and consider professional cleaning based on the carpet's condition and their needs. A more frequent schedule may be helpful, but carpet cleaning should not be treated as a cure for allergies.</p>
+<h3>Homes with Little Foot Traffic</h3>
+<p>If you live alone, rarely wear outdoor shoes indoors, or have rooms that are seldom used, your carpets may not need cleaning as often as those in a busy family home.</p>
+<p>A professional clean every 12 to 18 months may be enough for many lightly used rooms. Still, check for dull patches, smells, and hidden spills. A carpet can collect dust and dirt even when nobody walks on it very often.</p>
+
+<h2>How Often Should High-Traffic Carpets Be Professionally Cleaned?</h2>
+<p>Hallways, stairs, entrances and living rooms usually collect more dirt because people walk across them throughout the day. Outdoor grit can become trapped in carpet fibres and gradually affect how they look and feel.</p>
+<p>These areas may need professional cleaning every 6 to 12 months, depending on how heavily they are used. Homes near busy roads, parks or muddy outdoor spaces may also bring more dirt indoors.</p>
+<p>Look for darker paths where people regularly walk, flattened areas on stairs, and dirt around doorways. These signs can help you decide whether your carpet needs attention before your next planned clean.</p>
+<p>Regular vacuuming is especially important in these areas. Use suitable settings for your carpet and follow its care instructions to avoid damaging the fibres.</p>
+
+<h2>How Often Should Commercial Carpets Be Cleaned?</h2>
+<p>Offices, shops and other commercial spaces often need a different cleaning schedule from homes. More people walking across the carpet means more dirt, marks and wear.</p>
+<p>Busy entrances, reception areas and corridors may need professional attention every 3 to 6 months. Other office areas with less foot traffic may only need a deep clean every 6 to 12 months, depending on their condition.</p>
+<p>Businesses should consider:</p>
+<ul>
+<li>How many people use the space each day.</li>
+<li>Whether customers or staff bring in dirt from outdoors.</li>
+<li>How quickly marks and smells appear.</li>
+<li>The carpet type and manufacturer's cleaning advice.</li>
+<li>Any cleaning requirements linked to the business or premises.</li>
+</ul>
+<p>A planned cleaning routine can help a workplace look presentable and prevent dirt from building up for too long. It is often more practical to clean busy areas before they become heavily soiled.</p>
+
+<h2>Signs Your Carpet Needs Professional Cleaning</h2>
+<p>You do not always need to wait for a set date to clean your carpet. Certain signs suggest it may need attention sooner.</p>
+<p><strong>Persistent odours:</strong> If your carpet still smells after vacuuming and airing the room, dirt or a spill may be trapped deeper in the fibres.</p>
+<p><strong>Dirt that remains after vacuuming:</strong> Vacuuming removes loose dirt, but it cannot deal with every mark or build-up. If the carpet still looks dirty, a deeper clean may help.</p>
+<p><strong>Visible discolouration:</strong> Busy areas may look darker or duller than the rest of the carpet because dirt builds up over time.</p>
+<p><strong>Stains that are difficult to remove:</strong> Food, drinks, and pet accidents can leave marks. Avoid repeatedly applying different products, as this may damage the carpet or make the <a href="/services/stain-removal/">stain harder to treat</a>.</p>
+<p><strong>Dull or flattened fibres:</strong> Heavy use can leave carpet fibres looking tired. Cleaning may improve their appearance, although worn or damaged fibres will not always return to their original condition.</p>
+<p>If you notice several of these signs, consider arranging a professional assessment rather than waiting for your usual cleaning date.</p>
+
+<h2>Does Regular Vacuuming Replace Professional Carpet Cleaning?</h2>
+<p>No. Vacuuming and <a href="/services/carpet-cleaning/">professional carpet cleaning</a> serve different purposes, and both are important for carpet care.</p>
+<p>Vacuuming removes loose dirt, dust, crumbs, and hair from the carpet. It should be part of your regular household routine. The National Carpet Cleaners Association recommends vacuuming at least once a week, with more frequent cleaning for homes with pets, allergies, or high-traffic areas.</p>
+<p>Professional cleaning helps deal with deeper dirt and built-up grime that ordinary vacuuming may leave behind. The method used should suit the carpet's material and care instructions.</p>
+<p>For better results, vacuum regularly, deal with spills promptly, and arrange professional cleaning when the carpet needs a deeper clean. These simple carpet cleaning tips can help keep your flooring in better condition between appointments.</p>
+
+<h2>Can You Get Your Carpets Professionally Cleaned Too Often?</h2>
+<p>Yes, cleaning too frequently or using the wrong method can cause problems. Some carpets are more sensitive to moisture, heat, or certain cleaning products than others.</p>
+<p>The aim is to clean your carpet when it needs it, not simply as often as possible. A suitable cleaning method, the right products and proper drying all matter.</p>
+<p>Before booking a clean, check the carpet's care instructions. If you have a wool carpet, an older carpet or one with special cleaning requirements, ask a professional which method is suitable.</p>
+<p>It is also important not to soak the carpet with household cleaning products or water. Too much moisture can lead to slow drying and unwanted smells. Follow the product instructions and seek professional advice if you are unsure.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is professional carpet cleaning once a year enough?</h3>
+<p>For many homes, yes. An annual clean can be a practical routine, especially in rooms used every day. Homes with pets, children, or heavy foot traffic may need cleaning sooner, while lightly used rooms may need it less often.</p>
+<h3>How often should you get carpets professionally cleaned if you have pets?</h3>
+<p>Many pet-owning households benefit from professional cleaning every 6 to 12 months. The right timing depends on shedding, accidents, odours, and how much time pets spend indoors. Clean up accidents promptly rather than waiting for the next appointment.</p>
+<h3>How often should you deep clean carpets?</h3>
+<p>For many homes, deep cleaning every 12 to 18 months is a useful guide. You may need it every 6 to 12 months if your carpet gets heavy use or your household includes pets and children. Always check the carpet manufacturer's advice.</p>
+<h3>How often should carpets be steam cleaned?</h3>
+<p>The timing depends on your carpet, the cleaning method, and how quickly dirt builds up. Many homes can use the general 12–18-month cleaning guide, but not every carpet is suitable for every method. Ask a professional to check whether steam cleaning or another approach is appropriate.</p>
+<h3>Can I wait until my carpet looks dirty before booking a clean?</h3>
+<p>It is better not to rely on appearance alone. Some carpets hide dirt well, while others show marks quickly. Regular vacuuming, prompt stain care and a sensible cleaning schedule can help you avoid leaving dirt to build up for too long.</p>
+<h3>Should carpets be professionally cleaned before moving out?</h3>
+<p>Check your tenancy agreement, inventory and any instructions from your landlord or letting agent. If professional cleaning is required, arrange a suitable service before handing back the property. Keep any receipt or proof of cleaning if needed.</p>
+
+<h2>Conclusion</h2>
+<p>Knowing how often to get carpets professionally cleaned helps you keep your home fresh, comfortable and well cared for. For many homes, cleaning every 12 to 18 months is a good starting point. However, homes with pets, children or heavy foot traffic may need professional cleaning every 6 to 12 months.</p>
+<p>Regular vacuuming, quick stain treatment and the right cleaning routine can help keep your carpets in better condition between professional cleans. Remember to follow your carpet manufacturer's care instructions and choose a cleaning schedule that suits your household.</p>
+<p>If your carpets in London have stubborn stains, built-up dirt, or lingering smells, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can help you find a suitable professional cleaning solution. With the right care and cleaning schedule, you can keep your carpets <a href="/">looking cleaner</a> and feeling fresher for longer.</p>
+`,
+  },
+  {
     slug: 'how-to-remove-mud-stains-from-carpet',
     imageAlt: 'Before and after removing mud stains from a carpet',
     title: 'How to Remove Mud Stains From Carpet: A Step-by-Step Guide',

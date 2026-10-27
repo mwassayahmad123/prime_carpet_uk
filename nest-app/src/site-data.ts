@@ -17,6 +17,9 @@ export const CONTACT = {
   whatsappHref: '447846364007',
   email: 'primecleanu@gmail.com',
   facebook: 'https://www.facebook.com/profile.php?id=61594301987751',
+  linkedin: 'https://www.linkedin.com/company/prime-carpet-cleaning-london/',
+  instagram: 'https://www.instagram.com/primecleanu',
+  googleBusiness: 'https://maps.app.goo.gl/brhikNmYH2Ha5rPGA',
 };
 
 // Update to the real domain once the site is live — used for canonical URLs,
