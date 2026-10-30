@@ -24,7 +24,7 @@ export const CONTACT = {
 
 // Update to the real domain once the site is live — used for canonical URLs,
 // Open Graph tags, and the JSON-LD schema.
-export const SITE_URL = 'https://www.primecarpetcleaning.co.uk';
+export const SITE_URL = 'https://primecarpetcleaning.co.uk';
 
 export const SERVICE_AREA = 'London';
 export const SERVICE_AREA_TEXT = 'Proudly Serving London & Surrounding Areas';

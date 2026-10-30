@@ -1,3 +1,25 @@
 [build]
   command = "npm run build:static"
   publish = "dist-site"
+
+# Preferred domain: https://primecarpetcleaning.co.uk (non-www).
+# Every www URL (http or https) goes to the matching non-www HTTPS URL in a
+# single 301 hop, keeping the path and query string. The non-www host is never
+# redirected here, so there is no loop.
+[[redirects]]
+  from = "https://www.primecarpetcleaning.co.uk/*"
+  to = "https://primecarpetcleaning.co.uk/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.primecarpetcleaning.co.uk/*"
+  to = "https://primecarpetcleaning.co.uk/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://primecarpetcleaning.co.uk/*"
+  to = "https://primecarpetcleaning.co.uk/:splat"
+  status = 301
+  force = true
