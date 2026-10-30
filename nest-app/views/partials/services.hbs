@@ -4,19 +4,19 @@
       <p class="section__eyebrow">Our Services</p>
       <h2 class="section__title">Carpet Cleaning Services for London Homes &amp; Businesses</h2>
       <p class="section__text section__text--center">
-        From deep carpet cleaning to upholstery and <a href="/services/stain-removal/">stain removal</a>, we provide practical
-        cleaning services designed around your needs. Our carpet cleaning services are
-        available for residential properties, offices, and commercial spaces across London.
+        From deep carpet cleaning to upholstery and <a href="/services/stain-removal/">stain removal</a>, we offer practical
+        cleaning services tailored to your needs. We offer carpet cleaning services for
+        residential properties, offices, and commercial spaces across London.
       </p>
     </div>
     <div class="services__grid">
       {{#each services}}
-        <a href="/services/{{this.slug}}/" class="service-card">
+        <article class="service-card">
           <span class="service-card__icon">{{this.icon}}</span>
           <h3 class="service-card__title">{{this.title}}</h3>
-          <p class="service-card__text">{{this.description}}</p>
-          <span class="service-card__link">Learn More →</span>
-        </a>
+          <p class="service-card__text">{{{this.description}}}</p>
+          <a href="/services/{{this.slug}}/" class="service-card__link" aria-label="Learn more about {{this.title}}">Learn More →</a>
+        </article>
       {{/each}}
     </div>
   </div>

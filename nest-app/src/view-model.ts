@@ -6,6 +6,7 @@ import {
   CONTACT,
   REVIEWS,
   FAQ_ITEMS,
+  HOME_SERVICE_BLURBS,
   GALLERY_IMAGES,
   SERVICE_OPTIONS,
   NAV_LINKS,
@@ -118,7 +119,7 @@ export function buildHomeViewModel() {
     schemaJson: JSON.stringify(buildLocalBusinessSchema(ogImage)),
     services: SERVICES_PAGES.map((s) => ({
       title: s.name,
-      description: stripHtml(s.intro),
+      description: HOME_SERVICE_BLURBS[s.slug] || stripHtml(s.intro),
       icon: s.icon,
       slug: s.slug,
     })),
