@@ -12,6 +12,247 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'carpet-cleaning-methods-explained',
+    imageAlt: 'Carpet Cleaning Methods by Prime Carpet Cleaning and Upholstery Steam Cleaning',
+    title: 'Carpet Cleaning Methods Explained: The Complete Guide',
+    seoTitle: 'Carpet Cleaning Methods: A Complete Guide for Homes',
+    metaDescription:
+      'Learn about carpet cleaning methods, from hot water extraction to dry cleaning. Compare the options and choose the best method for your carpet today.',
+    excerpt:
+      'Hot water extraction, dry cleaning, encapsulation, bonnet cleaning and shampooing each have their place. Compare the main carpet cleaning methods and choose the right one.',
+    publishedDate: '2 November 2026',
+    readTime: '8 min read',
+    contentHtml: `
+<p>Choosing between different carpet cleaning methods can feel confusing. Some methods use hot water to remove dirt, while others use very little moisture to freshen carpet fibres. The best choice depends on your carpet type, how dirty it is, and how quickly you need it to dry. In this guide, we explain the main carpet cleaning techniques in simple terms, compare their benefits and limits, and help you understand what to consider before <a href="/">booking a professional service</a>. Whether you are caring for a family home, a rented flat or a busy office in London, this guide will help you make a more informed choice.</p>
+
+<h2>Why Are There Different Carpet Cleaning Methods?</h2>
+<p>Not every carpet is made from the same material, and not every carpet has the same cleaning needs. A lightly soiled bedroom carpet may need a different approach from a busy hallway covered in everyday dirt.</p>
+<p>Carpet fibres also matter. Wool and other natural materials can react differently to moisture and cleaning products than synthetic fibres such as nylon or polyester. Using the wrong method may cause colour changes, shrinkage or damage, so it is important to check the manufacturer's care instructions first.</p>
+<p>The type of dirt also makes a difference. Loose dust may come out with regular vacuuming, while oily marks and dirt deep within the carpet may need a more thorough clean.</p>
+<p>That is why there is no single method that works best for every carpet. A suitable cleaning process considers the material, the level of dirt, the type of marks, and the time available for drying. The National <a href="/">Carpet Cleaners</a> Association also advises that the right method depends on the carpet and the skill of the cleaner.</p>
+
+<h2>What Are the Main Carpet Cleaning Methods?</h2>
+<p>Here are five common methods, how they work, and what you should know about each one.</p>
+<h3>1. Hot Water Extraction</h3>
+<p>Hot water extraction is a widely used method for <a href="/services/carpet-cleaning/">deep carpet cleaning</a>. A machine applies hot water and a suitable cleaning solution to the carpet, then uses strong suction to remove the water along with loosened dirt.</p>
+<p>Although many people call this method steam cleaning, it does not necessarily clean by using steam. The main process is washing the carpet fibres and extracting the dirty water.</p>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Helps remove dirt from deeper within the carpet.</li>
+<li>Can be useful for heavily used rooms and general soiling.</li>
+<li>Extracts much of the water and cleaning solution.</li>
+</ul>
+<p><strong>Things to consider:</strong> The carpet will remain damp for a period after cleaning. Drying time depends on the amount of moisture used, airflow, room conditions, and carpet construction. The method must also suit the carpet material.</p>
+<h3>2. Dry Carpet Cleaning</h3>
+<p>Dry carpet cleaning uses an absorbent cleaning compound or a suitable product designed to collect dirt with little moisture. The product is worked into the carpet as directed, then removed, usually by vacuuming.</p>
+<p>This method can be helpful when a room needs to return to use quickly or when a carpet is not suitable for a wetter cleaning process. However, the term "dry cleaning" does not always mean that absolutely no moisture is used.</p>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Usually involves less moisture than hot water extraction.</li>
+<li>Can allow the carpet to be used again sooner.</li>
+<li>May suit certain moisture-sensitive carpets when the method is approved for them.</li>
+</ul>
+<p><strong>Things to consider:</strong> Results depend on the product, equipment, carpet, and amount of dirt. Dry cleaning is not automatically the safest choice for every natural fibre, so check the care instructions before proceeding.</p>
+<h3>3. Low-Moisture and Encapsulation Cleaning</h3>
+<p>Low-moisture cleaning uses less water than many traditional wet-cleaning methods. One option is encapsulation cleaning, where a special solution surrounds loose dirt as it dries. The dried material is then removed through vacuuming.</p>
+<p>This approach is often used to maintain carpets in offices and other busy spaces between deeper cleans.</p>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Can reduce the time needed for drying.</li>
+<li>May be practical for areas that cannot remain out of use for long.</li>
+<li>Can help maintain the appearance of carpets when used at suitable intervals.</li>
+</ul>
+<p><strong>Things to consider:</strong> It may not provide the same result as a deep restorative clean when dirt is heavily embedded. The product must be applied correctly, and the carpet may need further vacuuming after it has dried.</p>
+<h3>4. Bonnet Cleaning</h3>
+<p>Bonnet cleaning uses a floor machine with a special absorbent pad attached underneath. The pad moves across the carpet surface and collects dirt as it turns.</p>
+<p>This method is often used in some commercial settings to improve the appearance of carpet surfaces. It is generally more focused on surface cleaning than removing dirt from deep within the carpet.</p>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Can cover large areas fairly quickly.</li>
+<li>Uses less moisture than many wet-cleaning methods.</li>
+<li>May be useful for suitable maintenance work.</li>
+</ul>
+<p><strong>Things to consider:</strong> It may not be the right choice for a carpet that needs a deep clean. Incorrect use can affect the carpet fibres or spread dirt around, so the method should be chosen and carried out carefully.</p>
+<h3>5. Carpet Shampooing</h3>
+<p>Carpet shampooing involves applying a carpet-cleaning solution and working it through the fibres with a suitable machine or brush. The loosened dirt and remaining product must then be removed using the correct process.</p>
+<p>Shampooing can improve the appearance of some carpets, but using too much product or failing to remove it properly may leave a sticky film. This can attract dirt and make the carpet look dirty again sooner.</p>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Can loosen general dirt from suitable carpets.</li>
+<li>May be useful when the product and machine are matched to the carpet.</li>
+</ul>
+<p><strong>Things to consider:</strong> Follow the product instructions closely, avoid over-wetting, and make sure the method is suitable for your carpet. Shampooing is not the best option for every material or cleaning problem.</p>
+
+<h2>Steam Cleaning vs Hot Water Extraction</h2>
+<p>The terms "steam cleaning" and "hot water extraction" are often used as if they mean the same thing. In carpet cleaning, however, they can describe different processes.</p>
+<p>Hot water extraction applies hot water and cleaning solution to the carpet before extracting the moisture and loosened dirt. True steam cleaning uses steam produced by a steamer to loosen dirt from a surface.</p>
+<p>When comparing services, ask the cleaner which process they use rather than relying on the name alone. This helps you understand what will happen to your carpet, how much moisture may be involved, and how long drying could take.</p>
+<p>Neither method should be selected without considering the carpet material and care instructions.</p>
+
+<h2>How to Choose the Right Carpet Cleaning Method</h2>
+<p>The best method for cleaning carpets professionally depends on several practical factors. Here is what to check before making a decision.</p>
+<h3>Consider Your Carpet Material</h3>
+<p>Start by checking the manufacturer's care instructions. Wool and other natural fibres may need more careful treatment than some synthetic carpets. If you are unsure what your carpet is made from, ask a suitable professional to inspect it before cleaning.</p>
+<h3>Consider the Amount and Type of Dirt</h3>
+<p>A carpet with light everyday dirt may need a different approach from one with heavy foot traffic or marks that have built up over time. Some stains also require separate treatment before the main cleaning process. Avoid scrubbing a mark aggressively, as this can damage the fibres.</p>
+<h3>Think About Drying Time</h3>
+<p>If you need to use a room soon after cleaning, ask how long the chosen method is likely to take to dry. Low-moisture methods may allow faster use in suitable conditions, while hot water extraction generally leaves the carpet damp for longer.</p>
+<p>Do not choose a method based on drying time alone. It must still be suitable for the carpet and the level of dirt.</p>
+<h3>Check Manufacturer Care Instructions</h3>
+<p>Always check the carpet's care label or manufacturer's guidance when available. Follow advice about suitable products, moisture, and cleaning equipment. If the instructions are unclear, seek professional guidance rather than testing an unfamiliar method on a large area.</p>
+
+<h2>Professional Carpet Cleaning vs DIY Methods</h2>
+<p>DIY carpet cleaners can be useful for small jobs and routine care, but they may not offer the same level of control as professional equipment. The result depends on the machine, cleaning solution, technique, and the condition of the carpet.</p>
+<p>Professional cleaners can inspect the carpet, consider its material, and choose a suitable method. They can also advise when a <a href="/services/stain-removal/">stain needs separate treatment</a> or when a particular cleaning approach may be risky.</p>
+<p>For example, if a carpet has heavy soiling across a busy hallway, the best approach may differ from the one used for a lightly soiled bedroom. If you rent a machine, follow its instructions carefully and avoid adding products that are not approved for it.</p>
+<p>DIY cleaning may suit simple tasks, but professional help is worth considering when the carpet is delicate, heavily soiled, or difficult to clean safely.</p>
+
+<h2>How to Prepare Your Carpet for Cleaning</h2>
+<p>A little preparation can help the appointment go smoothly.</p>
+<ul>
+<li><strong>Remove small items:</strong> Pick up toys, shoes, and other loose belongings from the floor.</li>
+<li><strong>Clear easy-to-move furniture:</strong> Move smaller items if it is safe to do so. Ask the cleaner about larger furniture.</li>
+<li><strong>Point out problem areas:</strong> Tell the cleaner about spills, marks, odours or previous cleaning attempts.</li>
+<li><strong>Check access:</strong> Make sure the cleaner can reach the rooms and equipment has a suitable route inside.</li>
+<li><strong>Ask about drying:</strong> Find out how long the carpet may remain damp and what you should do afterwards.</li>
+</ul>
+<p>Avoid applying several cleaning products before the appointment. Mixing products or using the wrong treatment can make some marks harder to deal with.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Which carpet cleaning method is best?</h3>
+<p>There is no single best method for every carpet. Hot water extraction can suit many carpets that need a deeper clean, while dry or low-moisture methods may be better for certain materials or situations. The right choice depends on the carpet, its condition, and the manufacturer's guidance.</p>
+<h3>Is steam cleaning the same as hot water extraction?</h3>
+<p>Not exactly. Hot water extraction washes the carpet with hot water and cleaning solution, then removes the moisture and loosened dirt using suction. True steam cleaning uses steam to loosen dirt. Ask your cleaner which process they provide.</p>
+<h3>Is dry carpet cleaning better than wet cleaning?</h3>
+<p>Not in every case. Dry cleaning uses less moisture and may allow a quicker return to the room, but wet cleaning can be suitable when a carpet needs a deeper clean. The best option depends on the fibre, soil level and cleaning instructions.</p>
+<h3>How long does professional carpet cleaning take?</h3>
+<p>The appointment length depends on the size of the area, the method used, the condition of the carpet and the number of rooms. Drying time is separate and varies with moisture, airflow, and room conditions. Ask your cleaner for an estimate based on your home.</p>
+<h3>Can every carpet be cleaned using the same method?</h3>
+<p>No. Carpet materials, construction and care requirements vary. A method suitable for one carpet may not be suitable for another. Check the manufacturer's instructions and ask for advice if you are unsure.</p>
+
+<h2>Conclusion</h2>
+<p>Understanding different carpet cleaning methods makes it easier to choose an approach that suits your carpet and your home. Hot water extraction, dry cleaning, low-moisture cleaning, bonnet cleaning and shampooing each have their own uses and limits. The right choice depends on the carpet material, the type of dirt, the condition of the fibres and the time available for drying.</p>
+<p>If you need help choosing a suitable option, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can help you explore carpet cleaning services in London. Before booking, explain your carpet type and cleaning needs so the appropriate method can be considered for your home or business.</p>
+`,
+  },
+  {
+    slug: 'how-to-dry-carpet-after-cleaning',
+    imageAlt:
+      'How to dry carpet after cleaning with 10 proven tips to speed up drying time using air movers and proper ventilation.',
+    title: 'How to Dry Carpet After Cleaning: 10 Proven Tips to Speed Up Drying Time',
+    seoTitle: 'How to Dry Carpet After Cleaning: 10 Easy & Safe Tips',
+    metaDescription:
+      'Learn how to dry carpet after cleaning with safe tips for airflow, ventilation, fans, and dehumidifiers. Reduce dampness and help your carpet dry properly.',
+    excerpt:
+      'Wet carpet can feel uncomfortable and hold a damp smell. Learn ten practical ways to dry carpet faster, what affects drying time and what to do if it stays wet.',
+    publishedDate: '2 November 2026',
+    readTime: '8 min read',
+    contentHtml: `
+<p>Knowing how to dry carpet after cleaning can help you get your room back to normal sooner. Wet carpet can feel uncomfortable, hold a damp smell, and take longer to dry in a room with poor airflow. The good news is that a few simple steps can help remove moisture and improve drying conditions.</p>
+<p>Whether you have cleaned your carpet by hand, used a carpet shampoo, or had it professionally cleaned, the right approach matters. In this blog, you will learn ten practical ways to dry carpet faster, understand what affects drying time, and discover what to do if your carpet stays wet for too long.</p>
+
+<h2>Why Is It Important to Dry Carpet Properly?</h2>
+<p>A carpet needs time to dry after cleaning, but leaving it wet for too long can cause problems. Moisture trapped in the carpet or the layer underneath may lead to a lasting damp smell. If the area stays damp, it can also create conditions that encourage mould growth.</p>
+<p>Wet carpet can be uncomfortable to walk on and may collect dirt more easily when people move across it. There is also a risk of slipping, especially on smooth flooring near carpet edges.</p>
+<p>The time needed to dry depends on how much water was used, the carpet material, its thickness, and the conditions in the room. Good airflow and lower indoor moisture can help speed things up.</p>
+<p>The goal is not simply to make the carpet feel dry on the surface. It is to allow the carpet and any affected layers underneath to dry properly.</p>
+
+<h2>10 Ways to Dry Carpet After Cleaning</h2>
+<h3>1. Remove Excess Water First</h3>
+<p>One of the best ways to dry wet carpet is to remove as much extra moisture as you safely can. If the carpet is damp after spot cleaning, take a clean, absorbent towel and gently press it against the wet area.</p>
+<p>Lift the towel when it becomes damp and use a dry section or a fresh towel if needed. Avoid rubbing the carpet, as this may damage the fibres or spread any remaining stain.</p>
+<p>If you used a <a href="/blog/how-to-clean-carpet-stains/">carpet cleaning</a> machine, follow its instructions for removing extra water. Some machines have a setting designed to collect more moisture.</p>
+<p>If you have cleaned a small spill, start with a clean white towel so you can see how much moisture is being absorbed.</p>
+<h3>2. Improve Airflow Around the Room</h3>
+<p>Air movement helps moisture leave the carpet and enter the air. If the room is closed up, drying may take longer.</p>
+<p>Where practical, open interior doors to allow air to move between rooms. Move small items away from the damp area so air can reach more of the carpet.</p>
+<p>If the carpet is in a bedroom or living room, make sure furniture is not blocking all the airflow around the wet patch.</p>
+<p>Check the room after a short while. If the air feels still and the carpet remains damp, try adding a fan or improving ventilation where conditions allow.</p>
+<h3>3. Use a Fan to Move Air</h3>
+<p>A fan can help speed up carpet drying by moving air across the damp surface. Place it at a safe distance and direct the airflow over the wet area rather than concentrating it on just one small spot.</p>
+<p>For a larger room, more than one fan may help circulate air, provided they can be used safely. Keep electrical cords, plugs, and connections away from wet carpet and water. Never handle electrical equipment with wet hands.</p>
+<p>A fan moves air but does not remove moisture from the room by itself. If the air is already very humid, a dehumidifier may also be useful.</p>
+<p>If a carpet has been cleaned across a large room, position the fan so air can move over as much of the carpet as possible.</p>
+<h3>4. Ventilate the Room When Conditions Allow</h3>
+<p>Opening windows can help bring in fresh air and improve ventilation. This may help the carpet dry faster when the outdoor air is less humid than the air inside.</p>
+<p>However, opening windows is not always the best choice. On a rainy or very humid day, outdoor air may add moisture rather than help remove it. Cold weather can also affect indoor comfort.</p>
+<p>If the weather is suitable, open windows on opposite sides of the room or property when safe to create a path for air to move through.</p>
+<p>Check the weather before relying on open windows alone. If outdoor conditions are damp, keep windows closed and consider using a dehumidifier instead.</p>
+<h3>5. Consider a Dehumidifier</h3>
+<p>A dehumidifier removes moisture from indoor air. This can be helpful when a carpet is wet, and the room cannot be ventilated easily.</p>
+<p>Place the unit in a suitable location and follow its safety instructions. Keep it away from wet areas unless the manufacturer confirms that the setup is safe. Empty the water container as directed, or check the drainage system if your unit uses one.</p>
+<p>A dehumidifier can work well alongside a fan. The fan moves air across the carpet, while the dehumidifier helps reduce moisture in the room.</p>
+<p>A dehumidifier may be particularly useful in a room with limited ventilation, such as a bedroom where windows need to stay closed.</p>
+<h3>6. Keep the Room at a Comfortable Temperature</h3>
+<p>A comfortably warm room can support drying, especially when combined with good airflow. If the room is very cold, moisture may take longer to leave the carpet.</p>
+<p>You do not need to make the room unusually hot. Keep the temperature comfortable and use your normal heating system safely if needed.</p>
+<p>Avoid placing portable heaters close to wet carpet or leaving them unattended. Never use an open flame or an unsuitable heat source to dry carpet. Excess heat may damage some materials and create a safety risk.</p>
+<p>Combine a comfortable room temperature with airflow rather than relying on heat alone.</p>
+<h3>7. Keep Foot Traffic to a Minimum</h3>
+<p>Walking over wet carpet can transfer dirt from shoes and feet onto the damp fibres. It may also flatten some carpet fibres or make the surface uncomfortable to use.</p>
+<p>If possible, keep children, pets, and visitors away from the area while it dries. If you need to cross the room, follow the advice given by your <a href="/">carpet cleaner</a> or the cleaning product manufacturer.</p>
+<p>Be especially careful near carpet edges and adjoining hard floors, where wet surfaces may create a slipping risk.</p>
+<p>If you have cleaned a busy hallway, plan another route through the home until the carpet is sufficiently dry.</p>
+<h3>8. Follow the Right Method After Carpet Shampooing</h3>
+<p>If you want to know how to dry carpet after shampooing, start by checking the instructions for the product and cleaning machine you used.</p>
+<p>Some methods leave more moisture in the carpet than others. Using too much cleaning solution or water may make drying take longer. If your machine has a setting for collecting extra water, use it as directed.</p>
+<p>Do not add more water simply to rinse the carpet unless the product instructions call for it. Too much moisture can spread into the carpet backing or underlay.</p>
+<p>Next time you clean, use only the recommended amount of solution and make any required passes to remove excess moisture.</p>
+<h3>9. Check Under Furniture and Around Edges</h3>
+<p>Carpet can dry unevenly. A section in the middle of a room may feel dry while an area beneath furniture or close to a wall remains damp.</p>
+<p>If it is safe to do so, move lightweight items away from the damp area to allow more air to reach the carpet. Do not drag heavy furniture across wet carpet. If furniture legs could be affected by moisture, protect them according to the furniture manufacturer's advice.</p>
+<p>Check carpet edges carefully, especially if a large amount of water was used.</p>
+<p>Do not assume the entire carpet is dry just because one area feels dry to the touch.</p>
+<h3>10. Get Professional Help if the Carpet Stays Wet</h3>
+<p>Sometimes home drying methods are not enough. If the carpet remains very wet, moisture may have reached the backing or underlay. A strong damp smell or an area that stays wet despite improved airflow may also need attention.</p>
+<p>Avoid repeatedly adding cleaning products or water in an attempt to fix the problem. Contact the cleaning provider if the carpet was professionally cleaned, or seek advice from a suitable <a href="/blog/carpet-care-and-maintenance-guide/">carpet care professional</a>.</p>
+<p>A professional can assess the carpet and advise whether further moisture removal is needed.</p>
+<p>Explain how the carpet was cleaned, how long it has been wet, and whether the dampness affects one small area or a whole room.</p>
+
+<h2>How Long Does Carpet Take to Dry After Cleaning?</h2>
+<p>If you are wondering, "After carpet cleaning, how long does it take to dry?", the answer depends on the cleaning method and room conditions.</p>
+<p>A lightly damp carpet may dry within several hours, while a carpet that has absorbed more water may take longer. Thick carpet, damp underlay, poor airflow, and high indoor humidity can all increase the drying time.</p>
+<p>Fans, suitable ventilation, and a dehumidifier may help. However, there is no single drying time that applies to every carpet.</p>
+<p>Follow the advice provided by your carpet cleaner or the cleaning product manufacturer. If the carpet remains very wet for an unusually long time, do not simply wait without checking the cause. Moisture may have reached the layers underneath.</p>
+<p>Remember that a dry-feeling surface does not always mean the full carpet is dry.</p>
+
+<h2>Common Carpet Drying Mistakes to Avoid</h2>
+<p>Avoid these mistakes when drying carpet at home:</p>
+<ul>
+<li><strong>Adding too much water:</strong> Extra moisture can make the carpet take longer to dry.</li>
+<li><strong>Closing the room completely:</strong> Poor airflow can slow down drying.</li>
+<li><strong>Using unsafe heat sources:</strong> Excess heat or unattended heaters may create a safety risk.</li>
+<li><strong>Walking on wet carpet too soon:</strong> This can transfer dirt and increase the risk of slipping.</li>
+<li><strong>Ignoring damp patches:</strong> Moisture may remain under furniture or around carpet edges.</li>
+<li><strong>Assuming the surface tells the whole story:</strong> The backing or underlay may still be wet even when the fibres feel dry.</li>
+</ul>
+<p>If the carpet smells strongly damp or stays wet despite your efforts, investigate rather than covering up the smell with fragrance or adding more cleaning products.</p>
+
+<h2>What to Do If Your Carpet Is Still Wet</h2>
+<p>If your carpet is still wet after cleaning, start by checking how much moisture remains and whether air can move around the room. Use clean towels to absorb excess water from suitable areas, then use a fan or dehumidifier if you can do so safely.</p>
+<p>Keep people away from slippery sections and avoid moving heavy furniture across the wet carpet. If the carpet remains very wet, the underlay may be affected, or a damp smell develops, contact the cleaning provider or a suitable professional.</p>
+<p>Do not use strong heat or keep adding products in an attempt to speed up drying. Finding the cause of the excess moisture is more helpful than treating the symptoms.</p>
+
+<h2>Frequently Asked Questions About Drying Carpet</h2>
+<h3>How long does carpet take to dry?</h3>
+<p>Carpet may dry within several hours after a light clean, but it can take longer if a lot of water was used. Carpet thickness, underlay, humidity, temperature, and airflow all affect drying time. Follow your cleaner's guidance and check for lingering dampness.</p>
+<h3>What is the fastest way to dry carpet after cleaning?</h3>
+<p>Remove excess moisture safely, improve airflow, and use a fan to move air across the carpet. A dehumidifier can also help reduce moisture in the room. Avoid unsafe heat sources or soaking the carpet further.</p>
+<h3>Should I open windows to dry my carpet?</h3>
+<p>Yes, when outdoor conditions support drying. Fresh air may help if it is less humid outside than indoors. During very humid or rainy weather, keeping windows closed and using a dehumidifier may work better.</p>
+<h3>Can I use a fan or dehumidifier to dry carpet?</h3>
+<p>Yes. A fan moves air across the carpet, while a dehumidifier removes moisture from indoor air. Use both according to their safety instructions and keep electrical equipment away from wet areas.</p>
+<h3>Can I walk on carpet while it is drying?</h3>
+<p>It is best to limit foot traffic until the carpet is sufficiently dry. Walking on it may transfer dirt, flatten fibres, or create a slipping risk. Follow any instructions from your carpet cleaner.</p>
+<h3>Why does my carpet smell damp after cleaning?</h3>
+<p>A damp smell may mean moisture remains in the carpet or the layers underneath. Improve airflow and check the carpet again. If the smell persists or the carpet stays wet, seek professional advice.</p>
+
+<h2>Conclusion</h2>
+<p>The best way to dry carpet after cleaning is to remove excess moisture, improve airflow, and use fans or a dehumidifier when suitable. Ventilate the room when outdoor conditions allow, keep foot traffic low, and check for damp patches beneath furniture and near edges. If the carpet stays wet for too long, get advice rather than ignoring the problem.</p>
+<p>If you need professional help, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> serves customers across London. Explore our <a href="/services/carpet-cleaning/">professional carpet cleaning services in London</a> to learn more about caring for your carpet.</p>
+`,
+  },
+  {
     slug: 'how-to-choose-the-right-carpet-cleaning-products',
     imageAlt: 'Choosing suitable carpet cleaning products for home carpet care',
     title: 'How to Choose the Right Carpet Cleaning Products',
