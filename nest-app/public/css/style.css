@@ -1,3 +1,39 @@
+/* Self-hosted fonts (latin subset) */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+  src: url('/fonts/playfair-display-latin.woff2') format('woff2');
+}
+
+/* Metric-matched fallbacks so the swap to the web fonts doesn't shift layout */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial');
+  size-adjust: 107.42%;
+  ascent-override: 90.18%;
+  descent-override: 22.46%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Playfair Display Fallback';
+  src: local('Georgia');
+  size-adjust: 103.67%;
+  ascent-override: 104.37%;
+  descent-override: 24.21%;
+  line-gap-override: 0%;
+}
+
 *,
 *::before,
 *::after {
@@ -17,8 +53,8 @@
   --color-bg: #f8f9fb;
   --color-border: #e2e8f0;
   --color-whatsapp: #25d366;
-  --font-body: 'Inter', system-ui, sans-serif;
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-display: 'Playfair Display', 'Playfair Display Fallback', Georgia, serif;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.15);
@@ -1655,6 +1691,12 @@ button {
   font-size: 1rem;
   line-height: 1.75;
   margin-bottom: 1.1rem;
+}
+
+.blog-post__content ol {
+  margin: 0 0 1.25rem 1.5rem;
+  color: var(--color-text-light);
+  line-height: 1.75;
 }
 
 .blog-post__content ul {

@@ -12,6 +12,275 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'dry-carpet-cleaning-vs-steam-cleaning',
+    imageAlt: 'Dry carpet cleaning compared with steam carpet cleaning methods',
+    title: 'Dry Carpet Cleaning vs Steam Cleaning: Which Is Better?',
+    seoTitle: 'Dry Carpet Cleaning vs Steam Cleaning: Which Is Better?',
+    metaDescription:
+      'Compare dry carpet cleaning vs. steam cleaning to discover how each method works, drying times, key benefits, costs, and which option is best for your carpet.',
+    excerpt:
+      'Dry cleaning uses very little moisture, while steam cleaning usually means hot water extraction. Compare how each works, drying times and which suits your carpet.',
+    publishedDate: '4 November 2026',
+    readTime: '8 min read',
+    contentHtml: `
+<p>Choosing between dry carpet cleaning and steam cleaning can feel confusing, especially when both methods promise cleaner carpets. The main difference is the amount of moisture used and how dirt is removed. Dry carpet cleaning uses a small amount of moisture or a cleaning compound, while steam cleaning, as the term is commonly used by carpet cleaners, usually means hot water extraction. The best option depends on your carpet material, how dirty it is, how quickly you need the room back, and the care instructions. Let's compare both methods so you can make the right choice for your home or workplace.</p>
+
+<h2>What Is Dry Carpet Cleaning?</h2>
+<p>Dry carpet cleaning is a method that uses very little water compared with many traditional wet-cleaning methods. It is designed to clean carpet fibres without leaving them heavily damp.</p>
+<p>Depending on the product and equipment, a cleaner may use a special powder, absorbent compound, or low-moisture cleaning product. The chosen method should always suit the carpet and follow the product instructions.</p>
+<h3>How Does Dry Carpet Cleaning Work?</h3>
+<p>The exact process depends on the cleaning product, but it usually follows a few simple steps:</p>
+<ol>
+<li><strong>Prepare the carpet:</strong> Loose dirt and dust are removed with a vacuum cleaner.</li>
+<li><strong>Apply the cleaning product:</strong> A suitable powder, compound, or low-moisture product is spread across the carpet.</li>
+<li><strong>Work it into the fibres:</strong> The product is gently worked into the carpet so it can pick up dirt.</li>
+<li><strong>Remove the product:</strong> The cleaner uses the recommended equipment to remove the compound and collected dirt.</li>
+</ol>
+<p>Some products need a short waiting period before removal. Always follow the instructions, as leaving a product in the carpet for too long may affect the result.</p>
+<h3>Benefits of Dry Carpet Cleaning</h3>
+<p>Dry carpet cleaning can be a useful choice in the right situation.</p>
+<ul>
+<li><strong>Uses less moisture:</strong> This can be helpful when you want to avoid leaving the carpet very damp.</li>
+<li><strong>Often allows quicker room use:</strong> Since less moisture is used, the carpet may be ready sooner.</li>
+<li><strong>Can suit certain carpet types:</strong> Some carpets and cleaning situations are better suited to a low-moisture method.</li>
+<li><strong>Useful for routine cleaning:</strong> It may help freshen carpets and deal with everyday dirt when the product is suitable.</li>
+</ul>
+<p>For homes, offices and other busy spaces, a shorter wait before using the room can be a real advantage.</p>
+<h3>Limitations of Dry Carpet Cleaning</h3>
+<p>Dry carpet cleaning is not the right answer for every carpet or every type of dirt.</p>
+<p>Its results depend on the product, equipment, cleaning method, and condition of the carpet. It may not remove all deeply trapped dirt or heavy soiling as effectively as a suitable wet-cleaning method.</p>
+<p>The cleaning compound must also be removed properly. If too much product is used or it is not removed as directed, residue may remain in the carpet.</p>
+
+<h2>What Is Steam Carpet Cleaning?</h2>
+<p>Steam cleaning is a common name used by <a href="/">carpet cleaning companies</a> for hot water extraction. Although the names are often used interchangeably, professional <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">carpet cleaning</a> usually involves heated water and a suitable cleaning solution rather than steam alone.</p>
+<p>This method is designed to loosen dirt within suitable carpet fibres and remove it with a powerful suction machine.</p>
+<h3>How Does Steam Carpet Cleaning Work?</h3>
+<p>The steam carpet cleaning method commonly used by professionals involves these steps:</p>
+<ol>
+<li><strong>Carpet inspection:</strong> The cleaner checks the carpet material, condition, and level of dirt.</li>
+<li><strong>Preparation:</strong> Loose dust and dirt are removed, and any areas needing extra attention are identified.</li>
+<li><strong>Cleaning solution:</strong> A suitable solution may be applied to help loosen dirt.</li>
+<li><strong>Hot water application:</strong> Heated water is applied to the carpet using specialist equipment.</li>
+<li><strong>Dirt and moisture removal:</strong> The machine extracts much of the water, cleaning solution, and loosened dirt.</li>
+<li><strong>Drying:</strong> The carpet is left to dry with suitable airflow.</li>
+</ol>
+<p>The amount of water used and removed depends on the equipment, carpet, and cleaning process. Correct use is important to avoid leaving too much moisture behind.</p>
+<h3>Benefits of Steam Carpet Cleaning</h3>
+<p>Hot water extraction can be a good choice when a carpet needs more than a light refresh.</p>
+<ul>
+<li><strong>Helps remove built-up dirt:</strong> It can reach dirt trapped within suitable carpet fibres.</li>
+<li><strong>Useful for deeper cleaning:</strong> It may be suitable for carpets in busy homes and areas with regular foot traffic.</li>
+<li><strong>Removes much of the moisture:</strong> The machine uses suction to extract water and loosened dirt.</li>
+<li><strong>Can improve carpet freshness:</strong> Removing trapped dirt can help a carpet look and feel cleaner.</li>
+</ul>
+<p>It is important to remember that results depend on the carpet, the level of soiling, and the skill of the person cleaning it.</p>
+<h3>Limitations of Steam Carpet Cleaning</h3>
+<p>Unlike dry carpet cleaning, hot water extraction uses more moisture. This means the carpet will usually remain damp after the cleaning process.</p>
+<p>Drying time can vary based on carpet thickness, room temperature, airflow, and how well the machine removes water. You may need to keep people and pets off the carpet until it is dry.</p>
+<p>Not every carpet is suitable for this method. Some delicate materials need special care, so the manufacturer's cleaning instructions should be checked before work begins.</p>
+
+<h2>Dry Carpet Cleaning vs Steam Cleaning: Key Differences</h2>
+<p>Both methods can help keep carpets clean, but they work in different ways. Here is a simple comparison.</p>
+<div class="blog-table-wrap">
+<table>
+<thead>
+<tr><th>Factor</th><th>Dry carpet cleaning</th><th>Steam cleaning / hot water extraction</th></tr>
+</thead>
+<tbody>
+<tr><td>Moisture</td><td>Uses very little moisture</td><td>Uses heated water and a cleaning solution</td></tr>
+<tr><td>Drying time</td><td>Often shorter</td><td>Usually longer</td></tr>
+<tr><td>Cleaning process</td><td>Uses a compound or low-moisture product</td><td>Uses heated water, solution, and suction</td></tr>
+<tr><td>Main use</td><td>Routine care and certain cleaning needs</td><td>Deeper cleaning of suitable carpets</td></tr>
+<tr><td>Carpet suitability</td><td>Depends on the fibre and product</td><td>Depends on the fibre and moisture tolerance</td></tr>
+<tr><td>Room access</td><td>May allow quicker use</td><td>May require a longer drying period</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Which Method Is Better for Different Carpet Types?</h2>
+<p>The right method is not only about how dirty the carpet looks. Its material and care instructions matter too.</p>
+<h3>Cleaning Wool Carpets</h3>
+<p>Wool carpets need careful cleaning because they can be affected by unsuitable products, too much moisture, or harsh treatment.</p>
+<p>Before choosing a method, check the manufacturer's care instructions. A suitable low-moisture method may be an option for some wool carpets, while others may allow carefully controlled hot water extraction.</p>
+<p>A professional should check the carpet and choose a product and cleaning method that suit its fibres. Avoid trying a new cleaning product on a large area without testing it in a hidden spot first.</p>
+<h3>Cleaning Synthetic Carpets</h3>
+<p>Some nylon and polyester carpets may be suitable for hot water extraction, depending on their construction and manufacturer instructions.</p>
+<p>This method can help remove dirt that builds up in areas such as hallways, living rooms, and stairs. However, synthetic carpets are not all the same. Always check the care guidance and make sure the cleaning process is suitable.</p>
+<p>Dry carpet cleaning may also be useful for some synthetic carpets, especially when lower moisture is preferred.</p>
+<h3>Cleaning Carpets in Busy Homes and Offices</h3>
+<p>Busy homes and workplaces often need a balance between cleaning results and room access.</p>
+<p>For example, a household may prefer a low-moisture method when a room needs to be used again quickly. A heavily used office carpet may need a deeper clean, provided the carpet can safely handle the chosen method and there is enough time for drying.</p>
+<p>Think about how much dirt has built up, how often the area is used, and whether the room can stay out of use while the carpet dries.</p>
+
+<h2>Which Is Better: Dry Carpet Cleaning or Steam Cleaning?</h2>
+<p>There is no single winner in the dry carpet cleaning vs steam cleaning comparison. The better option depends on what your carpet needs.</p>
+<p><strong>Dry carpet cleaning may be the better choice when:</strong></p>
+<ul>
+<li>You want to use less moisture.</li>
+<li>You need the room back sooner.</li>
+<li>The carpet and cleaning product are suitable for this method.</li>
+<li>The carpet needs routine cleaning rather than a more intensive clean.</li>
+</ul>
+<p><strong>Steam cleaning, or hot water extraction, may be the better choice when:</strong></p>
+<ul>
+<li>Dirt has built up within suitable carpet fibres.</li>
+<li>The carpet needs a deeper clean.</li>
+<li>The material allows the use of heated water and the right cleaning solution.</li>
+<li>You can allow enough time for the carpet to dry.</li>
+</ul>
+<p>Before making a decision, consider the carpet material, the level of dirt, and the manufacturer's care instructions. A cleaning method should be chosen for the carpet, not simply because it is popular.</p>
+
+<h2>When Should You Choose Professional Carpet Cleaning?</h2>
+<p>Professional advice can help when you are unsure which method is safe for your carpet. This is especially important if you have a delicate carpet, heavy soiling, or <a href="/services/stain-removal/">stains that have not improved after home cleaning</a>.</p>
+<p>A professional cleaner can inspect the carpet and identify its material where possible, and recommend a suitable approach. They can also explain what products and equipment will be used and how long the room may need to dry.</p>
+<p>Consider professional help if:</p>
+<ul>
+<li>You do not know which cleaning method suits your carpet.</li>
+<li>Your carpet has heavy dirt in high-traffic areas.</li>
+<li>You have tried cleaning it yourself without good results.</li>
+<li>You are concerned about using too much water.</li>
+<li>The carpet has care instructions that you are unsure how to follow.</li>
+</ul>
+<p>Avoid using a <a href="/blog/how-to-choose-the-right-carpet-cleaning-products/">strong cleaning product</a> or hiring equipment without checking whether it is suitable. The wrong approach can leave residue, cause colour changes or make the carpet harder to clean.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is dry carpet cleaning better than steam cleaning?</h3>
+<p>Not always. Dry carpet cleaning uses less moisture and often allows quicker room use. Hot water extraction may be more suitable for removing built-up dirt from carpets that can safely handle the method. The best choice depends on the carpet and cleaning needs.</p>
+<h3>Which carpet cleaning method dries faster?</h3>
+<p>Dry carpet cleaning usually dries faster because it uses less moisture. Hot water extraction leaves the carpet damp, although effective suction removes much of the water. Actual drying time depends on airflow, temperature, carpet thickness, and equipment.</p>
+<h3>Does dry carpet cleaning remove deep dirt?</h3>
+<p>It can remove dirt, but results depend on the product, equipment, and carpet condition. Some heavily soiled carpets may need a different method. A professional inspection can help identify the most suitable option.</p>
+<h3>Is steam cleaning safe for wool carpets?</h3>
+<p>It can be suitable for some wool carpets when the correct method, temperature, and products are used. However, wool needs careful handling. Always check the manufacturer's care instructions and have the carpet assessed before cleaning.</p>
+<h3>How long does dry carpet cleaning take?</h3>
+<p>The cleaning time depends on the size of the room, carpet condition, and method used. Some low-moisture methods allow the carpet to be used sooner, but any waiting or drying period stated by the product instructions should be followed.</p>
+<h3>How long does steam carpet cleaning take?</h3>
+<p>The cleaning appointment depends on the number and size of rooms, the amount of dirt, and the equipment used. After hot water extraction, the carpet also needs time to dry. Ask your cleaner for an estimate based on your carpet and room conditions.</p>
+<h3>Is steam cleaning the same as hot water extraction?</h3>
+<p>In everyday carpet cleaning, companies often use the term steam cleaning to describe hot water extraction. Technically, they are not the same. Hot water extraction applies heated water and cleaning solution, then removes them with suction. It does not rely on steam alone.</p>
+
+<h2>Conclusion</h2>
+<p>When comparing dry carpet cleaning vs steam cleaning, the most important thing is choosing a method that suits your carpet. Dry cleaning can be useful when you want less moisture and a shorter wait before using the room. Hot water extraction may be a better option for deeper cleaning when the carpet material allows it.</p>
+<p>Always consider the carpet fibres, level of dirt, care instructions and drying requirements before choosing a method. If you are unsure, professional advice can help you avoid using the wrong product or process.</p>
+<p><a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> provides <a href="/services/carpet-cleaning/">carpet cleaning services across London</a>. If you need help choosing a suitable cleaning method for your home or workplace, contact the team to discuss your carpet and cleaning needs.</p>
+`,
+  },
+  {
+    slug: 'what-is-hot-water-extraction-carpet-cleaning',
+    imageAlt:
+      'Professional hot water extraction carpet cleaning removing dirt and stains from a residential carpet.',
+    title: 'What Is Hot Water Extraction Carpet Cleaning? A Complete Guide',
+    seoTitle: 'What Is Hot Water Extraction Carpet Cleaning? Full Guide',
+    metaDescription:
+      'Discover how hot water extraction carpet cleaning works, its benefits and limits, which carpets may suit it, and what affects drying time after cleaning at home.',
+    excerpt:
+      'Hot water extraction uses heated water, a cleaning solution and strong suction to lift dirt. Learn how it works, its benefits and limits, and whether it suits your carpet.',
+    publishedDate: '4 November 2026',
+    readTime: '8 min read',
+    contentHtml: `
+<p>Hot water extraction carpet cleaning is a popular way to remove dirt from carpets using heated water, a suitable cleaning solution, and a machine that pulls out the dirty water. It can help lift dirt from deep within carpet fibres and improve the look of carpets that receive daily use. But how does the method work, and is it right for every carpet? In this blog, we explain the process step by step, explore its benefits and limits, and show you what to consider before choosing a cleaning service. Whether you have a family home, a rented flat or a busy office in London, understanding the method can help you make a better choice.</p>
+
+<h2>What Is Hot Water Extraction Carpet Cleaning?</h2>
+<p>Hot water extraction carpet cleaning is a process that uses heated water and a suitable cleaning solution to loosen dirt in a carpet. A machine then uses strong suction to remove the water, cleaning solution, and loosened dirt.</p>
+<p>Many people call this method steam cleaning, but the two terms do not always mean the same thing. Hot water extraction mainly involves applying water and then removing it with a machine. True steam cleaning uses steam to loosen dirt from a surface.</p>
+<p>The main aim of hot water extraction is to clean the carpet beyond its surface. It can help remove everyday dirt, dust and some types of soiling that build up as people walk across the carpet.</p>
+<p>However, results depend on the carpet material, the type of dirt, the cleaning products used, and how the machine is handled. The method must be suitable for the carpet before cleaning begins.</p>
+
+<h2>How Does Hot Water Extraction Carpet Cleaning Work?</h2>
+<p>The hot water extraction method follows several steps. Each step helps clean the carpet while limiting the risk of damage.</p>
+<h3>Step 1: Inspect the Carpet</h3>
+<p>Before cleaning, the carpet should be checked for its material, condition, stains, and care instructions. This helps the cleaner decide whether hot water extraction is suitable.</p>
+<p>Some carpets need special care, and certain <a href="/services/stain-removal/">stains may require separate treatment</a>. Checking these details first helps avoid using the wrong products or too much moisture.</p>
+<h3>Step 2: Prepare the Carpet</h3>
+<p>Loose dirt should be removed before the main cleaning process. Vacuuming helps collect dust, crumbs, hair, and other particles from the carpet surface.</p>
+<p>Small items should also be moved out of the way so the cleaner can reach the area properly. If there are stains, point them out before cleaning begins.</p>
+<h3>Step 3: Apply Water and Cleaning Solution</h3>
+<p>The machine applies heated water and a suitable cleaning solution to the carpet. The solution helps loosen dirt from the fibres so it can be removed more easily.</p>
+<p>The amount of water, its temperature, and the cleaning product should match the carpet's needs. More water does not automatically mean a better clean. Using too much can make drying harder and may cause problems for carpets that are sensitive to moisture.</p>
+<h3>Step 4: Extract Water and Dirt</h3>
+<p>The machine then uses suction to pull out the water, cleaning solution, and loosened dirt. This is an important part of the process because it removes much of the moisture used during cleaning.</p>
+<p>Good extraction helps prevent the carpet from staying wetter than necessary. The result depends on the equipment, the carpet, and the skill used during cleaning.</p>
+<h3>Step 5: Allow the Carpet to Dry</h3>
+<p>After cleaning, the carpet needs time to dry fully. Air movement, suitable ventilation, and a comfortable room temperature can help moisture leave the carpet.</p>
+<p>Keep people and pets off the carpet as much as possible while it is wet. Follow the cleaner's aftercare advice, especially if the carpet has a deep pile or the room has limited airflow.</p>
+
+<h2>What Are the Benefits of Hot Water Extraction Carpet Cleaning?</h2>
+<p>When used on a suitable carpet, hot water extraction offers several useful benefits.</p>
+<ul>
+<li><strong>Helps remove embedded dirt:</strong> The water and cleaning solution can loosen dirt that ordinary vacuuming may not remove.</li>
+<li><strong>Improves carpet appearance:</strong> Removing built-up dirt can help a carpet look fresher and cleaner.</li>
+<li><strong>Removes much of the moisture:</strong> The machine's suction pulls out much of the water used during the process.</li>
+<li><strong>Works well in busy areas:</strong> Carpets in hallways, living rooms, and offices often collect dirt from regular foot traffic. Hot water extraction may help when these carpets need a deeper clean.</li>
+<li><strong>Can support stain treatment:</strong> Some marks respond to suitable cleaning solutions and extraction. However, <a href="/blog/how-to-clean-carpet-stains/">not every stain will disappear completely</a>, and some need a separate treatment.</li>
+</ul>
+<p>The best results come from choosing the right process for the carpet rather than using the same approach everywhere.</p>
+
+<h2>What Are the Limitations of Hot Water Extraction?</h2>
+<p>Hot water extraction can be effective, but it is not perfect for every situation.</p>
+<p><strong>The carpet stays damp afterwards.</strong> Even though the machine removes much of the water, some moisture remains. The carpet needs time to dry before normal use.</p>
+<p><strong>Some stains may remain.</strong> <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">Old stains</a>, dye marks, and certain spills can be difficult to remove. Results depend on what caused the mark, how long it has been there, and whether previous cleaning products were used.</p>
+<p><strong>Not every carpet is suitable.</strong> Some materials need special care and may not tolerate the same water temperature, cleaning solution, or amount of moisture as other carpets.</p>
+<p><strong>Incorrect cleaning can cause damage.</strong> Too much water, unsuitable products, or poor extraction may lead to long drying times, residue, or other problems.</p>
+<p>A careful carpet check before cleaning can help reduce these risks. If the carpet's material or care instructions are unclear, ask a qualified cleaner for advice.</p>
+
+<h2>Is Hot Water Extraction Suitable for Every Carpet?</h2>
+<p>No. Carpet materials differ, so the method should be selected with care.</p>
+<h3>Hot Water Extraction for Synthetic Carpets</h3>
+<p>Some synthetic carpets, including certain nylon and polyester carpets, can be suitable for hot water extraction. However, the carpet's backing, construction, dye, and care instructions also matter.</p>
+<p>A synthetic carpet should not automatically be treated as safe for every cleaning method. Check the manufacturer's advice and use suitable cleaning products.</p>
+<h3>Hot Water Extraction for Wool Carpets</h3>
+<p>Wool carpets need more careful handling. Excess moisture, unsuitable cleaning products, or incorrect treatment can affect their fibres, shape, or colour.</p>
+<p>Before cleaning wool, check the manufacturer's care instructions. A cleaner should assess the carpet and choose a suitable process with careful control of moisture and cleaning products.</p>
+<h3>When to Ask a Professional</h3>
+<p>If you do not know what your carpet is made from, or if it has loose fibres, colour changes, or signs of damage, seek advice before cleaning it.</p>
+<p>A <a href="/">professional can inspect the carpet</a> and help decide whether hot water extraction or another method is more suitable.</p>
+
+<h2>Hot Water Extraction vs Steam Cleaning</h2>
+<p>Hot water extraction and steam cleaning are often used as interchangeable terms, but they can describe different processes.</p>
+<p>Hot water extraction applies heated water and cleaning solution, then uses suction to remove the moisture and loosened dirt. True steam cleaning uses steam to loosen dirt from a surface.</p>
+<p>Some carpet-cleaning businesses use the phrase "steam cleaning" when describing hot water extraction. This can confuse customers who are comparing services.</p>
+<p>Before booking, ask what method the company actually uses, whether it suits your carpet, and how much drying time to expect. This gives you a clearer idea of what the service includes.</p>
+
+<h2>How Long Does Hot Water Extraction Carpet Cleaning Take?</h2>
+<p>There are two different timings to consider: the time needed to clean the carpet and the time needed for it to dry.</p>
+<p>The cleaning appointment depends on the size of the area, the condition of the carpet, the number of rooms, and the amount of work required. A single room will usually take less time to clean than a large home or office.</p>
+<p>Drying time varies too. It depends on how much moisture remains, the carpet's thickness, room temperature, airflow, and ventilation. Many carpets take several hours to dry, but some may need longer.</p>
+<p>To help the carpet dry:</p>
+<ul>
+<li>Improve airflow with a fan where suitable.</li>
+<li>Ventilate the room when outdoor conditions allow.</li>
+<li>Use a dehumidifier if the room is damp.</li>
+<li>Avoid walking on the carpet until it is sufficiently dry.</li>
+<li>Follow the cleaner's aftercare instructions.</li>
+</ul>
+<p>Do not assume that every carpet will dry within the same number of hours. Ask your cleaner for an estimate based on your carpet and room conditions.</p>
+
+<h2>Is Professional Hot Water Extraction Better Than DIY Cleaning?</h2>
+<p>DIY carpet-cleaning machines can be useful for some household jobs, but the results depend on the equipment, product, and technique.</p>
+<p>Professional cleaners can inspect the carpet, identify areas that need attention, and select a suitable method. They may also have equipment that removes water more effectively than some home machines.</p>
+<p>DIY cleaning may suit a small area when the carpet is suitable, and the instructions are followed carefully. However, using too much solution or failing to extract enough water can leave residue or make drying take longer.</p>
+<p>For delicate carpets, heavy soiling or marks that have resisted previous attempts, professional advice may be the safer option. The best choice depends on your carpet, budget and cleaning needs.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is hot water extraction carpet cleaning?</h3>
+<p>It is a carpet-cleaning method that uses heated water and a suitable cleaning solution to loosen dirt, followed by machine suction to remove the water and loosened soil.</p>
+<h3>Is hot water extraction the same as steam cleaning?</h3>
+<p>Not always. Hot water extraction washes the carpet and removes moisture through suction, while true steam cleaning uses steam. Ask the service provider which process they use.</p>
+<h3>Does hot water extraction remove deep dirt?</h3>
+<p>It can help remove dirt from deeper within suitable carpets. Results depend on the carpet, the amount and type of dirt, the cleaning solution and the equipment used.</p>
+<h3>How long does carpet take to dry after hot water extraction?</h3>
+<p>Many carpets take several hours, but some need longer. Carpet thickness, moisture levels, airflow, temperature, and ventilation all affect drying time.</p>
+<h3>Is hot water extraction safe for wool carpets?</h3>
+<p>It may be suitable for some wool carpets when the manufacturer's instructions allow it and the correct process is used. Wool needs careful assessment and control of moisture and cleaning products.</p>
+<h3>How often should a carpet be cleaned using hot water extraction?</h3>
+<p>There is no single schedule for every home. Consider foot traffic, pets, household needs, visible soiling and the carpet manufacturer's advice. Vacuum regularly between deeper cleans.</p>
+
+<h2>Conclusion</h2>
+<p>Hot water extraction carpet cleaning can help remove built-up dirt and refresh suitable carpets when the right products, equipment and process are used. It involves inspecting and preparing the carpet, applying heated water and cleaning solution, extracting the dirty water and allowing the carpet to dry. However, it is not right for every material, and drying time varies from one situation to another.</p>
+<p>If you are considering <a href="/services/carpet-cleaning/">professional carpet cleaning in London</a>, <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> can help you explore suitable cleaning options for your home or business. Explain your carpet type and cleaning needs before booking so the right method can be considered.</p>
+`,
+  },
+  {
     slug: 'carpet-cleaning-methods-explained',
     imageAlt: 'Carpet Cleaning Methods by Prime Carpet Cleaning and Upholstery Steam Cleaning',
     title: 'Carpet Cleaning Methods Explained: The Complete Guide',

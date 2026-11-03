@@ -2,6 +2,8 @@ export const COMPANY_NAME = 'Prime Carpet Cleaning and Upholstery Steam Cleaning
 
 export const LOGO = {
   src: '/images/logo.png',
+  // Small WebP used in the page header/footer; src stays PNG for OG/schema.
+  small: '/images/logo-112.webp',
   alt: COMPANY_NAME,
 };
 
