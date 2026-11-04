@@ -12,6 +12,192 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'carpet-shampooing-vs-steam-cleaning',
+    imageAlt:
+      'Carpet shampooing vs steam cleaning comparison showing professional carpet cleaning machines and methods',
+    title: 'Carpet Shampooing vs Steam Cleaning: Which Is Better?',
+    seoTitle: 'Carpet Shampooing vs Steam Cleaning: Which Is Better?',
+    metaDescription:
+      'Compare carpet shampooing vs steam cleaning to understand how each method works, cleaning results, residue, and drying time, and which may suit your carpet.',
+    excerpt:
+      'Shampooing works a cleaning product into the fibres, while steam cleaning usually means hot water extraction. Compare residue, drying time and which suits your carpet.',
+    publishedDate: '4 November 2026',
+    readTime: '9 min read',
+    contentHtml: `
+<p>When comparing carpet shampooing vs steam cleaning, it helps to understand how each method works before choosing one for your home. Both methods aim to remove dirt and improve the look of your carpet, but they use different cleaning processes. Shampooing uses a <a href="/blog/how-to-choose-the-right-carpet-cleaning-products/">carpet cleaning product</a> that is worked into the fibres, while professional steam cleaning commonly refers to hot water extraction, which uses heated water and machine suction. The main differences include the products used, moisture levels, possible cleaning residue, and drying time. The right choice depends on your carpet material, how dirty it is, and the care instructions.</p>
+
+<h2>What Is Carpet Shampooing?</h2>
+<p>Carpet shampooing is a cleaning method that uses a special carpet shampoo to loosen dirt from carpet fibres. The product is worked into the carpet, often with a brush or cleaning machine, before the loosened dirt and product are removed.</p>
+<p>It can be useful for certain types of dirt and carpets, but the result depends on the shampoo, equipment, and cleaning process.</p>
+<h3>How Does Carpet Shampooing Work?</h3>
+<p>The carpet shampooing process can vary depending on the product and machine. In general, it follows these steps:</p>
+<ol>
+<li><strong>Remove loose dirt:</strong> The carpet is vacuumed to remove dust, crumbs, and loose particles.</li>
+<li><strong>Apply carpet shampoo:</strong> A suitable cleaning product is applied according to its instructions.</li>
+<li><strong>Work the product into the carpet:</strong> A brush or machine helps spread the shampoo through the carpet fibres.</li>
+<li><strong>Allow it to work:</strong> The product is left for the recommended time so it can loosen dirt.</li>
+<li><strong>Remove the product:</strong> The shampoo and loosened dirt are removed using the equipment recommended for that cleaning system.</li>
+</ol>
+<p>Some systems create foam, while others use a different type of cleaning solution. The important point is to follow the product instructions and remove the product properly.</p>
+<h3>Benefits of Carpet Shampooing</h3>
+<p>Carpet shampooing can offer several benefits when the method is suitable for the carpet.</p>
+<ul>
+<li><strong>Helps loosen dirt:</strong> The cleaning product can help lift dirt from carpet fibres.</li>
+<li><strong>Can improve carpet appearance:</strong> It may help freshen carpets that look dull from everyday use.</li>
+<li><strong>Useful for certain soiling:</strong> Some shampooing systems are designed to <a href="/blog/how-to-clean-carpet-stains/">deal with visible dirt and marks</a>.</li>
+<li><strong>Different options are available:</strong> Products and machines can be selected for different carpet types and cleaning needs.</li>
+</ul>
+<h3>Limitations of Carpet Shampooing</h3>
+<p>Carpet shampooing also has some limitations. One concern is leftover cleaning product. If too much shampoo is applied or it is not removed properly, residue may remain in the carpet.</p>
+<p>Using too much water can also increase drying time. The method may not be suitable for every carpet, and results can vary depending on the equipment and cleaning technique.</p>
+<p>For this reason, using more shampoo does not automatically mean getting a better clean. The right product and correct removal are just as important.</p>
+
+<h2>What Is Steam Carpet Cleaning?</h2>
+<p>Steam cleaning is a common name used by <a href="/about/">carpet cleaning companies</a> for hot water extraction carpet cleaning. Although people often call it steam cleaning, the professional method commonly used on carpets applies heated water and a suitable cleaning solution before removing moisture and loosened dirt with suction.</p>
+<p>It is often chosen when a carpet needs a more thorough clean.</p>
+<h3>How Does Steam Carpet Cleaning Work?</h3>
+<p>The carpet steam cleaning method commonly used by professionals follows a series of steps:</p>
+<ol>
+<li><strong>Inspect the carpet:</strong> The cleaner checks the material, condition, and care instructions.</li>
+<li><strong>Prepare the area:</strong> Loose dirt is removed, and any areas needing extra attention are identified.</li>
+<li><strong>Apply a cleaning solution:</strong> A suitable product may be used to help loosen dirt.</li>
+<li><strong>Apply heated water:</strong> The machine applies heated water to the carpet.</li>
+<li><strong>Extract dirt and moisture:</strong> Strong suction removes much of the water, cleaning solution, and loosened dirt.</li>
+<li><strong>Allow the carpet to dry:</strong> Good airflow helps the remaining moisture leave the carpet.</li>
+</ol>
+<p>Hot water extraction does not rely on steam alone. It uses heated water and suction to clean suitable carpet fibres.</p>
+<h3>Benefits of Steam Carpet Cleaning</h3>
+<p>Hot water extraction can be useful when a carpet needs more than a light refresh.</p>
+<ul>
+<li><strong>Helps remove built-up dirt:</strong> It can loosen dirt trapped within suitable carpet fibres.</li>
+<li><strong>Useful for busy areas:</strong> It may help clean carpets in hallways, living rooms and offices.</li>
+<li><strong>Removes much of the moisture:</strong> Machine suction extracts a large part of the water and loosened dirt.</li>
+<li><strong>Can provide a deeper clean:</strong> It may be a suitable choice for carpets that need more thorough cleaning.</li>
+</ul>
+<h3>Limitations of Steam Carpet Cleaning</h3>
+<p>Hot water extraction uses more moisture than many low-moisture cleaning methods. This means the carpet usually remains damp after cleaning and needs time to dry.</p>
+<p>It is not suitable for every carpet material. Using the wrong temperature, product, or amount of water can cause problems, so the carpet should be checked before cleaning. The final result also depends on the equipment and the person carrying out the work.</p>
+
+<h2>Carpet Shampooing vs Steam Cleaning: Key Differences</h2>
+<p>The main difference between carpet shampooing and steam cleaning is how they loosen and remove dirt. Shampooing uses a cleaning product worked into the carpet, while hot water extraction uses heated water and suction.</p>
+<div class="blog-table-wrap">
+<table>
+<thead>
+<tr><th>Factor</th><th>Carpet shampooing</th><th>Steam / hot water extraction</th></tr>
+</thead>
+<tbody>
+<tr><td>Cleaning process</td><td>Shampoo is worked into the carpet</td><td>Heated water and cleaning solution are applied and extracted</td></tr>
+<tr><td>Cleaning product</td><td>Carpet shampoo or cleaning solution</td><td>Suitable cleaning solution where needed</td></tr>
+<tr><td>Dirt removal</td><td>Depends on how the shampoo and dirt are removed</td><td>Suction removes loosened dirt and moisture</td></tr>
+<tr><td>Moisture</td><td>Varies by product and equipment</td><td>Usually uses more moisture than low-moisture methods</td></tr>
+<tr><td>Residue</td><td>May remain if shampoo is not removed properly</td><td>Much of the solution and dirt is removed through suction</td></tr>
+<tr><td>Drying time</td><td>Depends on the amount of moisture used</td><td>Usually needs time to dry</td></tr>
+<tr><td>Best suited for</td><td>Depends on the shampoo, machine, and carpet</td><td>Deeper cleaning of suitable carpets</td></tr>
+</tbody>
+</table>
+</div>
+<p>Neither method is automatically better. The right choice depends on the carpet, the type of dirt, the cleaning product, and the equipment being used.</p>
+
+<h2>Does Carpet Shampooing Leave Residue?</h2>
+<p>Carpet shampooing can leave cleaning residue if the product is not removed properly. This may happen when too much shampoo is used, the wrong product is chosen, or the cleaning process does not remove enough of it.</p>
+<p>Leftover product can affect how the carpet feels. In some cases, residue may also attract dirt, making the carpet look dirty again sooner.</p>
+<p>You can reduce this risk by:</p>
+<ul>
+<li>Choosing a shampoo that is suitable for your carpet.</li>
+<li>Following the product instructions.</li>
+<li>Avoiding the use of more shampoo than recommended.</li>
+<li>Using the correct equipment to remove the product.</li>
+<li>Allowing the carpet to dry as directed.</li>
+</ul>
+<p>Residue is not unavoidable. A suitable product and a careful cleaning process can help reduce the chance of it being left behind.</p>
+
+<h2>Which Carpet Cleaning Method Takes Longer to Dry?</h2>
+<p>Drying time depends on the cleaning method, the carpet, and the room. Neither shampooing nor hot water extraction has one fixed drying time.</p>
+<h3>Carpet Shampooing Drying Time</h3>
+<p>Some shampooing methods use more water than others. The carpet may take longer to dry if a large amount of moisture is used or if the equipment does not remove enough of it.</p>
+<p>The amount of shampoo also matters. Follow the product instructions and avoid applying more than needed.</p>
+<h3>Steam Cleaning Drying Time</h3>
+<p>Hot water extraction generally leaves the carpet damp because water is used during cleaning. The machine removes much of it, but the carpet still needs time to dry.</p>
+<p>Several things can affect drying time:</p>
+<ul>
+<li><strong>Carpet thickness:</strong> Thick carpets can hold more moisture.</li>
+<li><strong>Amount of water used:</strong> More moisture usually means a longer drying period.</li>
+<li><strong>Room temperature:</strong> A comfortably warm room can help.</li>
+<li><strong>Airflow:</strong> Open windows, fans, and good ventilation can support drying.</li>
+<li><strong>Moisture removal:</strong> Effective machine suction can reduce the amount of water left behind.</li>
+</ul>
+<p>Ask your cleaner for a drying-time estimate based on your carpet and room conditions. Keep people and pets off the carpet until it is safe to use.</p>
+
+<h2>Which Method Is Better for Different Carpet Types?</h2>
+<p>The best <a href="/blog/carpet-cleaning-methods-explained/">carpet cleaning method</a> depends on more than how dirty the carpet looks. Its material and care instructions should guide the decision.</p>
+<h3>Cleaning Wool Carpets</h3>
+<p>Wool carpets need careful treatment. Some products and cleaning methods may be too harsh or use more moisture than the carpet can safely handle.</p>
+<p>Check the manufacturer's <a href="/blog/carpet-care-and-maintenance-guide/">carpet care</a> instructions before choosing a method. A professional should assess the carpet and select a suitable product and cleaning process. Do not assume that every wool carpet can be shampooed or cleaned using hot water extraction.</p>
+<h3>Cleaning Synthetic Carpets</h3>
+<p>Some nylon and polyester carpets may be suitable for hot water extraction, depending on their construction and care instructions.</p>
+<p>Shampooing may also be an option when the product is suitable and can be removed properly. The right choice depends on the carpet, the type of dirt, and the cleaning system.</p>
+<h3>Cleaning Heavily Soiled Carpets</h3>
+<p>Carpets in busy homes and workplaces can collect dirt over time, especially in hallways, entrances, and areas used every day.</p>
+<p>When dirt has built up, a more thorough cleaning approach may be needed. Hot water extraction can help loosen and remove dirt from suitable carpet fibres. Shampooing may also help with certain types of soiling, but the product and removal process matter.</p>
+<p>A carpet inspection helps identify the most suitable method instead of choosing one based on appearance alone.</p>
+
+<h2>Which Is Better: Carpet Shampooing or Steam Cleaning?</h2>
+<p>There is no single answer for every carpet. Both methods can be useful, but they suit different cleaning needs.</p>
+<p><strong>Carpet shampooing may be suitable when:</strong></p>
+<ul>
+<li>The carpet and shampoo are a good match.</li>
+<li>The cleaning system can remove the product properly.</li>
+<li>The carpet needs attention for visible dirt or everyday soiling.</li>
+</ul>
+<p><strong>Steam cleaning, or hot water extraction, may be suitable when:</strong></p>
+<ul>
+<li>The carpet needs a deeper clean.</li>
+<li>Dirt has built up within suitable carpet fibres.</li>
+<li>The carpet can safely handle the method.</li>
+<li>There is enough time for the carpet to dry.</li>
+</ul>
+<p>The best approach is to check the carpet material, its care instructions, and the level of dirt before deciding. A method that works well on one carpet may not be right for another.</p>
+
+<h2>When Should You Choose Professional Carpet Cleaning?</h2>
+<p>Professional advice can be helpful when you are unsure how to clean your carpet safely. It is especially useful if the carpet is delicate, heavily soiled, or has not responded well to home cleaning.</p>
+<p>Consider speaking to a professional if:</p>
+<ul>
+<li>You do not know which cleaning method suits your carpet.</li>
+<li>You are worried about shampoo or cleaning residue.</li>
+<li>The carpet has <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">stubborn marks</a> or built-up dirt.</li>
+<li>Previous home cleaning attempts have not worked.</li>
+<li>You have an expensive or delicate carpet.</li>
+<li>You want to know how long the carpet will take to dry.</li>
+</ul>
+<p>A <a href="/">professional cleaner</a> can inspect the carpet, discuss suitable products, and explain the cleaning process. If you need help with your carpets, explore Prime's <a href="/services/carpet-cleaning/">Carpet Cleaning</a> to learn more about the available services.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What Is the Difference Between Carpet Shampooing and Steam Cleaning?</h3>
+<p>Carpet shampooing uses a cleaning product that is worked into the carpet to loosen dirt. Steam cleaning, commonly used to mean hot water extraction, applies heated water and a cleaning solution before removing much of the moisture and loosened dirt with suction.</p>
+<h3>How Does Carpet Shampooing Work?</h3>
+<p>A suitable shampoo is applied to the carpet and worked into the fibres using a brush or machine. After the product has had time to work, it and the loosened dirt are removed using the correct equipment.</p>
+<h3>How Does Steam Carpet Cleaning Work?</h3>
+<p>The cleaner checks the carpet, prepares the area, and applies a suitable cleaning solution where needed. Heated water is then used to loosen dirt, and a machine extracts much of the water and dirt through suction.</p>
+<h3>Does Carpet Shampooing Leave Residue?</h3>
+<p>It can, especially if too much shampoo is used or the product is not removed properly. Following the product instructions and using suitable equipment can help reduce leftover residue.</p>
+<h3>Does Steam Cleaning Remove Shampoo Residue?</h3>
+<p>Hot water extraction may help remove some leftover cleaning product, depending on the type of residue and the carpet. However, it should not be treated as a guaranteed fix for every shampooing problem. The carpet should be assessed first.</p>
+<h3>Which Carpet Cleaning Method Removes Deep Dirt?</h3>
+<p>Hot water extraction can be useful for loosening and removing built-up dirt from suitable carpet fibres. However, results depend on the carpet, equipment, and cleaning process. Some shampooing systems may also help with certain types of dirt.</p>
+<h3>Is Carpet Shampooing Good for Heavily Soiled Carpets?</h3>
+<p>It may help with some heavily soiled carpets, but results depend on the shampoo and machine. A professional assessment can help determine whether shampooing or another method is more suitable.</p>
+<h3>Is Hot Water Extraction Better Than Carpet Shampooing?</h3>
+<p>Not in every situation. Hot water extraction may be more suitable for deeper cleaning when the carpet allows it. Shampooing may suit other cleaning needs. Carpet material, dirt level, and care instructions should guide your choice.</p>
+<h3>How Often Should Carpets Be Shampooed?</h3>
+<p>There is no fixed schedule for every home. It depends on foot traffic, pets, children, carpet condition, and the manufacturer's care instructions. <a href="/blog/how-often-should-you-vacuum-your-carpet/">Regular vacuuming</a> and suitable <a href="/blog/how-often-should-you-get-your-carpets-professionally-cleaned/">professional cleaning</a> can help maintain carpets between deeper cleans.</p>
+
+<h2>Conclusion</h2>
+<p>Carpet shampooing and steam cleaning both aim to remove dirt, but they use different processes. Shampooing works a cleaning product into the carpet, while hot water extraction uses heated water and suction to remove loosened dirt and moisture. Shampooing may suit certain cleaning needs, while hot water extraction may be a better option for deeper cleaning when the carpet allows it.</p>
+<p>The most important thing is to choose a method that suits your carpet material, condition, and care instructions. If you are unsure, professional advice can help you avoid using the wrong product or process.</p>
+<p>Prime Carpet Cleaning and Upholstery Steam Cleaning provides <a href="/services/carpet-cleaning/">carpet cleaning services across London</a>. Contact the team to discuss your carpet and find the best cleaning approach for your home or workplace.</p>
+`,
+  },
+  {
     slug: 'dry-carpet-cleaning-vs-steam-cleaning',
     imageAlt: 'Dry carpet cleaning compared with steam carpet cleaning methods',
     title: 'Dry Carpet Cleaning vs Steam Cleaning: Which Is Better?',
