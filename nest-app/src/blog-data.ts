@@ -12,6 +12,186 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-prepare-for-professional-carpet-cleaning',
+    imageAlt:
+      'How to prepare for professional carpet cleaning with a checklist, vacuum cleaner and cleaning supplies in a modern living room.',
+    title: 'How to Prepare for Professional Carpet Cleaning: A Complete Guide',
+    seoTitle: 'Professional Carpet Cleaning Prep: Steps for Better Results',
+    metaDescription:
+      'Learn how to prepare for professional carpet cleaning. Get practical tips on furniture, vacuuming, stains, home access, and drying before your appointment.',
+    excerpt:
+      'Clear small items, check furniture, point out stains and arrange access. Follow these 8 steps and a quick checklist to get ready for your carpet cleaning appointment.',
+    publishedDate: '10 November 2026',
+    readTime: '9 min read',
+    contentHtml: `
+<p>Knowing how to prepare for professional carpet cleaning can make your appointment easier and help the cleaner get straight to work. A few simple steps before the visit can save time and make your rooms easier to clean. You may need to clear small items, check furniture, point out stains and arrange access to your property. Whether you live in a London house, flat or rental property, the right preparation depends on your carpet, the rooms being cleaned and the service you have booked. Here is a practical guide to getting ready for your <a href="/#contact">carpet cleaning appointment</a>.</p>
+
+<h2>Why Should You Prepare Before Professional Carpet Cleaning?</h2>
+<p>Preparing for carpet cleaning is not about doing the cleaner's job for them. It is about making sure the rooms are ready, and the cleaner has the information they need.</p>
+<p>A little preparation can help in several ways:</p>
+<ul>
+<li><strong>Easier access:</strong> Clearing loose items gives the cleaner more room to work.</li>
+<li><strong>Better inspection:</strong> An open carpeted area makes it easier to check the carpet's condition.</li>
+<li><strong>Fewer delays:</strong> Moving small belongings and arranging access beforehand can save time on the day.</li>
+<li><strong>Clear information:</strong> Pointing out stains and problem areas helps the cleaner understand what needs attention.</li>
+<li><strong>Safer cleaning:</strong> Keeping children, pets, and breakable items away from the work area helps prevent accidents.</li>
+</ul>
+<p>You do not need to move everything or deep-clean the room before the appointment. Follow the instructions from your <a href="/about/">cleaning company</a> and focus on the areas that need attention.</p>
+
+<h2>How to Prepare for Professional Carpet Cleaning: 8 Steps to Follow</h2>
+<p>Use these eight steps when getting ready for carpet cleaning. If your cleaning company gives you different instructions, follow those first.</p>
+
+<h3>1. Remove Small Items and Personal Belongings</h3>
+<p>Start by clearing the carpeted floor. Pick up toys, shoes, bags, clothes, and other loose belongings. Move small decorations, fragile items, and anything that could be knocked over.</p>
+<p>Keep valuables, important papers, and personal belongings somewhere safe. If there are items under tables or chairs, check whether they need to be moved as well.</p>
+<p>This simple step gives professional <a href="/">carpet cleaners</a> more space to reach the areas that need cleaning. It also helps prevent belongings from getting wet or being moved by mistake.</p>
+
+<h3>2. Check Whether Furniture Needs to Be Moved</h3>
+<p>You may want to move lightweight furniture, such as small chairs or side tables, if it is safe to do so. However, do not try to move heavy wardrobes, beds, large sofas, or delicate furniture without help.</p>
+<p>Before the appointment, ask the company:</p>
+<ul>
+<li>Do you move furniture during carpet cleaning?</li>
+<li>Are there any items I need to move myself?</li>
+<li>Is furniture moving included in the service?</li>
+<li>Will you clean around furniture that cannot be moved?</li>
+</ul>
+<p>Different companies have different arrangements. Confirming this in advance helps avoid confusion when the cleaner arrives.</p>
+
+<h3>3. Vacuum the Carpet If Advised</h3>
+<p>Vacuuming can remove loose dust, hair, and everyday dirt before deeper cleaning. However, you should not assume it is always required.</p>
+<p>Some <a href="/services/carpet-cleaning/">professional carpet cleaning services</a> include vacuuming as part of their preparation. Others may ask you to vacuum certain areas before the appointment.</p>
+<p>Ask your cleaner what they recommend. If you do vacuum, pay attention to corners and areas under furniture that you can reach safely. There is no need to apply carpet shampoo or other products before the cleaner arrives unless they have asked you to do so.</p>
+
+<h3>4. Identify Stains and Problem Areas</h3>
+<p>Walk around the rooms and look for stains, marks, and areas that need extra attention. Make a note of where they are so you can show the cleaner.</p>
+<p>If you know what caused a stain, explain it. For example, tell the cleaner whether it came from coffee, food, mud, a pet accident, or another spill.</p>
+<p>Also mention:</p>
+<ul>
+<li>Old stains that have been there for a long time.</li>
+<li>Areas where you have already tried to remove a mark.</li>
+<li>Products you have used on the carpet.</li>
+<li>Unusual smells or areas with heavy dirt.</li>
+</ul>
+<p>This information helps the cleaner understand the carpet's condition and consider a suitable cleaning approach. Remember that some <a href="/blog/how-to-remove-old-dried-in-carpet-stains/">old stains</a> may not come out completely.</p>
+
+<h3>5. Keep Pets and Children Away from the Work Area</h3>
+<p>Cleaning equipment, hoses, and <a href="/blog/how-to-choose-the-right-carpet-cleaning-products/">cleaning products</a> can make the work area unsuitable for children and pets.</p>
+<p>Before the appointment, arrange a safe space where they can stay while the cleaner works. Keep toys, pet bowls, and other belongings away from the rooms being cleaned.</p>
+<p>Ask the cleaner when it is safe for children and pets to return. Follow any advice about walking on damp carpet or coming into contact with recently cleaned areas.</p>
+
+<h3>6. Make Sure the Cleaner Can Access Your Property</h3>
+<p>Access arrangements are especially important for London homes and flats, where parking, entry systems and shared buildings can sometimes cause delays.</p>
+<p>Before the appointment:</p>
+<ul>
+<li>Confirm the property address and arrival time.</li>
+<li>Share entry instructions for secure buildings.</li>
+<li>Explain any parking or loading restrictions.</li>
+<li>Check that hallways and stairs are clear.</li>
+<li>Tell the company about lifts, narrow staircases, or other access difficulties.</li>
+<li>Make sure the cleaner can reach all rooms included in the booking.</li>
+</ul>
+<p>If your building has a reception desk or visitor entry system, explain how the cleaner can get in. Sharing these details early can help the appointment start on time.</p>
+
+<h3>7. Check Water, Electricity and Other Requirements</h3>
+<p>Some cleaning methods and machines need access to water or electricity. Do not assume what the cleaner will need.</p>
+<p>Ask the company whether you need to provide access to a tap, power socket, or any other facility. If your property has restrictions, such as limited socket access or building rules, mention them before the visit.</p>
+<p>Following the company's instructions will help you avoid last-minute problems.</p>
+
+<h3>8. Ask About Cleaning and Drying Time</h3>
+<p>Before the appointment, ask which <a href="/blog/carpet-cleaning-methods-explained/">cleaning method</a> will be used and how long the carpet may take to dry.</p>
+<p>Drying time can vary depending on the carpet, the amount of moisture used, the cleaning method and the room conditions.</p>
+<p>It is also worth asking:</p>
+<ul>
+<li>Should I open the windows after cleaning?</li>
+<li>Can I use fans to help the carpet dry?</li>
+<li>When can furniture be put back?</li>
+<li>When is it safe to walk on the carpet?</li>
+<li>Are there any special after-cleaning instructions?</li>
+</ul>
+<p>This is particularly useful if you have children, pets or a busy household. Knowing what to expect helps you plan the rest of your day.</p>
+
+<h2>What Should You Tell Professional Carpet Cleaners Before They Arrive?</h2>
+<p>The more useful information you share, the easier it is for the cleaner to understand what your carpet needs.</p>
+<p>Before the visit, tell the company:</p>
+<ul>
+<li><strong>Carpet material:</strong> Let them know whether it is wool, synthetic or another material, if you know.</li>
+<li><strong>Heavy-use areas:</strong> Point out hallways, stairs and other places that collect more dirt.</li>
+<li><strong>Stains:</strong> Explain where stains are and what caused them, if known.</li>
+<li><strong>Pet accidents:</strong> Mention pet stains or unusual smells.</li>
+<li><strong>Previous cleaning:</strong> Explain which products or home cleaning methods you have already tried.</li>
+<li><strong>Carpet damage:</strong> Point out loose edges, worn areas or other concerns.</li>
+<li><strong>Access details:</strong> Share parking, entry and building instructions.</li>
+</ul>
+<p>Do not worry if you do not know your carpet's exact material. Simply tell the cleaner what you know. It is better to share any concerns than to leave them unnoticed.</p>
+
+<h2>How to Prepare Different Types of London Properties</h2>
+<p>Every property is different, so your preparation may depend on the type of home.</p>
+<h3>Preparing a House for Carpet Cleaning</h3>
+<p>Clear small belongings from the rooms being cleaned. Make sure hallways, stairs and entrances are easy to access. If several rooms are included, check that the cleaner can reach each one without moving personal belongings.</p>
+<h3>Preparing a Flat or Apartment for Carpet Cleaning</h3>
+<p>Confirm building entry instructions and check whether the cleaner can use the lift. Explain any parking restrictions or loading arrangements. Clear the rooms and hallways, and mention narrow stairs or other access problems before the appointment.</p>
+<h3>Preparing a Rental Property</h3>
+<p>Check which rooms are included in the booking. Remove personal belongings, identify stains and point out any areas of concern. If the landlord or letting agent has arranged the service, confirm who will provide access and who needs to be present.</p>
+
+<h2>What Should You Avoid Before a Professional Carpet Cleaning Appointment?</h2>
+<p>A few well-meaning actions can make carpet cleaning more difficult. Avoid these common mistakes:</p>
+<ul>
+<li>Do not apply several stain removers before the appointment.</li>
+<li>Avoid scrubbing stains hard, as this may affect carpet fibres.</li>
+<li>Do not soak the carpet with water.</li>
+<li>Do not move heavy furniture without suitable help.</li>
+<li>Remove valuables and breakable items from the work area.</li>
+<li>Do not assume every stain can be removed.</li>
+</ul>
+<p>Using several carpet cleaning products can leave leftover solution on the fibres. This may affect the cleaning process and make it harder to understand what caused the original mark.</p>
+<p>If you are unsure how to treat a stain, leave it for the cleaner to inspect.</p>
+
+<h2>What Should You Do After Professional Carpet Cleaning?</h2>
+<p>Your preparation does not end when the cleaner finishes. Follow their advice to help the carpet dry and keep it in good condition.</p>
+<ul>
+<li>Follow the recommended drying instructions.</li>
+<li>Keep children and pets away from damp areas as advised.</li>
+<li>Allow fresh air to move through the room where suitable.</li>
+<li>Do not put furniture back before the carpet is ready.</li>
+<li>Use furniture protection if the cleaner recommends it.</li>
+<li>Wait until the carpet is dry before returning to normal use, following the cleaner's guidance.</li>
+</ul>
+<p>Do not guess when the carpet is ready. Ask the cleaner if you are unsure.</p>
+
+<h2>Professional Carpet Cleaning Preparation Checklist</h2>
+<p>Use this quick checklist before your appointment:</p>
+<ul>
+<li>Remove small items and personal belongings.</li>
+<li>Clear toys, shoes and breakable objects.</li>
+<li>Check furniture arrangements with the cleaner.</li>
+<li>Vacuum if advised.</li>
+<li>Identify stains and problem areas.</li>
+<li>Mention previous cleaning attempts and products.</li>
+<li>Arrange a safe space for pets and children.</li>
+<li>Confirm access, parking and entry instructions.</li>
+<li>Ask about cleaning and drying time.</li>
+<li>Follow any special instructions from the cleaning company.</li>
+</ul>
+<p>You do not need to do everything on this list if it does not apply to your property. Focus on the steps that your cleaner has requested.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How Do I Prepare for Professional Carpet Cleaning?</h3>
+<p>Remove small belongings, check furniture arrangements, identify stains and make sure the cleaner can access the rooms. Ask whether you need to vacuum and find out what to expect during drying.</p>
+<h3>Should I Vacuum Before Professional Carpet Cleaning?</h3>
+<p>Vacuuming can remove loose dust and dirt, but it depends on the service. Some companies include this step, so ask your cleaner before the appointment.</p>
+<h3>Do I Need to Move Furniture Before Carpet Cleaning?</h3>
+<p>You may need to move small, lightweight items, but discuss large or heavy furniture with the cleaning company. Ask what is included in your booking.</p>
+<h3>Do Carpet Cleaners Move Furniture?</h3>
+<p>Some cleaners may move certain lightweight furniture, while others may ask you to clear the area beforehand. Policies vary, so confirm this when arranging the appointment.</p>
+<h3>Should I Treat Stains Before Professional Carpet Cleaning?</h3>
+<p>It is usually better to identify and report stains rather than trying several products yourself. Tell the cleaner what caused the mark and mention any products you have already used.</p>
+
+<h2>Conclusion</h2>
+<p>Preparing for a professional carpet cleaning appointment does not need to be difficult. Clear small belongings, check furniture arrangements, point out stains, arrange access and ask about drying time. These simple steps can help the cleaner reach the areas that need attention and make the appointment easier to manage.</p>
+<p>If you need help getting your carpets ready or want to arrange a <a href="/services/end-of-tenancy-cleaning/">professional service</a>, Prime Carpet Cleaning and Upholstery Steam Cleaning serves homes and properties across London. Get in touch to discuss your carpet cleaning needs and ask for any preparation instructions before your appointment.</p>
+`,
+  },
+  {
     slug: 'professional-carpet-cleaning-vs-diy',
     imageAlt:
       'Professional carpet cleaning vs DIY comparison showing expert carpet extraction equipment and home carpet cleaning supplies.',
