@@ -7,6 +7,9 @@ export interface ServicePage {
   metaDescription: string;
   intro: string;
   introSecondary?: string;
+  introMore?: string[];
+  ctaHeading?: string;
+  ctaParagraphs?: string[];
   benefitsIntro?: string[];
   benefits: string[];
   processIntro?: string[];
@@ -320,12 +323,16 @@ export const SERVICES_PAGES: ServicePage[] = [
     metaDescription:
       'Our London end-of-tenancy cleaning helps prepare your property for inspection, with detailed cleaning for kitchens, bathrooms, floors, and carpets. Call now!',
     intro:
-      'Moving out of a rented property? Our end of tenancy cleaning service in London helps prepare your home for the final inspection before you hand back the keys. We focus on the areas that need the most attention, including carpets, floors, kitchens, bathrooms and other commonly used spaces.',
+      "Moving out of a rented property? Our end of tenancy cleaning service in London helps tenants, landlords, and property owners prepare their properties for the final inspection and handover. We focus on the areas that need the most attention, including kitchens, bathrooms, floors, carpets, and other commonly used spaces.",
     introSecondary:
-      'Whether you are a tenant moving out or a landlord preparing a property for its next occupant, we provide a practical clean based on the condition and requirements of the property.',
+      "Whether you are leaving a rented flat, preparing a house for new tenants, or arranging cleaning before a property handover, we provide a practical <a href=\"/\">cleaning service</a> based on the property's condition and your requirements. From everyday dirt and built-up grime to carpet marks and unwanted odours, we can discuss the cleaning needed before your move-out date.",
+    introMore: [
+      'Our service is designed to make the cleaning part of moving easier, giving you more time to focus on packing, organising and handing back the keys. Call us, message us on WhatsApp or send an enquiry for a free, no-obligation quote.',
+    ],
     benefitsIntro: [
-      'Moving out can be stressful, especially when you need to leave the property clean and ready for inspection. Our end of tenancy cleaning services are designed to take care of the detailed cleaning so you can focus on your move.',
-      'If you are searching for "end of tenancy cleaning near me", our team can discuss your property and cleaning requirements before arranging an appointment.',
+      'Moving out can be stressful, especially when you have packing, paperwork and a final property inspection to think about. A thorough clean can help you leave the property in a clean and presentable condition for the next occupant.',
+      'Our end of tenancy cleaning services are designed to address the areas that often need extra attention before a property is handed back. Whether you are a tenant, landlord or letting agent, we can discuss your requirements and arrange a suitable cleaning service.',
+      'If you are searching for an end of tenancy cleaning company in London, we can help you understand the available cleaning options before booking.',
     ],
     benefits: [
       'Thorough cleaning for kitchens, bathrooms, floors and living areas',
@@ -335,12 +342,13 @@ export const SERVICES_PAGES: ServicePage[] = [
       'Free, no-obligation quotes',
     ],
     processIntro: [
-      'Every property is different, so we start by understanding what needs to be cleaned rather than using the same checklist for every home. If you need professional tenancy cleaning, we can arrange a service around your move-out schedule. Our move-out cleaning service in London can cover the main areas of the property, with additional carpet, rug or <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a> where needed. Our process include:',
+      'Every property is different, so we start by understanding what needs to be cleaned rather than using exactly the same approach for every home. The cleaning requirements of a small flat may differ from those of a larger house or a property that has been occupied for several years.',
+      'If you need professional tenancy cleaning, we can arrange a service around your move-out schedule. Our move-out cleaning service in London can cover the main areas of your property, with additional carpet, rug or <a href="/services/upholstery-sofa-cleaning/">upholstery cleaning</a> where required.',
     ],
     process: [
       { title: 'Property Check', description: 'We review the property and identify areas that need extra attention. This can include kitchens, bathrooms, floors, carpets, upholstery and other high-use areas.' },
-      { title: 'Detailed Cleaning', description: 'We work through the property carefully, removing everyday dirt, dust and built-up grime. Carpets, <a href="/services/rug-cleaning/">rugs</a> and upholstered furnishings can also be cleaned where required.' },
-      { title: 'Stain & Odour Treatment', description: 'Marks and unwanted odours caused by normal tenancy use are treated individually. The treatment depends on the surface, stain and condition of the area.' },
+      { title: 'Detailed Cleaning', description: "For customers who need additional floor care, <a href=\"/services/rug-cleaning/\">rug cleaning</a> and carpet cleaning can also be discussed as part of the property's cleaning requirements." },
+      { title: 'Stain & Odour Treatment', description: 'Marks and unwanted odours caused by normal tenancy use are treated individually. The treatment depends on the surface, stain, and condition of the area.' },
       { title: 'Final Check', description: 'Once the cleaning is complete, we check the main areas to make sure the property has been left clean and presentable for the next stage of the move-out process.' },
     ],
     pricingParagraphs: [
@@ -350,29 +358,42 @@ export const SERVICES_PAGES: ServicePage[] = [
     faqHeading: 'FAQs About End-of-Tenancy Cleaning Service',
     faqs: [
       {
-        question: 'How much does end of tenancy cleaning cost in London?',
-        answer: 'The cost depends on the size of the property, number of rooms, condition, and cleaning requirements. Additional services such as carpet, rug, or upholstery cleaning may also affect the price. Contact us for a free quote based on your property.',
+        question: 'How much does end-of-tenancy cleaning cost in London?',
+        answer: 'The cost depends on the size of the property, number of rooms, overall condition, and cleaning requirements. Additional services such as carpet, rug, or upholstery cleaning may also affect the price. Contact us with your property details for a free, no-obligation quote.',
       },
       {
         question: 'Is getting an end of tenancy cleaning a good idea?',
-        answer: 'Professional cleaning can save time and help you leave a rented property clean and presentable for the final inspection. It can be especially useful when the property needs detailed cleaning in areas that are easy to overlook during a move.',
+        answer: 'Professional cleaning can save you time and help you leave a rented property clean and presentable before the final inspection. It can be especially useful when kitchens, bathrooms, floors and other frequently used areas need more detailed attention.',
       },
       {
         question: 'Will end-of-tenancy cleaning guarantee my deposit back?',
-        answer: 'No <a href="/">cleaning company</a> can guarantee a deposit refund because this depends on the property\'s condition, tenancy agreement and the landlord or letting agent\'s assessment. A thorough clean can, however, help you address dirt, stains and general cleaning issues before the inspection.',
+        answer: "No cleaning company can guarantee a deposit refund. The outcome depends on your tenancy agreement, the property's condition, the check-out report and the landlord or letting agent's assessment.<br><br>However, a thorough clean can help you address general dirt, stains and cleaning issues before the inspection. It is also important to remember that cleaning does not cover repairs, damage or normal wear and tear.",
       },
       {
         question: 'Can you work directly with landlords or letting agents?',
-        answer: 'Yes. We can coordinate the cleaning time with tenants, landlords or letting agents where required. Just let us know the property\'s access arrangements and preferred cleaning date.',
+        answer: 'Yes. We can discuss cleaning arrangements with tenants, landlords and letting agents where required. If you are preparing a rental property for its next occupant, let us know the property details, access arrangements and preferred cleaning date.',
       },
       {
         question: 'Can you clean on short notice?',
-        answer: 'We do our best to accommodate short-notice move-out dates, depending on availability. Contact us as early as possible with your preferred date so we can check the available options.',
+        answer: 'We do our best to accommodate short-notice move-out dates, depending on availability. Moving dates can change quickly, so we recommend contacting us as early as possible with your preferred appointment date.',
       },
       {
         question: 'What does London end of tenancy cleaning include?',
-        answer: 'The cleaning can cover the main areas of the property, including kitchens, bathrooms, floors and living spaces. Carpets, rugs and upholstery can also be cleaned where required. The exact service depends on the property and the level of cleaning needed.',
+        answer: "The cleaning can cover the main areas of the property, including kitchens, bathrooms, floors and living spaces. Depending on your requirements, additional carpet, rug and upholstery cleaning can also be discussed.<br><br>The exact work depends on the property's condition and the service agreed before booking. We recommend discussing any specific landlord or letting-agent cleaning requirements when requesting your quote.",
       },
+      {
+        question: 'Do I need to empty the property before end-of-tenancy cleaning?',
+        answer: 'It is helpful to remove personal belongings, rubbish and loose items before the appointment. An empty or mostly cleared property makes it easier to access floors, surfaces and other areas that need cleaning.<br><br>If furniture or larger items will remain in the property, mention this when booking so the cleaning requirements can be discussed beforehand.',
+      },
+      {
+        question: 'How long does end-of-tenancy cleaning take?',
+        answer: "The time required depends on the property's size, number of rooms, condition, and level of cleaning needed. A small flat may require less time than a larger house, while heavily soiled areas or additional <a href=\"/services/carpet-cleaning/\">carpet cleaning</a> may require more attention.<br><br>When you request a quote, provide the property details so we can discuss the work involved and give you a more realistic expectation.",
+      },
+    ],
+    ctaHeading: 'Book End-of-Tenancy Cleaning in London',
+    ctaParagraphs: [
+      'Moving out of a rental property involves plenty of tasks, and leaving the property clean is an important part of the handover process. Whether you are a tenant preparing for a final inspection or a landlord getting a property ready for its next occupant, choosing a suitable cleaning service can make the process easier.',
+      'If you need help preparing a property for handover, get in touch today. Call us, message us on WhatsApp, or send an online enquiry for a free, no-obligation quote.',
     ],
   },
 ];
