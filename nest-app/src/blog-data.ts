@@ -12,6 +12,207 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-clean-and-care-for-a-fabric-sofa',
+    imageAlt:
+      'Professional fabric sofa cleaning with a steam extraction machine in a modern living room, featuring Prime Carpet Cleaning branding and fabric sofa care tips.',
+    title: 'How to Clean and Care for a Fabric Sofa: The Complete Guide',
+    seoTitle: 'How to Clean a Fabric Sofa: Expert Tips & Complete Guide',
+    metaDescription:
+      'Learn how to clean a fabric sofa, remove stains, and freshen upholstery with easy steps. Discover expert sofa care tips and when to hire a professional.',
+    excerpt:
+      'Check the care label, vacuum, treat stains and dry properly. A step-by-step guide to cleaning fabric sofas, removing stains and smells, and knowing when to call a professional.',
+    publishedDate: '17 November 2026',
+    readTime: '11 min read',
+    contentHtml: `
+<p>Your sofa is one of the most frequently used pieces of furniture in your home. Over time, dust, food crumbs, pet hair, body oils, and drink spills can leave it looking dull and less fresh. Knowing how to clean fabric sofa upholstery properly can help maintain its appearance and keep it comfortable for everyday use. However, different fabrics need different cleaning methods. In this guide, we explain how to clean a fabric sofa at home, deal with common stains, remove unwanted smells, and maintain your upholstery. You will also learn when professional sofa cleaning may be the better option.</p>
+
+<h2>Why Is Regular Fabric Sofa Cleaning Important?</h2>
+<p>Regular sofa cleaning is about more than keeping your furniture looking attractive. Dirt and small particles can build up over time, especially in areas that receive frequent use.</p>
+<h3>Remove Everyday Dust and Dirt</h3>
+<p>Dust, crumbs, loose hair and other small particles can collect between cushions, along seams and within fabric fibres. Regular vacuuming helps remove this loose dirt before it builds up.</p>
+<h3>Reduce Stains and Unwanted Smells</h3>
+<p>Food spills, coffee, tea, sweat and pet accidents can leave marks and unpleasant smells. Treating spills early can make cleaning easier and help prevent stains from becoming more difficult to remove.</p>
+<h3>Maintain the Appearance of Your Sofa</h3>
+<p>Repeated use can make certain areas look darker or more worn than others. Regular cleaning helps remove surface dirt and keeps the fabric looking well cared for.</p>
+<h3>Support a Cleaner Living Space</h3>
+<p>Sofas are used by family members, guests, and pets every day. Keeping them clean is a useful part of maintaining a fresh and comfortable living environment.</p>
+
+<h2>How to Clean a Fabric Sofa at Home Step by Step</h2>
+<p>If you want to know how to clean a fabric sofa without damaging it, start by checking its care instructions. Follow these steps before using any cleaning product.</p>
+<h3>Step 1: Check the Sofa's Cleaning Instructions</h3>
+<p>Look for the manufacturer's care label, which is often found underneath a cushion or attached to the sofa frame.</p>
+<p>You may find one of these common cleaning codes:</p>
+<ul>
+<li><strong>W:</strong> Water-based cleaning products are permitted.</li>
+<li><strong>S:</strong> Specific water-free cleaning products are required.</li>
+<li><strong>WS:</strong> Water-based or suitable solvent-based products may be permitted.</li>
+<li><strong>X:</strong> Vacuuming or light brushing only.</li>
+</ul>
+<p>These codes provide useful guidance, but always follow the full instructions supplied by the manufacturer. A water-based cleaning code does not automatically mean that every wet-cleaning method is suitable.</p>
+<h3>Step 2: Remove Cushions and Loose Items</h3>
+<p>Remove loose cushions if they are designed to be taken off. Pick up crumbs, toys, and other items from the seating area.</p>
+<p>Check underneath and between cushions, as these spaces often collect hidden dirt.</p>
+<p>Do not remove cushion covers for washing unless the manufacturer confirms that they are washable.</p>
+<h3>Step 3: Vacuum the Sofa Thoroughly</h3>
+<p>Use a suitable upholstery attachment to vacuum the entire sofa.</p>
+<p>Pay attention to:</p>
+<ul>
+<li>Seat cushions and their edges.</li>
+<li>Armrests and backrests.</li>
+<li>Seams and corners.</li>
+<li>Spaces between cushions.</li>
+<li>Areas where pet hair collects.</li>
+</ul>
+<p>Vacuuming first is important because applying cleaning products over loose dirt can make the cleaning process harder.</p>
+<h3>Step 4: Treat Small Stains Carefully</h3>
+<p>Before treating a mark, identify what caused it. Coffee, food, grease, and ink may need different cleaning products.</p>
+<p>Test your chosen product on a small, hidden area first. If the fabric shows colour changes or damage, stop.</p>
+<p>For most suitable water-cleanable fabrics, gently blot the stain with a clean white cloth. Avoid scrubbing, as this can spread the mark and affect the fabric.</p>
+<h3>Step 5: Clean the Fabric Using a Suitable Method</h3>
+<p>Choose a cleaning product that matches your sofa's care instructions.</p>
+<p>Apply a small amount as directed by the manufacturer. Work gently and avoid using too much liquid, as moisture can reach the cushion filling.</p>
+<p>If the sofa needs more than basic spot cleaning, consider a suitable upholstery cleaning method rather than experimenting with household products.</p>
+<h3>Step 6: Allow the Sofa to Dry Properly</h3>
+<p>After cleaning, allow the fabric to dry fully before using the sofa again.</p>
+<p>Open windows where suitable and improve airflow with a fan if needed. Avoid direct heat, as it may affect some fabrics.</p>
+<p>Make sure cushions are dry before putting them back into place.</p>
+
+<h2>What Are the Different Sofa Cleaning Methods?</h2>
+<p>There are several ways to clean upholstered furniture. The right choice depends on the fabric, its condition, and the type of dirt.</p>
+<h3>Vacuum Cleaning</h3>
+<p>Vacuum cleaning is one of the easiest ways to maintain a fabric sofa. It removes loose dust, crumbs, pet hair, and everyday dirt without adding moisture.</p>
+<p>It is useful for regular sofa maintenance but will not <a href="/services/stain-removal/">remove every stain</a> or deeply settled mark.</p>
+<h3>Upholstery Shampoo Cleaning</h3>
+<p>Upholstery shampoo is designed to help loosen dirt from suitable fabric surfaces. The product is applied according to its instructions and must be removed properly.</p>
+<p>Using too much shampoo can leave residue, so always follow the recommended amount.</p>
+<h3>Hot Water Extraction Cleaning</h3>
+<p>Hot water extraction uses heated water and a suitable cleaning solution to loosen dirt. A cleaning machine then removes much of the moisture and loosened soil through suction.</p>
+<p>This method can provide a deeper clean for suitable upholstery, but not every sofa fabric can safely handle it.</p>
+<h3>Low-Moisture Upholstery Cleaning</h3>
+<p>Low-moisture cleaning uses less water than many wet-cleaning methods. It may be useful for certain fabrics and situations where reducing drying time is important.</p>
+<h3>Professional Upholstery Cleaning</h3>
+<p><a href="/">Professional cleaners</a> assess the fabric, condition, and cleaning requirements before choosing a suitable method. They can use specialist equipment and suitable products to deal with dirt and marks that ordinary home cleaning may not remove.</p>
+<p>No single sofa cleaning method is suitable for every fabric.</p>
+
+<h2>How to Clean Different Types of Sofa Fabric</h2>
+<p>Different fabrics react differently to water, cleaning products, and brushing. Understanding your sofa material can help you avoid common cleaning problems.</p>
+<h3>How to Clean a Cotton Sofa</h3>
+<p>Cotton sofas can collect dust and absorb spills. Vacuum regularly and treat marks using products approved for the fabric. Avoid excessive moisture because some cotton fabrics can shrink or develop water marks.</p>
+<h3>How to Clean a Linen Sofa</h3>
+<p>Linen needs gentle care. Use a suitable upholstery attachment for vacuuming and avoid aggressive scrubbing. Check the care instructions before applying any liquid cleaner.</p>
+<h3>How to Clean a Polyester Sofa</h3>
+<p>Polyester is commonly used in modern sofas. Regular vacuuming helps remove loose dirt, while suitable upholstery products can help with marks. Always check the cleaning label first.</p>
+<h3>How to Clean a Microfibre Sofa</h3>
+<p>Microfibre can collect dust and pet hair within its surface. Vacuum with a suitable attachment and follow the manufacturer's instructions when treating stains.</p>
+<h3>How to Clean a Velvet Sofa</h3>
+<p>Velvet needs extra care because rubbing can affect its soft surface. Use gentle brushing where permitted and avoid applying water or cleaning products without checking the fabric instructions.</p>
+<h3>How to Clean a Leather Sofa</h3>
+<p>Leather is different from fabric upholstery and needs its own cleaning products and care methods. Do not use fabric sofa cleaning solutions on leather.</p>
+
+<h2>How to Remove Common Stains From a Fabric Sofa</h2>
+<p>Stains are easier to manage when you understand what caused them.</p>
+<h3>How to Remove Food Stains From a Sofa</h3>
+<p>Carefully remove loose food with a spoon. Avoid pressing it into the fabric. Treat the remaining mark using a suitable upholstery cleaner.</p>
+<h3>How to Remove Coffee and Tea Stains</h3>
+<p>Blot fresh spills with a clean white cloth to absorb as much liquid as possible. Use a fabric-safe cleaning product according to its instructions.</p>
+<h3>How to Remove Grease and Oil Stains</h3>
+<p>Grease can be difficult to remove with water alone. Use a suitable <a href="/services/stain-removal/">upholstery stain treatment</a> and avoid spreading the mark by rubbing.</p>
+<h3>How to Remove Ink Stains From Upholstery</h3>
+<p>Ink can spread quickly across fabric. Avoid using random household products. Check the fabric care instructions and seek professional advice if the mark is difficult to treat.</p>
+<h3>How to Remove Pet Stains From a Sofa</h3>
+<p>Absorb fresh pet accidents with a clean cloth. Use a suitable upholstery cleaner and pay attention to lingering smells. If liquid has reached the cushion filling, surface cleaning may not be enough.</p>
+
+<h2>How to Remove Bad Smells From a Fabric Sofa</h2>
+<p>Unpleasant sofa smells can come from food spills, sweat, pets, moisture, and everyday use.</p>
+<h3>What Causes Unpleasant Sofa Smells?</h3>
+<p>When liquids reach the fabric or cushion filling, they can leave smells even after the visible mark has disappeared. Pet accidents are a common example.</p>
+<h3>How to Freshen a Fabric Sofa</h3>
+<p>Start by vacuuming the sofa thoroughly. Remove loose dirt, crumbs, and pet hair from the seating area and underneath the cushions.</p>
+<p>Use only suitable fabric-safe cleaning products. Avoid spraying large amounts of perfume or air freshener onto the sofa, as these may only cover the smell.</p>
+<h3>How to Deal With Persistent Sofa Odours</h3>
+<p>If an unpleasant smell continues after cleaning, the source may be deeper inside the cushions. In such cases, professional upholstery cleaning may help address the affected area more thoroughly.</p>
+
+<h2>How to Deep Clean a Fabric Sofa</h2>
+<p>Everyday vacuuming helps with regular care, but sometimes a sofa needs more attention.</p>
+<p>A deeper clean may be worth considering when:</p>
+<ul>
+<li>The seating areas look noticeably darker.</li>
+<li>Dirt has built up over time.</li>
+<li>Several stains are visible.</li>
+<li>Pet smells remain after basic cleaning.</li>
+<li>Regular vacuuming no longer makes much difference.</li>
+</ul>
+<p>Start by checking the fabric and its cleaning instructions. Choose a suitable cleaning product and method, and avoid excessive moisture.</p>
+<p>Professional upholstery equipment may help remove loosened dirt and moisture more effectively when the fabric allows the cleaning method.</p>
+
+<h2>How to Keep Your Fabric Sofa Clean for Longer</h2>
+<p>A few simple habits can make sofa maintenance easier.</p>
+<h3>Vacuum Your Sofa Regularly</h3>
+<p>Vacuuming once a week is a useful starting point for many households. Homes with pets or heavy sofa use may need more frequent cleaning.</p>
+<h3>Clean Spills as Soon as Possible</h3>
+<p>Deal with fresh spills promptly. Blot rather than rub, and use a suitable product if needed.</p>
+<h3>Rotate and Arrange Cushions</h3>
+<p>If your sofa allows it, rotate and rearrange cushions to help distribute everyday use more evenly.</p>
+<h3>Keep Pets and Shoes Away From the Sofa</h3>
+<p>Keeping outdoor shoes off the sofa and using washable pet blankets can help reduce everyday dirt and hair.</p>
+<h3>Protect Your Sofa From Direct Sunlight</h3>
+<p>Long periods of direct sunlight can cause some fabrics to fade. Where possible, position your sofa away from strong sunlight or use suitable window coverings.</p>
+
+<h2>Common Fabric Sofa Cleaning Mistakes to Avoid</h2>
+<p>Even a simple cleaning task can cause problems if the wrong method is used.</p>
+<p>Avoid these common mistakes:</p>
+<ul>
+<li>Using a cleaning product that is unsuitable for the fabric.</li>
+<li>Ignoring the manufacturer's care instructions.</li>
+<li>Scrubbing stains aggressively.</li>
+<li>Applying too much water.</li>
+<li>Mixing different cleaning products.</li>
+<li>Skipping the hidden-area test.</li>
+<li>Washing cushion covers without checking their instructions.</li>
+<li>Using the sofa before it has dried completely.</li>
+</ul>
+<p>From a professional cleaning perspective, one important lesson is that more cleaning product does not always mean a better result. Too much product or moisture can make removal harder and may leave marks behind. A careful approach is usually safer than repeatedly treating the same area.</p>
+
+<h2>When Should You Hire a Professional Sofa Cleaner?</h2>
+<p>Home cleaning is useful for everyday maintenance, but some situations need more attention.</p>
+<p>Consider professional sofa cleaning when:</p>
+<ul>
+<li>Your sofa has heavy dirt or built-up grime.</li>
+<li>Stubborn stains have not responded to home treatment.</li>
+<li>Pet smells remain after cleaning.</li>
+<li>Your upholstery is delicate or expensive.</li>
+<li>You are unsure which cleaning method is safe.</li>
+<li>Previous cleaning attempts have not worked.</li>
+</ul>
+<p>A professional cleaner can assess the upholstery and recommend a suitable approach based on its material and condition.</p>
+<p>If you need help maintaining your furniture, Prime Carpet Cleaning and Upholstery Steam Cleaning provides professional upholstery cleaning services across London.</p>
+<p>You can explore our <a href="/services/upholstery-sofa-cleaning/">Upholstery Cleaning service in London</a> to learn more about keeping your sofas and upholstered furniture clean.</p>
+
+<h2>Frequently Asked Questions About Fabric Sofa Cleaning</h2>
+<h3>How Often Should You Clean a Fabric Sofa?</h3>
+<p>Vacuum your sofa regularly, ideally once a week for many households. Deeper cleaning depends on how often the sofa is used, whether you have pets or children, and the manufacturer's care instructions.</p>
+<h3>Can You Clean a Fabric Sofa With Water?</h3>
+<p>It depends on the fabric and its cleaning code. Some upholstery allows water-based cleaning, while other materials require different products or vacuuming only.</p>
+<h3>What Is the Best Way to Clean a Fabric Sofa?</h3>
+<p>The best approach is to check the care label, vacuum thoroughly, treat stains with suitable products and allow the fabric to dry completely.</p>
+<h3>Can You Use a Carpet Cleaner on a Fabric Sofa?</h3>
+<p>Only use a machine if it is approved for upholstery and suitable for your sofa's fabric. Check the manufacturer's instructions before using it.</p>
+<h3>How Do You Deep Clean a Fabric Sofa at Home?</h3>
+<p>Vacuum the sofa, check its care instructions, treat suitable stains and use an approved upholstery cleaning product. Avoid soaking the fabric and allow it to dry fully.</p>
+<h3>How Do You Remove Bad Smells From a Fabric Sofa?</h3>
+<p>Start by vacuuming and removing loose dirt. Treat the source of the smell using a suitable upholstery cleaner. Persistent smells may require professional attention.</p>
+<h3>How Long Does a Fabric Sofa Take to Dry After Cleaning?</h3>
+<p>Drying time depends on the fabric, cleaning method, amount of moisture and room conditions. Good airflow can help the sofa dry more quickly.</p>
+<h3>Is Professional Sofa Cleaning Worth It?</h3>
+<p>It can be worthwhile when your sofa has built-up dirt, stubborn stains, persistent smells or delicate upholstery that needs careful treatment.</p>
+
+<h2>Conclusion</h2>
+<p>Learning how to clean and care for a fabric sofa can help you maintain its appearance and comfort for longer. Regular vacuuming, careful stain treatment, suitable cleaning products and proper drying all play an important role in good sofa maintenance.</p>
+<p>Remember that every fabric is different. Always check the manufacturer's instructions before choosing a cleaning method, and avoid using too much water or cleaning solution.</p>
+<p>For stubborn stains, built-up dirt or delicate upholstery, professional help may be the better choice. <a href="/about/">Prime Carpet Cleaning and Upholstery Steam Cleaning</a> provides professional upholstery cleaning services across London to help keep your sofas looking clean and well cared for.</p>
+`,
+  },
+  {
     slug: 'commercial-carpet-cleaning-methods',
     imageAlt:
       'Commercial carpet cleaning methods in a modern office, featuring professional carpet extraction, steam cleaning, bonnet cleaning, and low-moisture cleaning equipment.',
