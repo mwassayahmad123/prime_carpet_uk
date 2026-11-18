@@ -9,8 +9,8 @@ export const LOGO = {
 
 export const CONTACT = {
   address: 'United Kingdom',
-  phone: '+44 7846 364007',
-  whatsapp: '+44779460958',
+  phone: '+44 7404 244085',
+  whatsapp: '+447404244085',
   email: 'hello@primecarpetcleaning.co.uk',
 }
 
