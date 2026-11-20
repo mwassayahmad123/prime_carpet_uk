@@ -12,6 +12,96 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-to-deep-clean-a-mattress',
+    imageAlt:
+      'How do you deep clean a mattress: a cleaner in blue gloves using an upholstery extraction tool on a mattress, with before and after comparison.',
+    title: 'How Do You Deep Clean a Mattress for a Fresher and Healthier Bed?',
+    seoTitle: 'How to Deep Clean a Mattress: Full Guide',
+    metaDescription:
+      'Learn how do you clean a mattress the right way, with steps for vacuuming, deodorising, treating stains, and drying for a fresher, healthier bed.',
+    excerpt:
+      'Vacuum, deodorise with baking soda, treat stains and dry fully. Our step-by-step guide to deep cleaning a mattress, and when to call a professional.',
+    publishedDate: '20 November 2026',
+    readTime: '7 min read',
+    contentHtml: `
+<p>A mattress holds onto more than it lets on. Sweat, dead skin, dust mites and their waste, and the odd spill all settle into the layers you sleep on every night, and a quick strip-and-wash of the sheets never reaches them. So how do you clean a mattress properly, not just the top sheet? The short answer: vacuum it thoroughly, deodorise with baking soda, treat any stains with the right solution for the stain, and let it dry completely before the bedding goes back on. The rest of this guide walks through each step, plus how often to repeat the process and when it is worth booking a professional steam clean instead.</p>
+
+<h2>Why Your Mattress Needs More Than a Wipe Down</h2>
+<p>A mattress absorbs around half a litre of sweat a night between the two of you, and that moisture is exactly what dust mites feed on. Studies on indoor allergens have found that a typical used mattress can house tens of thousands of dust mites, and their droppings are one of the most common triggers for asthma and allergic rhinitis. On top of that, skin cells, pet hair, and everyday dust work their way past the surface fibres over months of regular use.</p>
+<p>None of this shows up as visible dirt the way a stained carpet does, which is exactly why mattresses get neglected. A cleaning once every few months keeps the allergen load down, cuts down on musty odours, and extends the life of the mattress itself, since trapped moisture is what breaks down the foam and springs faster than normal wear does.</p>
+
+<h2>What You Need Before Starting</h2>
+<p>Most of this list is already in the cupboard. A few items make the job faster and keep stains from setting deeper into the fabric.</p>
+<ul>
+<li>A vacuum with an upholstery attachment (a handheld or a crevice tool works for the seams)</li>
+<li>Baking soda, for deodorising</li>
+<li>A mild enzyme cleaner, for protein-based stains such as sweat, blood, or urine</li>
+<li>White vinegar and cold water, mixed in equal parts, for general spot cleaning</li>
+<li>A clean microfiber cloth or two</li>
+<li>A soft brush for working solution into the fabric without soaking it</li>
+<li>A waterproof mattress protector, to put back on once everything is dry</li>
+</ul>
+<p>Skip anything with bleach or strong solvents. These can break down the glue and foam inside the mattress and will usually void the manufacturer's warranty.</p>
+
+<h2>How Do You Deep Clean a Mattress, Step by Step</h2>
+<ol>
+<li>Strip the bed completely. Pull off sheets, the mattress protector, and any mattress topper, and wash them separately on the warmest setting the fabric allows.</li>
+<li>Vacuum the whole surface. Go over the top, sides, and seams slowly with the upholstery attachment. Seams and piping are where dust mites and debris collect most, so don't rush past them.</li>
+<li>Check for stains and treat them first. Fresh or old, spot-clean stains before the deodorising step, since baking soda works best on a surface that's already been treated and dried a little. The next section covers exactly which solution to use for which stain.</li>
+<li>Sprinkle baking soda over the entire mattress. Use a generous, even layer, and work it lightly into the fabric with a soft brush. It pulls moisture and odour out of the fibres as it sits.</li>
+<li>Let it sit for at least an hour, longer if the mattress hasn't been cleaned in a while. Open a window if possible. Direct sunlight and airflow both help lift smells and speed up drying.</li>
+<li>Vacuum the baking soda off thoroughly. A second pass with the upholstery attachment removes the powder along with whatever it's absorbed. Go slowly so none is left behind.</li>
+<li>Flip or rotate the mattress if the manufacturer allows it. Not every mattress is designed to be flipped, but rotating head to foot every few months evens out wear.</li>
+<li>Put a mattress protector back on once everything is fully dry. This is the step that makes the next clean easier, since spills and sweat land on the protector instead of soaking into the mattress itself.</li>
+</ol>
+
+<h2>Treating Specific Mattress Stains</h2>
+<p>Different stains need different approaches, and using the wrong one can set a stain rather than lift it.</p>
+<ul>
+<li>Sweat stains (usually a yellowish patch): mix equal parts white vinegar and cold water, dab it onto the area with a cloth, then blot dry. Vinegar breaks down the proteins in sweat without bleaching the fabric.</li>
+<li>Blood stains: use cold water only, never warm or hot, since heat cooks the protein into the fibres and makes it permanent. Dab with a cloth until the stain lifts, then follow with a small amount of enzyme cleaner if any trace remains. The approach is the same logic used when treating <a href="/blog/how-to-remove-blood-from-carpet/">blood stains on carpet</a>, just gentler, since mattress fabric is more delicate.</li>
+<li>Urine stains: an enzyme cleaner is the only real fix here, since it breaks down the uric acid crystals that cause the smell to return even after the visible stain is gone. Spray it on, let it sit for the time the product recommends, then blot (never rub) with a clean cloth.</li>
+<li>General spills or unknown marks: start with the vinegar and water solution first, since it's mild enough not to cause damage, and only move to an enzyme cleaner if the smell or mark persists.</li>
+</ul>
+<p>Always blot rather than scrub. Scrubbing pushes the stain deeper into the foam and widens the mark instead of lifting it out.</p>
+
+<h2>Drying the Mattress Properly</h2>
+<p>A mattress that goes back on the bed while still damp is the single biggest cause of mould and mildew inside the layers. Foam and padding hold moisture far longer than they appear to on the surface, so patience here matters more than speed anywhere else in the process.</p>
+<p>Open windows or point a fan at the mattress to keep air moving across it. Standing it on its side against a wall, if the mattress allows that, speeds up drying considerably since air reaches both the treated side and the underside at once. In most cases, a mattress needs anywhere from a few hours to a full day to dry completely, depending on humidity and how much liquid was used during cleaning. A similar drying patience applies to carpets, as covered in <a href="/blog/how-to-dry-carpet-after-cleaning/">how to dry carpet after cleaning</a>: rushing the drying stage undoes most of the benefit of cleaning in the first place.</p>
+<p>A simple check: press a hand flat on the treated area. If it feels cool or even slightly damp, it needs more time before the sheets go back on.</p>
+
+<h2>How Often to Deep Clean a Mattress</h2>
+<p>A full deep clean (vacuum, baking soda, and any stain treatment) every two to three months is a reasonable baseline for most households. A few things push that frequency up:</p>
+<ul>
+<li>Allergies or asthma in the household, where cutting dust mite exposure matters more</li>
+<li>Pets that sleep on the bed</li>
+<li>Young children prone to spills and accidents</li>
+<li>A mattress with no protector in regular use</li>
+</ul>
+<p>Vacuuming alone, without the full baking soda treatment, is worth doing monthly, since it's quick and keeps surface dust from building up between the deeper cleans.</p>
+
+<h2>DIY Cleaning vs Professional Mattress Cleaning</h2>
+<p>The steps above handle regular upkeep well. Vacuuming, baking soda, and spot treatment take care of surface-level dust, light stains, and everyday odour. Where DIY cleaning runs out of reach is deeper inside the mattress, in the layers that household tools can't get to.</p>
+<p>Professional <a href="/services/mattress-cleaning/">mattress cleaning</a> uses hot water extraction to pull dust mites, allergens, and ground-in stains out from well below the surface, not just off the top. It's worth booking a professional clean if any of the following apply: the mattress hasn't had a deep clean in over a year, someone in the household has allergies or asthma that household cleaning hasn't improved, there's a lingering odour that baking soda hasn't resolved, or a stain (blood, urine, or otherwise) has set in and dried before it could be treated. The same <a href="/services/stain-removal/">stain removal</a> expertise used on carpets and upholstery applies here, with equipment that reaches the parts a vacuum and a brush never will.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Can you clean a mattress with just water?</h3>
+<p>Water alone lifts very little and risks soaking the padding, which leads to mould if it isn't dried fully. A vinegar and water mix, or an enzyme cleaner for protein stains, does the actual work; plain water is best kept for rinsing a cloth, not applying directly in large amounts.</p>
+<h3>Is baking soda actually enough to deodorise a mattress?</h3>
+<p>For everyday odour, yes. Baking soda is mildly alkaline and absorbs the acidic compounds that cause most sweat and body odour. For stronger smells, such as pet urine that's dried in, an enzyme cleaner needs to go in first, with baking soda used afterward as a finishing step.</p>
+<h3>How long should a mattress air out after cleaning?</h3>
+<p>At least a few hours, and up to a full day in humid conditions. Pressing a hand on the surface is the simplest way to check; any coolness or dampness means it needs more time.</p>
+<h3>Can steam cleaning damage a mattress?</h3>
+<p>Done correctly, no. Professional equipment controls both the moisture level and the drying process far more precisely than a household steamer or an over-wet DIY attempt, which is the main reason professional cleaning tends to produce a drier, faster result overall.</p>
+<h3>Should I vacuum both sides of the mattress?</h3>
+<p>Yes, if the mattress can be lifted safely. Dust and allergens settle on the underside too, particularly if the mattress sits on a slatted base that allows airflow from below.</p>
+
+<h2>A Cleaner Mattress Means Better Sleep</h2>
+<p>A mattress carries more buildup than most people realise, and the fix doesn't require anything beyond vacuuming, baking soda, the right stain treatment, and enough drying time before the sheets go back on. Done every two to three months, that routine keeps allergens, odour, and stains from taking hold.</p>
+<p>For the deeper clean that DIY methods can't reach, <a href="/services/mattress-cleaning/">Prime Carpet Cleaning</a> offers professional mattress cleaning across London, Berkshire, Surrey, and Hampshire. Get in touch for a quote or to book a visit.</p>
+`,
+  },
+  {
     slug: 'carpet-smells-after-cleaning',
     imageAlt:
       'Woman holding her nose over a carpet that smells after cleaning, with a carpet cleaning extraction tool showing how to fix the problem.',
