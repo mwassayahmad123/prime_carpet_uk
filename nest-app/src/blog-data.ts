@@ -12,7 +12,88 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'carpet-smells-after-cleaning',
+    imageAlt:
+      'Woman holding her nose over a carpet that smells after cleaning, with a carpet cleaning extraction tool showing how to fix the problem.',
+    title: 'Why Does Your Carpet Smell After Cleaning? Causes and Solutions',
+    seoTitle: 'Carpet Smells After Cleaning? Causes & Fixes',
+    metaDescription:
+      'Carpet smells after cleaning? Learn the common causes, from trapped moisture to pet odours, and how to get rid of damp or musty carpet smells.',
+    excerpt:
+      'A damp smell after cleaning is often normal, but a musty one is not. Learn the causes, from trapped moisture to pet odours, and how to fix them.',
+    publishedDate: '20 November 2026',
+    readTime: '8 min read',
+    contentHtml: `
+<p>You have just had your carpet cleaned, you were expecting it to smell fresh, and instead there is a damp, musty, or faintly sour smell hanging in the room. It is a more common problem than most people realise, and it is not usually a sign that the clean has failed. In most cases, carpet smells after cleaning come down to a handful of specific, fixable causes, and knowing which one applies to your situation makes all the difference between a smell that clears on its own in a day or two and one that lingers for weeks.</p>
+<p>This guide explains why carpets smell after cleaning, how to tell a normal drying smell apart from a genuine problem, and what you can do about it, whether the cause is trapped moisture, leftover cleaning product, an old stain making itself known again, or something in the underlay that needed a proper professional look.</p>
+
+<h2>Why Carpets Smell After Cleaning</h2>
+<p>A carpet is not a single flat surface. It is made up of a visible pile, a backing layer underneath, and often a separate underlay cushioning it from the floor. Cleaning deals mainly with the pile and the top of the backing, but moisture, dirt, and old residue can sit much deeper than that. When something goes slightly wrong during or after the clean, whether that is too much water, too little airflow, or dirt that was already there before the technician arrived, a smell is usually the first sign.</p>
+<p>The good news is that a temporary damp smell straight after cleaning is often completely normal and nothing to worry about. The carpet has just been washed, after all, and some dampness while it dries is expected. The smell becomes a genuine concern when it persists well beyond normal drying time, gets stronger rather than weaker, or carries a musty, mouldy edge rather than a simple "wet carpet" scent. The sections below cover the main causes behind both.</p>
+
+<h2>Excess Moisture Trapped in Carpet Fibres and Underlay</h2>
+<p>This is the single most common reason carpets smell after cleaning. Hot water extraction, the method most professional cleaners use, works by injecting water and cleaning solution into the carpet and then extracting it back out. Done correctly, most of that moisture comes back out with the extraction pass. But carpet fibres, the backing beneath them, and the underlay below that can all hold onto some residual dampness, especially in a thicker pile or an older carpet that has lost some of its natural resilience.</p>
+<p>If that moisture cannot evaporate quickly, it creates exactly the kind of environment bacteria and mould spores thrive in: dark, damp, and with limited airflow. That is where the musty smell comes from. It is not usually the water itself that smells, it is what starts to grow in it if it sits there too long.</p>
+<p>This is also the main explanation for why a damp smell can get worse a day or two after cleaning rather than better. If the carpet is drying normally, the smell should fade steadily. If it is holding onto trapped moisture, it can go the other way.</p>
+
+<h2>Leftover Cleaning Solution and Detergent Residue</h2>
+<p>The second major cause is residue left behind from the cleaning solution itself. Some cleaning products, particularly lower-quality ones or those used in larger quantities than necessary, do not fully rinse out during the extraction stage. What is left behind can attract dirt faster once the carpet is back in use, and it can also produce its own faint chemical or slightly sour smell as it sits in the fibres.</p>
+<p>This is one of the reasons the extraction step matters as much as the initial application of solution. A technician who applies cleaning product generously but does not extract thoroughly enough can leave a carpet looking clean on the surface while still holding residue underneath that causes problems days later.</p>
+
+<h2>Old Stains and Pet Urine Reactivated by Cleaning</h2>
+<p>Sometimes a smell after cleaning is not new at all, it is an old problem being brought back to the surface. Pet urine is the classic example. Urine crystals can sit deep in carpet fibres and the backing for a long time, essentially dormant and barely noticeable, until moisture reintroduces them. The water used in cleaning can reactivate those old deposits, which is why a carpet can smell distinctly of pet urine after a clean even if no fresh accident has happened recently.</p>
+<p>The same principle applies to other old spills and stains that were never fully removed in the first place, perhaps something spilled months ago that was mopped up on the surface but left residue in the backing. Cleaning does not always fail to spot these, it is more that reaching them fully sometimes needs a targeted approach rather than a general clean, particularly with urine that has soaked into the underlay or subfloor beneath.</p>
+<p>If you know or suspect there has been a pet accident on a particular area of carpet in the past, it is worth flagging this before any clean so it can be treated specifically rather than relying on the general process to deal with it.</p>
+
+<h2>Poor Ventilation and Slow Drying</h2>
+<p>Even a carpet cleaned correctly with proper extraction can develop a smell if the room it is in does not get enough airflow afterwards. A closed room with little natural ventilation, cooler weather, high humidity, or a thick pile carpet in a room without much air movement can all slow drying down considerably. The longer a carpet stays damp, the more opportunity there is for a musty smell to develop, even where nothing went wrong with the cleaning itself.</p>
+<p>This is particularly common in bedrooms with curtains kept closed, basements and converted lower-ground rooms, and homes where the heating is kept low during the day.</p>
+
+<h2>How to Get Damp Smell Out of Carpet</h2>
+<p>If you are dealing with a lingering damp smell rather than mould or deep contamination, there are a few practical steps that usually help.</p>
+<p>Open windows and doors to get air moving through the room, and use a fan pointed at the carpet if you have one, since moving air speeds up evaporation far more effectively than still air. A dehumidifier is particularly useful in damp weather or in rooms that do not get much natural ventilation, as it actively pulls moisture out of the air rather than just circulating it. Turning on central heating for a few hours, rather than leaving it off, also helps the carpet dry from the surface down rather than staying damp at a steady temperature.</p>
+<p>Avoid walking on the carpet with heavy foot traffic while it is still damp, and keep furniture off it where possible until it has properly dried, since trapping moisture under a sofa leg or rug pad is one of the easiest ways to create a small patch that stays damp long after the rest of the room has dried.</p>
+<p>If the smell is still present after several days of good ventilation, that is usually the point where it is worth looking more closely rather than just waiting it out.</p>
+
+<h2>How to Remove Different Types of Carpet Odours</h2>
+<p>Not every carpet smell needs the same response, and it helps to work out which category you are actually dealing with.</p>
+<p>A simple damp or "wet carpet" smell with no mustiness usually just needs time, airflow, and possibly a dehumidifier, as covered above. A musty or mouldy smell is a step beyond this and suggests moisture has been sitting for longer than it should, sometimes in the underlay rather than the visible pile, and may need more than ventilation alone to fully resolve. A pet urine smell reactivated by cleaning generally needs a targeted enzymatic or odour-neutralising treatment rather than general cleaning, because standard products mask the smell rather than breaking down the compounds causing it. A chemical or detergent smell from residue usually means a second, lighter rinse pass is needed to fully clear the product out of the fibres.</p>
+<p>Baking soda is a reasonable short-term option for light, general odours once the carpet is fully dry, left on the surface for a few hours and then vacuumed up. It is worth being clear that this absorbs surface smell rather than addressing anything happening deeper in the backing or underlay, so it is a cosmetic fix for mild cases rather than a solution for a persistent or worsening smell.</p>
+
+<h2>Why Rugs Smell After Cleaning</h2>
+<p>Rugs often develop the same kind of smell as carpets after cleaning, and usually for closely related reasons. A rug sitting directly on a hard floor can trap moisture underneath it with very little airflow to help it escape, particularly if it has a rubber or latex backing that does not breathe well. This creates a very similar environment to underlay trapped under carpet, just concentrated into a smaller area.</p>
+<p>Natural fibre rugs such as wool or jute can also hold onto moisture for longer than synthetic ones, and they can develop a distinct, slightly earthy smell while drying that disappears once fully dry but can be mistaken for a mould smell if it persists.</p>
+<p>If a rug still smells musty well after it should have dried, lifting it to check the floor underneath for trapped dampness is a sensible first step, since the rug itself may actually be dry while moisture is still sitting beneath it.</p>
+
+<h2>How to Prevent Carpet Odours</h2>
+<p>A few habits make a genuine difference to whether carpets develop smells after cleaning in the first place. Choosing a cleaning method and schedule suited to how heavily a room is used matters, since a carpet in a hallway or living room with pets and children generally needs more frequent attention than one in a spare room. Good ventilation during and after any cleaning, whether that is professional or DIY, reduces the chance of trapped moisture becoming a problem. Addressing spills and stains promptly rather than letting them sit prevents the kind of deep residue that can resurface later. Regular vacuuming between cleans also helps, since it keeps surface dirt from working its way deeper into the pile where it becomes harder to remove.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is it normal for carpet to smell after cleaning?</h3>
+<p>Yes, a mild damp smell straight after cleaning is normal and is simply the carpet drying out. It should fade steadily over the following day or two. It becomes a concern if the smell gets stronger, develops a musty or mouldy character, or has not cleared after several days of good ventilation.</p>
+<h3>How long should a carpet take to dry after cleaning?</h3>
+<p>This depends on the pile thickness, the room's ventilation, and the weather, but most carpets dry within four to eight hours with reasonable airflow, and fully within twenty-four hours. Thicker piles, cooler rooms, or poorly ventilated spaces can take considerably longer.</p>
+<h3>Why does my carpet smell like a wet dog after cleaning?</h3>
+<p>This is usually a combination of natural fibres absorbing moisture and, in some cases, old residue or pet-related deposits in the carpet being reactivated by the cleaning water. Good ventilation often resolves a mild version of this smell as the carpet finishes drying.</p>
+<h3>Can I use baking soda to get rid of carpet smell?</h3>
+<p>Baking soda can help absorb mild surface odours once the carpet is completely dry, left on for a few hours and then vacuumed thoroughly. It will not resolve a smell coming from moisture trapped deeper in the backing or underlay, since it only works on the surface.</p>
+<h3>Why does my rug smell musty after it was cleaned?</h3>
+<p>This is most often caused by trapped moisture either in the rug's backing or in the floor underneath it, particularly on hard flooring with limited airflow. Lifting the rug to check for dampness on the floor beneath is a useful first step.</p>
+<h3>Should I be worried about mould if my carpet smells musty?</h3>
+<p>A persistent musty smell that does not improve with ventilation can indicate mould developing, particularly if there is any visible discolouration. This is a reasonable point to have the carpet properly inspected rather than continuing to wait for the smell to clear on its own.</p>
+<h3>Will professional cleaning fix a carpet that already smells bad?</h3>
+<p>In most cases, yes, since proper extraction removes far more moisture and residue than typical household equipment, and targeted treatment can address specific causes like old pet stains. Where a smell has reached the underlay or subfloor, a professional inspection can establish whether cleaning alone is enough or whether further work is needed.</p>
+
+<h2>When Professional Carpet Cleaning Is Necessary</h2>
+<p>Most light, temporary damp smells resolve with ventilation and a bit of patience. There comes a point, though, where the sensible move is professional attention rather than waiting it out. If a musty smell persists for more than a few days despite good airflow, if you notice visible mould, discolouration, or a black or green tint developing on the carpet or skirting board, or if a pet odour keeps returning despite cleaning, these are signs that something deeper than a simple drying issue is going on, and continuing to mask it rather than address it is not a lasting fix.</p>
+<p>A professional inspection can establish whether the issue is isolated to the carpet, has reached the underlay, or in more serious cases involves the subfloor itself, and recommend the right course of action from there. <a href="/">Prime Carpet Cleaning</a> offers thorough <a href="/services/carpet-cleaning/">carpet cleaning</a> using proper extraction to minimise the moisture left behind in the first place, along with dedicated <a href="/services/stain-removal/">stain removal</a> for pet accidents and other set-in marks, and <a href="/services/rug-cleaning/">rug cleaning</a> for rugs facing the same damp or odour issues described above. If an old pet stain is the suspected cause, our guide on <a href="/blog/how-to-remove-pet-urine-stains-from-carpet/">removing pet urine stains from carpet</a> covers the issue in more detail.</p>
+<p>If your carpet still smells musty days after cleaning, or you are dealing with a recurring odour you cannot pin down, <a href="/#contact">get in touch to arrange a free consultation</a>. A proper assessment on site is a far more reliable way to deal with a persistent smell than guessing at the cause from a distance.</p>
+`,
+  },
+  {
     slug: 'different-sofa-cleaning-methods-explained',
+    imageAlt:
+      'Different sofa cleaning methods explained, showing a professional cleaner using an upholstery extraction machine on a fabric sofa.',
     title: 'Different Sofa Cleaning Methods Explained: A Complete Guide',
     seoTitle: 'Sofa Cleaning Methods: 6 Effective Ways to Clean Upholstery',
     metaDescription:

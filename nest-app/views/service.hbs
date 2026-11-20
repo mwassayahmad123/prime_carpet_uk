@@ -30,7 +30,7 @@
         <div class="container">
           <div class="section__header">
             <p class="section__eyebrow">Benefits</p>
-            <h2 class="section__title">Why Choose Our {{service.name}} Service</h2>
+            <h2 class="section__title">{{#if service.benefitsHeading}}{{service.benefitsHeading}}{{else}}Why Choose Our {{service.name}} Service{{/if}}</h2>
             {{#each service.benefitsIntro}}
               <p class="section__text section__text--wide">{{{this}}}</p>
             {{/each}}
@@ -57,7 +57,7 @@
         <div class="container">
           <div class="section__header">
             <p class="section__eyebrow">Our Process</p>
-            <h2 class="section__title">How It Works</h2>
+            <h2 class="section__title">{{#if service.processHeading}}{{service.processHeading}}{{else}}How It Works{{/if}}</h2>
             {{#each service.processIntro}}
               <p class="section__text section__text--wide">{{{this}}}</p>
             {{/each}}
@@ -154,10 +154,14 @@
           <div class="section__header">
             <p class="section__eyebrow">Coverage</p>
             <h2 class="section__title">Areas We Serve</h2>
-            <p class="section__text section__text--center">
-              We provide professional cleaning across London and in the surrounding counties.
-              Find out more about carpet cleaning in your area:
-            </p>
+            {{#if service.areasIntro}}
+              <p class="section__text section__text--center">{{{service.areasIntro}}}</p>
+            {{else}}
+              <p class="section__text section__text--center">
+                We provide professional cleaning across London and in the surrounding counties.
+                Find out more about carpet cleaning in your area:
+              </p>
+            {{/if}}
           </div>
           <div class="related-services__grid">
             {{#each areas}}

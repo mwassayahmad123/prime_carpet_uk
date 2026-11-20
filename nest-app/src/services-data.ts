@@ -8,6 +8,9 @@ export interface ServicePage {
   intro: string;
   introSecondary?: string;
   introMore?: string[];
+  benefitsHeading?: string;
+  processHeading?: string;
+  areasIntro?: string;
   ctaHeading?: string;
   ctaParagraphs?: string[];
   benefitsIntro?: string[];
@@ -24,33 +27,34 @@ export const SERVICES_PAGES: ServicePage[] = [
     slug: 'carpet-cleaning',
     name: 'Carpet Cleaning',
     icon: '🧹',
-    keyword: 'Carpet Cleaning Services in London',
-    seoTitle: 'Carpet Cleaning Services London | Deep Steam Cleaning',
-    metaDescription:
-      'Professional carpet cleaning services in London using deep steam extraction, stain treatment, and fast drying. For homes and businesses. Get a free quote.',
-    intro:
-      'Our carpet cleaning services in London help remove built-up dirt, stains, allergens, dust, and everyday marks from your carpets. We use professional steam extraction equipment to clean deep into the carpet fibres while helping your carpets look fresher and feel cleaner. Whether you need cleaning for your home, rental property, or workplace, we offer a careful service based on your carpet\'s type, condition, and cleaning needs.',
-    introSecondary:
-      'If you are searching for "professional carpet cleaner near me", our local team delivers convenient deep carpet cleaning across London. We also offer free, no-obligation quotes so you can understand the service before <a href="/#contact">booking</a>.',
+    keyword: `Professional Carpet Cleaning Services in London`,
+    seoTitle: `Carpet Cleaning Service London | Professional Steam Cleaning — Prime Carpet Cleaning`,
+    metaDescription: `Professional carpet steam cleaning across London. Deep stain removal, eco-friendly products, fast drying. Free, no-obligation quotes — book today.`,
+    intro: `Over time, carpets collect dirt, dust, allergens and stains that everyday vacuuming can't reach. Our carpet cleaning service uses deep steam cleaning to lift embedded dirt and refresh carpets in homes, rental properties and workplaces, with the treatment tailored to your carpet's type and condition.`,
+    introSecondary: `As a local carpet cleaning service covering London and the surrounding areas, we offer free, no-obligation quotes before any work begins — so you know what's involved before you book.`,
+    benefitsHeading: `Why Choose Our Professional Carpet Steam Cleaning Service`,
     benefitsIntro: [
-      'We provide a thorough cleaning of your carpets, home, and furnishings. Our service is suitable for everyday dirt, deeper buildup, and many common <a href="/services/stain-removal/">carpet stains</a>.',
+      `Our carpet steam cleaning service covers full carpets, upholstered furnishings and high-traffic areas throughout your home or workplace — whether you're dealing with everyday dirt, years of built-up grime, or a specific stain.`,
     ],
     benefits: [
-      'Deep steam extraction removes embedded dirt and allergens',
-      'Tough stain treatment without damaging fibres',
-      'Eco-friendly, pet and child-safe cleaning solutions',
-      'Fast drying — most carpets are ready within 4–6 hours',
-      'Free, no-obligation quotes',
+      `Deep steam cleaning lifts embedded dirt and allergens that vacuuming leaves behind.`,
+      `Targeted stain treatment for common marks, aimed at protecting carpet fibres.`,
+      `Eco-friendly cleaning solutions, safe around pets and children.`,
+      `Most carpets are dry within 4–6 hours of professional steam cleaning.`,
+      `Free, no-obligation quotes with no hidden fees.`,
     ],
+    processHeading: `How Our Carpet Steam Cleaning Process Works`,
     processIntro: [
-      'Our carpet washing service gives carpets a deeper clean while keeping the process practical for homes, rental properties, and workplaces. We provide residential and commercial carpet cleaning in London, adjusting our service to suit different property types and cleaning needs.',
-      'For customers searching for a "<a href="/">carpet cleaning company near me</a>", Prime Carpet Cleaning provides local service across London. Whether you need to freshen up carpets at home or maintain carpets in a busy workplace, our professional carpet washing service in London removes everyday dirt, stains, and general wear. Our process includes:',
+      `Whether you need carpets steam cleaned in a single room or across a whole property, the process stays practical for homes, rental properties and workplaces — we work with both residential and commercial clients across London.`,
     ],
     process: [
-      { title: 'Inspection & Pre-treatment', description: 'We start by checking the carpet\'s material, condition, and any areas that need extra attention. Heavily soiled sections and visible stains are noted before the main cleaning begins.' },
-      { title: 'Deep Steam Extraction', description: 'Our steam carpet cleaners use professional extraction equipment to lift dirt, dust, allergens, and other build-up from the carpet fibres. The cleaning method is adjusted to suit the carpet and its condition.' },
-      { title: 'Stain & Spot Treatment', description: 'Stubborn marks such as wine, coffee, mud, food, and pet accidents may need additional treatment. We assess each stain before choosing a suitable cleaning solution and treatment method.' },
-      { title: 'Fast-Dry Finish', description: 'After cleaning, we check the carpet to make sure the main areas have been properly treated. We also help improve drying by removing as much moisture as possible during the extraction process.' },
+      { title: `Inspection & Pre-Treatment`, description: `We check your carpet's material and condition, and note heavily soiled areas or stains ahead of steam cleaning.` },
+      { title: `Deep Steam Extraction`, description: `Professional steam cleaning equipment lifts dirt, dust and allergens from deep within the carpet fibres, with the approach adjusted to suit your carpet type.` },
+      { title: `Stain & Spot Treatment`, description: `Stubborn marks — wine, coffee, mud, food and pet accidents — are assessed and treated individually as part of the carpet cleaning service.` },
+      { title: `Fast-Dry Finish`, description: `We check treated areas and remove excess moisture during extraction, so your carpets dry faster after steam cleaning.` },
+    ],
+    pricingParagraphs: [
+      `Every carpet cleaning job is quoted individually, with no hidden fees.`,
     ],
     faqHeading: 'FAQs About Carpet Cleaning',
     faqs: [
@@ -70,6 +74,26 @@ export const SERVICES_PAGES: ServicePage[] = [
         question: 'What is the best time of year to clean carpet?',
         answer: 'Carpets can be professionally cleaned at any time of year. Warmer months can make drying easier because rooms can often be ventilated more easily, but there is no need to wait for a particular season. If your carpet has stains, heavy dirt, or unpleasant odours, cleaning can be useful whenever it is needed.',
       },
+      {
+        question: `What does professional carpet steam cleaning involve?`,
+        answer: `Professional carpet steam cleaning starts with an inspection of your carpet's material and condition, followed by deep steam extraction to lift embedded dirt and allergens, targeted treatment of any stains, and a fast-dry finish. It's a more thorough process than surface cleaning or spot-treating alone.`,
+      },
+      {
+        question: `Is professional carpet steam cleaning better than a DIY carpet cleaner?`,
+        answer: `Professional equipment is generally more powerful than rental or domestic carpet cleaners, which means it can extract more embedded dirt and moisture. A professional visit also includes inspection and tailored stain treatment, rather than a single uniform pass over the whole carpet.`,
+      },
+      {
+        question: `How are carpets steam cleaned?`,
+        answer: `Carpets are steam cleaned using hot water and extraction equipment that forces moisture and cleaning solution into the fibres, then extracts it back out along with the dirt it loosens. The carpet is left damp rather than soaked, which is part of why most carpets are dry within 4–6 hours.`,
+      },
+      {
+        question: `Do you offer carpet cleaning across all of London?`,
+        answer: `Yes — we provide carpet cleaning services across London and the surrounding counties, including Berkshire, Surrey and Hampshire. Get in touch for a free quote wherever you're based.`,
+      },
+    ],
+    areasIntro: `Our carpet cleaning service covers London and the surrounding counties. If you also have rugs that need attention alongside your carpets, our dedicated <a href="/services/rug-cleaning/">rug cleaning</a> service covers the same areas — see Rug Cleaning for details.`,
+    ctaParagraphs: [
+      `Free, no-obligation quotes for carpet cleaning across London.`,
     ],
   },
   {
